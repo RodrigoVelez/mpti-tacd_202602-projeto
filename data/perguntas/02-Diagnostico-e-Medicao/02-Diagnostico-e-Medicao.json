@@ -1,0 +1,1018 @@
+{
+  "tema": "diagnostico_medicao",
+  "descricao": "Diagnóstico e medição da pressão arterial (técnica de medida, consultório, MAPA, MRPA, avental branco, hipertensão mascarada, exames)",
+  "chamadas": [
+    {
+      "modelo_que_respondeu": "claude-opus-5-5",
+      "message_id": "msg_011Ch7jcyLmRRhjBLMYhiuGc",
+      "request_id": "req_011Ch7jcxGXgFLjs6tGhT7NZ",
+      "stop_reason": "end_turn",
+      "qtde_pedida": 30,
+      "tokens_entrada": 148,
+      "tokens_saida": 24360,
+      "tokens_escrita_cache_5m": 0,
+      "tokens_escrita_cache_1h": 0,
+      "tokens_leitura_cache": 350733,
+      "custo_usd": 0.5579
+    }
+  ],
+  "itens": [
+    {
+      "id": "02-01",
+      "pergunta": "Quando vou medir a pressão pela primeira vez, tenho que medir nos dois braços?",
+      "resposta_referencia": "A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais elevada para medidas subsequentes.",
+      "resposta_leiga": "Sim. Na primeira vez, a pressão deve ser medida nos dois braços. Depois, as próximas medidas devem ser feitas no braço em que a pressão deu mais alta.",
+      "secao": "3.2.1. Técnicas de Medida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais elevada para medidas subsequentes.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.1. Técnicas de Medida da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-02",
+      "pergunta": "A pressão de cima deu bem diferente em um braço e no outro. Isso é preocupante?",
+      "resposta_referencia": "Diferenças superiores a 15 mmHg na PAS entre os braços indicam um risco CV aumentado e podem sinalizar a presença de doença arterial obstrutiva.",
+      "resposta_leiga": "Se a pressão de cima de um braço passar mais de 15 mmHg da do outro braço, o risco de problemas no coração e nos vasos é maior. Isso também pode ser sinal de entupimento nas artérias.",
+      "secao": "3.2.1. Técnicas de Medida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 3,
+          "linha_final": 5,
+          "trecho_literal": "Diferenças superiores a 15 mmHg na PAS entre os braços indicam um risco CV aumentado e podem sinalizar a presença de doença arterial obstrutiva.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 3,
+            "linha_final": 5,
+            "secao": "3.2.1. Técnicas de Medida da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-03",
+      "pergunta": "Minha mãe é idosa e toma remédio de pressão. Por que mediram a pressão dela deitada e depois em pé?",
+      "resposta_referencia": "Em idosos e nos indivíduos com DM, disautonomia e em uso de anti-hipertensivos, a PA deve ser medida também em posição supina e 1 e 3 minutos após a mudança para a posição ortostática, com o braço apoiado pelo examinador na altura do coração.",
+      "resposta_leiga": "Em idosos, pessoas com diabetes, com problemas no controle automático do corpo e em quem toma remédio de pressão, a pressão também deve ser medida deitado. Depois, deve ser medida 1 e 3 minutos após a pessoa ficar em pé, com o braço apoiado pelo profissional na altura do coração.",
+      "secao": "3.2.2. Populações Especiais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Em idosos e nos indivíduos com DM, disautonomia e em uso de anti-hipertensivos, a PA deve ser medida também em posição supina e 1 e 3 minutos após a mudança para a posição ortostática, com o braço apoiado pelo examinador na altura do coração.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 14,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-04",
+      "pergunta": "O que é aquela queda de pressão quando a gente levanta? Quanto a pressão precisa cair para ser considerado isso?",
+      "resposta_referencia": "Isso é importante para identificar a hipotensão ortostática, que é definida como uma redução na PAS ≥ 20 mmHg e/ou na PAD ≥ 10 mmHg.",
+      "resposta_leiga": "Essa queda de pressão ao ficar em pé é definida quando a pressão de cima cai 20 mmHg ou mais e/ou a pressão de baixo cai 10 mmHg ou mais.",
+      "secao": "3.2.2. Populações Especiais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Isso é importante para identificar a hipotensão ortostática, que é definida como uma redução na PAS ≥ 20 mmHg e/ou na PAD ≥ 10 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 14,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-05",
+      "pergunta": "Meu braço é grosso. O tamanho da braçadeira do aparelho faz diferença no resultado?",
+      "resposta_referencia": "Para todos os pacientes, é indispensável utilizar manguitos adequados ao tamanho e à forma do braço para evitar sub ou superestimação da PA.",
+      "resposta_leiga": "Sim. Para qualquer pessoa, é indispensável usar uma braçadeira adequada ao tamanho e à forma do braço. Assim a pressão não aparece mais baixa nem mais alta do que realmente é.",
+      "secao": "3.2.2. Populações Especiais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Para todos os pacientes, é indispensável utilizar manguitos adequados ao tamanho e à forma do braço para evitar sub ou superestimação da PA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-06",
+      "pergunta": "Sou bem acima do peso e é difícil medir no braço. Posso medir a pressão no pulso?",
+      "resposta_referencia": "Quando a medida no braço for difícil, em particular nos obesos, pode-se considerar a medida no punho, utilizando o pulso radial por meio de aparelhos validados.",
+      "resposta_leiga": "Quando for difícil medir no braço, principalmente em pessoas com obesidade, pode-se medir no pulso. Mas é preciso usar um aparelho de pulso aprovado em testes de qualidade.",
+      "secao": "3.2.2. Populações Especiais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 3,
+          "linha_final": 6,
+          "trecho_literal": "Quando a medida no braço for difícil, em particular nos obesos, pode-se considerar a medida no punho, utilizando o pulso radial por meio de aparelhos validados.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 3,
+            "linha_final": 6,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-07",
+      "pergunta": "De quanto em quanto tempo o aparelho de pressão precisa ser conferido para ver se está medindo certo?",
+      "resposta_referencia": "No entanto, é essencial que os equipamentos sejam validados de acordo com protocolos padronizados e a calibração seja avaliada pelo menos anualmente.",
+      "resposta_leiga": "O aparelho precisa ter sido aprovado em testes padronizados. A calibração dele deve ser conferida pelo menos uma vez por ano.",
+      "secao": "3.2.1. Técnicas de Medida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 12,
+          "linha_final": 15,
+          "trecho_literal": "No entanto, é essencial que os equipamentos sejam validados de acordo com protocolos padronizados e a calibração seja avaliada pelo menos anualmente.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 12,
+            "linha_final": 15,
+            "secao": "3.2.1. Técnicas de Medida da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-08",
+      "pergunta": "Qual tipo de aparelho é melhor para medir a pressão: o digital de braço ou o de ponteiro com estetoscópio?",
+      "resposta_referencia": "Recomenda-se utilizar equipamento automático de braço com o objetivo de reduzir erros e facilitar a obtenção da medida da PA.",
+      "resposta_leiga": "O indicado é usar o aparelho automático (digital) de braço. Ele reduz erros e facilita a medida da pressão.",
+      "secao": "1.1. Principais Destaques",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 25,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "Recomenda-se utilizar equipamento automático de braço com o objetivo de reduzir erros e facilitar a obtenção da medida da PA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 25,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "1.1. Principais Destaques"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-09",
+      "pergunta": "Quanto tempo antes de medir a pressão eu não posso fumar, tomar café, comer ou fazer exercício?",
+      "resposta_referencia": "30 minutos sem ter fumado, ingerido alimentos/ cafeína e 90 minutos sem ter praticado exercício físico",
+      "resposta_leiga": "Fique 30 minutos sem fumar, sem comer e sem tomar café ou bebidas com cafeína antes de medir. E fique 90 minutos sem fazer exercício físico.",
+      "secao": "3.2.1. Técnicas de Medida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 35,
+          "tipo": "paragrafo",
+          "numero": 8,
+          "linha_inicial": 2,
+          "linha_final": 5,
+          "trecho_literal": "30 minutos sem ter fumado, ingerido alimentos/ cafeína e 90 minutos",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 35,
+            "tipo": "paragrafo",
+            "numero": 8,
+            "linha_inicial": 2,
+            "linha_final": 5,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        },
+        {
+          "pagina": 35,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "sem ter praticado",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 35,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        },
+        {
+          "pagina": 35,
+          "tipo": "paragrafo",
+          "numero": 10,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "exercício físico",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 35,
+            "tipo": "paragrafo",
+            "numero": 10,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-10",
+      "pergunta": "Quantas vezes seguidas tem que medir a pressão e qual valor vale?",
+      "resposta_referencia": "Realizar três medidas, com intervalo de 1 minuto e utilizar a média das duas últimas medidas. Se houver diferença > 10 mmHg, realizar medidas adicionais.",
+      "resposta_leiga": "Faça três medidas, com 1 minuto de intervalo entre elas, e use a média das duas últimas. Se os valores tiverem diferença maior que 10 mmHg, faça mais medidas.",
+      "secao": "3.2.1. Técnicas de Medida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 35,
+          "tipo": "paragrafo",
+          "numero": 31,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "Realizar três medidas, com intervalo de 1 minuto e utilizar a média das duas últimas medidas. Se houver diferença > 10 mmHg, realizar medidas adicionais.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 35,
+            "tipo": "paragrafo",
+            "numero": 31,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "3.2.2. Populações Especiais"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-11",
+      "pergunta": "Minha pressão sempre deu 12,5 por 8 e diziam que era normal. Isso mudou agora?",
+      "resposta_referencia": "Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.",
+      "resposta_leiga": "Sim, mudou. A pressão de cima entre 120 e 129 mmHg e/ou a de baixo entre 80 e 84 mmHg era considerada normal. Agora esses valores passam a ser chamados de pré-hipertensão.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 3,
+          "linha_final": 6,
+          "trecho_literal": "Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 3,
+            "linha_final": 6,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-12",
+      "pergunta": "Por que agora uma pressão de 12 por 8, que antes era normal, passou a ser chamada de pré-hipertensão?",
+      "resposta_referencia": "Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.",
+      "resposta_leiga": "A mudança serve para descobrir mais cedo quem está em risco. Também serve para incentivar cuidados antecipados, para evitar que a pessoa chegue a ter pressão alta.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 8,
+          "linha_final": 10,
+          "trecho_literal": "Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 8,
+            "linha_final": 10,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-13",
+      "pergunta": "Minha pressão deu alta uma vez no posto. Isso já quer dizer que tenho pressão alta?",
+      "resposta_referencia": "Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas. Alternativamente, pode-se utilizar a MAPA ou a MRPA para uma avaliação mais precisa.",
+      "resposta_leiga": "Não necessariamente. Para confirmar pressão alta, é preciso repetir as medidas em duas ou mais consultas, com dias ou semanas de diferença. Outra opção é fazer o exame que mede a pressão durante 24 horas ou as medidas organizadas em casa, que dão uma avaliação mais precisa.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas. Alternativamente, pode-se utilizar a MAPA ou a MRPA para uma avaliação mais precisa.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-14",
+      "pergunta": "No consultório minha pressão deu 17 por 10. Em que estágio da pressão alta isso fica?",
+      "resposta_referencia": "HA Estágio 2 160-179 e/ou 100-109",
+      "resposta_leiga": "Pressão de cima entre 160 e 179 mmHg e/ou de baixo entre 100 e 109 mmHg é pressão alta estágio 2. Uma medida de 17 por 10 está nessa faixa.",
+      "secao": "Quadro 3.2 – Classificação da pressão arterial de acordo com a medida no consultório",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "HA Estágio 2 160-179 e/ou 100-109",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-15",
+      "pergunta": "O que quer dizer quando a pressão fica alta só no consultório e normal em casa? E quando é o contrário?",
+      "resposta_referencia": "A HAB ocorre quando a PA é elevada no consultório (≥ 140 mmHg e/ou 90 mmHg), mas normal fora dele (< 130/80 mmHg na MRPA ou na MAPA de 24 horas), enquanto a HM ocorre quando a PA é normal no consultório, mas elevada fora dele.",
+      "resposta_leiga": "A hipertensão do avental branco é quando a pressão dá 14 por 9 ou mais no consultório, mas fica abaixo de 13 por 8 nas medidas em casa ou no aparelho de 24 horas. A hipertensão mascarada é o contrário: a pressão é normal no consultório, mas alta fora dele.",
+      "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 37,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "A HAB ocorre quando a PA é elevada no consultório (≥ 140 mmHg e/ou 90 mmHg), mas normal fora dele (< 130/80 mmHg na MRPA ou na MAPA de 24 horas), enquanto a HM ocorre quando a PA é normal no consultório, mas elevada fora dele.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 37,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-16",
+      "pergunta": "Quem tem mais chance de ter a pressão normal no médico, mas alta no dia a dia?",
+      "resposta_referencia": "A prevalência de HM varia entre 8 e 22%, sendo mais comum em indivíduos com fatores de risco adicionais, como DM e obesidade, podendo chegar no indivíduo pré-hipertenso a 62% (Figura 3.2).",
+      "resposta_leiga": "Essa pressão escondida aparece em 8 a 22% das pessoas. É mais comum em quem tem outros fatores de risco, como diabetes e obesidade. Em quem tem pré-hipertensão, pode chegar a 62%.",
+      "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 37,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 3,
+          "linha_final": 4,
+          "trecho_literal": "A prevalência de HM varia entre 8 e 22%, sendo mais comum em",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 37,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 3,
+            "linha_final": 4,
+            "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada"
+          }
+        },
+        {
+          "pagina": 37,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "indivíduos com fatores de risco adicionais, como DM e obesidade, podendo chegar no indivíduo pré-hipertenso a 62% (Figura 3.2).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 37,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-17",
+      "pergunta": "Se minha pressão só sobe quando estou no médico, isso traz algum risco para a saúde?",
+      "resposta_referencia": "Tanto a HAB quanto a HM estão associadas a um maior risco de desenvolver DM, LOA e eventos CV a longo prazo.",
+      "resposta_leiga": "Sim. Tanto a pressão que sobe só no consultório quanto a que fica alta só fora dele aumentam, com o tempo, o risco de diabetes, de danos em órgãos como coração, rins e olhos e de problemas como infarto e derrame.",
+      "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 37,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Tanto a HAB quanto a HM estão associadas a um maior risco de desenvolver DM, LOA e eventos CV a longo prazo.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 37,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-18",
+      "pergunta": "Vou usar aquele aparelho que mede a pressão durante 24 horas. A partir de que valores o resultado é considerado alto?",
+      "resposta_referencia": "MAPA 24 horas ≥ 130 e/ou ≥ 80 Vigília ≥ 135 e/ou ≥ 85 Sono ≥ 120 e/ou ≥ 70",
+      "resposta_leiga": "Na média das 24 horas, é alta quando fica em 130 por 80 ou mais. No período acordado, quando fica em 135 por 85 ou mais. Durante o sono, quando fica em 120 por 70 ou mais.",
+      "secao": "Quadro 3.4 – Definição de hipertensão arterial de acordo com a medida da pressão arterial de consultório, MAPA e MRPA",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 37,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 3,
+          "linha_final": 5,
+          "trecho_literal": "MAPA 24 horas ≥ 130 e/ou ≥ 80 Vigília ≥ 135 e/ou ≥ 85 Sono ≥ 120 e/ou ≥ 70",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 37,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 3,
+            "linha_final": 5,
+            "secao": "3.5. Hipertensão do Avental Branco e Hipertensão Mascarada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-19",
+      "pergunta": "O médico pode dizer que tenho pressão alta com uma medida só no consultório?",
+      "resposta_referencia": "Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.",
+      "resposta_leiga": "Em geral, não, porque a pressão varia muito. Só dá para fechar com uma medida se a pressão estiver muito alta (estágio 3) ou se a pessoa já tiver dano nos órgãos causado pela pressão ou doença do coração e dos vasos confirmada.",
+      "secao": "3.7. Recomendações para Diagnóstico e Seguimento",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 38,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 38,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "3.7. Recomendações para Diagnóstico e Seguimento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-20",
+      "pergunta": "Eu meço a pressão em casa com meu aparelho, quando dá vontade. Esses valores servem para confirmar se tenho pressão alta?",
+      "resposta_referencia": "Portanto, esta diretriz recomenda que a AMPA seja utilizada apenas como meio de triagem, para que métodos confirmatórios (MAPA ou MRPA) sejam solicitados.",
+      "resposta_leiga": "Essas medidas feitas por conta própria, sem uma regra definida, servem só como um primeiro alerta. Para confirmar, é preciso fazer o exame de 24 horas ou as medidas em casa seguindo um protocolo.",
+      "secao": "3.7.1. Automedida da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 39,
+          "tipo": "paragrafo",
+          "numero": 38,
+          "linha_inicial": 6,
+          "linha_final": 8,
+          "trecho_literal": "Portanto, esta diretriz recomenda que a AMPA seja utilizada apenas como meio de triagem, para que métodos confirmatórios (MAPA ou MRPA) sejam solicitados.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 39,
+            "tipo": "paragrafo",
+            "numero": 38,
+            "linha_inicial": 6,
+            "linha_final": 8,
+            "secao": "3.7.1. Automedida da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-21",
+      "pergunta": "O teste na esteira serve para descobrir se eu tenho pressão alta?",
+      "resposta_referencia": "O teste ergométrico não é recomendado para a avaliação diagnóstica de HA devido à falta de padronização e consenso sobre a resposta normal da PA durante o exercício.",
+      "resposta_leiga": "Não. O teste de esteira não é indicado para diagnosticar pressão alta. Não existe um padrão nem um acordo sobre como a pressão normal deve se comportar durante o exercício.",
+      "secao": "3.7.2. Teste Ergométrico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 39,
+          "tipo": "paragrafo",
+          "numero": 39,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "O teste ergométrico não é recomendado para a avaliação diagnóstica de HA devido à falta de padronização e consenso sobre a resposta normal da PA durante o exercício.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 39,
+            "tipo": "paragrafo",
+            "numero": 39,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.7.2. Teste Ergométrico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-22",
+      "pergunta": "Posso confiar na pressão que meu relógio inteligente mostra, sem braçadeira?",
+      "resposta_referencia": "No entanto, apesar de serem promissores, ainda existem dúvidas sobre a precisão desses novos métodos. Por isso, recomenda-se cautela no uso clínico até que mais evidências sobre sua precisão e desempenho estejam disponíveis.",
+      "resposta_leiga": "Esses aparelhos novos, sem braçadeira, são promissores, mas ainda há dúvidas sobre se medem com precisão. Por isso, é preciso cautela ao usá-los até existirem mais provas de que funcionam bem.",
+      "secao": "3.9. Novas Tecnologias para Medidas da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 40,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "No entanto, apesar de serem promissores, ainda existem dúvidas sobre a precisão desses novos métodos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 40,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "3.9. Novas Tecnologias para Medidas da Pressão Arterial"
+          }
+        },
+        {
+          "pagina": 40,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Por isso, recomenda-se cautela no uso clínico até que mais evidências sobre sua precisão e desempenho estejam disponíveis.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 40,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "3.9. Novas Tecnologias para Medidas da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-23",
+      "pergunta": "No posto só me falaram que a pressão estava \"13 por 7\". Eu tenho direito de saber o número exato?",
+      "resposta_referencia": "Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).",
+      "resposta_leiga": "Sim. Os valores devem ser informados a você, de preferência por escrito e de forma completa, por exemplo 134/76 mmHg, e não apenas \"13 por 7\".",
+      "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-24",
+      "pergunta": "Eu não tenho pressão alta. Mesmo assim, de quanto em quanto tempo devo medir a pressão?",
+      "resposta_referencia": "Idealmente, todas as pessoas devem ter sua PA aferida pelo menos anualmente, em especial aquelas com história familiar de HA, idosas e com outra doença, entre elas, DM, obesidade, DCV ou renal.",
+      "resposta_leiga": "O ideal é que todo mundo meça a pressão pelo menos uma vez por ano. Isso vale ainda mais para quem tem pressão alta na família, para idosos e para quem tem diabetes, obesidade, doença do coração e dos vasos ou dos rins.",
+      "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Idealmente, todas as pessoas devem ter sua PA aferida pelo menos anualmente, em especial aquelas com história familiar de HA, idosas e com outra doença, entre elas, DM, obesidade, DCV ou renal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-25",
+      "pergunta": "Tomo remédio e minha pressão está abaixo de 14 por 9. Continuo sendo considerado hipertenso?",
+      "resposta_referencia": "Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.",
+      "resposta_leiga": "Sim. Quem já usa remédio para controlar a pressão, ou já tem dano em órgãos causado por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 140/90 mmHg.",
+      "secao": "14.4. Diagnóstico de Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "14.4. Diagnóstico de Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-26",
+      "pergunta": "O médico pediu para eu medir a pressão em casa por alguns dias. Como devo fazer e qual média é normal?",
+      "resposta_referencia": "MRPA 4 a 6 dias em 1 semana Três medidas matinais e três medidas noturnas/dia Média < 130/80 mmHg",
+      "resposta_leiga": "Meça durante 4 a 6 dias em uma semana. Faça três medidas de manhã e três à noite em cada dia. A média é considerada normal quando fica abaixo de 130/80 mmHg.",
+      "secao": "Quadro 14.5 – Valores normais da pressão arterial e indicações para a MAPA e MRPA",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 121,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "MRPA 4 a 6 dias em 1 semana Três medidas matinais e três medidas noturnas/dia Média < 130/80 mmHg",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 121,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "14.8. Medida da Pressão Arterial fora do Consultório ou do Ambiente de Cuidado à Saúde"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-27",
+      "pergunta": "Tenho diabetes e o exame de urina mostrou proteína. Preciso repetir o exame?",
+      "resposta_referencia": "Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.",
+      "resposta_leiga": "Sim. A perda de proteína na urina deve ser confirmada em duas ou três amostras. Exercício, febre e refeições com muita proteína podem alterar o resultado, sem que isso signifique dano nos rins.",
+      "secao": "8.3. Hipertensão Arterial e Diabetes Mellitus",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 72,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 72,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "8.3. Hipertensão Arterial e Diabetes Mellitus"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-28",
+      "pergunta": "Estou grávida. Como a minha pressão deve ser medida?",
+      "resposta_referencia": "Deve-se ressaltar que a medida da PA na gestação deve ser realizada na posição sentada e utilizando o quinto som de Korotkoff para obtenção da PAD na medida de PA auscultatória.",
+      "resposta_leiga": "Na gravidez, a pressão deve ser medida com você sentada. Quando a medida é feita com estetoscópio, a pressão de baixo deve ser marcada no momento em que o som desaparece (o quinto som).",
+      "secao": "10.2. Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 93,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 8,
+          "linha_final": 11,
+          "trecho_literal": "Deve-se ressaltar que a medida da PA na gestação deve ser realizada na posição sentada e utilizando o quinto som de Korotkoff para obtenção da PAD na medida de PA auscultatória.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 93,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 8,
+            "linha_final": 11,
+            "secao": "10.2. Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-29",
+      "pergunta": "A partir de que idade meu filho deve começar a medir a pressão, e com que frequência?",
+      "resposta_referencia": "Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.",
+      "resposta_leiga": "A pressão da criança deve ser medida uma vez por ano, a partir dos 3 anos de idade.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 90,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 90,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "02-30",
+      "pergunta": "Tomo três remédios e minha pressão continua alta no consultório. Preciso fazer exame fora do consultório antes de dizerem que é uma pressão difícil de controlar?",
+      "resposta_referencia": "O efeito do avental branco pode induzir erroneamente ao diagnóstico de HAR. A medida da PA fora do consultório, MRPA ou MAPA, é ferramenta mandatória para o diagnóstico e o acompanhamento de pacientes com HAR.",
+      "resposta_leiga": "Sim. O nervosismo no consultório pode dar a falsa impressão de que a pressão é resistente aos remédios. Por isso, medir a pressão fora do consultório, em casa ou com o aparelho de 24 horas, é obrigatório para confirmar e acompanhar esse caso.",
+      "secao": "12.4.2. Efeito do Avental Branco",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 107,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "O efeito do avental branco pode induzir erroneamente ao diagnóstico de HAR. A medida da PA fora do consultório, MRPA ou MAPA, é ferramenta mandatória para o diagnóstico e o acompanhamento de pacientes com HAR.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 107,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "12.4.2. Efeito do Avental Branco"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    }
+  ],
+  "respostas_api": [
+    {
+      "pedido": "Gere exatamente 30 itens sobre o tema: Diagnóstico e medição da pressão arterial (técnica de medida, consultório, MAPA, MRPA, avental branco, hipertensão mascarada, exames).\nDistribua as perguntas por diferentes partes da diretriz que tratam desse tema.\nMarque sobre_nova_classificacao = true só se o item tratar dessa mudança de classificação.",
+      "qtde_pedida": 30,
+      "request_id": "req_011Ch7jcxGXgFLjs6tGhT7NZ",
+      "resposta": {
+        "id": "msg_011Ch7jcyLmRRhjBLMYhiuGc",
+        "container": null,
+        "content": [
+          {
+            "signature": "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",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "text": "{\"itens\":[{\"pergunta\":\"Quando vou medir a pressão pela primeira vez, tenho que medir nos dois braços?\",\"resposta_referencia\":\"A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais elevada para medidas subsequentes.\",\"resposta_leiga\":\"Sim. Na primeira vez, a pressão deve ser medida nos dois braços. Depois, as próximas medidas devem ser feitas no braço em que a pressão deu mais alta.\",\"secao\":\"3.2.1. Técnicas de Medida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais elevada para medidas subsequentes.\"}]},{\"pergunta\":\"A pressão de cima deu bem diferente em um braço e no outro. Isso é preocupante?\",\"resposta_referencia\":\"Diferenças superiores a 15 mmHg na PAS entre os braços indicam um risco CV aumentado e podem sinalizar a presença de doença arterial obstrutiva.\",\"resposta_leiga\":\"Se a pressão de cima de um braço passar mais de 15 mmHg da do outro braço, o risco de problemas no coração e nos vasos é maior. Isso também pode ser sinal de entupimento nas artérias.\",\"secao\":\"3.2.1. Técnicas de Medida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":3,\"linha_final\":5,\"trecho_literal\":\"Diferenças superiores a 15 mmHg na PAS entre os braços indicam um risco CV aumentado e podem sinalizar a presença de doença arterial obstrutiva.\"}]},{\"pergunta\":\"Minha mãe é idosa e toma remédio de pressão. Por que mediram a pressão dela deitada e depois em pé?\",\"resposta_referencia\":\"Em idosos e nos indivíduos com DM, disautonomia e em uso de anti-hipertensivos, a PA deve ser medida também em posição supina e 1 e 3 minutos após a mudança para a posição ortostática, com o braço apoiado pelo examinador na altura do coração.\",\"resposta_leiga\":\"Em idosos, pessoas com diabetes, com problemas no controle automático do corpo e em quem toma remédio de pressão, a pressão também deve ser medida deitado. Depois, deve ser medida 1 e 3 minutos após a pessoa ficar em pé, com o braço apoiado pelo profissional na altura do coração.\",\"secao\":\"3.2.2. Populações Especiais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Em idosos e nos indivíduos com DM, disautonomia e em uso de anti-hipertensivos, a PA deve ser medida também em posição supina e 1 e 3 minutos após a mudança para a posição ortostática, com o braço apoiado pelo examinador na altura do coração.\"}]},{\"pergunta\":\"O que é aquela queda de pressão quando a gente levanta? Quanto a pressão precisa cair para ser considerado isso?\",\"resposta_referencia\":\"Isso é importante para identificar a hipotensão ortostática, que é definida como uma redução na PAS ≥ 20 mmHg e/ou na PAD ≥ 10 mmHg.\",\"resposta_leiga\":\"Essa queda de pressão ao ficar em pé é definida quando a pressão de cima cai 20 mmHg ou mais e/ou a pressão de baixo cai 10 mmHg ou mais.\",\"secao\":\"3.2.2. Populações Especiais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Isso é importante para identificar a hipotensão ortostática, que é definida como uma redução na PAS ≥ 20 mmHg e/ou na PAD ≥ 10 mmHg.\"}]},{\"pergunta\":\"Meu braço é grosso. O tamanho da braçadeira do aparelho faz diferença no resultado?\",\"resposta_referencia\":\"Para todos os pacientes, é indispensável utilizar manguitos adequados ao tamanho e à forma do braço para evitar sub ou superestimação da PA.\",\"resposta_leiga\":\"Sim. Para qualquer pessoa, é indispensável usar uma braçadeira adequada ao tamanho e à forma do braço. Assim a pressão não aparece mais baixa nem mais alta do que realmente é.\",\"secao\":\"3.2.2. Populações Especiais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Para todos os pacientes, é indispensável utilizar manguitos adequados ao tamanho e à forma do braço para evitar sub ou superestimação da PA.\"}]},{\"pergunta\":\"Sou bem acima do peso e é difícil medir no braço. Posso medir a pressão no pulso?\",\"resposta_referencia\":\"Quando a medida no braço for difícil, em particular nos obesos, pode-se considerar a medida no punho, utilizando o pulso radial por meio de aparelhos validados.\",\"resposta_leiga\":\"Quando for difícil medir no braço, principalmente em pessoas com obesidade, pode-se medir no pulso. Mas é preciso usar um aparelho de pulso aprovado em testes de qualidade.\",\"secao\":\"3.2.2. Populações Especiais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":3,\"linha_final\":6,\"trecho_literal\":\"Quando a medida no braço for difícil, em particular nos obesos, pode-se considerar a medida no punho, utilizando o pulso radial por meio de aparelhos validados.\"}]},{\"pergunta\":\"De quanto em quanto tempo o aparelho de pressão precisa ser conferido para ver se está medindo certo?\",\"resposta_referencia\":\"No entanto, é essencial que os equipamentos sejam validados de acordo com protocolos padronizados e a calibração seja avaliada pelo menos anualmente.\",\"resposta_leiga\":\"O aparelho precisa ter sido aprovado em testes padronizados. A calibração dele deve ser conferida pelo menos uma vez por ano.\",\"secao\":\"3.2.1. Técnicas de Medida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":12,\"linha_final\":15,\"trecho_literal\":\"No entanto, é essencial que os equipamentos sejam validados de acordo com protocolos padronizados e a calibração seja avaliada pelo menos anualmente.\"}]},{\"pergunta\":\"Qual tipo de aparelho é melhor para medir a pressão: o digital de braço ou o de ponteiro com estetoscópio?\",\"resposta_referencia\":\"Recomenda-se utilizar equipamento automático de braço com o objetivo de reduzir erros e facilitar a obtenção da medida da PA.\",\"resposta_leiga\":\"O indicado é usar o aparelho automático (digital) de braço. Ele reduz erros e facilita a medida da pressão.\",\"secao\":\"1.1. Principais Destaques\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":25,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"Recomenda-se utilizar equipamento automático de braço com o objetivo de reduzir erros e facilitar a obtenção da medida da PA.\"}]},{\"pergunta\":\"Quanto tempo antes de medir a pressão eu não posso fumar, tomar café, comer ou fazer exercício?\",\"resposta_referencia\":\"30 minutos sem ter fumado, ingerido alimentos/ cafeína e 90 minutos sem ter praticado exercício físico\",\"resposta_leiga\":\"Fique 30 minutos sem fumar, sem comer e sem tomar café ou bebidas com cafeína antes de medir. E fique 90 minutos sem fazer exercício físico.\",\"secao\":\"3.2.1. Técnicas de Medida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":35,\"tipo\":\"paragrafo\",\"numero\":8,\"linha_inicial\":2,\"linha_final\":5,\"trecho_literal\":\"30 minutos sem ter fumado, ingerido alimentos/ cafeína e 90 minutos\"},{\"pagina\":35,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"sem ter praticado\"},{\"pagina\":35,\"tipo\":\"paragrafo\",\"numero\":10,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"exercício físico\"}]},{\"pergunta\":\"Quantas vezes seguidas tem que medir a pressão e qual valor vale?\",\"resposta_referencia\":\"Realizar três medidas, com intervalo de 1 minuto e utilizar a média das duas últimas medidas. Se houver diferença > 10 mmHg, realizar medidas adicionais.\",\"resposta_leiga\":\"Faça três medidas, com 1 minuto de intervalo entre elas, e use a média das duas últimas. Se os valores tiverem diferença maior que 10 mmHg, faça mais medidas.\",\"secao\":\"3.2.1. Técnicas de Medida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":35,\"tipo\":\"paragrafo\",\"numero\":31,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"Realizar três medidas, com intervalo de 1 minuto e utilizar a média das duas últimas medidas. Se houver diferença > 10 mmHg, realizar medidas adicionais.\"}]},{\"pergunta\":\"Minha pressão sempre deu 12,5 por 8 e diziam que era normal. Isso mudou agora?\",\"resposta_referencia\":\"Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.\",\"resposta_leiga\":\"Sim, mudou. A pressão de cima entre 120 e 129 mmHg e/ou a de baixo entre 80 e 84 mmHg era considerada normal. Agora esses valores passam a ser chamados de pré-hipertensão.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":3,\"linha_final\":6,\"trecho_literal\":\"Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.\"}]},{\"pergunta\":\"Por que agora uma pressão de 12 por 8, que antes era normal, passou a ser chamada de pré-hipertensão?\",\"resposta_referencia\":\"Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.\",\"resposta_leiga\":\"A mudança serve para descobrir mais cedo quem está em risco. Também serve para incentivar cuidados antecipados, para evitar que a pessoa chegue a ter pressão alta.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":8,\"linha_final\":10,\"trecho_literal\":\"Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.\"}]},{\"pergunta\":\"Minha pressão deu alta uma vez no posto. Isso já quer dizer que tenho pressão alta?\",\"resposta_referencia\":\"Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas. Alternativamente, pode-se utilizar a MAPA ou a MRPA para uma avaliação mais precisa.\",\"resposta_leiga\":\"Não necessariamente. Para confirmar pressão alta, é preciso repetir as medidas em duas ou mais consultas, com dias ou semanas de diferença. Outra opção é fazer o exame que mede a pressão durante 24 horas ou as medidas organizadas em casa, que dão uma avaliação mais precisa.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas. Alternativamente, pode-se utilizar a MAPA ou a MRPA para uma avaliação mais precisa.\"}]},{\"pergunta\":\"No consultório minha pressão deu 17 por 10. Em que estágio da pressão alta isso fica?\",\"resposta_referencia\":\"HA Estágio 2 160-179 e/ou 100-109\",\"resposta_leiga\":\"Pressão de cima entre 160 e 179 mmHg e/ou de baixo entre 100 e 109 mmHg é pressão alta estágio 2. Uma medida de 17 por 10 está nessa faixa.\",\"secao\":\"Quadro 3.2 – Classificação da pressão arterial de acordo com a medida no consultório\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"HA Estágio 2 160-179 e/ou 100-109\"}]},{\"pergunta\":\"O que quer dizer quando a pressão fica alta só no consultório e normal em casa? E quando é o contrário?\",\"resposta_referencia\":\"A HAB ocorre quando a PA é elevada no consultório (≥ 140 mmHg e/ou 90 mmHg), mas normal fora dele (< 130/80 mmHg na MRPA ou na MAPA de 24 horas), enquanto a HM ocorre quando a PA é normal no consultório, mas elevada fora dele.\",\"resposta_leiga\":\"A hipertensão do avental branco é quando a pressão dá 14 por 9 ou mais no consultório, mas fica abaixo de 13 por 8 nas medidas em casa ou no aparelho de 24 horas. A hipertensão mascarada é o contrário: a pressão é normal no consultório, mas alta fora dele.\",\"secao\":\"3.5. Hipertensão do Avental Branco e Hipertensão Mascarada\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":37,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"A HAB ocorre quando a PA é elevada no consultório (≥ 140 mmHg e/ou 90 mmHg), mas normal fora dele (< 130/80 mmHg na MRPA ou na MAPA de 24 horas), enquanto a HM ocorre quando a PA é normal no consultório, mas elevada fora dele.\"}]},{\"pergunta\":\"Quem tem mais chance de ter a pressão normal no médico, mas alta no dia a dia?\",\"resposta_referencia\":\"A prevalência de HM varia entre 8 e 22%, sendo mais comum em indivíduos com fatores de risco adicionais, como DM e obesidade, podendo chegar no indivíduo pré-hipertenso a 62% (Figura 3.2).\",\"resposta_leiga\":\"Essa pressão escondida aparece em 8 a 22% das pessoas. É mais comum em quem tem outros fatores de risco, como diabetes e obesidade. Em quem tem pré-hipertensão, pode chegar a 62%.\",\"secao\":\"3.5. Hipertensão do Avental Branco e Hipertensão Mascarada\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":37,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":3,\"linha_final\":4,\"trecho_literal\":\"A prevalência de HM varia entre 8 e 22%, sendo mais comum em\"},{\"pagina\":37,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"indivíduos com fatores de risco adicionais, como DM e obesidade, podendo chegar no indivíduo pré-hipertenso a 62% (Figura 3.2).\"}]},{\"pergunta\":\"Se minha pressão só sobe quando estou no médico, isso traz algum risco para a saúde?\",\"resposta_referencia\":\"Tanto a HAB quanto a HM estão associadas a um maior risco de desenvolver DM, LOA e eventos CV a longo prazo.\",\"resposta_leiga\":\"Sim. Tanto a pressão que sobe só no consultório quanto a que fica alta só fora dele aumentam, com o tempo, o risco de diabetes, de danos em órgãos como coração, rins e olhos e de problemas como infarto e derrame.\",\"secao\":\"3.5. Hipertensão do Avental Branco e Hipertensão Mascarada\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":37,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Tanto a HAB quanto a HM estão associadas a um maior risco de desenvolver DM, LOA e eventos CV a longo prazo.\"}]},{\"pergunta\":\"Vou usar aquele aparelho que mede a pressão durante 24 horas. A partir de que valores o resultado é considerado alto?\",\"resposta_referencia\":\"MAPA 24 horas ≥ 130 e/ou ≥ 80 Vigília ≥ 135 e/ou ≥ 85 Sono ≥ 120 e/ou ≥ 70\",\"resposta_leiga\":\"Na média das 24 horas, é alta quando fica em 130 por 80 ou mais. No período acordado, quando fica em 135 por 85 ou mais. Durante o sono, quando fica em 120 por 70 ou mais.\",\"secao\":\"Quadro 3.4 – Definição de hipertensão arterial de acordo com a medida da pressão arterial de consultório, MAPA e MRPA\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":37,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":3,\"linha_final\":5,\"trecho_literal\":\"MAPA 24 horas ≥ 130 e/ou ≥ 80 Vigília ≥ 135 e/ou ≥ 85 Sono ≥ 120 e/ou ≥ 70\"}]},{\"pergunta\":\"O médico pode dizer que tenho pressão alta com uma medida só no consultório?\",\"resposta_referencia\":\"Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.\",\"resposta_leiga\":\"Em geral, não, porque a pressão varia muito. Só dá para fechar com uma medida se a pressão estiver muito alta (estágio 3) ou se a pessoa já tiver dano nos órgãos causado pela pressão ou doença do coração e dos vasos confirmada.\",\"secao\":\"3.7. Recomendações para Diagnóstico e Seguimento\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":38,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.\"}]},{\"pergunta\":\"Eu meço a pressão em casa com meu aparelho, quando dá vontade. Esses valores servem para confirmar se tenho pressão alta?\",\"resposta_referencia\":\"Portanto, esta diretriz recomenda que a AMPA seja utilizada apenas como meio de triagem, para que métodos confirmatórios (MAPA ou MRPA) sejam solicitados.\",\"resposta_leiga\":\"Essas medidas feitas por conta própria, sem uma regra definida, servem só como um primeiro alerta. Para confirmar, é preciso fazer o exame de 24 horas ou as medidas em casa seguindo um protocolo.\",\"secao\":\"3.7.1. Automedida da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":39,\"tipo\":\"paragrafo\",\"numero\":38,\"linha_inicial\":6,\"linha_final\":8,\"trecho_literal\":\"Portanto, esta diretriz recomenda que a AMPA seja utilizada apenas como meio de triagem, para que métodos confirmatórios (MAPA ou MRPA) sejam solicitados.\"}]},{\"pergunta\":\"O teste na esteira serve para descobrir se eu tenho pressão alta?\",\"resposta_referencia\":\"O teste ergométrico não é recomendado para a avaliação diagnóstica de HA devido à falta de padronização e consenso sobre a resposta normal da PA durante o exercício.\",\"resposta_leiga\":\"Não. O teste de esteira não é indicado para diagnosticar pressão alta. Não existe um padrão nem um acordo sobre como a pressão normal deve se comportar durante o exercício.\",\"secao\":\"3.7.2. Teste Ergométrico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":39,\"tipo\":\"paragrafo\",\"numero\":39,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"O teste ergométrico não é recomendado para a avaliação diagnóstica de HA devido à falta de padronização e consenso sobre a resposta normal da PA durante o exercício.\"}]},{\"pergunta\":\"Posso confiar na pressão que meu relógio inteligente mostra, sem braçadeira?\",\"resposta_referencia\":\"No entanto, apesar de serem promissores, ainda existem dúvidas sobre a precisão desses novos métodos. Por isso, recomenda-se cautela no uso clínico até que mais evidências sobre sua precisão e desempenho estejam disponíveis.\",\"resposta_leiga\":\"Esses aparelhos novos, sem braçadeira, são promissores, mas ainda há dúvidas sobre se medem com precisão. Por isso, é preciso cautela ao usá-los até existirem mais provas de que funcionam bem.\",\"secao\":\"3.9. Novas Tecnologias para Medidas da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":40,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"No entanto, apesar de serem promissores, ainda existem dúvidas sobre a precisão desses novos métodos.\"},{\"pagina\":40,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Por isso, recomenda-se cautela no uso clínico até que mais evidências sobre sua precisão e desempenho estejam disponíveis.\"}]},{\"pergunta\":\"No posto só me falaram que a pressão estava \\\"13 por 7\\\". Eu tenho direito de saber o número exato?\",\"resposta_referencia\":\"Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).\",\"resposta_leiga\":\"Sim. Os valores devem ser informados a você, de preferência por escrito e de forma completa, por exemplo 134/76 mmHg, e não apenas \\\"13 por 7\\\".\",\"secao\":\"14.2. Busca Ativa por Pessoas com Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).\"}]},{\"pergunta\":\"Eu não tenho pressão alta. Mesmo assim, de quanto em quanto tempo devo medir a pressão?\",\"resposta_referencia\":\"Idealmente, todas as pessoas devem ter sua PA aferida pelo menos anualmente, em especial aquelas com história familiar de HA, idosas e com outra doença, entre elas, DM, obesidade, DCV ou renal.\",\"resposta_leiga\":\"O ideal é que todo mundo meça a pressão pelo menos uma vez por ano. Isso vale ainda mais para quem tem pressão alta na família, para idosos e para quem tem diabetes, obesidade, doença do coração e dos vasos ou dos rins.\",\"secao\":\"14.2. Busca Ativa por Pessoas com Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Idealmente, todas as pessoas devem ter sua PA aferida pelo menos anualmente, em especial aquelas com história familiar de HA, idosas e com outra doença, entre elas, DM, obesidade, DCV ou renal.\"}]},{\"pergunta\":\"Tomo remédio e minha pressão está abaixo de 14 por 9. Continuo sendo considerado hipertenso?\",\"resposta_referencia\":\"Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.\",\"resposta_leiga\":\"Sim. Quem já usa remédio para controlar a pressão, ou já tem dano em órgãos causado por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 140/90 mmHg.\",\"secao\":\"14.4. Diagnóstico de Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.\"}]},{\"pergunta\":\"O médico pediu para eu medir a pressão em casa por alguns dias. Como devo fazer e qual média é normal?\",\"resposta_referencia\":\"MRPA 4 a 6 dias em 1 semana Três medidas matinais e três medidas noturnas/dia Média < 130/80 mmHg\",\"resposta_leiga\":\"Meça durante 4 a 6 dias em uma semana. Faça três medidas de manhã e três à noite em cada dia. A média é considerada normal quando fica abaixo de 130/80 mmHg.\",\"secao\":\"Quadro 14.5 – Valores normais da pressão arterial e indicações para a MAPA e MRPA\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":121,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"MRPA 4 a 6 dias em 1 semana Três medidas matinais e três medidas noturnas/dia Média < 130/80 mmHg\"}]},{\"pergunta\":\"Tenho diabetes e o exame de urina mostrou proteína. Preciso repetir o exame?\",\"resposta_referencia\":\"Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.\",\"resposta_leiga\":\"Sim. A perda de proteína na urina deve ser confirmada em duas ou três amostras. Exercício, febre e refeições com muita proteína podem alterar o resultado, sem que isso signifique dano nos rins.\",\"secao\":\"8.3. Hipertensão Arterial e Diabetes Mellitus\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":72,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.\"}]},{\"pergunta\":\"Estou grávida. Como a minha pressão deve ser medida?\",\"resposta_referencia\":\"Deve-se ressaltar que a medida da PA na gestação deve ser realizada na posição sentada e utilizando o quinto som de Korotkoff para obtenção da PAD na medida de PA auscultatória.\",\"resposta_leiga\":\"Na gravidez, a pressão deve ser medida com você sentada. Quando a medida é feita com estetoscópio, a pressão de baixo deve ser marcada no momento em que o som desaparece (o quinto som).\",\"secao\":\"10.2. Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":93,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":8,\"linha_final\":11,\"trecho_literal\":\"Deve-se ressaltar que a medida da PA na gestação deve ser realizada na posição sentada e utilizando o quinto som de Korotkoff para obtenção da PAD na medida de PA auscultatória.\"}]},{\"pergunta\":\"A partir de que idade meu filho deve começar a medir a pressão, e com que frequência?\",\"resposta_referencia\":\"Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.\",\"resposta_leiga\":\"A pressão da criança deve ser medida uma vez por ano, a partir dos 3 anos de idade.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":90,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.\"}]},{\"pergunta\":\"Tomo três remédios e minha pressão continua alta no consultório. Preciso fazer exame fora do consultório antes de dizerem que é uma pressão difícil de controlar?\",\"resposta_referencia\":\"O efeito do avental branco pode induzir erroneamente ao diagnóstico de HAR. A medida da PA fora do consultório, MRPA ou MAPA, é ferramenta mandatória para o diagnóstico e o acompanhamento de pacientes com HAR.\",\"resposta_leiga\":\"Sim. O nervosismo no consultório pode dar a falsa impressão de que a pressão é resistente aos remédios. Por isso, medir a pressão fora do consultório, em casa ou com o aparelho de 24 horas, é obrigatório para confirmar e acompanhar esse caso.\",\"secao\":\"12.4.2. Efeito do Avental Branco\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":107,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"O efeito do avental branco pode induzir erroneamente ao diagnóstico de HAR. A medida da PA fora do consultório, MRPA ou MAPA, é ferramenta mandatória para o diagnóstico e o acompanhamento de pacientes com HAR.\"}]}]}",
+            "type": "text"
+          }
+        ],
+        "diagnostics": null,
+        "model": "claude-opus-5-5",
+        "role": "assistant",
+        "stop_details": null,
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 350733,
+          "inference_geo": "global",
+          "input_tokens": 148,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 0,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 350733,
+              "input_tokens": 148,
+              "model": null,
+              "output_tokens": 24360,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 24360,
+          "output_tokens_details": {
+            "thinking_tokens": 12732
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    }
+  ]
+}

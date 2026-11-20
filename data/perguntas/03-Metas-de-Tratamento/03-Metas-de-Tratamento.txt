@@ -1,0 +1,179 @@
+Id: 03-01 | Status: confere
+Pergunta: Minha pressão deu 12 por 8 na farmácia. Já preciso fazer alguma coisa?
+Resposta: Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).
+Resposta leiga: Sim. Com pressão de 12 por 8 ou mais, você deve mudar hábitos de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.
+Localização: Página 49, seção 5.1. Início de Tratamento, parágrafo 3, linhas 1 a 3
+
+Id: 03-02 | Status: confere
+Pergunta: A partir de qual pressão medida no consultório eu já preciso começar remédio, além de mudar os hábitos?
+Resposta: Com base em tais dados, o tratamento medicamentoso deve ser iniciado junto com o tratamento não medicamentoso quando a PA no consultório for ≥ 140/90 mmHg.
+Resposta leiga: Quando a pressão medida no consultório está em 14 por 9 (140 por 90 mmHg) ou mais, o remédio deve começar junto com as mudanças de hábitos.
+Localização: Página 49, seção 5.1. Início de Tratamento, parágrafo 7, linhas 6 a 9
+
+Id: 03-03 | Status: confere
+Pergunta: Minha pressão fica em 13,5 por 8,5 e o médico disse que meu risco para o coração é alto. Vou precisar de remédio?
+Resposta: Recomenda-se tratamento medicamentoso após 3 meses de MNM para indivíduos com PA 130-139/80-89 mmHg e alto risco CV.
+Resposta leiga: Se sua pressão fica entre 130-139 por 80-89 mmHg e seu risco para o coração é alto, o remédio é indicado depois de 3 meses de mudanças de hábitos.
+Localização: Página 52, seção 5.6. Considerações na Hipertensão Sistólica Isolada, tabela 1, linha 3
+
+Id: 03-04 | Status: confere
+Pergunta: Eu passo mal quando minha pressão fica abaixo de 13 por 8. Qual meta devo seguir então?
+Resposta: Quando não for tolerada a meta < 130/80 mmHg, a PA deve ser reduzida até o menor valor tolerado.
+Resposta leiga: Se você não tolera ficar abaixo de 13 por 8, a pressão deve ser baixada até o menor valor que você aguente bem.
+Localização: Página 51, seção 5.5. Reduções Intensas da Pressão Arterial e Risco de Eventos Adversos, parágrafo 6, linhas 7 a 8
+
+Id: 03-05 | Status: confere
+Pergunta: Vou fazer o exame com o aparelho que mede a pressão durante 24 horas. Quais valores mostram que meu tratamento está funcionando?
+Resposta: MAPA 24 horas < 130 < 80 MAPA vigília < 135 < 85 MAPA sono < 120 < 70
+Resposta leiga: No exame de 24 horas, a meta é média abaixo de 130 por 80 mmHg no dia todo, abaixo de 135 por 85 mmHg enquanto você está acordado e abaixo de 120 por 70 mmHg durante o sono.
+Localização: Página 51, seção 5.6. Considerações na Hipertensão Sistólica Isolada, tabela 1, linhas 2 a 4
+
+Id: 03-06 | Status: confere
+Pergunta: Quando eu meço a pressão em casa, do jeito que o médico ensinou, qual valor quer dizer que ela está controlada?
+Resposta: MRPA < 130 < 80
+Resposta leiga: Nas medidas feitas em casa, a meta é ficar abaixo de 130 por 80 mmHg (13 por 8).
+Localização: Página 51, seção 5.6. Considerações na Hipertensão Sistólica Isolada, tabela 1, linha 5
+
+Id: 03-07 | Status: confere
+Pergunta: Tenho 68 anos. A partir de quanto da pressão de cima eu preciso começar remédio?
+Resposta: Idosos ≥ 60 anos | Quando PAS ≥ 140 mmHg
+Resposta leiga: Para quem tem 60 anos ou mais, o remédio é indicado quando a pressão de cima chega a 140 mmHg (14) ou mais.
+Localização: Página 50, seção 5.4. Curva em J da Pressão Arterial, tabela 1, linha 3
+
+Id: 03-08 | Status: confere
+Pergunta: Tenho pressão alta, mas o médico disse que meu risco para o coração é baixo. Mesmo assim preciso deixar a pressão abaixo de 13 por 8?
+Resposta: Recomenda-se a meta de PA < 130/80 mmHg para os pacientes com HA independentemente de o risco CV ser baixo, moderado ou alto.
+Resposta leiga: Sim. Para quem tem pressão alta, a meta é ficar abaixo de 130 por 80 mmHg, seja o risco para o coração baixo, moderado ou alto.
+Localização: Página 26, seção 1.1. Principais Destaques, tabela 1, linha 3
+
+Id: 03-09 | Status: confere
+Pergunta: Só a minha pressão de cima é alta, a de baixo é normal. Qual é a meta do tratamento?
+Resposta: Na HA sistólica isolada, a meta de PAS < 130 mmHg deve ser alcançada, e a redução da PAD seve ser monitorada em relação a possíveis eventos adversos.
+Resposta leiga: Quando só a pressão de cima está alta, a meta é deixá-la abaixo de 130 mmHg. A queda da pressão de baixo deve ser acompanhada para evitar efeitos ruins.
+Localização: Página 52, seção 5.6. Considerações na Hipertensão Sistólica Isolada, parágrafo 7, linhas 1 a 3
+
+Id: 03-10 | Status: confere
+Pergunta: Tenho entupimento nas artérias do coração e minha pressão está em 11 por 7, sem nenhum sintoma. Devo parar ou diminuir o remédio?
+Resposta: Admite-se que reduzir a PA até 120/70 mmHg não aumenta o risco CV, e pacientes com PA < 120/70 mmHg e assintomáticos não necessitam parar ou reduzir a medicação anti-hipertensiva em uso.
+Resposta leiga: Não precisa. Baixar a pressão até 120 por 70 mmHg não aumenta o risco para o coração, e quem está abaixo disso sem sintomas não precisa parar nem diminuir o remédio.
+Localização: Página 68, seção 8.1.1. Metas de Pressão Arterial na Doença Arterial Coronariana, parágrafo 11, linhas 6 a 9
+
+Id: 03-11 | Status: confere
+Pergunta: Faço hemodiálise. Qual deve ser minha pressão antes e depois da sessão?
+Resposta: Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg.
+Resposta leiga: Na hemodiálise ou hemofiltração, a pressão antes da sessão deve ficar abaixo de 140 por 90 mmHg e, depois da sessão, abaixo de 130 por 80 mmHg.
+Localização: Página 70, seção 8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise, parágrafo 9, linhas 7 a 9
+
+Id: 03-12 | Status: confere
+Pergunta: Faço diálise em casa, pela barriga. Qual é a meta de pressão para mim?
+Resposta: Finalmente, para a diálise peritoneal, uma meta de PA < 140/90 mmHg é sugerida, preferencialmente aferida pela MAPA de 24 h.
+Resposta leiga: Na diálise pela barriga, a meta sugerida é pressão abaixo de 140 por 90 mmHg, de preferência conferida com o aparelho que mede a pressão durante 24 horas.
+Localização: Página 70, seção 8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise, parágrafo 9, linhas 11 a 13
+
+Id: 03-13 | Status: confere
+Pergunta: Tenho pressão alta e doença crônica nos rins, mas não faço diálise. Até quanto minha pressão deve baixar?
+Resposta: Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.
+Resposta leiga: Para adultos com pressão alta e doença crônica nos rins, a meta é pressão abaixo de 130 por 80 mmHg, para diminuir problemas no coração e evitar que os rins parem de funcionar.
+Localização: Página 71, seção 8.2.4. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Diálise, tabela 1, linha 2
+
+Id: 03-14 | Status: confere
+Pergunta: Sou diabético e acabei de descobrir que tenho pressão alta. Preciso começar o remédio logo?
+Resposta: Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.
+Resposta leiga: Sim. Com diabetes, o remédio deve começar já na descoberta, com dois medicamentos: um inibidor da enzima conversora (ou, se ele não for tolerado, um bloqueador do receptor da angiotensina) junto com um bloqueador dos canais de cálcio ou um diurético do tipo tiazídico.
+Localização: Página 73, seção 8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus, tabela 1, linha 5
+
+Id: 03-15 | Status: confere
+Pergunta: Estou bem acima do peso e tenho pressão alta. Qual pressão eu devo atingir?
+Resposta: A meta pressórica recomendada para pacientes com obesidade é PA < 130/80 mmHg, à semelhança de outras situações de alto risco CV e renal.
+Resposta leiga: Para quem tem obesidade, a meta é pressão abaixo de 130 por 80 mmHg, igual a outras situações de alto risco para o coração e os rins.
+Localização: Página 73, seção 8.4.1. Meta de Pressão Arterial em Pacientes com Obesidade, parágrafo 11, linhas 1 a 3
+
+Id: 03-16 | Status: confere
+Pergunta: Já tive um derrame. Qual deve ser minha pressão para evitar ter outro?
+Resposta: Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).
+Resposta leiga: Quem já teve derrame ou um ataque passageiro de falta de sangue no cérebro deve manter a pressão abaixo de 130 por 80 mmHg. Isso reduz infarto, novo derrame e morte.
+Localização: Página 76, seção 8.6.2. Tratamento da Hipertensão Arterial no Acidente Vascular Cerebral na Fase Crônica, tabela 1, linha 2
+
+Id: 03-17 | Status: confere
+Pergunta: Tenho insuficiência cardíaca com o coração fraco e minha pressão é baixa. O médico pode aumentar meus remédios mesmo assim?
+Resposta: Sob essa perspectiva, níveis baixos de PA não devem limitar a otimização das doses terapêuticas dessas medicações supracitadas nos pacientes com ICFEr, desde que esses indivíduos os tolerem, sem apresentar eventos adversos.
+Resposta leiga: Pode. Na insuficiência cardíaca com o coração bombeando pouco, a pressão baixa não deve impedir o ajuste das doses desses remédios, desde que você os tolere sem efeitos ruins.
+Localização: Página 76, seção 8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida, parágrafo 15, linhas 6 a 7 e Página 77, seção 8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida, parágrafo 1, linhas 1 a 3
+
+Id: 03-18 | Status: confere
+Pergunta: Minha mãe tem 75 anos. A pressão dela também precisa ficar abaixo de 13 por 8?
+Resposta: Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.
+Resposta leiga: Sim, para a maioria dos idosos a meta é pressão abaixo de 130 por 80 mmHg.
+Localização: Página 82, seção 9.1.4.5. Desintensificação e Desprescrição, tabela 1, linha 1
+
+Id: 03-19 | Status: confere
+Pergunta: Meu avô tem 90 anos e está bem fraquinho. Até quanto a pressão dele deve baixar?
+Resposta: Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.
+Resposta leiga: Para idosos frágeis, muito idosos ou com doenças que encurtam a expectativa de vida, a pressão deve ser baixada até o menor valor que eles toleram bem.
+Localização: Página 82, seção 9.1.4.5. Desintensificação e Desprescrição, tabela 1, linha 2
+
+Id: 03-20 | Status: confere
+Pergunta: Para uma pessoa idosa, de quanto em quanto tempo o médico pode aumentar ou juntar os remédios da pressão?
+Resposta: É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.
+Resposta leiga: No idoso, o certo é começar com um remédio ou uma combinação em dose baixa. Se precisar, a dose é aumentada ou outro remédio é somado aos poucos, com pelo menos 2 semanas entre cada mudança.
+Localização: Página 81, seção 9.1.4.3. Tratamento Medicamentoso, parágrafo 1, linhas 5 a 7
+
+Id: 03-21 | Status: confere
+Pergunta: Comecei a tomar o remédio da pressão. Depois de quanto tempo o médico costuma ajustar a dose?
+Resposta: • Fazer os ajustes de tratamento geralmente após 4 semanas de uso, salvo em situações específicas;
+Resposta leiga: Em geral, os ajustes no tratamento são feitos depois de 4 semanas de uso do remédio, a não ser em situações específicas.
+Localização: Página 59, seção 7.3. Princípios Gerais do Tratamento Medicamentoso, parágrafo 9, linhas 1 a 2
+
+Id: 03-22 | Status: confere
+Pergunta: Meu filho de 15 anos tem pressão alta. Até quanto a pressão dele deve baixar com o tratamento?
+Resposta: O alvo terapêutico é a redução da PAS e PAD para < percentil 90 e < 130/80 mmHg em adolescentes ≥ 13 anos.
+Resposta leiga: Nas crianças, a meta é deixar a pressão abaixo do percentil 90 (valor de referência pela idade, sexo e altura). Em adolescentes de 13 anos ou mais, a meta é abaixo de 130 por 80 mmHg.
+Localização: Página 89, seção 9.2. Hipertensão Arterial na Criança e no Adolescente, parágrafo 13, linhas 5 a 7
+
+Id: 03-23 | Status: confere
+Pergunta: Estou grávida e tenho pressão alta. Em que faixa a pressão deve ficar durante o tratamento?
+Resposta: A meta do controle da HA deve ser a PAS > 120 e < 160 mmHg e PAD > 80 e < 110 mmHg, já que tanto a HA quanto a hipotensão induzida podem prejudicar a perfusão placentária e, consequentemente, o crescimento fetal.
+Resposta leiga: Na gravidez, a pressão de cima deve ficar acima de 120 e abaixo de 160 mmHg, e a de baixo acima de 80 e abaixo de 110 mmHg. Tanto a pressão alta quanto a pressão baixa demais podem prejudicar o sangue que chega à placenta e o crescimento do bebê.
+Localização: Página 93, seção 10.2.3. Abordagem Terapêutica da Hipertensão na Gestação, parágrafo 12, linhas 3 a 7
+
+Id: 03-24 | Status: confere
+Pergunta: Na gravidez, a partir de quanto da pressão de cima o tratamento passa a ser urgente?
+Resposta: Para evitar mortes maternas, PAS > 150-160 mmHg deve ser considerada para tratamento urgente.
+Resposta leiga: Para evitar mortes de gestantes, a pressão de cima acima de 150-160 mmHg deve ser considerada para tratamento urgente.
+Localização: Página 93, seção 10.2.3. Abordagem Terapêutica da Hipertensão na Gestação, parágrafo 11, linhas 8 a 10
+
+Id: 03-25 | Status: confere
+Pergunta: Minha pressão subiu para 18 por 11, mas não tenho nenhum sinal de lesão grave. Preciso baixar tudo de uma vez? Quando volto ao médico?
+Resposta: A elevação importante da PA (≥ 180/110 mmHg) sem LOA aguda e sem risco de morte iminente permite redução da PA em maior período de tempo com anti-hipertensivos orais, e a reavaliação ambulatorial deve ser precoce em período de 1 a 7 dias.
+Resposta leiga: Com pressão de 180 por 110 mmHg ou mais, sem lesão aguda nos órgãos e sem risco imediato de morte, a pressão pode ser baixada aos poucos com remédios por boca. Você deve ser reavaliado no consultório logo, em 1 a 7 dias.
+Localização: Página 103, seção 11.6.9. Hipertensão na Gravidez: Pré-eclâmpsia e Eclâmpsia, parágrafo 14, linhas 1 a 4
+
+Id: 03-26 | Status: confere
+Pergunta: Numa emergência de pressão alta no hospital, quanto a pressão deve cair nas primeiras horas?
+Resposta: A redução da PA deve ser gradual e cuidadosa, em 10 a 15% na 1ª hora de tratamento e de 25% nas 2 horas seguintes ao início do tratamento na maioria das situações clínicas.
+Resposta leiga: Na maioria dos casos, a pressão deve cair aos poucos e com cuidado: de 10 a 15% na primeira hora e 25% nas 2 horas seguintes ao início do tratamento.
+Localização: Página 103, seção 11.6.9. Hipertensão na Gravidez: Pré-eclâmpsia e Eclâmpsia, parágrafo 17, linhas 2 a 4
+
+Id: 03-27 | Status: confere
+Pergunta: Sou mulher. A meta da minha pressão é diferente da meta do meu marido?
+Resposta: As metas de PA recomendadas são iguais para mulheres e homens, e as classes de anti-hipertensivos podem ser utilizadas igualmente para o tratamento da HA em mulheres e homens.
+Resposta leiga: Não. As metas de pressão são iguais para mulheres e homens, e os mesmos tipos de remédio podem ser usados nos dois.
+Localização: Página 93, seção 10.1.4. Tratamento da Hipertensão nas Mulheres, parágrafo 2, linhas 1 a 4
+
+Id: 03-28 | Status: confere
+Pergunta: Mediram minha pressão no posto de saúde. Em que caso eles devem marcar uma consulta para mim?
+Resposta: O profissional de saúde que fizer a medida da PA deve estar orientado a realizar pelo menos três medidas da PA e, caso a média das duas últimas medidas seja ≥ 140/90 mmHg, deverá vincular a pessoa à Unidade de Saúde de sua referência para uma consulta agendada.
+Resposta leiga: O profissional deve medir sua pressão pelo menos três vezes. Se a média das duas últimas medidas der 140 por 90 mmHg ou mais, ele deve encaminhar você para uma consulta marcada na sua unidade de saúde.
+Localização: Página 116, seção 14.2. Busca Ativa por Pessoas com Hipertensão Arterial, parágrafo 13, linhas 4 a 9
+
+Id: 03-29 | Status: confere
+Pergunta: Se eu começar a tomar remédio para pressão, posso largar a dieta e os exercícios?
+Resposta: Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.
+Resposta leiga: Não. Quem tem pressão de 120 por 80 mmHg ou mais deve começar e manter as mudanças de hábitos, mesmo depois de começar o remédio, quando ele for indicado.
+Localização: Página 51, seção 5.6. Considerações na Hipertensão Sistólica Isolada, parágrafo 12, linhas 2 a 4
+
+Id: 03-30 | Status: confere
+Pergunta: Como eu sei se realmente cheguei na meta da pressão? Basta a medida feita no consultório?
+Resposta: Recomenda-se confirmar o alcance da meta de PA com a medida da PA fora do consultório por meio da MAPA ou MRPA.
+Resposta leiga: Não basta. O ideal é confirmar que você atingiu a meta com medidas feitas fora do consultório, pelo aparelho que mede a pressão durante 24 horas ou pelas medidas feitas em casa seguindo um protocolo.
+Localização: Página 119, seção 14.7. Metas do Controle Pressórico, tabela 2, linha 5

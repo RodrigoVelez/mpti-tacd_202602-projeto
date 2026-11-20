@@ -1,0 +1,120 @@
+{
+  "ultima_execucao": "2026-11-16T23:43:50",
+  "pdf": "Diretrizes Brasileiras de Hipertensão Arterial – 2025.pdf",
+  "pdf_sha256": "8c76e153b7a4d1204d85950f140716e3f4797a65ea57ce8a4cb3e55f52723215",
+  "texto_numerado_sha256": "0b3b304b2b748e8885bcf05ed736f6a2e6da55385308402244b0e65f987d8fc4",
+  "modelo_solicitado": "claude-opus-5-5",
+  "esforco": "medium",
+  "fallback_permitido": true,
+  "cache_ttl": "1h",
+  "min_nova_classificacao": 12,
+  "temas": {
+    "01-Classificacao": {
+      "descricao": "Classificação da pressão arterial (normal, pré-hipertensão, estágios 1, 2 e 3, hipertensão sistólica e diastólica isolada) e o que mudou em relação à diretriz de 2020",
+      "perguntas": 30,
+      "custo_usd": 3.2637,
+      "chamadas": [
+        {
+          "modelo_que_respondeu": "claude-opus-5-5",
+          "message_id": "msg_011Ch7jPu7eokhfYz151B16v",
+          "request_id": "req_011Ch7jPrLyAEFrM49AWRQJm",
+          "stop_reason": "end_turn",
+          "qtde_pedida": 30,
+          "tokens_entrada": 274,
+          "tokens_saida": 22837,
+          "tokens_escrita_cache_5m": 0,
+          "tokens_escrita_cache_1h": 350733,
+          "tokens_leitura_cache": 0,
+          "custo_usd": 3.2637
+        }
+      ]
+    },
+    "02-Diagnostico-e-Medicao": {
+      "descricao": "Diagnóstico e medição da pressão arterial (técnica de medida, consultório, MAPA, MRPA, avental branco, hipertensão mascarada, exames)",
+      "perguntas": 30,
+      "custo_usd": 0.5579,
+      "chamadas": [
+        {
+          "modelo_que_respondeu": "claude-opus-5-5",
+          "message_id": "msg_011Ch7jcyLmRRhjBLMYhiuGc",
+          "request_id": "req_011Ch7jcxGXgFLjs6tGhT7NZ",
+          "stop_reason": "end_turn",
+          "qtde_pedida": 30,
+          "tokens_entrada": 148,
+          "tokens_saida": 24360,
+          "tokens_escrita_cache_5m": 0,
+          "tokens_escrita_cache_1h": 0,
+          "tokens_leitura_cache": 350733,
+          "custo_usd": 0.5579
+        }
+      ]
+    },
+    "03-Metas-de-Tratamento": {
+      "descricao": "Metas de tratamento (valores de pressão a alcançar, quando iniciar remédio, acompanhamento)",
+      "perguntas": 30,
+      "custo_usd": 0.5384,
+      "chamadas": [
+        {
+          "modelo_que_respondeu": "claude-opus-5-5",
+          "message_id": "msg_011Ch7jrr6LNUrEgwez5tnYp",
+          "request_id": "req_011Ch7jrmhRrmyMhHLLYoL74",
+          "stop_reason": "end_turn",
+          "qtde_pedida": 30,
+          "tokens_entrada": 129,
+          "tokens_saida": 23385,
+          "tokens_escrita_cache_5m": 0,
+          "tokens_escrita_cache_1h": 0,
+          "tokens_leitura_cache": 350733,
+          "custo_usd": 0.5384
+        }
+      ]
+    },
+    "04-Medidas-sem-Remedio": {
+      "descricao": "Medidas sem remédio (sal, alimentação, peso, atividade física, álcool, tabagismo, sono, estresse)",
+      "perguntas": 30,
+      "custo_usd": 0.5603,
+      "chamadas": [
+        {
+          "modelo_que_respondeu": "claude-opus-5-5",
+          "message_id": "msg_011Ch7k5fYxE9rR1gyzBLT1U",
+          "request_id": "req_011Ch7k5eMGn7TSnGiC62GLe",
+          "stop_reason": "end_turn",
+          "qtde_pedida": 30,
+          "tokens_entrada": 134,
+          "tokens_saida": 24480,
+          "tokens_escrita_cache_5m": 0,
+          "tokens_escrita_cache_1h": 0,
+          "tokens_leitura_cache": 350733,
+          "custo_usd": 0.5603
+        }
+      ]
+    },
+    "05-Situacoes-Especiais": {
+      "descricao": "Situações especiais (idosos, gestantes, crianças e adolescentes, diabetes, doença renal, AVC, urgência e emergência hipertensiva)",
+      "perguntas": 30,
+      "custo_usd": 0.444,
+      "chamadas": [
+        {
+          "modelo_que_respondeu": "claude-opus-5-5",
+          "message_id": "msg_011Ch7kK3RwUWW4MdBrg218e",
+          "request_id": "req_011Ch7kK246g89H2vs58vLtx",
+          "stop_reason": "end_turn",
+          "qtde_pedida": 30,
+          "tokens_entrada": 145,
+          "tokens_saida": 18663,
+          "tokens_escrita_cache_5m": 0,
+          "tokens_escrita_cache_1h": 0,
+          "tokens_leitura_cache": 350733,
+          "custo_usd": 0.444
+        }
+      ]
+    }
+  },
+  "custo_total_usd": 5.3643,
+  "instrucoes_sistema": "Você ajuda a montar um conjunto de teste científico para avaliar sistemas de perguntas e respostas sobre a Diretriz Brasileira de Hipertensão Arterial 2025.\n\nO documento vem logo abaixo, com página, parágrafo, tabela e linha numerados:\n- \"=== PÁGINA N ===\" marca o início da página N.\n- \"# ...\" é um título de seção (não é parágrafo).\n- \"§N\" marca o parágrafo N daquela página.\n- \"[TABELA N]\" marca a tabela N daquela página. Cada linha da tabela é uma linha numerada, com as células separadas por \" | \".\n- \"K| texto\" é a linha K daquele parágrafo ou daquela tabela.\n\nRegras para cada item:\n1. Pergunta:\n   a) em português, escrita como um paciente ou familiar sem formação em saúde falaria, em primeira pessoa quando couber, com palavras do dia a dia;\n   b) sem siglas e sem jargão (não use PAS, PAD, PA, HA, CV, MAPA, MRPA, LOA, IMC, DCV, \"estratificação\", \"normotensão\" etc.). Quando a ideia for necessária, explique com palavras simples (ex.: \"pressão de cima\", \"aparelho que mede a pressão durante 24 horas\");\n   c) não cite nem pressuponha a diretriz: nada de \"diretriz\", \"documento\", \"tabela\", \"quadro\", \"capítulo\", \"recomendação forte/fraca\", \"nível de evidência\", \"segundo o texto\". A pessoa não sabe que esse documento existe;\n   d) escreva valores de pressão no jeito popular quando fizer sentido (\"13 por 8\", \"135 por 85\").\n2. A resposta_referencia deve ser copiada LITERALMENTE da diretriz (uma ou poucas frases completas), sem resumir, sem parafrasear e sem os números de linha. Quando uma palavra estiver partida com hífen no fim da linha, junte as partes. Dê preferência a trechos que não mencionem o próprio documento (\"esta diretriz\", \"DBHA\", \"ver Capítulo\", \"Quadro\"). Se o trecho certo mencionar, mantenha a cópia literal mesmo assim.\n3. Cada evidência indica a página, o tipo (paragrafo ou tabela), o número do parágrafo ou da tabela, a linha inicial e a linha final de onde o trecho foi copiado, e o trecho_literal copiado dessas linhas. Em tabelas, copie o texto das células sem o separador \" | \". Se a resposta ocupar duas unidades (ou duas páginas), use uma evidência para cada uma.\n4. Use só o corpo da diretriz. Não use capa, lista de autores, declarações de conflito de interesse, lista de abreviaturas nem referências bibliográficas.\n5. A pergunta deve ter resposta clara e única no trecho citado. Não repita perguntas nem use o mesmo trecho em duas perguntas.\n6. Prefira recomendações práticas e valores numéricos que um paciente queira saber.\n7. A resposta_leiga é a resposta_referencia reescrita para a mesma pessoa leiga:\n   a) use só a informação da resposta_referencia, sem acrescentar conselho, dado ou opinião;\n   b) mantenha todos os números e unidades e não omita nenhuma condição importante da resposta literal;\n   c) troque siglas e termos técnicos por palavras simples;\n   d) não cite a diretriz, tabelas, quadros, capítulos, estudos nem força de recomendação;\n   e) escreva de 1 a 3 frases curtas, falando diretamente com a pessoa.\n\n=== DOCUMENTO ===\n",
+  "versoes": {
+    "python": "3.14.7",
+    "anthropic": "2.8.0",
+    "pymupdf": "2.1"
+  }
+}

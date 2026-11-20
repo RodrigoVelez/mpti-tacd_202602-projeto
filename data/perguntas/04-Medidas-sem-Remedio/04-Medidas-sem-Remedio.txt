@@ -1,0 +1,184 @@
+Id: 04-01 | Status: confere
+Pergunta: Quanto sal eu posso comer por dia para cuidar da pressão?
+Resposta: Assim, a restrição da ingestão de sódio para no máximo 2 g/dia é recomendada, o que corresponde a 5 g de sal de cozinha ou 1 colher de chá/dia.
+Resposta leiga: O recomendado é consumir no máximo 2 g de sódio por dia. Isso equivale a 5 g de sal de cozinha, ou 1 colher de chá por dia.
+Localização: Página 53, seção 6.3.1. Restrição na Ingestão de Sódio, parágrafo 4, linhas 8 a 10
+
+Id: 04-02 | Status: confere
+Pergunta: Fazer alguma coisa para controlar o estresse ajuda a baixar a pressão? Qual técnica funciona de verdade?
+Resposta: De modo geral, as terapias comportamentais de abordagem do estresse não apresentam evidências robustas de eficácia na diminuição da PA, exceto a meditação.
+Resposta leiga: Em geral, as técnicas para lidar com o estresse não têm provas fortes de que baixam a pressão. A exceção é a meditação, que mostrou efeito.
+Localização: Página 55, seção 6.5.1. Técnicas de Abordagem do Estresse, parágrafo 3, linhas 6 a 9
+
+Id: 04-03 | Status: confere
+Pergunta: Posso trocar o sal comum pelo sal light?
+Resposta: O sal hipossódico ou light pode ser considerado um substituto do sal, pois possui teor de sódio pelo menos 50% menor que o sal de cozinha.
+Resposta leiga: Sim, o sal light pode substituir o sal comum. Ele tem pelo menos 50% menos sódio que o sal de cozinha.
+Localização: Página 53, seção 6.3.1. Restrição na Ingestão de Sódio, parágrafo 8, linhas 11 a 13
+
+Id: 04-04 | Status: confere
+Pergunta: O sal rosa do Himalaia ou o sal marinho são melhores para a pressão do que o sal comum?
+Resposta: Porém, outros tipos de sal, como o sal rosa do Himalaia e o sal marinho, apresentam o mesmo teor de sódio que o sal de cozinha.
+Resposta leiga: Não. O sal rosa do Himalaia e o sal marinho têm a mesma quantidade de sódio que o sal de cozinha comum.
+Localização: Página 53, seção 6.3.1. Restrição na Ingestão de Sódio, parágrafo 8, linhas 16 a 18
+
+Id: 04-05 | Status: confere
+Pergunta: Tenho problema nos rins. Posso usar aqueles sais que trocam parte do sódio por potássio?
+Resposta: Entretanto, os substitutos do sal contendo potássio podem elevar esse íon sérico em indivíduos com risco de hipercalemia, como pacientes com DRC.
+Resposta leiga: É preciso cuidado. Em quem tem risco de potássio alto no sangue, como pessoas com doença crônica nos rins, esses substitutos do sal com potássio podem aumentar o potássio no sangue.
+Localização: Página 53, seção 6.3.1. Restrição na Ingestão de Sódio, parágrafo 8, linhas 9 a 11
+
+Id: 04-06 | Status: confere
+Pergunta: Quais alimentos têm bastante potássio para eu comer mais?
+Resposta: Boas fontes de potássio incluem frutas, verduras, hortaliças, oleaginosas, leguminosas e laticínios pobres em gordura.
+Resposta leiga: Boas fontes de potássio são frutas, verduras, legumes e hortaliças, castanhas, feijões e similares, e leite e derivados com pouca gordura.
+Localização: Página 53, seção 6.3.2. Aumento no Consumo de Potássio Dietético, parágrafo 10, linhas 4 a 6
+
+Id: 04-07 | Status: revisar
+Pergunta: Qual é o peso ideal para quem tem pressão alta? Muda para quem é idoso?
+Resposta: Em adultos, o ideal é alcançar e manter um peso saudável, representado pelo IMC < 25 kg/m2. Em idosos, o IMC entre 22 e < 27 kg/m2.
+Resposta leiga: Em adultos, o ideal é manter o índice de massa corporal (a conta do peso em relação à altura) abaixo de 25 kg/m2. Em idosos, o ideal é ficar entre 22 e menos de 27 kg/m2.
+Localização: não encontrada no PDF
+Atenção: resposta não confirmada no PDF. Revisar manualmente.
+
+Id: 04-08 | Status: confere
+Pergunta: Além do peso, a medida da barriga importa? Qual deve ser o tamanho da cintura?
+Resposta: A avaliação não deve se limitar à análise do IMC, devendo-se incluir parâmetros de adiposidade central, como a circunferência abdominal (CA), que deve ser mantida < 102 cm em homens e < 88 cm em mulheres.
+Resposta leiga: Sim, não basta olhar só o peso, a gordura da barriga também conta. A medida da cintura deve ficar abaixo de 102 cm nos homens e abaixo de 88 cm nas mulheres.
+Localização: Página 53, seção 6.2. Perda de Peso, parágrafo 2, linhas 1 a 4
+
+Id: 04-09 | Status: confere
+Pergunta: Cada quilo que eu perder baixa quanto a minha pressão?
+Resposta: Em uma metanálise, a redução de 1 kg de peso corporal promoveu redução de 1,05 mmHg na PAS e de 0,92 mmHg na PAD.
+Resposta leiga: Cada 1 kg perdido baixou em média 1,05 mmHg a pressão de cima e 0,92 mmHg a pressão de baixo.
+Localização: Página 52, seção 6.2. Perda de Peso, parágrafo 17, linhas 3 a 4 e Página 53, seção 6.2. Perda de Peso, parágrafo 1, linha 1
+
+Id: 04-10 | Status: confere
+Pergunta: Se eu não conseguir chegar ao peso ideal, perder só um pouco já adianta para a pressão?
+Resposta: Mesmo sem alcançar o peso corporal desejável, a perda ponderal reduz a PA e o risco CV proporcionalmente à magnitude e duração da perda de peso.
+Resposta leiga: Sim. Mesmo sem chegar ao peso ideal, emagrecer já baixa a pressão e o risco de problemas do coração e da circulação. Quanto mais peso você perder e por mais tempo mantiver, maior o benefício.
+Localização: Página 52, seção 6.2. Perda de Peso, parágrafo 17, linhas 1 a 3
+
+Id: 04-11 | Status: confere
+Pergunta: Quem tem pressão alta pode beber? Qual é o limite para homem e para mulher?
+Resposta: Limitar o consumo de álcool a uma dose para mulheres e duas doses para homens.
+Resposta leiga: O consumo de bebida alcoólica deve ser limitado a no máximo uma dose para mulheres e duas doses para homens.
+Localização: Página 126, seção 15.1. Expossoma e Hipertensão Arterial, tabela 3, linha 1
+
+Id: 04-12 | Status: revisar
+Pergunta: Quanto é uma dose de bebida? Quanto dá de cerveja, vinho ou cachaça?
+Resposta: Recomendações recentes para a hipertensão arterial consideram que uma dose contém 10 a 12 g de álcool, correspondendo a aproximadamente 200 mL de cerveja (5% de álcool), 100 mL de vinho (12% de álcool) e 25 mL de bebida destilada, como uísque, vodca e aguardente (40% de álcool).
+Resposta leiga: Uma dose tem de 10 a 12 g de álcool. Isso é mais ou menos 200 mL de cerveja, 100 mL de vinho ou 25 mL de bebida destilada, como uísque, vodca ou cachaça.
+Localização: não encontrada no PDF
+Atenção: resposta não confirmada no PDF. Revisar manualmente.
+
+Id: 04-13 | Status: revisar
+Pergunta: Dizem que uma tacinha de vinho por dia faz bem para o coração. É verdade?
+Resposta: Apesar de o consumo de álcool em quantidades pequenas a moderadas já ter sido associado a efeito cardioprotetor, evidências recentes indicam que essa associação pode ser atribuída a fatores de confusão e que, de fato, a ingestão de álcool tem relação com maior risco de DCV, havendo aumento exponencial com níveis mais elevados de ingestão. Portanto, mesmo em baixas doses, o consumo de álcool pode trazer prejuízos à saúde, e o maior risco está associado com o consumo elevado, sendo ele contínuo ou episódico.
+Resposta leiga: Essa ideia de proteção não se confirmou: o álcool aumenta o risco de doenças do coração e da circulação, e esse risco cresce muito quanto mais se bebe. Mesmo em pouca quantidade o álcool pode prejudicar a saúde, e o maior risco é beber muito, seja todo dia ou de vez em quando.
+Localização: não encontrada no PDF
+Atenção: resposta não confirmada no PDF. Revisar manualmente.
+
+Id: 04-14 | Status: confere
+Pergunta: Meus pais têm pressão alta. O que eu posso fazer no dia a dia para não ter também?
+Resposta: Em linhas gerais, devem fazer parte do plano de prevenção da HA: controle do peso corporal, alimentação saudável, AF regular, sono de qualidade e com duração adequada, gerenciamento do estresse, controle do consumo de álcool e o fortalecimento de conexões sociais positivas.
+Resposta leiga: Para prevenir a pressão alta, controle o peso, coma de forma saudável e faça atividade física regularmente. Também ajudam dormir bem e o suficiente, controlar o estresse, moderar o álcool e manter boas relações com as pessoas.
+Localização: Página 32, seção 2.4. Prevenção Primária, parágrafo 12, linhas 1 a 4 e Página 34, seção 2.4. Prevenção Primária, parágrafo 1, linha 1
+
+Id: 04-15 | Status: confere
+Pergunta: Quem tem pressão alta pode tomar café? Quantas xícaras por dia?
+Resposta: Assim, recomenda-se que o consumo de café seja moderado, chegando até três a quatro xícaras/dia.
+Resposta leiga: Pode, com moderação. O recomendado é tomar até três a quatro xícaras de café por dia.
+Localização: Página 54, seção 6.3.5. Outras Intervenções na Dieta, parágrafo 7, linhas 3 a 5
+
+Id: 04-16 | Status: confere
+Pergunta: Minha pressão deu 12 por 8. Mesmo sem ser pressão alta, eu já preciso mudar meus hábitos?
+Resposta: Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.
+Resposta leiga: Sim. Todas as pessoas com pressão a partir de 12 por 8 (120/80 mmHg) devem começar e manter mudanças nos hábitos de vida. Essas mudanças continuam mesmo se depois for preciso tomar remédio.
+Localização: Página 51, seção 5.6. Considerações na Hipertensão Sistólica Isolada, parágrafo 12, linhas 2 a 4
+
+Id: 04-17 | Status: confere
+Pergunta: Que tipo de alimentação é boa para a pressão? O que devo comer e o que devo evitar?
+Resposta: Entre esses padrões, a dieta DASH (Dietary Approaches to Stop Hypertension) enfatiza o consumo de frutas, hortaliças, laticínios com baixo teor de gordura, cereais integrais, carnes magras e frutas oleaginosas, enquanto restringe o consumo de gorduras saturadas, carnes gordurosas, grãos refinados e açúcar de adição.
+Resposta leiga: Uma boa opção é a dieta chamada DASH, que valoriza frutas, verduras e legumes, leite e derivados com pouca gordura, cereais integrais, carnes magras e castanhas. Ela limita gorduras saturadas, carnes gordurosas, grãos refinados e açúcar adicionado.
+Localização: Página 54, seção 6.3.4. Adoção de um Padrão Alimentar Saudável, parágrafo 4, linhas 4 a 10
+
+Id: 04-18 | Status: revisar
+Pergunta: Quanto a pressão pode baixar com aquela dieta própria para pressão alta, cheia de frutas e verduras e com pouca gordura?
+Resposta: A dieta DASH reduz a PAS/PAD em 8,7/4,5 mmHg em pacientes com HA, e sua combinação com a restrição adicional de sódio produz maior redução.
+Resposta leiga: Em quem tem pressão alta, essa dieta (chamada DASH) baixa em média 8,7 mmHg a pressão de cima e 4,5 mmHg a de baixo. Se além disso você reduzir o sal, a queda é ainda maior.
+Localização: não encontrada no PDF
+Atenção: resposta não confirmada no PDF. Revisar manualmente.
+
+Id: 04-19 | Status: confere
+Pergunta: A dieta mediterrânea serve para quem tem pressão alta?
+Resposta: Assim, a adoção de um padrão alimentar saudável, como a dieta DASH ou Mediterrânea, é recomendada na HA.
+Resposta leiga: Sim. Para quem tem pressão alta, é recomendado seguir uma alimentação saudável, como a dieta DASH ou a dieta mediterrânea.
+Localização: Página 54, seção 6.3.4. Adoção de um Padrão Alimentar Saudável, parágrafo 5, linhas 7 a 8
+
+Id: 04-20 | Status: confere
+Pergunta: Trabalho sentado o dia inteiro. De quanto em quanto tempo eu deveria levantar?
+Resposta: – Levantar e se movimentar por 5 min a cada 30 min sentado.
+Resposta leiga: A cada 30 minutos sentado, levante e se movimente por 5 minutos.
+Localização: Página 56, seção 6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas, parágrafo 6, linha 1
+
+Id: 04-21 | Status: confere
+Pergunta: Quanto tempo de exercício por semana eu preciso fazer?
+Resposta: – Realizar, pelo menos, 150 min/semana de AF aeróbica moderada ou 75 min/semana de AF aeróbica vigorosa, ou ainda, uma combinação equivalente de AF moderada e vigorosa.
+Resposta leiga: Faça pelo menos 150 minutos por semana de atividade como caminhada em ritmo moderado, ou 75 minutos por semana de atividade mais puxada. Também vale misturar as duas em quantidade equivalente.
+Localização: Página 56, seção 6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas, parágrafo 8, linhas 1 a 2
+
+Id: 04-22 | Status: confere
+Pergunta: Como eu sei se estou fazendo o exercício na intensidade certa, nem fraco nem forte demais?
+Resposta: – Intensidade moderada definida por: 1) Maior intensidade conseguindo conversar (sem ficar ofegante); 2) Sentir-se “ligeiramente cansado” (12 a 13 na escala de Borg 20);
+Resposta leiga: A intensidade moderada é o maior esforço em que você ainda consegue conversar sem ficar ofegante. Você deve se sentir "ligeiramente cansado", o que corresponde a 12 a 13 numa escala de esforço (escala de Borg) que vai até 20.
+Localização: Página 56, seção 6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas, parágrafo 14, linha 1 e Página 56, seção 6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas, parágrafo 15, linha 1 e Página 56, seção 6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas, parágrafo 16, linha 1
+
+Id: 04-23 | Status: confere
+Pergunta: Se eu medir a pressão antes do treino e ela estiver alta, posso treinar mesmo assim?
+Resposta: A sessão de treinamento não deve ser realizada se a PA estiver acima de 160/105 mmHg, e a intensidade deve ser reduzida se, durante o exercício aeróbico, a PA estiver acima de 180/105 mmHg.
+Resposta leiga: Não treine se a pressão estiver acima de 16 por 10,5 (160/105 mmHg). Durante o exercício aeróbico, se a pressão passar de 18 por 10,5 (180/105 mmHg), diminua a intensidade.
+Localização: Página 55, seção 6.4. Prática de Atividade Física e Exercício Físico, parágrafo 2, linhas 16 a 19
+
+Id: 04-24 | Status: confere
+Pergunta: Preciso passar no médico antes de começar a fazer caminhada?
+Resposta: Para a prescrição de prática de AFs leves a moderadas em indivíduos sem doença cardíaca, renal ou cerebrovascular, a avaliação médica prévia não é obrigatória. Caso surjam sintomas durante a prática, deve-se interromper a atividade e procurar o médico.
+Resposta leiga: Para atividades leves a moderadas, quem não tem doença do coração, dos rins ou que afete a circulação do cérebro não é obrigado a passar no médico antes. Mas se aparecer algum sintoma durante a atividade, pare e procure o médico.
+Localização: Página 55, seção 6.4. Prática de Atividade Física e Exercício Físico, parágrafo 2, linhas 3 a 7
+
+Id: 04-25 | Status: confere
+Pergunta: Para baixar a pressão, é melhor fazer caminhada ou musculação?
+Resposta: Assim, na HA, recomenda-se o treinamento aeróbico, que pode ser associado ao resistido dinâmico para se obterem benefícios complementares à saúde.
+Resposta leiga: Para quem tem pressão alta, o principal é o exercício aeróbico, como caminhar, correr, nadar ou dançar. Ele pode ser combinado com exercícios de força, como musculação, para ganhar outros benefícios à saúde.
+Localização: Página 54, seção 6.4. Prática de Atividade Física e Exercício Físico, parágrafo 13, linhas 6 a 9
+
+Id: 04-26 | Status: confere
+Pergunta: Eu fumo e tenho pressão alta. Vale a pena parar de fumar? Posso ter ajuda para isso?
+Resposta: Considerando a redução do risco CV global, parar de fumar deve ser recomendado por todos os profissionais da saúde para todos os pacientes, e as diversas estratégias e medicamentos disponíveis para auxiliar na adoção dessa conduta devem ser usadas a partir de orientação especializada.
+Resposta leiga: Sim, parar de fumar é recomendado para todas as pessoas, porque diminui o risco de problemas do coração e da circulação. Existem várias estratégias e remédios para ajudar, que devem ser usados com orientação de um profissional especializado.
+Localização: Página 52, seção 6.1. Cessação do Tabagismo, parágrafo 15, linhas 9 a 14
+
+Id: 04-27 | Status: confere
+Pergunta: Se eu só diminuir o cigarro, ou trocar pelo cigarro eletrônico ou pelo narguilé, já resolve?
+Resposta: Recomendada universalmente. Não usar derivados do tabaco, narguilê e cigarros eletrônicos. Reduzir o tabaco não é suficiente.
+Resposta leiga: Não. Parar de fumar é recomendado para todos, e isso inclui não usar nenhum derivado do tabaco, narguilé ou cigarro eletrônico. Só diminuir o cigarro não é suficiente.
+Localização: Página 125, seção 15.1. Expossoma e Hipertensão Arterial, tabela 1, linha 2
+
+Id: 04-28 | Status: confere
+Pergunta: Ouvi falar que respirar devagar ajuda a baixar a pressão. Como se faz e quanto baixa?
+Resposta: A respiração lenta ou guiada se refere à redução da frequência respiratória para 6 a 10 respirações/min durante 15 a 20 min/dia. Em comparação com a respiração natural, a respiração lenta promove redução de 6,4 mmHg na PAS e na PAD.
+Resposta leiga: A respiração lenta é diminuir o ritmo para 6 a 10 respirações por minuto, durante 15 a 20 minutos por dia. Comparada à respiração normal, ela baixa em 6,4 mmHg tanto a pressão de cima quanto a de baixo.
+Localização: Página 55, seção 6.5.2. Respiração Lenta, parágrafo 5, linhas 1 a 5
+
+Id: 04-29 | Status: confere
+Pergunta: Dormir mal ou dormir pouco pode aumentar a chance de ter pressão alta?
+Resposta: Risco aumentado para HA tem sido demonstrado com relação à privação, duração e qualidade do sono.
+Resposta leiga: Sim. Dormir pouco, ficar sem dormir e ter um sono de má qualidade estão ligados a um risco maior de pressão alta.
+Localização: Página 32, seção 2.3.10. Distúrbios do Sono, parágrafo 5, linhas 1 a 2
+
+Id: 04-30 | Status: revisar
+Pergunta: Minha mãe é idosa e tem pressão alta. Cortar o sal funciona para ela? Tem algum cuidado?
+Resposta: Os idosos são mais sal-sensíveis, sendo a restrição salina mais eficaz nessa faixa etária. A diminuição excessiva da ingestão de sal pode induzir hiponatremia e perda de apetite, levando a desnutrição.
+Resposta leiga: Os idosos são mais sensíveis ao sal, então reduzir o sal funciona ainda melhor nessa idade. Mas cortar sal demais pode baixar muito o sódio no sangue e tirar o apetite, levando à desnutrição.
+Localização: não encontrada no PDF
+Atenção: resposta não confirmada no PDF. Revisar manualmente.

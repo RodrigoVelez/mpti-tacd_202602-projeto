@@ -1,0 +1,179 @@
+Id: 02-01 | Status: confere
+Pergunta: Quando vou medir a pressão pela primeira vez, tenho que medir nos dois braços?
+Resposta: A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais elevada para medidas subsequentes.
+Resposta leiga: Sim. Na primeira vez, a pressão deve ser medida nos dois braços. Depois, as próximas medidas devem ser feitas no braço em que a pressão deu mais alta.
+Localização: Página 34, seção 3.2.1. Técnicas de Medida da Pressão Arterial, parágrafo 13, linhas 1 a 3
+
+Id: 02-02 | Status: confere
+Pergunta: A pressão de cima deu bem diferente em um braço e no outro. Isso é preocupante?
+Resposta: Diferenças superiores a 15 mmHg na PAS entre os braços indicam um risco CV aumentado e podem sinalizar a presença de doença arterial obstrutiva.
+Resposta leiga: Se a pressão de cima de um braço passar mais de 15 mmHg da do outro braço, o risco de problemas no coração e nos vasos é maior. Isso também pode ser sinal de entupimento nas artérias.
+Localização: Página 34, seção 3.2.1. Técnicas de Medida da Pressão Arterial, parágrafo 13, linhas 3 a 5
+
+Id: 02-03 | Status: confere
+Pergunta: Minha mãe é idosa e toma remédio de pressão. Por que mediram a pressão dela deitada e depois em pé?
+Resposta: Em idosos e nos indivíduos com DM, disautonomia e em uso de anti-hipertensivos, a PA deve ser medida também em posição supina e 1 e 3 minutos após a mudança para a posição ortostática, com o braço apoiado pelo examinador na altura do coração.
+Resposta leiga: Em idosos, pessoas com diabetes, com problemas no controle automático do corpo e em quem toma remédio de pressão, a pressão também deve ser medida deitado. Depois, deve ser medida 1 e 3 minutos após a pessoa ficar em pé, com o braço apoiado pelo profissional na altura do coração.
+Localização: Página 34, seção 3.2.2. Populações Especiais, parágrafo 14, linhas 1 a 5
+
+Id: 02-04 | Status: confere
+Pergunta: O que é aquela queda de pressão quando a gente levanta? Quanto a pressão precisa cair para ser considerado isso?
+Resposta: Isso é importante para identificar a hipotensão ortostática, que é definida como uma redução na PAS ≥ 20 mmHg e/ou na PAD ≥ 10 mmHg.
+Resposta leiga: Essa queda de pressão ao ficar em pé é definida quando a pressão de cima cai 20 mmHg ou mais e/ou a pressão de baixo cai 10 mmHg ou mais.
+Localização: Página 34, seção 3.2.2. Populações Especiais, parágrafo 14, linhas 5 a 7
+
+Id: 02-05 | Status: confere
+Pergunta: Meu braço é grosso. O tamanho da braçadeira do aparelho faz diferença no resultado?
+Resposta: Para todos os pacientes, é indispensável utilizar manguitos adequados ao tamanho e à forma do braço para evitar sub ou superestimação da PA.
+Resposta leiga: Sim. Para qualquer pessoa, é indispensável usar uma braçadeira adequada ao tamanho e à forma do braço. Assim a pressão não aparece mais baixa nem mais alta do que realmente é.
+Localização: Página 34, seção 3.2.2. Populações Especiais, parágrafo 15, linhas 1 a 3
+
+Id: 02-06 | Status: confere
+Pergunta: Sou bem acima do peso e é difícil medir no braço. Posso medir a pressão no pulso?
+Resposta: Quando a medida no braço for difícil, em particular nos obesos, pode-se considerar a medida no punho, utilizando o pulso radial por meio de aparelhos validados.
+Resposta leiga: Quando for difícil medir no braço, principalmente em pessoas com obesidade, pode-se medir no pulso. Mas é preciso usar um aparelho de pulso aprovado em testes de qualidade.
+Localização: Página 34, seção 3.2.2. Populações Especiais, parágrafo 15, linhas 3 a 6
+
+Id: 02-07 | Status: confere
+Pergunta: De quanto em quanto tempo o aparelho de pressão precisa ser conferido para ver se está medindo certo?
+Resposta: No entanto, é essencial que os equipamentos sejam validados de acordo com protocolos padronizados e a calibração seja avaliada pelo menos anualmente.
+Resposta leiga: O aparelho precisa ter sido aprovado em testes padronizados. A calibração dele deve ser conferida pelo menos uma vez por ano.
+Localização: Página 34, seção 3.2.1. Técnicas de Medida da Pressão Arterial, parágrafo 12, linhas 12 a 15
+
+Id: 02-08 | Status: confere
+Pergunta: Qual tipo de aparelho é melhor para medir a pressão: o digital de braço ou o de ponteiro com estetoscópio?
+Resposta: Recomenda-se utilizar equipamento automático de braço com o objetivo de reduzir erros e facilitar a obtenção da medida da PA.
+Resposta leiga: O indicado é usar o aparelho automático (digital) de braço. Ele reduz erros e facilita a medida da pressão.
+Localização: Página 25, seção 1.1. Principais Destaques, tabela 1, linha 4
+
+Id: 02-09 | Status: confere
+Pergunta: Quanto tempo antes de medir a pressão eu não posso fumar, tomar café, comer ou fazer exercício?
+Resposta: 30 minutos sem ter fumado, ingerido alimentos/ cafeína e 90 minutos sem ter praticado exercício físico
+Resposta leiga: Fique 30 minutos sem fumar, sem comer e sem tomar café ou bebidas com cafeína antes de medir. E fique 90 minutos sem fazer exercício físico.
+Localização: Página 35, seção 3.2.2. Populações Especiais, parágrafo 8, linhas 2 a 5 e Página 35, seção 3.2.2. Populações Especiais, parágrafo 9, linha 1 e Página 35, seção 3.2.2. Populações Especiais, parágrafo 10, linha 1
+
+Id: 02-10 | Status: confere
+Pergunta: Quantas vezes seguidas tem que medir a pressão e qual valor vale?
+Resposta: Realizar três medidas, com intervalo de 1 minuto e utilizar a média das duas últimas medidas. Se houver diferença > 10 mmHg, realizar medidas adicionais.
+Resposta leiga: Faça três medidas, com 1 minuto de intervalo entre elas, e use a média das duas últimas. Se os valores tiverem diferença maior que 10 mmHg, faça mais medidas.
+Localização: Página 35, seção 3.2.2. Populações Especiais, parágrafo 31, linhas 1 a 2
+
+Id: 02-11 | Status: confere
+Pergunta: Minha pressão sempre deu 12,5 por 8 e diziam que era normal. Isso mudou agora?
+Resposta: Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.
+Resposta leiga: Sim, mudou. A pressão de cima entre 120 e 129 mmHg e/ou a de baixo entre 80 e 84 mmHg era considerada normal. Agora esses valores passam a ser chamados de pré-hipertensão.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 3 a 6
+
+Id: 02-12 | Status: confere
+Pergunta: Por que agora uma pressão de 12 por 8, que antes era normal, passou a ser chamada de pré-hipertensão?
+Resposta: Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.
+Resposta leiga: A mudança serve para descobrir mais cedo quem está em risco. Também serve para incentivar cuidados antecipados, para evitar que a pessoa chegue a ter pressão alta.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 8 a 10
+
+Id: 02-13 | Status: confere
+Pergunta: Minha pressão deu alta uma vez no posto. Isso já quer dizer que tenho pressão alta?
+Resposta: Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas. Alternativamente, pode-se utilizar a MAPA ou a MRPA para uma avaliação mais precisa.
+Resposta leiga: Não necessariamente. Para confirmar pressão alta, é preciso repetir as medidas em duas ou mais consultas, com dias ou semanas de diferença. Outra opção é fazer o exame que mede a pressão durante 24 horas ou as medidas organizadas em casa, que dão uma avaliação mais precisa.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 4, linhas 1 a 4
+
+Id: 02-14 | Status: confere
+Pergunta: No consultório minha pressão deu 17 por 10. Em que estágio da pressão alta isso fica?
+Resposta: HA Estágio 2 160-179 e/ou 100-109
+Resposta leiga: Pressão de cima entre 160 e 179 mmHg e/ou de baixo entre 100 e 109 mmHg é pressão alta estágio 2. Uma medida de 17 por 10 está nessa faixa.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, tabela 1, linha 5
+
+Id: 02-15 | Status: confere
+Pergunta: O que quer dizer quando a pressão fica alta só no consultório e normal em casa? E quando é o contrário?
+Resposta: A HAB ocorre quando a PA é elevada no consultório (≥ 140 mmHg e/ou 90 mmHg), mas normal fora dele (< 130/80 mmHg na MRPA ou na MAPA de 24 horas), enquanto a HM ocorre quando a PA é normal no consultório, mas elevada fora dele.
+Resposta leiga: A hipertensão do avental branco é quando a pressão dá 14 por 9 ou mais no consultório, mas fica abaixo de 13 por 8 nas medidas em casa ou no aparelho de 24 horas. A hipertensão mascarada é o contrário: a pressão é normal no consultório, mas alta fora dele.
+Localização: Página 37, seção 3.5. Hipertensão do Avental Branco e Hipertensão Mascarada, parágrafo 1, linhas 1 a 5
+
+Id: 02-16 | Status: confere
+Pergunta: Quem tem mais chance de ter a pressão normal no médico, mas alta no dia a dia?
+Resposta: A prevalência de HM varia entre 8 e 22%, sendo mais comum em indivíduos com fatores de risco adicionais, como DM e obesidade, podendo chegar no indivíduo pré-hipertenso a 62% (Figura 3.2).
+Resposta leiga: Essa pressão escondida aparece em 8 a 22% das pessoas. É mais comum em quem tem outros fatores de risco, como diabetes e obesidade. Em quem tem pré-hipertensão, pode chegar a 62%.
+Localização: Página 37, seção 3.5. Hipertensão do Avental Branco e Hipertensão Mascarada, parágrafo 2, linhas 3 a 4 e Página 37, seção 3.5. Hipertensão do Avental Branco e Hipertensão Mascarada, parágrafo 3, linhas 1 a 3
+
+Id: 02-17 | Status: confere
+Pergunta: Se minha pressão só sobe quando estou no médico, isso traz algum risco para a saúde?
+Resposta: Tanto a HAB quanto a HM estão associadas a um maior risco de desenvolver DM, LOA e eventos CV a longo prazo.
+Resposta leiga: Sim. Tanto a pressão que sobe só no consultório quanto a que fica alta só fora dele aumentam, com o tempo, o risco de diabetes, de danos em órgãos como coração, rins e olhos e de problemas como infarto e derrame.
+Localização: Página 37, seção 3.5. Hipertensão do Avental Branco e Hipertensão Mascarada, parágrafo 3, linhas 5 a 7
+
+Id: 02-18 | Status: confere
+Pergunta: Vou usar aquele aparelho que mede a pressão durante 24 horas. A partir de que valores o resultado é considerado alto?
+Resposta: MAPA 24 horas ≥ 130 e/ou ≥ 80 Vigília ≥ 135 e/ou ≥ 85 Sono ≥ 120 e/ou ≥ 70
+Resposta leiga: Na média das 24 horas, é alta quando fica em 130 por 80 ou mais. No período acordado, quando fica em 135 por 85 ou mais. Durante o sono, quando fica em 120 por 70 ou mais.
+Localização: Página 37, seção 3.5. Hipertensão do Avental Branco e Hipertensão Mascarada, tabela 2, linhas 3 a 5
+
+Id: 02-19 | Status: confere
+Pergunta: O médico pode dizer que tenho pressão alta com uma medida só no consultório?
+Resposta: Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.
+Resposta leiga: Em geral, não, porque a pressão varia muito. Só dá para fechar com uma medida se a pressão estiver muito alta (estágio 3) ou se a pessoa já tiver dano nos órgãos causado pela pressão ou doença do coração e dos vasos confirmada.
+Localização: Página 38, seção 3.7. Recomendações para Diagnóstico e Seguimento, parágrafo 5, linhas 1 a 5
+
+Id: 02-20 | Status: confere
+Pergunta: Eu meço a pressão em casa com meu aparelho, quando dá vontade. Esses valores servem para confirmar se tenho pressão alta?
+Resposta: Portanto, esta diretriz recomenda que a AMPA seja utilizada apenas como meio de triagem, para que métodos confirmatórios (MAPA ou MRPA) sejam solicitados.
+Resposta leiga: Essas medidas feitas por conta própria, sem uma regra definida, servem só como um primeiro alerta. Para confirmar, é preciso fazer o exame de 24 horas ou as medidas em casa seguindo um protocolo.
+Localização: Página 39, seção 3.7.1. Automedida da Pressão Arterial, parágrafo 38, linhas 6 a 8
+
+Id: 02-21 | Status: confere
+Pergunta: O teste na esteira serve para descobrir se eu tenho pressão alta?
+Resposta: O teste ergométrico não é recomendado para a avaliação diagnóstica de HA devido à falta de padronização e consenso sobre a resposta normal da PA durante o exercício.
+Resposta leiga: Não. O teste de esteira não é indicado para diagnosticar pressão alta. Não existe um padrão nem um acordo sobre como a pressão normal deve se comportar durante o exercício.
+Localização: Página 39, seção 3.7.2. Teste Ergométrico, parágrafo 39, linhas 1 a 3
+
+Id: 02-22 | Status: confere
+Pergunta: Posso confiar na pressão que meu relógio inteligente mostra, sem braçadeira?
+Resposta: No entanto, apesar de serem promissores, ainda existem dúvidas sobre a precisão desses novos métodos. Por isso, recomenda-se cautela no uso clínico até que mais evidências sobre sua precisão e desempenho estejam disponíveis.
+Resposta leiga: Esses aparelhos novos, sem braçadeira, são promissores, mas ainda há dúvidas sobre se medem com precisão. Por isso, é preciso cautela ao usá-los até existirem mais provas de que funcionam bem.
+Localização: Página 40, seção 3.9. Novas Tecnologias para Medidas da Pressão Arterial, parágrafo 1, linhas 1 a 2 e Página 40, seção 3.9. Novas Tecnologias para Medidas da Pressão Arterial, parágrafo 1, linhas 5 a 7
+
+Id: 02-23 | Status: confere
+Pergunta: No posto só me falaram que a pressão estava "13 por 7". Eu tenho direito de saber o número exato?
+Resposta: Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).
+Resposta leiga: Sim. Os valores devem ser informados a você, de preferência por escrito e de forma completa, por exemplo 134/76 mmHg, e não apenas "13 por 7".
+Localização: Página 116, seção 14.2. Busca Ativa por Pessoas com Hipertensão Arterial, parágrafo 12, linhas 1 a 4
+
+Id: 02-24 | Status: confere
+Pergunta: Eu não tenho pressão alta. Mesmo assim, de quanto em quanto tempo devo medir a pressão?
+Resposta: Idealmente, todas as pessoas devem ter sua PA aferida pelo menos anualmente, em especial aquelas com história familiar de HA, idosas e com outra doença, entre elas, DM, obesidade, DCV ou renal.
+Resposta leiga: O ideal é que todo mundo meça a pressão pelo menos uma vez por ano. Isso vale ainda mais para quem tem pressão alta na família, para idosos e para quem tem diabetes, obesidade, doença do coração e dos vasos ou dos rins.
+Localização: Página 116, seção 14.2. Busca Ativa por Pessoas com Hipertensão Arterial, parágrafo 13, linhas 1 a 4
+
+Id: 02-25 | Status: confere
+Pergunta: Tomo remédio e minha pressão está abaixo de 14 por 9. Continuo sendo considerado hipertenso?
+Resposta: Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.
+Resposta leiga: Sim. Quem já usa remédio para controlar a pressão, ou já tem dano em órgãos causado por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 140/90 mmHg.
+Localização: Página 116, seção 14.4. Diagnóstico de Hipertensão Arterial, parágrafo 17, linhas 5 a 7
+
+Id: 02-26 | Status: confere
+Pergunta: O médico pediu para eu medir a pressão em casa por alguns dias. Como devo fazer e qual média é normal?
+Resposta: MRPA 4 a 6 dias em 1 semana Três medidas matinais e três medidas noturnas/dia Média < 130/80 mmHg
+Resposta leiga: Meça durante 4 a 6 dias em uma semana. Faça três medidas de manhã e três à noite em cada dia. A média é considerada normal quando fica abaixo de 130/80 mmHg.
+Localização: Página 121, seção 14.8. Medida da Pressão Arterial fora do Consultório ou do Ambiente de Cuidado à Saúde, tabela 2, linha 1
+
+Id: 02-27 | Status: confere
+Pergunta: Tenho diabetes e o exame de urina mostrou proteína. Preciso repetir o exame?
+Resposta: Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.
+Resposta leiga: Sim. A perda de proteína na urina deve ser confirmada em duas ou três amostras. Exercício, febre e refeições com muita proteína podem alterar o resultado, sem que isso signifique dano nos rins.
+Localização: Página 72, seção 8.3. Hipertensão Arterial e Diabetes Mellitus, parágrafo 1, linhas 1 a 5
+
+Id: 02-28 | Status: confere
+Pergunta: Estou grávida. Como a minha pressão deve ser medida?
+Resposta: Deve-se ressaltar que a medida da PA na gestação deve ser realizada na posição sentada e utilizando o quinto som de Korotkoff para obtenção da PAD na medida de PA auscultatória.
+Resposta leiga: Na gravidez, a pressão deve ser medida com você sentada. Quando a medida é feita com estetoscópio, a pressão de baixo deve ser marcada no momento em que o som desaparece (o quinto som).
+Localização: Página 93, seção 10.2. Hipertensão na Gestação, parágrafo 3, linhas 8 a 11
+
+Id: 02-29 | Status: confere
+Pergunta: A partir de que idade meu filho deve começar a medir a pressão, e com que frequência?
+Resposta: Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.
+Resposta leiga: A pressão da criança deve ser medida uma vez por ano, a partir dos 3 anos de idade.
+Localização: Página 90, seção 9.2. Hipertensão Arterial na Criança e no Adolescente, tabela 1, linha 2
+
+Id: 02-30 | Status: confere
+Pergunta: Tomo três remédios e minha pressão continua alta no consultório. Preciso fazer exame fora do consultório antes de dizerem que é uma pressão difícil de controlar?
+Resposta: O efeito do avental branco pode induzir erroneamente ao diagnóstico de HAR. A medida da PA fora do consultório, MRPA ou MAPA, é ferramenta mandatória para o diagnóstico e o acompanhamento de pacientes com HAR.
+Resposta leiga: Sim. O nervosismo no consultório pode dar a falsa impressão de que a pressão é resistente aos remédios. Por isso, medir a pressão fora do consultório, em casa ou com o aparelho de 24 horas, é obrigatório para confirmar e acompanhar esse caso.
+Localização: Página 107, seção 12.4.2. Efeito do Avental Branco, parágrafo 1, linhas 1 a 4

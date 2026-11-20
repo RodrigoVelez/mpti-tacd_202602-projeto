@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arquivos de trabalho com o Claude (não versionar)
+/CLAUDE.md
+/docs/handoff/

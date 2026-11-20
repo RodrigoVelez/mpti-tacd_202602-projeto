@@ -1,0 +1,967 @@
+{
+  "tema": "metas_tratamento",
+  "descricao": "Metas de tratamento (valores de pressão a alcançar, quando iniciar remédio, acompanhamento)",
+  "chamadas": [
+    {
+      "modelo_que_respondeu": "claude-opus-5-5",
+      "message_id": "msg_011Ch7jrr6LNUrEgwez5tnYp",
+      "request_id": "req_011Ch7jrmhRrmyMhHLLYoL74",
+      "stop_reason": "end_turn",
+      "qtde_pedida": 30,
+      "tokens_entrada": 129,
+      "tokens_saida": 23385,
+      "tokens_escrita_cache_5m": 0,
+      "tokens_escrita_cache_1h": 0,
+      "tokens_leitura_cache": 350733,
+      "custo_usd": 0.5384
+    }
+  ],
+  "itens": [
+    {
+      "id": "03-01",
+      "pergunta": "Minha pressão deu 12 por 8 na farmácia. Já preciso fazer alguma coisa?",
+      "resposta_referencia": "Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).",
+      "resposta_leiga": "Sim. Com pressão de 12 por 8 ou mais, você deve mudar hábitos de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.",
+      "secao": "5.1. Início de Tratamento",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 49,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 49,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "5.1. Início de Tratamento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-02",
+      "pergunta": "A partir de qual pressão medida no consultório eu já preciso começar remédio, além de mudar os hábitos?",
+      "resposta_referencia": "Com base em tais dados, o tratamento medicamentoso deve ser iniciado junto com o tratamento não medicamentoso quando a PA no consultório for ≥ 140/90 mmHg.",
+      "resposta_leiga": "Quando a pressão medida no consultório está em 14 por 9 (140 por 90 mmHg) ou mais, o remédio deve começar junto com as mudanças de hábitos.",
+      "secao": "5.1. Início de Tratamento",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 49,
+          "tipo": "paragrafo",
+          "numero": 7,
+          "linha_inicial": 6,
+          "linha_final": 9,
+          "trecho_literal": "Com base em tais dados, o tratamento medicamentoso deve ser iniciado junto com o tratamento não medicamentoso quando a PA no consultório for ≥ 140/90 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 49,
+            "tipo": "paragrafo",
+            "numero": 7,
+            "linha_inicial": 6,
+            "linha_final": 9,
+            "secao": "5.1. Início de Tratamento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-03",
+      "pergunta": "Minha pressão fica em 13,5 por 8,5 e o médico disse que meu risco para o coração é alto. Vou precisar de remédio?",
+      "resposta_referencia": "Recomenda-se tratamento medicamentoso após 3 meses de MNM para indivíduos com PA 130-139/80-89 mmHg e alto risco CV.",
+      "resposta_leiga": "Se sua pressão fica entre 130-139 por 80-89 mmHg e seu risco para o coração é alto, o remédio é indicado depois de 3 meses de mudanças de hábitos.",
+      "secao": "5. Início de Tratamento e Metas Terapêuticas",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 52,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "Recomenda-se tratamento medicamentoso após 3 meses de MNM para indivíduos com PA 130-139/80-89 mmHg e alto risco CV. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 52,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-04",
+      "pergunta": "Eu passo mal quando minha pressão fica abaixo de 13 por 8. Qual meta devo seguir então?",
+      "resposta_referencia": "Quando não for tolerada a meta < 130/80 mmHg, a PA deve ser reduzida até o menor valor tolerado.",
+      "resposta_leiga": "Se você não tolera ficar abaixo de 13 por 8, a pressão deve ser baixada até o menor valor que você aguente bem.",
+      "secao": "5.5. Reduções Intensas da Pressão Arterial e Risco de Eventos Adversos",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 51,
+          "tipo": "paragrafo",
+          "numero": 6,
+          "linha_inicial": 7,
+          "linha_final": 8,
+          "trecho_literal": "Quando não for tolerada a meta < 130/80 mmHg, a PA deve ser reduzida até o menor valor tolerado.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 51,
+            "tipo": "paragrafo",
+            "numero": 6,
+            "linha_inicial": 7,
+            "linha_final": 8,
+            "secao": "5.5. Reduções Intensas da Pressão Arterial e Risco de Eventos Adversos"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-05",
+      "pergunta": "Vou fazer o exame com o aparelho que mede a pressão durante 24 horas. Quais valores mostram que meu tratamento está funcionando?",
+      "resposta_referencia": "MAPA 24 horas < 130 < 80 MAPA vigília < 135 < 85 MAPA sono < 120 < 70",
+      "resposta_leiga": "No exame de 24 horas, a meta é média abaixo de 130 por 80 mmHg no dia todo, abaixo de 135 por 85 mmHg enquanto você está acordado e abaixo de 120 por 70 mmHg durante o sono.",
+      "secao": "5.3. Metas de Pressão Arterial na Medida Ambulatorial da Pressão Arterial e Medida Residencial da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 51,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 4,
+          "trecho_literal": "MAPA 24 horas < 130 < 80 MAPA vigília < 135 < 85 MAPA sono < 120 < 70",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 51,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 4,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-06",
+      "pergunta": "Quando eu meço a pressão em casa, do jeito que o médico ensinou, qual valor quer dizer que ela está controlada?",
+      "resposta_referencia": "MRPA < 130 < 80",
+      "resposta_leiga": "Nas medidas feitas em casa, a meta é ficar abaixo de 130 por 80 mmHg (13 por 8).",
+      "secao": "5.3. Metas de Pressão Arterial na Medida Ambulatorial da Pressão Arterial e Medida Residencial da Pressão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 51,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "MRPA < 130 < 80",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 51,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-07",
+      "pergunta": "Tenho 68 anos. A partir de quanto da pressão de cima eu preciso começar remédio?",
+      "resposta_referencia": "Idosos ≥ 60 anos | Quando PAS ≥ 140 mmHg",
+      "resposta_leiga": "Para quem tem 60 anos ou mais, o remédio é indicado quando a pressão de cima chega a 140 mmHg (14) ou mais.",
+      "secao": "5.1. Início de Tratamento",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 50,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "Idosos ≥ 60 anos Quando PAS ≥ 140 mmHg",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 50,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "5.4. Curva em J da Pressão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-08",
+      "pergunta": "Tenho pressão alta, mas o médico disse que meu risco para o coração é baixo. Mesmo assim preciso deixar a pressão abaixo de 13 por 8?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para os pacientes com HA independentemente de o risco CV ser baixo, moderado ou alto.",
+      "resposta_leiga": "Sim. Para quem tem pressão alta, a meta é ficar abaixo de 130 por 80 mmHg, seja o risco para o coração baixo, moderado ou alto.",
+      "secao": "1.1. Principais Destaques",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 26,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para os pacientes com HA independentemente de o risco CV ser baixo, moderado ou alto. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 26,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "1.1. Principais Destaques"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-09",
+      "pergunta": "Só a minha pressão de cima é alta, a de baixo é normal. Qual é a meta do tratamento?",
+      "resposta_referencia": "Na HA sistólica isolada, a meta de PAS < 130 mmHg deve ser alcançada, e a redução da PAD seve ser monitorada em relação a possíveis eventos adversos.",
+      "resposta_leiga": "Quando só a pressão de cima está alta, a meta é deixá-la abaixo de 130 mmHg. A queda da pressão de baixo deve ser acompanhada para evitar efeitos ruins.",
+      "secao": "5. Início de Tratamento e Metas Terapêuticas",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 52,
+          "tipo": "paragrafo",
+          "numero": 7,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Na HA sistólica isolada, a meta de PAS < 130 mmHg deve ser alcançada, e a redução da PAD seve ser monitorada em relação a possíveis eventos adversos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 52,
+            "tipo": "paragrafo",
+            "numero": 7,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-10",
+      "pergunta": "Tenho entupimento nas artérias do coração e minha pressão está em 11 por 7, sem nenhum sintoma. Devo parar ou diminuir o remédio?",
+      "resposta_referencia": "Admite-se que reduzir a PA até 120/70 mmHg não aumenta o risco CV, e pacientes com PA < 120/70 mmHg e assintomáticos não necessitam parar ou reduzir a medicação anti-hipertensiva em uso.",
+      "resposta_leiga": "Não precisa. Baixar a pressão até 120 por 70 mmHg não aumenta o risco para o coração, e quem está abaixo disso sem sintomas não precisa parar nem diminuir o remédio.",
+      "secao": "8.1.1. Metas de Pressão Arterial na Doença Arterial Coronariana",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 68,
+          "tipo": "paragrafo",
+          "numero": 11,
+          "linha_inicial": 6,
+          "linha_final": 9,
+          "trecho_literal": "Admite-se que reduzir a PA até 120/70 mmHg não aumenta o risco CV, e pacientes com PA < 120/70 mmHg e assintomáticos não necessitam parar ou reduzir a medicação anti-hipertensiva em uso.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 68,
+            "tipo": "paragrafo",
+            "numero": 11,
+            "linha_inicial": 6,
+            "linha_final": 9,
+            "secao": "8.1.1. Metas de Pressão Arterial na Doença Arterial Coronariana"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-11",
+      "pergunta": "Faço hemodiálise. Qual deve ser minha pressão antes e depois da sessão?",
+      "resposta_referencia": "Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg.",
+      "resposta_leiga": "Na hemodiálise ou hemofiltração, a pressão antes da sessão deve ficar abaixo de 140 por 90 mmHg e, depois da sessão, abaixo de 130 por 80 mmHg.",
+      "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 70,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 7,
+          "linha_final": 9,
+          "trecho_literal": "Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 70,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 7,
+            "linha_final": 9,
+            "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-12",
+      "pergunta": "Faço diálise em casa, pela barriga. Qual é a meta de pressão para mim?",
+      "resposta_referencia": "Finalmente, para a diálise peritoneal, uma meta de PA < 140/90 mmHg é sugerida, preferencialmente aferida pela MAPA de 24 h.",
+      "resposta_leiga": "Na diálise pela barriga, a meta sugerida é pressão abaixo de 140 por 90 mmHg, de preferência conferida com o aparelho que mede a pressão durante 24 horas.",
+      "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 70,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 11,
+          "linha_final": 13,
+          "trecho_literal": "Finalmente, para a diálise peritoneal, uma meta de PA < 140/90 mmHg é sugerida, preferencialmente aferida pela MAPA de 24 h.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 70,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 11,
+            "linha_final": 13,
+            "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-13",
+      "pergunta": "Tenho pressão alta e doença crônica nos rins, mas não faço diálise. Até quanto minha pressão deve baixar?",
+      "resposta_referencia": "Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.",
+      "resposta_leiga": "Para adultos com pressão alta e doença crônica nos rins, a meta é pressão abaixo de 130 por 80 mmHg, para diminuir problemas no coração e evitar que os rins parem de funcionar.",
+      "secao": "8.2.1. Meta de Pressão Arterial para Doença Renal Crônica em Tratamento Conservador",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 71,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 71,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "8.2.4. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-14",
+      "pergunta": "Sou diabético e acabei de descobrir que tenho pressão alta. Preciso começar o remédio logo?",
+      "resposta_referencia": "Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.",
+      "resposta_leiga": "Sim. Com diabetes, o remédio deve começar já na descoberta, com dois medicamentos: um inibidor da enzima conversora (ou, se ele não for tolerado, um bloqueador do receptor da angiotensina) junto com um bloqueador dos canais de cálcio ou um diurético do tipo tiazídico.",
+      "secao": "8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 73,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 73,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-15",
+      "pergunta": "Estou bem acima do peso e tenho pressão alta. Qual pressão eu devo atingir?",
+      "resposta_referencia": "A meta pressórica recomendada para pacientes com obesidade é PA < 130/80 mmHg, à semelhança de outras situações de alto risco CV e renal.",
+      "resposta_leiga": "Para quem tem obesidade, a meta é pressão abaixo de 130 por 80 mmHg, igual a outras situações de alto risco para o coração e os rins.",
+      "secao": "8.4.1. Meta de Pressão Arterial em Pacientes com Obesidade",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 73,
+          "tipo": "paragrafo",
+          "numero": 11,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "A meta pressórica recomendada para pacientes com obesidade é PA < 130/80 mmHg, à semelhança de outras situações de alto risco CV e renal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 73,
+            "tipo": "paragrafo",
+            "numero": 11,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "8.4.1. Meta de Pressão Arterial em Pacientes com Obesidade"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-16",
+      "pergunta": "Já tive um derrame. Qual deve ser minha pressão para evitar ter outro?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).",
+      "resposta_leiga": "Quem já teve derrame ou um ataque passageiro de falta de sangue no cérebro deve manter a pressão abaixo de 130 por 80 mmHg. Isso reduz infarto, novo derrame e morte.",
+      "secao": "8.6.1. Meta de Pressão Arterial na Hipertensão Arterial do Acidente Vascular Cerebral na Fase Crônica",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 76,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte). FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 76,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "8.6.2. Tratamento da Hipertensão Arterial no Acidente Vascular Cerebral na Fase Crônica"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-17",
+      "pergunta": "Tenho insuficiência cardíaca com o coração fraco e minha pressão é baixa. O médico pode aumentar meus remédios mesmo assim?",
+      "resposta_referencia": "Sob essa perspectiva, níveis baixos de PA não devem limitar a otimização das doses terapêuticas dessas medicações supracitadas nos pacientes com ICFEr, desde que esses indivíduos os tolerem, sem apresentar eventos adversos.",
+      "resposta_leiga": "Pode. Na insuficiência cardíaca com o coração bombeando pouco, a pressão baixa não deve impedir o ajuste das doses desses remédios, desde que você os tolere sem efeitos ruins.",
+      "secao": "8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 76,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 6,
+          "linha_final": 7,
+          "trecho_literal": "Sob essa perspectiva, níveis baixos de PA não devem limitar a otimização das doses",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 76,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 6,
+            "linha_final": 7,
+            "secao": "8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida"
+          }
+        },
+        {
+          "pagina": 77,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "terapêuticas dessas medicações supracitadas nos pacientes com ICFEr, desde que esses indivíduos os tolerem, sem apresentar eventos adversos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 77,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-18",
+      "pergunta": "Minha mãe tem 75 anos. A pressão dela também precisa ficar abaixo de 13 por 8?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.",
+      "resposta_leiga": "Sim, para a maioria dos idosos a meta é pressão abaixo de 130 por 80 mmHg.",
+      "secao": "9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 82,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 82,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "9.1.4.5. Desintensificação e Desprescrição"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-19",
+      "pergunta": "Meu avô tem 90 anos e está bem fraquinho. Até quanto a pressão dele deve baixar?",
+      "resposta_referencia": "Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.",
+      "resposta_leiga": "Para idosos frágeis, muito idosos ou com doenças que encurtam a expectativa de vida, a pressão deve ser baixada até o menor valor que eles toleram bem.",
+      "secao": "9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 82,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado. FORTE ALTA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 82,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "9.1.4.5. Desintensificação e Desprescrição"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-20",
+      "pergunta": "Para uma pessoa idosa, de quanto em quanto tempo o médico pode aumentar ou juntar os remédios da pressão?",
+      "resposta_referencia": "É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.",
+      "resposta_leiga": "No idoso, o certo é começar com um remédio ou uma combinação em dose baixa. Se precisar, a dose é aumentada ou outro remédio é somado aos poucos, com pelo menos 2 semanas entre cada mudança.",
+      "secao": "9.1.4.3. Tratamento Medicamentoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 81,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 81,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "9.1.4.3. Tratamento Medicamentoso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-21",
+      "pergunta": "Comecei a tomar o remédio da pressão. Depois de quanto tempo o médico costuma ajustar a dose?",
+      "resposta_referencia": "• Fazer os ajustes de tratamento geralmente após 4 semanas de uso, salvo em situações específicas;",
+      "resposta_leiga": "Em geral, os ajustes no tratamento são feitos depois de 4 semanas de uso do remédio, a não ser em situações específicas.",
+      "secao": "7.3. Princípios Gerais do Tratamento Medicamentoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 59,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "• Fazer os ajustes de tratamento geralmente após 4 semanas de uso, salvo em situações específicas;",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 59,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "7.3. Princípios Gerais do Tratamento Medicamentoso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-22",
+      "pergunta": "Meu filho de 15 anos tem pressão alta. Até quanto a pressão dele deve baixar com o tratamento?",
+      "resposta_referencia": "O alvo terapêutico é a redução da PAS e PAD para < percentil 90 e < 130/80 mmHg em adolescentes ≥ 13 anos.",
+      "resposta_leiga": "Nas crianças, a meta é deixar a pressão abaixo do percentil 90 (valor de referência pela idade, sexo e altura). Em adolescentes de 13 anos ou mais, a meta é abaixo de 130 por 80 mmHg.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 89,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "O alvo terapêutico é a redução da PAS e PAD para < percentil 90 e < 130/80 mmHg em adolescentes ≥ 13 anos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 89,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-23",
+      "pergunta": "Estou grávida e tenho pressão alta. Em que faixa a pressão deve ficar durante o tratamento?",
+      "resposta_referencia": "A meta do controle da HA deve ser a PAS > 120 e < 160 mmHg e PAD > 80 e < 110 mmHg, já que tanto a HA quanto a hipotensão induzida podem prejudicar a perfusão placentária e, consequentemente, o crescimento fetal.",
+      "resposta_leiga": "Na gravidez, a pressão de cima deve ficar acima de 120 e abaixo de 160 mmHg, e a de baixo acima de 80 e abaixo de 110 mmHg. Tanto a pressão alta quanto a pressão baixa demais podem prejudicar o sangue que chega à placenta e o crescimento do bebê.",
+      "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 93,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 3,
+          "linha_final": 7,
+          "trecho_literal": "A meta do controle da HA deve ser a PAS > 120 e < 160 mmHg e PAD > 80 e < 110 mmHg, já que tanto a HA quanto a hipotensão induzida podem prejudicar a perfusão placentária e, consequentemente, o crescimento fetal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 93,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 3,
+            "linha_final": 7,
+            "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-24",
+      "pergunta": "Na gravidez, a partir de quanto da pressão de cima o tratamento passa a ser urgente?",
+      "resposta_referencia": "Para evitar mortes maternas, PAS > 150-160 mmHg deve ser considerada para tratamento urgente.",
+      "resposta_leiga": "Para evitar mortes de gestantes, a pressão de cima acima de 150-160 mmHg deve ser considerada para tratamento urgente.",
+      "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 93,
+          "tipo": "paragrafo",
+          "numero": 11,
+          "linha_inicial": 8,
+          "linha_final": 10,
+          "trecho_literal": "Para evitar mortes maternas, PAS > 150-160 mmHg deve ser considerada para tratamento urgente.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 93,
+            "tipo": "paragrafo",
+            "numero": 11,
+            "linha_inicial": 8,
+            "linha_final": 10,
+            "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-25",
+      "pergunta": "Minha pressão subiu para 18 por 11, mas não tenho nenhum sinal de lesão grave. Preciso baixar tudo de uma vez? Quando volto ao médico?",
+      "resposta_referencia": "A elevação importante da PA (≥ 180/110 mmHg) sem LOA aguda e sem risco de morte iminente permite redução da PA em maior período de tempo com anti-hipertensivos orais, e a reavaliação ambulatorial deve ser precoce em período de 1 a 7 dias.",
+      "resposta_leiga": "Com pressão de 180 por 110 mmHg ou mais, sem lesão aguda nos órgãos e sem risco imediato de morte, a pressão pode ser baixada aos poucos com remédios por boca. Você deve ser reavaliado no consultório logo, em 1 a 7 dias.",
+      "secao": "11. Crise Hipertensiva",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 103,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "A elevação importante da PA (≥ 180/110 mmHg) sem LOA aguda e sem risco de morte iminente permite redução da PA em maior período de tempo com anti-hipertensivos orais, e a reavaliação ambulatorial deve ser precoce em período de 1 a 7 dias.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 103,
+            "tipo": "paragrafo",
+            "numero": 14,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "11.6.9. Hipertensão na Gravidez: Pré-eclâmpsia e Eclâmpsia"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-26",
+      "pergunta": "Numa emergência de pressão alta no hospital, quanto a pressão deve cair nas primeiras horas?",
+      "resposta_referencia": "A redução da PA deve ser gradual e cuidadosa, em 10 a 15% na 1ª hora de tratamento e de 25% nas 2 horas seguintes ao início do tratamento na maioria das situações clínicas.",
+      "resposta_leiga": "Na maioria dos casos, a pressão deve cair aos poucos e com cuidado: de 10 a 15% na primeira hora e 25% nas 2 horas seguintes ao início do tratamento.",
+      "secao": "11. Crise Hipertensiva",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 103,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 2,
+          "linha_final": 4,
+          "trecho_literal": "A redução da PA deve ser gradual e cuidadosa, em 10 a 15% na 1ª hora de tratamento e de 25% nas 2 horas seguintes ao início do tratamento na maioria das situações clínicas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 103,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 2,
+            "linha_final": 4,
+            "secao": "11.6.9. Hipertensão na Gravidez: Pré-eclâmpsia e Eclâmpsia"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-27",
+      "pergunta": "Sou mulher. A meta da minha pressão é diferente da meta do meu marido?",
+      "resposta_referencia": "As metas de PA recomendadas são iguais para mulheres e homens, e as classes de anti-hipertensivos podem ser utilizadas igualmente para o tratamento da HA em mulheres e homens.",
+      "resposta_leiga": "Não. As metas de pressão são iguais para mulheres e homens, e os mesmos tipos de remédio podem ser usados nos dois.",
+      "secao": "10.1.4. Tratamento da Hipertensão nas Mulheres",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 93,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "As metas de PA recomendadas são iguais para mulheres e homens, e as classes de anti-hipertensivos podem ser utilizadas igualmente para o tratamento da HA em mulheres e homens.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 93,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "10.1.4. Tratamento da Hipertensão nas Mulheres"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-28",
+      "pergunta": "Mediram minha pressão no posto de saúde. Em que caso eles devem marcar uma consulta para mim?",
+      "resposta_referencia": "O profissional de saúde que fizer a medida da PA deve estar orientado a realizar pelo menos três medidas da PA e, caso a média das duas últimas medidas seja ≥ 140/90 mmHg, deverá vincular a pessoa à Unidade de Saúde de sua referência para uma consulta agendada.",
+      "resposta_leiga": "O profissional deve medir sua pressão pelo menos três vezes. Se a média das duas últimas medidas der 140 por 90 mmHg ou mais, ele deve encaminhar você para uma consulta marcada na sua unidade de saúde.",
+      "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 4,
+          "linha_final": 9,
+          "trecho_literal": "O profissional de saúde que fizer a medida da PA deve estar orientado a realizar pelo menos três medidas da PA e, caso a média das duas últimas medidas seja ≥ 140/90 mmHg, deverá vincular a pessoa à Unidade de Saúde de sua referência para uma consulta agendada.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 4,
+            "linha_final": 9,
+            "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-29",
+      "pergunta": "Se eu começar a tomar remédio para pressão, posso largar a dieta e os exercícios?",
+      "resposta_referencia": "Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.",
+      "resposta_leiga": "Não. Quem tem pressão de 120 por 80 mmHg ou mais deve começar e manter as mudanças de hábitos, mesmo depois de começar o remédio, quando ele for indicado.",
+      "secao": "5. Início de Tratamento e Metas Terapêuticas",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 51,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 2,
+          "linha_final": 4,
+          "trecho_literal": "Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 51,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 2,
+            "linha_final": 4,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "03-30",
+      "pergunta": "Como eu sei se realmente cheguei na meta da pressão? Basta a medida feita no consultório?",
+      "resposta_referencia": "Recomenda-se confirmar o alcance da meta de PA com a medida da PA fora do consultório por meio da MAPA ou MRPA.",
+      "resposta_leiga": "Não basta. O ideal é confirmar que você atingiu a meta com medidas feitas fora do consultório, pelo aparelho que mede a pressão durante 24 horas ou pelas medidas feitas em casa seguindo um protocolo.",
+      "secao": "14.7. Metas do Controle Pressórico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 119,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "Recomenda-se confirmar o alcance da meta de PA com a medida da PA fora do consultório por meio da MAPA ou MRPA. FORTE BAIXA",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 119,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "14.7. Metas do Controle Pressórico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    }
+  ],
+  "respostas_api": [
+    {
+      "pedido": "Gere exatamente 30 itens sobre o tema: Metas de tratamento (valores de pressão a alcançar, quando iniciar remédio, acompanhamento).\nDistribua as perguntas por diferentes partes da diretriz que tratam desse tema.\nMarque sobre_nova_classificacao = true só se o item tratar dessa mudança de classificação.",
+      "qtde_pedida": 30,
+      "request_id": "req_011Ch7jrmhRrmyMhHLLYoL74",
+      "resposta": {
+        "id": "msg_011Ch7jrr6LNUrEgwez5tnYp",
+        "container": null,
+        "content": [
+          {
+            "signature": "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",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "text": "{\"itens\":[{\"pergunta\":\"Minha pressão deu 12 por 8 na farmácia. Já preciso fazer alguma coisa?\",\"resposta_referencia\":\"Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).\",\"resposta_leiga\":\"Sim. Com pressão de 12 por 8 ou mais, você deve mudar hábitos de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.\",\"secao\":\"5.1. Início de Tratamento\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":49,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).\"}]},{\"pergunta\":\"A partir de qual pressão medida no consultório eu já preciso começar remédio, além de mudar os hábitos?\",\"resposta_referencia\":\"Com base em tais dados, o tratamento medicamentoso deve ser iniciado junto com o tratamento não medicamentoso quando a PA no consultório for ≥ 140/90 mmHg.\",\"resposta_leiga\":\"Quando a pressão medida no consultório está em 14 por 9 (140 por 90 mmHg) ou mais, o remédio deve começar junto com as mudanças de hábitos.\",\"secao\":\"5.1. Início de Tratamento\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":49,\"tipo\":\"paragrafo\",\"numero\":7,\"linha_inicial\":6,\"linha_final\":9,\"trecho_literal\":\"Com base em tais dados, o tratamento medicamentoso deve ser iniciado junto com o tratamento não medicamentoso quando a PA no consultório for ≥ 140/90 mmHg.\"}]},{\"pergunta\":\"Minha pressão fica em 13,5 por 8,5 e o médico disse que meu risco para o coração é alto. Vou precisar de remédio?\",\"resposta_referencia\":\"Recomenda-se tratamento medicamentoso após 3 meses de MNM para indivíduos com PA 130-139/80-89 mmHg e alto risco CV.\",\"resposta_leiga\":\"Se sua pressão fica entre 130-139 por 80-89 mmHg e seu risco para o coração é alto, o remédio é indicado depois de 3 meses de mudanças de hábitos.\",\"secao\":\"5. Início de Tratamento e Metas Terapêuticas\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":52,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"Recomenda-se tratamento medicamentoso após 3 meses de MNM para indivíduos com PA 130-139/80-89 mmHg e alto risco CV. FORTE ALTA\"}]},{\"pergunta\":\"Eu passo mal quando minha pressão fica abaixo de 13 por 8. Qual meta devo seguir então?\",\"resposta_referencia\":\"Quando não for tolerada a meta < 130/80 mmHg, a PA deve ser reduzida até o menor valor tolerado.\",\"resposta_leiga\":\"Se você não tolera ficar abaixo de 13 por 8, a pressão deve ser baixada até o menor valor que você aguente bem.\",\"secao\":\"5.5. Reduções Intensas da Pressão Arterial e Risco de Eventos Adversos\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":51,\"tipo\":\"paragrafo\",\"numero\":6,\"linha_inicial\":7,\"linha_final\":8,\"trecho_literal\":\"Quando não for tolerada a meta < 130/80 mmHg, a PA deve ser reduzida até o menor valor tolerado.\"}]},{\"pergunta\":\"Vou fazer o exame com o aparelho que mede a pressão durante 24 horas. Quais valores mostram que meu tratamento está funcionando?\",\"resposta_referencia\":\"MAPA 24 horas < 130 < 80 MAPA vigília < 135 < 85 MAPA sono < 120 < 70\",\"resposta_leiga\":\"No exame de 24 horas, a meta é média abaixo de 130 por 80 mmHg no dia todo, abaixo de 135 por 85 mmHg enquanto você está acordado e abaixo de 120 por 70 mmHg durante o sono.\",\"secao\":\"5.3. Metas de Pressão Arterial na Medida Ambulatorial da Pressão Arterial e Medida Residencial da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":51,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":4,\"trecho_literal\":\"MAPA 24 horas < 130 < 80 MAPA vigília < 135 < 85 MAPA sono < 120 < 70\"}]},{\"pergunta\":\"Quando eu meço a pressão em casa, do jeito que o médico ensinou, qual valor quer dizer que ela está controlada?\",\"resposta_referencia\":\"MRPA < 130 < 80\",\"resposta_leiga\":\"Nas medidas feitas em casa, a meta é ficar abaixo de 130 por 80 mmHg (13 por 8).\",\"secao\":\"5.3. Metas de Pressão Arterial na Medida Ambulatorial da Pressão Arterial e Medida Residencial da Pressão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":51,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"MRPA < 130 < 80\"}]},{\"pergunta\":\"Tenho 68 anos. A partir de quanto da pressão de cima eu preciso começar remédio?\",\"resposta_referencia\":\"Idosos ≥ 60 anos | Quando PAS ≥ 140 mmHg\",\"resposta_leiga\":\"Para quem tem 60 anos ou mais, o remédio é indicado quando a pressão de cima chega a 140 mmHg (14) ou mais.\",\"secao\":\"5.1. Início de Tratamento\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":50,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"Idosos ≥ 60 anos Quando PAS ≥ 140 mmHg\"}]},{\"pergunta\":\"Tenho pressão alta, mas o médico disse que meu risco para o coração é baixo. Mesmo assim preciso deixar a pressão abaixo de 13 por 8?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para os pacientes com HA independentemente de o risco CV ser baixo, moderado ou alto.\",\"resposta_leiga\":\"Sim. Para quem tem pressão alta, a meta é ficar abaixo de 130 por 80 mmHg, seja o risco para o coração baixo, moderado ou alto.\",\"secao\":\"1.1. Principais Destaques\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":26,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para os pacientes com HA independentemente de o risco CV ser baixo, moderado ou alto. FORTE ALTA\"}]},{\"pergunta\":\"Só a minha pressão de cima é alta, a de baixo é normal. Qual é a meta do tratamento?\",\"resposta_referencia\":\"Na HA sistólica isolada, a meta de PAS < 130 mmHg deve ser alcançada, e a redução da PAD seve ser monitorada em relação a possíveis eventos adversos.\",\"resposta_leiga\":\"Quando só a pressão de cima está alta, a meta é deixá-la abaixo de 130 mmHg. A queda da pressão de baixo deve ser acompanhada para evitar efeitos ruins.\",\"secao\":\"5. Início de Tratamento e Metas Terapêuticas\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":52,\"tipo\":\"paragrafo\",\"numero\":7,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Na HA sistólica isolada, a meta de PAS < 130 mmHg deve ser alcançada, e a redução da PAD seve ser monitorada em relação a possíveis eventos adversos.\"}]},{\"pergunta\":\"Tenho entupimento nas artérias do coração e minha pressão está em 11 por 7, sem nenhum sintoma. Devo parar ou diminuir o remédio?\",\"resposta_referencia\":\"Admite-se que reduzir a PA até 120/70 mmHg não aumenta o risco CV, e pacientes com PA < 120/70 mmHg e assintomáticos não necessitam parar ou reduzir a medicação anti-hipertensiva em uso.\",\"resposta_leiga\":\"Não precisa. Baixar a pressão até 120 por 70 mmHg não aumenta o risco para o coração, e quem está abaixo disso sem sintomas não precisa parar nem diminuir o remédio.\",\"secao\":\"8.1.1. Metas de Pressão Arterial na Doença Arterial Coronariana\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":68,\"tipo\":\"paragrafo\",\"numero\":11,\"linha_inicial\":6,\"linha_final\":9,\"trecho_literal\":\"Admite-se que reduzir a PA até 120/70 mmHg não aumenta o risco CV, e pacientes com PA < 120/70 mmHg e assintomáticos não necessitam parar ou reduzir a medicação anti-hipertensiva em uso.\"}]},{\"pergunta\":\"Faço hemodiálise. Qual deve ser minha pressão antes e depois da sessão?\",\"resposta_referencia\":\"Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg.\",\"resposta_leiga\":\"Na hemodiálise ou hemofiltração, a pressão antes da sessão deve ficar abaixo de 140 por 90 mmHg e, depois da sessão, abaixo de 130 por 80 mmHg.\",\"secao\":\"8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":70,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":7,\"linha_final\":9,\"trecho_literal\":\"Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg.\"}]},{\"pergunta\":\"Faço diálise em casa, pela barriga. Qual é a meta de pressão para mim?\",\"resposta_referencia\":\"Finalmente, para a diálise peritoneal, uma meta de PA < 140/90 mmHg é sugerida, preferencialmente aferida pela MAPA de 24 h.\",\"resposta_leiga\":\"Na diálise pela barriga, a meta sugerida é pressão abaixo de 140 por 90 mmHg, de preferência conferida com o aparelho que mede a pressão durante 24 horas.\",\"secao\":\"8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":70,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":11,\"linha_final\":13,\"trecho_literal\":\"Finalmente, para a diálise peritoneal, uma meta de PA < 140/90 mmHg é sugerida, preferencialmente aferida pela MAPA de 24 h.\"}]},{\"pergunta\":\"Tenho pressão alta e doença crônica nos rins, mas não faço diálise. Até quanto minha pressão deve baixar?\",\"resposta_referencia\":\"Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.\",\"resposta_leiga\":\"Para adultos com pressão alta e doença crônica nos rins, a meta é pressão abaixo de 130 por 80 mmHg, para diminuir problemas no coração e evitar que os rins parem de funcionar.\",\"secao\":\"8.2.1. Meta de Pressão Arterial para Doença Renal Crônica em Tratamento Conservador\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":71,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal. FORTE ALTA\"}]},{\"pergunta\":\"Sou diabético e acabei de descobrir que tenho pressão alta. Preciso começar o remédio logo?\",\"resposta_referencia\":\"Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.\",\"resposta_leiga\":\"Sim. Com diabetes, o remédio deve começar já na descoberta, com dois medicamentos: um inibidor da enzima conversora (ou, se ele não for tolerado, um bloqueador do receptor da angiotensina) junto com um bloqueador dos canais de cálcio ou um diurético do tipo tiazídico.\",\"secao\":\"8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":73,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar. FORTE ALTA\"}]},{\"pergunta\":\"Estou bem acima do peso e tenho pressão alta. Qual pressão eu devo atingir?\",\"resposta_referencia\":\"A meta pressórica recomendada para pacientes com obesidade é PA < 130/80 mmHg, à semelhança de outras situações de alto risco CV e renal.\",\"resposta_leiga\":\"Para quem tem obesidade, a meta é pressão abaixo de 130 por 80 mmHg, igual a outras situações de alto risco para o coração e os rins.\",\"secao\":\"8.4.1. Meta de Pressão Arterial em Pacientes com Obesidade\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":73,\"tipo\":\"paragrafo\",\"numero\":11,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"A meta pressórica recomendada para pacientes com obesidade é PA < 130/80 mmHg, à semelhança de outras situações de alto risco CV e renal.\"}]},{\"pergunta\":\"Já tive um derrame. Qual deve ser minha pressão para evitar ter outro?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).\",\"resposta_leiga\":\"Quem já teve derrame ou um ataque passageiro de falta de sangue no cérebro deve manter a pressão abaixo de 130 por 80 mmHg. Isso reduz infarto, novo derrame e morte.\",\"secao\":\"8.6.1. Meta de Pressão Arterial na Hipertensão Arterial do Acidente Vascular Cerebral na Fase Crônica\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":76,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte). FORTE ALTA\"}]},{\"pergunta\":\"Tenho insuficiência cardíaca com o coração fraco e minha pressão é baixa. O médico pode aumentar meus remédios mesmo assim?\",\"resposta_referencia\":\"Sob essa perspectiva, níveis baixos de PA não devem limitar a otimização das doses terapêuticas dessas medicações supracitadas nos pacientes com ICFEr, desde que esses indivíduos os tolerem, sem apresentar eventos adversos.\",\"resposta_leiga\":\"Pode. Na insuficiência cardíaca com o coração bombeando pouco, a pressão baixa não deve impedir o ajuste das doses desses remédios, desde que você os tolere sem efeitos ruins.\",\"secao\":\"8.7. Hipertensão Arterial e Insuficiência Cardíaca com Fração de Ejeção Preservada e com Fração de Ejeção Reduzida\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":76,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":6,\"linha_final\":7,\"trecho_literal\":\"Sob essa perspectiva, níveis baixos de PA não devem limitar a otimização das doses\"},{\"pagina\":77,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"terapêuticas dessas medicações supracitadas nos pacientes com ICFEr, desde que esses indivíduos os tolerem, sem apresentar eventos adversos.\"}]},{\"pergunta\":\"Minha mãe tem 75 anos. A pressão dela também precisa ficar abaixo de 13 por 8?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.\",\"resposta_leiga\":\"Sim, para a maioria dos idosos a meta é pressão abaixo de 130 por 80 mmHg.\",\"secao\":\"9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":82,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos. FORTE ALTA\"}]},{\"pergunta\":\"Meu avô tem 90 anos e está bem fraquinho. Até quanto a pressão dele deve baixar?\",\"resposta_referencia\":\"Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.\",\"resposta_leiga\":\"Para idosos frágeis, muito idosos ou com doenças que encurtam a expectativa de vida, a pressão deve ser baixada até o menor valor que eles toleram bem.\",\"secao\":\"9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":82,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado. FORTE ALTA\"}]},{\"pergunta\":\"Para uma pessoa idosa, de quanto em quanto tempo o médico pode aumentar ou juntar os remédios da pressão?\",\"resposta_referencia\":\"É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.\",\"resposta_leiga\":\"No idoso, o certo é começar com um remédio ou uma combinação em dose baixa. Se precisar, a dose é aumentada ou outro remédio é somado aos poucos, com pelo menos 2 semanas entre cada mudança.\",\"secao\":\"9.1.4.3. Tratamento Medicamentoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":81,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.\"}]},{\"pergunta\":\"Comecei a tomar o remédio da pressão. Depois de quanto tempo o médico costuma ajustar a dose?\",\"resposta_referencia\":\"• Fazer os ajustes de tratamento geralmente após 4 semanas de uso, salvo em situações específicas;\",\"resposta_leiga\":\"Em geral, os ajustes no tratamento são feitos depois de 4 semanas de uso do remédio, a não ser em situações específicas.\",\"secao\":\"7.3. Princípios Gerais do Tratamento Medicamentoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":59,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"• Fazer os ajustes de tratamento geralmente após 4 semanas de uso, salvo em situações específicas;\"}]},{\"pergunta\":\"Meu filho de 15 anos tem pressão alta. Até quanto a pressão dele deve baixar com o tratamento?\",\"resposta_referencia\":\"O alvo terapêutico é a redução da PAS e PAD para < percentil 90 e < 130/80 mmHg em adolescentes ≥ 13 anos.\",\"resposta_leiga\":\"Nas crianças, a meta é deixar a pressão abaixo do percentil 90 (valor de referência pela idade, sexo e altura). Em adolescentes de 13 anos ou mais, a meta é abaixo de 130 por 80 mmHg.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":89,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"O alvo terapêutico é a redução da PAS e PAD para < percentil 90 e < 130/80 mmHg em adolescentes ≥ 13 anos.\"}]},{\"pergunta\":\"Estou grávida e tenho pressão alta. Em que faixa a pressão deve ficar durante o tratamento?\",\"resposta_referencia\":\"A meta do controle da HA deve ser a PAS > 120 e < 160 mmHg e PAD > 80 e < 110 mmHg, já que tanto a HA quanto a hipotensão induzida podem prejudicar a perfusão placentária e, consequentemente, o crescimento fetal.\",\"resposta_leiga\":\"Na gravidez, a pressão de cima deve ficar acima de 120 e abaixo de 160 mmHg, e a de baixo acima de 80 e abaixo de 110 mmHg. Tanto a pressão alta quanto a pressão baixa demais podem prejudicar o sangue que chega à placenta e o crescimento do bebê.\",\"secao\":\"10.2.3. Abordagem Terapêutica da Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":93,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":3,\"linha_final\":7,\"trecho_literal\":\"A meta do controle da HA deve ser a PAS > 120 e < 160 mmHg e PAD > 80 e < 110 mmHg, já que tanto a HA quanto a hipotensão induzida podem prejudicar a perfusão placentária e, consequentemente, o crescimento fetal.\"}]},{\"pergunta\":\"Na gravidez, a partir de quanto da pressão de cima o tratamento passa a ser urgente?\",\"resposta_referencia\":\"Para evitar mortes maternas, PAS > 150-160 mmHg deve ser considerada para tratamento urgente.\",\"resposta_leiga\":\"Para evitar mortes de gestantes, a pressão de cima acima de 150-160 mmHg deve ser considerada para tratamento urgente.\",\"secao\":\"10.2.3. Abordagem Terapêutica da Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":93,\"tipo\":\"paragrafo\",\"numero\":11,\"linha_inicial\":8,\"linha_final\":10,\"trecho_literal\":\"Para evitar mortes maternas, PAS > 150-160 mmHg deve ser considerada para tratamento urgente.\"}]},{\"pergunta\":\"Minha pressão subiu para 18 por 11, mas não tenho nenhum sinal de lesão grave. Preciso baixar tudo de uma vez? Quando volto ao médico?\",\"resposta_referencia\":\"A elevação importante da PA (≥ 180/110 mmHg) sem LOA aguda e sem risco de morte iminente permite redução da PA em maior período de tempo com anti-hipertensivos orais, e a reavaliação ambulatorial deve ser precoce em período de 1 a 7 dias.\",\"resposta_leiga\":\"Com pressão de 180 por 110 mmHg ou mais, sem lesão aguda nos órgãos e sem risco imediato de morte, a pressão pode ser baixada aos poucos com remédios por boca. Você deve ser reavaliado no consultório logo, em 1 a 7 dias.\",\"secao\":\"11. Crise Hipertensiva\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":103,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"A elevação importante da PA (≥ 180/110 mmHg) sem LOA aguda e sem risco de morte iminente permite redução da PA em maior período de tempo com anti-hipertensivos orais, e a reavaliação ambulatorial deve ser precoce em período de 1 a 7 dias.\"}]},{\"pergunta\":\"Numa emergência de pressão alta no hospital, quanto a pressão deve cair nas primeiras horas?\",\"resposta_referencia\":\"A redução da PA deve ser gradual e cuidadosa, em 10 a 15% na 1ª hora de tratamento e de 25% nas 2 horas seguintes ao início do tratamento na maioria das situações clínicas.\",\"resposta_leiga\":\"Na maioria dos casos, a pressão deve cair aos poucos e com cuidado: de 10 a 15% na primeira hora e 25% nas 2 horas seguintes ao início do tratamento.\",\"secao\":\"11. Crise Hipertensiva\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":103,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":2,\"linha_final\":4,\"trecho_literal\":\"A redução da PA deve ser gradual e cuidadosa, em 10 a 15% na 1ª hora de tratamento e de 25% nas 2 horas seguintes ao início do tratamento na maioria das situações clínicas.\"}]},{\"pergunta\":\"Sou mulher. A meta da minha pressão é diferente da meta do meu marido?\",\"resposta_referencia\":\"As metas de PA recomendadas são iguais para mulheres e homens, e as classes de anti-hipertensivos podem ser utilizadas igualmente para o tratamento da HA em mulheres e homens.\",\"resposta_leiga\":\"Não. As metas de pressão são iguais para mulheres e homens, e os mesmos tipos de remédio podem ser usados nos dois.\",\"secao\":\"10.1.4. Tratamento da Hipertensão nas Mulheres\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":93,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"As metas de PA recomendadas são iguais para mulheres e homens, e as classes de anti-hipertensivos podem ser utilizadas igualmente para o tratamento da HA em mulheres e homens.\"}]},{\"pergunta\":\"Mediram minha pressão no posto de saúde. Em que caso eles devem marcar uma consulta para mim?\",\"resposta_referencia\":\"O profissional de saúde que fizer a medida da PA deve estar orientado a realizar pelo menos três medidas da PA e, caso a média das duas últimas medidas seja ≥ 140/90 mmHg, deverá vincular a pessoa à Unidade de Saúde de sua referência para uma consulta agendada.\",\"resposta_leiga\":\"O profissional deve medir sua pressão pelo menos três vezes. Se a média das duas últimas medidas der 140 por 90 mmHg ou mais, ele deve encaminhar você para uma consulta marcada na sua unidade de saúde.\",\"secao\":\"14.2. Busca Ativa por Pessoas com Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":4,\"linha_final\":9,\"trecho_literal\":\"O profissional de saúde que fizer a medida da PA deve estar orientado a realizar pelo menos três medidas da PA e, caso a média das duas últimas medidas seja ≥ 140/90 mmHg, deverá vincular a pessoa à Unidade de Saúde de sua referência para uma consulta agendada.\"}]},{\"pergunta\":\"Se eu começar a tomar remédio para pressão, posso largar a dieta e os exercícios?\",\"resposta_referencia\":\"Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.\",\"resposta_leiga\":\"Não. Quem tem pressão de 120 por 80 mmHg ou mais deve começar e manter as mudanças de hábitos, mesmo depois de começar o remédio, quando ele for indicado.\",\"secao\":\"5. Início de Tratamento e Metas Terapêuticas\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":51,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":2,\"linha_final\":4,\"trecho_literal\":\"Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.\"}]},{\"pergunta\":\"Como eu sei se realmente cheguei na meta da pressão? Basta a medida feita no consultório?\",\"resposta_referencia\":\"Recomenda-se confirmar o alcance da meta de PA com a medida da PA fora do consultório por meio da MAPA ou MRPA.\",\"resposta_leiga\":\"Não basta. O ideal é confirmar que você atingiu a meta com medidas feitas fora do consultório, pelo aparelho que mede a pressão durante 24 horas ou pelas medidas feitas em casa seguindo um protocolo.\",\"secao\":\"14.7. Metas do Controle Pressórico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":119,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"Recomenda-se confirmar o alcance da meta de PA com a medida da PA fora do consultório por meio da MAPA ou MRPA. FORTE BAIXA\"}]}]}",
+            "type": "text"
+          }
+        ],
+        "diagnostics": null,
+        "model": "claude-opus-5-5",
+        "role": "assistant",
+        "stop_details": null,
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 350733,
+          "inference_geo": "global",
+          "input_tokens": 129,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 0,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 350733,
+              "input_tokens": 129,
+              "model": null,
+              "output_tokens": 23385,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 23385,
+          "output_tokens_details": {
+            "thinking_tokens": 11974
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    }
+  ]
+}

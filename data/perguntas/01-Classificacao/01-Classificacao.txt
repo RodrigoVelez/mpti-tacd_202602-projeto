@@ -1,0 +1,179 @@
+Id: 01-01 | Status: confere
+Pergunta: Antes existia uma categoria chamada "pressão ótima". Ela ainda existe?
+Resposta: PA ótima: a classificação “PA ótima” foi removida.
+Resposta leiga: Não. A categoria "pressão ótima" deixou de existir.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 2, linha 1
+
+Id: 01-02 | Status: confere
+Pergunta: Minha pressão sempre ficou abaixo de 12 por 8, que antes chamavam de ótima. Como ela é chamada agora?
+Resposta: Esse intervalo de PA, antes considerado ideal, agora está incluído dentro do novo termo “PA normal” para valores de PAS abaixo de 120 mmHg e PAD abaixo de 80 mmHg;
+Resposta leiga: Essa faixa, que antes era considerada ideal, agora se chama simplesmente 'pressão normal'. Vale quando a pressão de cima fica abaixo de 120 mmHg e a de baixo abaixo de 80 mmHg.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 2, linhas 1 a 4
+
+Id: 01-03 | Status: confere
+Pergunta: A faixa de pressão que antes chamavam de 'normal' continua com esse nome ou foi juntada com outra?
+Resposta: Pré-hipertensão: a nova categoria de “Pré-hipertensão” agora abrange os valores anteriormente classificados como “PA normal” e “Pré-hipertensão” nas DBHA 2020.
+Resposta leiga: Foi juntada. A nova categoria de pré-hipertensão agora inclui os valores que em 2020 eram chamados de 'pressão normal' e também os que já eram 'pré-hipertensão'.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 1 a 3
+
+Id: 01-04 | Status: confere
+Pergunta: Minha pressão costuma dar 12,5 por 8,2 e sempre me disseram que era normal. Isso mudou?
+Resposta: Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.
+Resposta leiga: Mudou. Pressão de cima entre 120 e 129 mmHg e/ou de baixo entre 80 e 84 mmHg, que antes era considerada normal, agora é classificada como pré-hipertensão.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 3 a 6
+
+Id: 01-05 | Status: confere
+Pergunta: Com essa mudança, a pré-hipertensão agora vai de quanto até quanto?
+Resposta: Assim, essa faixa inclui PAS entre 120 e 139 mmHg e/ou PAD entre 80 e 89 mmHg.
+Resposta leiga: A pré-hipertensão agora vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na pressão de baixo.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 6 a 8
+
+Id: 01-06 | Status: confere
+Pergunta: Por que resolveram chamar de pré-hipertensão uma pressão que antes era considerada normal?
+Resposta: Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.
+Resposta leiga: A ideia é descobrir mais cedo quem está em risco e incentivar cuidados antecipados para evitar que a pessoa chegue a ter pressão alta.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 3, linhas 8 a 10
+
+Id: 01-07 | Status: confere
+Pergunta: A forma de classificar a pressão hoje é a mesma que se usava em 2020?
+Resposta: A nova classificação da PA proposta por esta diretriz apresenta algumas alterações importantes em relação às DBHA de 2020.
+Resposta leiga: Não é a mesma. A nova forma de classificar a pressão tem algumas mudanças importantes em relação à usada em 2020.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 1, linhas 1 a 3
+
+Id: 01-08 | Status: confere
+Pergunta: Ser chamado de pré-hipertenso quer dizer que vou ter que começar a tomar remédio?
+Resposta: Recomenda-se classificar a pré-hipertensão abrangendo valores de PAS entre 120-139 mmHg ou PAD entre 80-89 mmHg no consultório com o objetivo de identificar precocemente indivíduos em risco e incentivar intervenções mais proativas e não medicamentosas para prevenir a progressão para HA.
+Resposta leiga: A pré-hipertensão vai de 120 a 139 mmHg na pressão de cima ou de 80 a 89 mmHg na de baixo, medida no consultório. Essa classificação serve para achar cedo quem está em risco e estimular cuidados sem remédio, para evitar que a pressão alta apareça.
+Localização: Página 25, seção 1.1. Principais Destaques, tabela 1, linha 2
+
+Id: 01-09 | Status: confere
+Pergunta: Minha pressão dá 12 por 8. Já preciso mudar meus hábitos, como alimentação e exercício?
+Resposta: Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).
+Resposta leiga: Sim. Quem tem pressão a partir de 12 por 8 deve adotar mudanças no estilo de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.
+Localização: Página 49, seção 5.1. Início de Tratamento, parágrafo 3, linhas 1 a 3
+
+Id: 01-10 | Status: confere
+Pergunta: No posto de saúde disseram que estou com pré-hipertensão, com 12,6 por 8,3. O que devem fazer por mim?
+Resposta: Como veremos adiante, as pessoas com pré-hipertensão devem receber as orientações necessárias para a prevenção primária da HA (Capítulos 3 e 6).
+Resposta leiga: Quem tem pré-hipertensão deve receber as orientações necessárias para evitar que a pressão alta apareça.
+Localização: Página 116, seção 14.4. Diagnóstico de Hipertensão Arterial, parágrafo 18, linhas 2 a 5
+
+Id: 01-11 | Status: confere
+Pergunta: Agora que estou na faixa de pré-hipertensão, o médico vai calcular meu risco de ter problemas no coração?
+Resposta: Por fim, é importante destacar que a estratificação de risco CV em indivíduos com pré-hipertensão é fundamental para a orientação do início do tratamento anti-hipertensivo e para o controle mais adequado dos fatores de risco CV.
+Resposta leiga: Sim. Calcular o risco de problemas no coração e nos vasos em quem tem pré-hipertensão é fundamental para decidir quando começar o tratamento da pressão e para controlar melhor os outros fatores de risco.
+Localização: Página 47, seção 4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial, parágrafo 5, linhas 1 a 3 e Página 48, seção 4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial, parágrafo 1, linha 1
+
+Id: 01-12 | Status: confere
+Pergunta: Meu filho tem 14 anos e a pressão dele deu 12,5 por 7. Isso é normal para a idade dele?
+Resposta: Crianças com idade ≥ 13 anos Pré-hipertensão: PAS 120 a 129/< 80 mmHg
+Resposta leiga: Não é considerado normal. A partir dos 13 anos, pressão de cima entre 120 e 129 mmHg com a de baixo abaixo de 80 mmHg é classificada como pré-hipertensão.
+Localização: Página 83, seção 9.2. Hipertensão Arterial na Criança e no Adolescente, parágrafo 2, linha 2 e Página 83, seção 9.2. Hipertensão Arterial na Criança e no Adolescente, tabela 1, linha 1
+
+Id: 01-13 | Status: confere
+Pergunta: Em crianças, o que antes chamavam de 'pressão elevada' continua com esse nome?
+Resposta: Dados de metanálise recente, incluindo 47 estudos em indivíduos ≤ 19 anos, mostram prevalência agrupada para HA de 4,0%, para HA Estágio 1 de 4,0%, para HA Estágio 2 de 0,95% e 9,67% para o grupo previamente atribuído como PA elevada, que, por corresponder à categoria de pré-hipertensão utilizada para adultos, receberá, doravante, a denominação de pré-hipertensão também em crianças e adolescentes.
+Resposta leiga: Não. O grupo antes chamado de 'pressão elevada', que aparece em cerca de 9,67% dos jovens até 19 anos, passa a se chamar pré-hipertensão também em crianças e adolescentes, igual aos adultos. Entre esses jovens, cerca de 4,0% têm pressão alta, 4,0% estão no estágio 1 e 0,95% no estágio 2.
+Localização: Página 82, seção 9.2. Hipertensão Arterial na Criança e no Adolescente, parágrafo 2, linhas 1 a 7
+
+Id: 01-14 | Status: confere
+Pergunta: Hoje em dia, até quanto a pressão é considerada normal?
+Resposta: Por outro lado, a PA é normal quando < 120/80 mmHg.
+Resposta leiga: A pressão é considerada normal quando está abaixo de 12 por 8 (120/80 mmHg).
+Localização: Página 116, seção 14.4. Diagnóstico de Hipertensão Arterial, parágrafo 17, linhas 9 a 10
+
+Id: 01-15 | Status: confere
+Pergunta: A partir de quanto a pressão medida no consultório é considerada pressão alta?
+Resposta: A partir de medidas obtidas no consultório, são considerados pacientes com HA os indivíduos com PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg.
+Resposta leiga: Pelas medidas no consultório, tem pressão alta quem tem a pressão de cima igual ou maior que 140 mmHg e/ou a de baixo igual ou maior que 90 mmHg, ou seja, 14 por 9 ou mais.
+Localização: Página 35, seção 3.2.3. Classificação, parágrafo 34, linhas 1 a 3
+
+Id: 01-16 | Status: confere
+Pergunta: Deu 14 por 9 numa consulta. Como o médico confirma se eu tenho mesmo pressão alta?
+Resposta: Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas.
+Resposta leiga: Para confirmar a pressão alta, é preciso repetir as medidas em duas ou mais consultas, com intervalo de dias ou semanas entre elas.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 4, linhas 1 a 3
+
+Id: 01-17 | Status: confere
+Pergunta: Minha pressão de cima cai numa faixa e a de baixo em outra mais alta. Qual delas vale para dizer o grau da minha pressão alta?
+Resposta: A classificação de HA baseia-se no valor mais elevado de PA, seja sistólica ou diastólica, aferida no consultório.
+Resposta leiga: Vale o valor que estiver na faixa mais alta, seja a pressão de cima ou a de baixo, medida no consultório.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 4, linhas 8 a 10
+
+Id: 01-18 | Status: confere
+Pergunta: O que quer dizer ter só a pressão de cima alta, ou só a pressão de baixo alta?
+Resposta: Indivíduos com PAS ≥ 140 mmHg e/ou PAD < 90 mmHg são definidos como pacientes com HA sistólica isolada, enquanto aqueles com PAS < 140 mmHg e PAD ≥ 90 mmHg são classificados como com HA diastólica isolada.
+Resposta leiga: Quando a pressão de cima está em 140 mmHg ou mais e a de baixo abaixo de 90 mmHg, é pressão alta só da de cima (sistólica isolada). Quando a de cima está abaixo de 140 mmHg e a de baixo em 90 mmHg ou mais, é pressão alta só da de baixo (diastólica isolada).
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 5, linhas 1 a 5
+
+Id: 01-19 | Status: confere
+Pergunta: No consultório minha pressão deu 15 por 9,5. Em que estágio de pressão alta eu fico?
+Resposta: HA Estágio 1 140-159 e/ou 90-99
+Resposta leiga: Você fica no estágio 1, que vai de 140 a 159 mmHg na pressão de cima e/ou de 90 a 99 mmHg na de baixo.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, tabela 1, linha 4
+
+Id: 01-20 | Status: confere
+Pergunta: Minha pressão no consultório deu 16,5 por 10. Que estágio é esse?
+Resposta: HA Estágio 2 160-179 e/ou 100-109
+Resposta leiga: É o estágio 2, que vai de 160 a 179 mmHg na pressão de cima e/ou de 100 a 109 mmHg na de baixo.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, tabela 1, linha 5
+
+Id: 01-21 | Status: confere
+Pergunta: Quando a pressão chega a 18 por 11, em que estágio a pessoa está?
+Resposta: HA Estágio 3 ≥ 180 e/ou 110
+Resposta leiga: Está no estágio 3, o mais alto: pressão de cima de 180 mmHg ou mais e/ou de baixo de 110 mmHg ou mais.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, tabela 1, linha 6
+
+Id: 01-22 | Status: confere
+Pergunta: No consultório minha pressão deu 13,5 por 8,5. Já é pressão alta?
+Resposta: Pré-hipertensão 120-139 e/ou 80-89
+Resposta leiga: Ainda não é pressão alta: é pré-hipertensão, que vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na de baixo.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, tabela 1, linha 3
+
+Id: 01-23 | Status: confere
+Pergunta: Só minha pressão de cima é alta, 17 por 8. Como sabem em que estágio eu estou?
+Resposta: **A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.
+Resposta leiga: Quando só a pressão de cima está alta (140 mmHg ou mais, com a de baixo abaixo de 90), o estágio 1, 2 ou 3 é definido pelo valor da pressão de cima.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, parágrafo 13, linhas 3 a 4
+
+Id: 01-24 | Status: confere
+Pergunta: E se só a pressão de baixo estiver alta, tipo 13 por 10,5, como fica o estágio?
+Resposta: ***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados.
+Resposta leiga: Quando só a pressão de baixo está alta (90 mmHg ou mais, com a de cima abaixo de 140), o estágio 1, 2 ou 3 é definido pelo valor da pressão de baixo.
+Localização: Página 36, seção 3.4. Efeito do Avental Branco e Efeito de Mascaramento, parágrafo 13, linhas 4 a 5
+
+Id: 01-25 | Status: confere
+Pergunta: Existe algum caso em que uma única medida no consultório já basta para dizer que tenho pressão alta?
+Resposta: Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.
+Resposta leiga: Como a pressão varia muito, uma só medida normalmente não basta. A exceção é quando a pressão está muito alta (estágio 3) ou quando já existe lesão em órgãos causada pela pressão ou doença do coração e dos vasos confirmada.
+Localização: Página 38, seção 3.7. Recomendações para Diagnóstico e Seguimento, parágrafo 5, linhas 1 a 5
+
+Id: 01-26 | Status: confere
+Pergunta: O tempo entre as consultas para confirmar a pressão alta depende do estágio?
+Resposta: Pacientes em Estágio 2 ou 3 requerem mais visitas, com intervalos curtos entre elas, enquanto aqueles em Estágio 1 podem ter intervalos mais longos, se houver ausência de LOA e risco CV baixo.
+Resposta leiga: Sim. Quem está no estágio 2 ou 3 precisa de mais consultas, com pouco tempo entre elas. Quem está no estágio 1 pode ter intervalos maiores, se não tiver lesão em órgãos e tiver baixo risco para o coração.
+Localização: Página 38, seção 3.7. Recomendações para Diagnóstico e Seguimento, parágrafo 5, linhas 7 a 10
+
+Id: 01-27 | Status: confere
+Pergunta: Já tive infarto e minha pressão deu alta no consultório. Ainda preciso medir a pressão fora do consultório para confirmar?
+Resposta: No entanto, em pacientes com LOA ou DCV estabelecida, a presença desses achados é suficiente para confirmar o diagnóstico de HA, dispensando a necessidade de medidas de PA fora do consultório.
+Resposta leiga: Não necessariamente. Em quem já tem doença do coração e dos vasos ou lesão em órgãos causada pela pressão, isso já basta para confirmar a pressão alta, sem precisar de medidas fora do consultório.
+Localização: Página 36, seção 3.2.3. Classificação, parágrafo 4, linhas 5 a 8
+
+Id: 01-28 | Status: confere
+Pergunta: Eu tomo remédio para pressão e ela está 12 por 8. Ainda sou considerado hipertenso?
+Resposta: Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.
+Resposta leiga: Sim. Quem já usa remédio para controlar a pressão, ou tem lesão em órgãos causada por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 14 por 9.
+Localização: Página 116, seção 14.4. Diagnóstico de Hipertensão Arterial, parágrafo 17, linhas 5 a 7
+
+Id: 01-29 | Status: confere
+Pergunta: Quando medem minha pressão no posto, só me falam '13 por 7'. Isso está certo?
+Resposta: Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).
+Resposta leiga: O ideal é receber o valor completo da pressão, de preferência por escrito, como 134/76 mmHg, e não apenas '13 por 7'.
+Localização: Página 116, seção 14.2. Busca Ativa por Pessoas com Hipertensão Arterial, parágrafo 12, linhas 1 a 4
+
+Id: 01-30 | Status: confere
+Pergunta: Estou grávida. A partir de quanto minha pressão é considerada alta na gestação?
+Resposta: Considera-se HA na gestação quando a gestante apresenta PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com base em uma média de pelo menos duas medidas com intervalo de 4 horas ou em duas visitas ambulatoriais diferentes.
+Resposta leiga: Na gravidez, a pressão é considerada alta quando a de cima é 140 mmHg ou mais e/ou a de baixo é 90 mmHg ou mais. Isso vale pela média de pelo menos duas medidas com 4 horas de intervalo ou em duas consultas diferentes.
+Localização: Página 93, seção 10.2. Hipertensão na Gestação, parágrafo 3, linhas 4 a 8

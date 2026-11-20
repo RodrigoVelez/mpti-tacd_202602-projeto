@@ -1,0 +1,1001 @@
+{
+  "tema": "situacoes_especiais",
+  "descricao": "Situações especiais (idosos, gestantes, crianças e adolescentes, diabetes, doença renal, AVC, urgência e emergência hipertensiva)",
+  "chamadas": [
+    {
+      "modelo_que_respondeu": "claude-opus-5-5",
+      "message_id": "msg_011Ch7kK3RwUWW4MdBrg218e",
+      "request_id": "req_011Ch7kK246g89H2vs58vLtx",
+      "stop_reason": "end_turn",
+      "qtde_pedida": 30,
+      "tokens_entrada": 145,
+      "tokens_saida": 18663,
+      "tokens_escrita_cache_5m": 0,
+      "tokens_escrita_cache_1h": 0,
+      "tokens_leitura_cache": 350733,
+      "custo_usd": 0.444
+    }
+  ],
+  "itens": [
+    {
+      "id": "05-01",
+      "pergunta": "Meu pai tem 78 anos e pressão alta. Até quanto a pressão dele deve ficar?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.",
+      "resposta_leiga": "Para a maioria das pessoas idosas, a pressão deve ficar abaixo de 13 por 8 (130/80 mmHg).",
+      "secao": "9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 82,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 82,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "9.1.4.5. Desintensificação e Desprescrição"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-02",
+      "pergunta": "Minha avó tem mais de 85 anos e é bem fraquinha. A pressão dela também precisa chegar a 13 por 8?",
+      "resposta_referencia": "Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.",
+      "resposta_leiga": "Para idosos frágeis, muito idosos ou com doenças que diminuem a expectativa de vida, a pressão deve ser baixada até o menor valor que a pessoa aguente bem, sem passar mal.",
+      "secao": "9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 82,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 82,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "9.1.4.5. Desintensificação e Desprescrição"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-03",
+      "pergunta": "Minha mãe é idosa e fica tonta quando levanta, porque a pressão cai. O que ajuda sem precisar de remédio?",
+      "resposta_referencia": "A melhor opção para seu controle é o uso de MNM, como hidratação adequada, dieta normossódica, mudança lenta de decúbito, elevação da cabeceira e uso de meias elásticas.",
+      "resposta_leiga": "O melhor caminho são medidas sem remédio: beber água o suficiente, comer com quantidade normal de sal, levantar devagar da cama, deixar a cabeceira mais alta e usar meias elásticas.",
+      "secao": "9.1.3.1. Diagnóstico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 78,
+          "tipo": "paragrafo",
+          "numero": 10,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "A melhor opção para seu controle é o uso de MNM, como",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 78,
+            "tipo": "paragrafo",
+            "numero": 10,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "9.1.3.1. Diagnóstico"
+          }
+        },
+        {
+          "pagina": 79,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "hidratação adequada, dieta normossódica, mudança lenta de decúbito, elevação da cabeceira e uso de meias elásticas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 79,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "9.1.3.1. Diagnóstico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-04",
+      "pergunta": "Meu avô tem queda de pressão depois que almoça. O que ele deve evitar?",
+      "resposta_referencia": "Nos casos de HPP, o idoso deve também evitar refeições copiosas, grande consumo de carboidratos e de álcool e não realizar exercícios após as refeições.",
+      "resposta_leiga": "Quando a pressão cai depois de comer, o idoso deve evitar refeições muito grandes, muito carboidrato (massas, pães, doces) e álcool, e não deve fazer exercício logo depois de comer.",
+      "secao": "9.1.3.1. Diagnóstico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 79,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Nos casos de HPP, o idoso deve também evitar refeições copiosas, grande consumo de carboidratos e de álcool e não realizar exercícios após as refeições.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 79,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "9.1.3.1. Diagnóstico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-05",
+      "pergunta": "Quando o médico vai aumentar o remédio de pressão de uma pessoa idosa, ele deve esperar quanto tempo entre um ajuste e outro?",
+      "resposta_referencia": "É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.",
+      "resposta_leiga": "No idoso, o melhor é começar com um remédio só ou uma combinação em dose baixa. Se precisar, os aumentos ou novos remédios devem vir aos poucos, com pelo menos 2 semanas entre um ajuste e outro.",
+      "secao": "9.1.4.3. Tratamento Medicamentoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 81,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 81,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "9.1.4.3. Tratamento Medicamentoso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-06",
+      "pergunta": "Meu pai idoso começou a tomar remédio de pressão. Existe risco maior de ele cair no começo do tratamento?",
+      "resposta_referencia": "O risco de quedas em idosos pode aumentar nas primeiras semanas de tratamento com uso dos DIU e no primeiro dia com as demais classes.",
+      "resposta_leiga": "Sim. Em idosos, o risco de queda pode aumentar nas primeiras semanas quando o remédio é um diurético, e no primeiro dia com os outros tipos de remédio de pressão.",
+      "secao": "9.1.4.3. Tratamento Medicamentoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 81,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "O risco de quedas em idosos pode aumentar nas primeiras semanas de tratamento com uso dos DIU e no primeiro dia com as demais classes.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 81,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "9.1.4.3. Tratamento Medicamentoso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-07",
+      "pergunta": "Meu avô tem 90 anos. O médico pode deixar de tratar a pressão dele só por causa da idade?",
+      "resposta_referencia": "A condição funcional do indivíduo é muito mais importante que a idade cronológica per se e, assim, nenhuma intervenção terapêutica deve ser negada ou retirada apenas com base na idade.",
+      "resposta_leiga": "Não. O que mais importa é como a pessoa está e o que consegue fazer no dia a dia, não a idade em si. Nenhum tratamento deve ser negado ou tirado só por causa da idade.",
+      "secao": "9.1.1. Introdução",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 78,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "A condição funcional do indivíduo é muito mais importante que a idade cronológica per se e, assim, nenhuma",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 78,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "9.1.1. Introdução"
+          }
+        },
+        {
+          "pagina": 78,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "intervenção terapêutica deve ser negada ou retirada apenas com base na idade.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 78,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "9.1.1. Introdução"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-08",
+      "pergunta": "A partir de que idade meu filho deve começar a medir a pressão todo ano?",
+      "resposta_referencia": "Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.",
+      "resposta_leiga": "A pressão da criança deve ser medida uma vez por ano a partir dos 3 anos de idade.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 90,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 90,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-09",
+      "pergunta": "Como o médico confirma que meu filho de 10 anos ou minha filha de 15 têm pressão alta?",
+      "resposta_referencia": "Recomenda-se que o diagnóstico de HA na criança ou adolescente até 13 anos seja baseado na confirmação de valores de PA ≥ percentil 95 de acordo com o percentil de altura e quando ≥ 13 anos deve ser baseado na confirmação de valores de PA ≥ 130/80 mmHg em três atendimentos diferentes utilizando metodologia auscultatória.",
+      "resposta_leiga": "Até 13 anos, a pressão alta é confirmada quando fica no percentil 95 ou acima para a altura da criança. A partir de 13 anos, quando a pressão fica em 13 por 8 (130/80 mmHg) ou mais, confirmada em três consultas diferentes, medida com estetoscópio.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 90,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "Recomenda-se que o diagnóstico de HA na criança ou adolescente até 13 anos seja baseado na confirmação de valores de PA ≥ percentil 95 de acordo com o percentil de altura e quando ≥ 13 anos deve ser baseado na confirmação de valores de PA ≥ 130/80 mmHg em três atendimentos diferentes utilizando metodologia auscultatória.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 90,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-10",
+      "pergunta": "Meu filho adolescente tem pressão alta. Até quanto a pressão dele precisa baixar com o tratamento?",
+      "resposta_referencia": "Recomenda-se alvo terapêutico de redução da PAS e PAD para < percentil 90 em crianças e < 130/80 mmHg em adolescentes ≥ 13 anos.",
+      "resposta_leiga": "Em crianças, o objetivo é deixar a pressão abaixo do percentil 90. Em adolescentes de 13 anos ou mais, abaixo de 13 por 8 (130/80 mmHg).",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 90,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "Recomenda-se alvo terapêutico de redução da PAS e PAD para < percentil 90 em crianças e < 130/80 mmHg em adolescentes ≥ 13 anos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 90,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-11",
+      "pergunta": "Minha filha vai começar remédio para pressão. Como o médico costuma começar e ajustar a dose em criança?",
+      "resposta_referencia": "Inicia-se o tratamento medicamentoso com agente anti-hipertensivo único, em dose baixa, com aumento a cada 2 a 4 semanas até o alvo terapêutico.",
+      "resposta_leiga": "Na criança, o tratamento começa com um único remédio em dose baixa, e a dose vai sendo aumentada a cada 2 a 4 semanas até a pressão chegar ao objetivo.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 89,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "Inicia-se o tratamento medicamentoso com agente anti-hipertensivo único, em dose baixa, com aumento a cada 2 a 4",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 89,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        },
+        {
+          "pagina": 90,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "semanas até o alvo terapêutico.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 90,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-12",
+      "pergunta": "Estou grávida. A partir de que pressão se considera que tenho pressão alta na gravidez?",
+      "resposta_referencia": "Hipertensão na gestação PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, medida em duas ocasiões com pelo menos 4 horas de intervalo.",
+      "resposta_leiga": "Na gravidez, é pressão alta quando a de cima fica em 140 ou mais e/ou a de baixo em 90 ou mais (14 por 9), medida em duas vezes com pelo menos 4 horas de diferença.",
+      "secao": "10.2.1. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 94,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "Hipertensão na gestação PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, medida em duas ocasiões com pelo menos 4 horas de intervalo.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 94,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-13",
+      "pergunta": "Tomo enalapril para pressão e descobri que estou grávida. Posso continuar com esse remédio?",
+      "resposta_referencia": "Não se recomenda fazer uso de IECA ou BRA na gestação pelo risco de malformação fetal.",
+      "resposta_leiga": "Não. Remédios da família do enalapril/captopril e da losartana não devem ser usados na gravidez, porque podem causar malformação no bebê.",
+      "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 97,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 8,
+          "linha_final": 8,
+          "trecho_literal": "Não se recomenda fazer uso de IECA ou BRA na gestação pelo risco de malformação fetal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 97,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 8,
+            "linha_final": 8,
+            "secao": "10.2.5. Risco Cardiovascular Futuro"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-14",
+      "pergunta": "Quais remédios costumam ser usados para começar a tratar a pressão alta na gravidez?",
+      "resposta_referencia": "Recomenda-se iniciar o tratamento anti-hipertensivo em gestantes com HA com metildopa ou BCCs di-hidropiridínicos (nifedipina de longa duração ou amlodipina).",
+      "resposta_leiga": "Na grávida com pressão alta, o tratamento deve começar com metildopa ou com nifedipina de longa duração ou anlodipino (amlodipina).",
+      "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 97,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 7,
+          "linha_final": 7,
+          "trecho_literal": "Recomenda-se iniciar o tratamento anti-hipertensivo em gestantes com HA com metildopa ou BCCs di-hidropiridínicos (nifedipina de longa duração ou amlodipina).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 97,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 7,
+            "linha_final": 7,
+            "secao": "10.2.5. Risco Cardiovascular Futuro"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-15",
+      "pergunta": "Estou grávida e tenho risco alto de pré-eclâmpsia. Tomar aspirina ajuda? Quando começar?",
+      "resposta_referencia": "Recomenda-se o uso de AAS iniciado antes de 16 semanas nas gestantes de alto risco para reduzir a PE abaixo de 34 semanas.",
+      "resposta_leiga": "Sim. Nas grávidas de alto risco, a aspirina iniciada antes de 16 semanas de gestação ajuda a reduzir a pré-eclâmpsia que aparece antes de 34 semanas.",
+      "secao": "10.2.2. Predição e Profilaxia de Pré-Eclâmpsia",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 97,
+          "tipo": "tabela",
+          "numero": 2,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se o uso de AAS iniciado antes de 16 semanas nas gestantes de alto risco para reduzir a PE abaixo de 34 semanas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 97,
+            "tipo": "tabela",
+            "numero": 2,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "10.2.5. Risco Cardiovascular Futuro"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-16",
+      "pergunta": "Tive bebê há pouco e continuo com pressão alta. Posso tomar remédio enquanto amamento?",
+      "resposta_referencia": "As puérperas podem receber qualquer medicação anti-hipertensiva, incluindo os IECAs, sendo a escolha limitada pelo aleitamento, devendo-se priorizar as medicações anti-hipertensivas que passem em quantidade menor pelo leite materno.",
+      "resposta_leiga": "Sim. Depois do parto, qualquer remédio de pressão pode ser usado, inclusive os da família do enalapril/captopril. Por causa da amamentação, devem ser preferidos os que passam menos para o leite.",
+      "secao": "10.2.4. Hipertensão Arterial no Puerpério",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 95,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "As puérperas podem receber qualquer medicação anti-hipertensiva, incluindo os IECAs, sendo a escolha limitada pelo aleitamento, devendo-se priorizar as medicações anti-hipertensivas que passem em quantidade menor pelo leite materno.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 95,
+            "tipo": "paragrafo",
+            "numero": 14,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "10.2.4. Hipertensão Arterial no Puerpério"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-17",
+      "pergunta": "Uso pílula anticoncepcional e minha pressão está ficando em 16 por 10. Devo trocar de método?",
+      "resposta_referencia": "Recomenda-se considerar outros métodos contraceptivos ou a descontinuação dos AHCOS para mulheres quando houver elevação persistente da PAS ≥ 160 mmHg e/ou PAD ≥ 100 mmHg com o uso de AHCO.",
+      "resposta_leiga": "Se a pressão ficar alta de forma persistente, com a de cima em 160 ou mais e/ou a de baixo em 100 ou mais (16 por 10) usando a pílula combinada, deve-se pensar em outro método para evitar gravidez ou parar a pílula.",
+      "secao": "10.1.2.1. Mulheres Jovens e Anticoncepcionais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 97,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "Recomenda-se considerar outros métodos contraceptivos ou a descontinuação dos AHCOS para mulheres quando houver elevação persistente da PAS ≥ 160 mmHg e/ou PAD ≥ 100 mmHg com o uso de AHCO.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 97,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "10.2.5. Risco Cardiovascular Futuro"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-18",
+      "pergunta": "Tive pressão alta na gravidez, mas já passou depois do parto. Preciso continuar indo ao médico?",
+      "resposta_referencia": "Recomenda-se o acompanhamento de longo prazo de toda a mulher que teve HA na gestação para a prevenção efetiva de DCV.",
+      "resposta_leiga": "Sim. Toda mulher que teve pressão alta na gravidez deve ser acompanhada por muito tempo, para prevenir doenças do coração e dos vasos.",
+      "secao": "10.2.5. Risco Cardiovascular Futuro",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 98,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Recomenda-se o acompanhamento de longo prazo de toda a mulher que teve HA na gestação para a prevenção efetiva de DCV.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 98,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "10.2.5. Risco Cardiovascular Futuro"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-19",
+      "pergunta": "Tenho diabetes e pressão alta. Qual pressão eu devo ter como objetivo?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com HA e DM.",
+      "resposta_leiga": "Quem tem pressão alta e diabetes deve manter a pressão abaixo de 13 por 8 (130/80 mmHg).",
+      "secao": "8.3.1. Metas na Hipertensão Arterial no Paciente com Diabetes Mellitus",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 73,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com HA e DM.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 73,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-20",
+      "pergunta": "Sou diabético e acabei de descobrir que tenho pressão alta. Vou começar com um remédio só?",
+      "resposta_referencia": "Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.",
+      "resposta_leiga": "Não. No diabético, o remédio deve começar logo no diagnóstico e com dois remédios: um da família do enalapril (ou da losartana, se não tolerar o primeiro) junto com um bloqueador de cálcio, como o anlodipino, ou um diurético do tipo tiazídico.",
+      "secao": "8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 73,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 73,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-21",
+      "pergunta": "Tenho diabetes e um exame de urina deu proteína (albumina) alta. Isso já quer dizer que meu rim está lesado?",
+      "resposta_referencia": "Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.",
+      "resposta_leiga": "Não necessariamente. A albumina na urina precisa ser confirmada em duas ou três amostras, porque exercício, febre e refeições com muita proteína podem alterar o resultado sem que haja lesão no rim.",
+      "secao": "8.3. Hipertensão Arterial e Diabetes Mellitus",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 72,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 72,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "8.3. Hipertensão Arterial e Diabetes Mellitus"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-22",
+      "pergunta": "Tenho doença nos rins e pressão alta, mas não faço diálise. Qual deve ser minha pressão?",
+      "resposta_referencia": "Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.",
+      "resposta_leiga": "Adultos com pressão alta e doença crônica nos rins devem manter a pressão abaixo de 13 por 8 (130/80 mmHg), para reduzir problemas do coração e a perda total dos rins.",
+      "secao": "8.2.1. Meta de Pressão Arterial para Doença Renal Crônica em Tratamento Conservador",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 71,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 71,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "8.2.4. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-23",
+      "pergunta": "Faço hemodiálise. Qual pressão devo ter antes e depois da sessão, e quando ela deve ser medida depois?",
+      "resposta_referencia": "Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg. A medida da PA pós-diálise deve ser realizada após a selagem do cateter ou hemostasia da fístula arteriovenosa.",
+      "resposta_leiga": "Em hemodiálise ou hemofiltração, a pressão antes da sessão deve ficar abaixo de 14 por 9 (140/90 mmHg) e depois abaixo de 13 por 8 (130/80 mmHg). A medida depois da diálise deve ser feita só depois de fechar o cateter ou parar o sangramento da fístula.",
+      "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 70,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 7,
+          "linha_final": 11,
+          "trecho_literal": "Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg. A medida da PA pós-diálise deve ser realizada após a selagem do cateter ou hemostasia da fístula arteriovenosa.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 70,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 7,
+            "linha_final": 11,
+            "secao": "8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-24",
+      "pergunta": "Tenho problema nos rins e trato a pressão. Que exames precisam ser acompanhados durante o tratamento?",
+      "resposta_referencia": "Recomenda-se a monitorização do potássio e da redução da função renal durante o tratamento da HA na DRC em tratamento conservador.",
+      "resposta_leiga": "Quem tem doença nos rins (sem diálise) e trata a pressão deve acompanhar o potássio no sangue e se o funcionamento dos rins está caindo.",
+      "secao": "8.2.3. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Tratamento Conservador",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 71,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 1,
+          "linha_final": 6,
+          "trecho_literal": "Recomenda-se a monitorização do potássio e da redução da função renal durante o tratamento da HA na DRC em tratamento conservador.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 71,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 1,
+            "linha_final": 6,
+            "secao": "8.2.4. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Diálise"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-25",
+      "pergunta": "Já tive um derrame. Em quanto preciso manter minha pressão para evitar outro?",
+      "resposta_referencia": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).",
+      "resposta_leiga": "Quem já teve derrame ou um ataque isquêmico passageiro deve manter a pressão abaixo de 13 por 8 (130/80 mmHg), para reduzir infarto, novo derrame e morte.",
+      "secao": "8.6.1. Meta de Pressão Arterial na Hipertensão Arterial do Acidente Vascular Cerebral na Fase Crônica",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 76,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 76,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "8.6.2. Tratamento da Hipertensão Arterial no Acidente Vascular Cerebral na Fase Crônica"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-26",
+      "pergunta": "Minha pressão subiu muito, mas não estou sentindo nada grave e não há dano em órgão. Preciso ir para o pronto-socorro?",
+      "resposta_referencia": "Não há evidências de que o paciente com elevação importante da PA sem LOA aguda deva ser tratado em unidade de emergência, portanto recomenda-se a condução ambulatorial, tal qual um paciente com HA não controlada e assintomática.",
+      "resposta_leiga": "Não necessariamente. Quando a pressão sobe muito, mas sem lesão aguda em órgãos, não há prova de que precise tratar na emergência; o cuidado pode ser feito no consultório, como em quem tem pressão alta não controlada e sem sintomas.",
+      "secao": "11.5. Tratamento Geral da Crise Hipertensiva",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 98,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 7,
+          "linha_final": 11,
+          "trecho_literal": "Não há evidências de que o paciente com elevação importante da PA sem LOA aguda deva ser tratado em unidade de emergência, portanto recomenda-se a condução ambulatorial, tal qual um paciente com HA não controlada e assintomática.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 98,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 7,
+            "linha_final": 11,
+            "secao": "11.5. Tratamento Geral da Crise Hipertensiva"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-27",
+      "pergunta": "Cheguei ao atendimento com a pressão muito alta e uns sintomas leves. Qual é a primeira coisa que fazem?",
+      "resposta_referencia": "A primeira medida a ser tomada em um paciente com elevação importante da PA com sintomas sem relação com LOA aguda é a observação clínica por 30 minutos em ambiente calmo, avaliando a resolução dos sintomas e a redução da PA.",
+      "resposta_leiga": "Se os sintomas não vêm de lesão aguda em órgãos, o primeiro passo é ficar em observação por 30 minutos num lugar calmo, vendo se os sintomas passam e se a pressão baixa.",
+      "secao": "11.5. Tratamento Geral da Crise Hipertensiva",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 98,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 11,
+          "linha_final": 15,
+          "trecho_literal": "A primeira medida a ser tomada em um paciente com elevação importante da PA com sintomas sem relação com LOA aguda é a observação clínica por 30 minutos em ambiente calmo, avaliando a resolução dos sintomas e a redução da PA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 98,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 11,
+            "linha_final": 15,
+            "secao": "11.5. Tratamento Geral da Crise Hipertensiva"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-28",
+      "pergunta": "Quando a pressão sobe de repente, posso colocar um comprimido de nifedipina embaixo da língua?",
+      "resposta_referencia": "Há advertência para não usar nifedipina sublingual em nenhuma situação de elevação aguda da PA.",
+      "resposta_leiga": "Não. A nifedipina embaixo da língua não deve ser usada em nenhuma situação de subida repentina da pressão.",
+      "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 95,
+          "tipo": "paragrafo",
+          "numero": 9,
+          "linha_inicial": 3,
+          "linha_final": 5,
+          "trecho_literal": "Há advertência para não usar nifedipina sublingual em nenhuma situação de elevação aguda da PA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 95,
+            "tipo": "paragrafo",
+            "numero": 9,
+            "linha_inicial": 3,
+            "linha_final": 5,
+            "secao": "10.2.3. Abordagem Terapêutica da Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-29",
+      "pergunta": "Fui atendido com a pressão muito alta, sem lesão em órgão, e me mandaram para casa. Em quanto tempo devo voltar ao médico e até quanto a pressão deve baixar?",
+      "resposta_referencia": "Recomenda-se, em pacientes com elevação importante da PA sem LOA aguda (antes denominada urgência hipertensiva), reavaliação ambulatorial em 1 a 7 dias com alvo de PAS < 160 e PAD < 100 mmHg.",
+      "resposta_leiga": "Quando a pressão sobe muito sem lesão aguda em órgãos (o que antes se chamava urgência hipertensiva), você deve ser reavaliado no consultório em 1 a 7 dias. O objetivo é a de cima abaixo de 160 e a de baixo abaixo de 100 (16 por 10).",
+      "secao": "1.1. Principais Destaques (Capítulo 11 – Crise hipertensiva)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 29,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se, em pacientes com elevação importante da PA sem LOA aguda (antes denominada urgência hipertensiva), reavaliação ambulatorial em 1 a 7 dias com alvo de PAS < 160 e PAD < 100 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 29,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "1.1. Principais Destaques"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "05-30",
+      "pergunta": "O que é uma emergência hipertensiva de verdade e como ela é tratada?",
+      "resposta_referencia": "EH: elevação da PA (≥ 180/110 mmHg) com LOA aguda e risco imediato de morte. Requer redução rápida e gradual da PA em minutos a horas, dependendo da LOA presente. Geralmente, são usados medicamentos endovenosos.",
+      "resposta_leiga": "É quando a pressão está em 18 por 11 (180/110 mmHg) ou mais, com lesão aguda em algum órgão e risco imediato de morte. A pressão precisa baixar rápido, mas aos poucos, em minutos a horas, conforme o órgão afetado, geralmente com remédio na veia.",
+      "secao": "11. Crise Hipertensiva – Mensagens principais",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 103,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "EH: elevação da PA (≥ 180/110 mmHg) com LOA aguda e risco imediato de morte. Requer redução rápida e gradual da PA em minutos a horas, dependendo da LOA presente. Geralmente, são usados medicamentos endovenosos.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 103,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "11.6.9. Hipertensão na Gravidez: Pré-eclâmpsia e Eclâmpsia"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    }
+  ],
+  "respostas_api": [
+    {
+      "pedido": "Gere exatamente 30 itens sobre o tema: Situações especiais (idosos, gestantes, crianças e adolescentes, diabetes, doença renal, AVC, urgência e emergência hipertensiva).\nDistribua as perguntas por diferentes partes da diretriz que tratam desse tema.\nMarque sobre_nova_classificacao = true só se o item tratar dessa mudança de classificação.",
+      "qtde_pedida": 30,
+      "request_id": "req_011Ch7kK246g89H2vs58vLtx",
+      "resposta": {
+        "id": "msg_011Ch7kK3RwUWW4MdBrg218e",
+        "container": null,
+        "content": [
+          {
+            "signature": "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",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "text": "{\"itens\":[{\"pergunta\":\"Meu pai tem 78 anos e pressão alta. Até quanto a pressão dele deve ficar?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.\",\"resposta_leiga\":\"Para a maioria das pessoas idosas, a pressão deve ficar abaixo de 13 por 8 (130/80 mmHg).\",\"secao\":\"9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":82,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para a maioria dos pacientes idosos.\"}]},{\"pergunta\":\"Minha avó tem mais de 85 anos e é bem fraquinha. A pressão dela também precisa chegar a 13 por 8?\",\"resposta_referencia\":\"Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.\",\"resposta_leiga\":\"Para idosos frágeis, muito idosos ou com doenças que diminuem a expectativa de vida, a pressão deve ser baixada até o menor valor que a pessoa aguente bem, sem passar mal.\",\"secao\":\"9.1.4.1. Metas para o Controle da Hipertensão Arterial no Paciente Idoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":82,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se, para idosos frágeis, muito idosos ou com condições que comprometam a expectativa de vida, que a PA seja reduzida até o menor valor tolerado.\"}]},{\"pergunta\":\"Minha mãe é idosa e fica tonta quando levanta, porque a pressão cai. O que ajuda sem precisar de remédio?\",\"resposta_referencia\":\"A melhor opção para seu controle é o uso de MNM, como hidratação adequada, dieta normossódica, mudança lenta de decúbito, elevação da cabeceira e uso de meias elásticas.\",\"resposta_leiga\":\"O melhor caminho são medidas sem remédio: beber água o suficiente, comer com quantidade normal de sal, levantar devagar da cama, deixar a cabeceira mais alta e usar meias elásticas.\",\"secao\":\"9.1.3.1. Diagnóstico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":78,\"tipo\":\"paragrafo\",\"numero\":10,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"A melhor opção para seu controle é o uso de MNM, como\"},{\"pagina\":79,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"hidratação adequada, dieta normossódica, mudança lenta de decúbito, elevação da cabeceira e uso de meias elásticas.\"}]},{\"pergunta\":\"Meu avô tem queda de pressão depois que almoça. O que ele deve evitar?\",\"resposta_referencia\":\"Nos casos de HPP, o idoso deve também evitar refeições copiosas, grande consumo de carboidratos e de álcool e não realizar exercícios após as refeições.\",\"resposta_leiga\":\"Quando a pressão cai depois de comer, o idoso deve evitar refeições muito grandes, muito carboidrato (massas, pães, doces) e álcool, e não deve fazer exercício logo depois de comer.\",\"secao\":\"9.1.3.1. Diagnóstico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":79,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Nos casos de HPP, o idoso deve também evitar refeições copiosas, grande consumo de carboidratos e de álcool e não realizar exercícios após as refeições.\"}]},{\"pergunta\":\"Quando o médico vai aumentar o remédio de pressão de uma pessoa idosa, ele deve esperar quanto tempo entre um ajuste e outro?\",\"resposta_referencia\":\"É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.\",\"resposta_leiga\":\"No idoso, o melhor é começar com um remédio só ou uma combinação em dose baixa. Se precisar, os aumentos ou novos remédios devem vir aos poucos, com pelo menos 2 semanas entre um ajuste e outro.\",\"secao\":\"9.1.4.3. Tratamento Medicamentoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":81,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"É prudente iniciar com monoterapia ou combinação em doses baixas e, se necessário, realizar aumento ou combinação gradual de anti-hipertensivos, com intervalo mínimo de 2 semanas.\"}]},{\"pergunta\":\"Meu pai idoso começou a tomar remédio de pressão. Existe risco maior de ele cair no começo do tratamento?\",\"resposta_referencia\":\"O risco de quedas em idosos pode aumentar nas primeiras semanas de tratamento com uso dos DIU e no primeiro dia com as demais classes.\",\"resposta_leiga\":\"Sim. Em idosos, o risco de queda pode aumentar nas primeiras semanas quando o remédio é um diurético, e no primeiro dia com os outros tipos de remédio de pressão.\",\"secao\":\"9.1.4.3. Tratamento Medicamentoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":81,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"O risco de quedas em idosos pode aumentar nas primeiras semanas de tratamento com uso dos DIU e no primeiro dia com as demais classes.\"}]},{\"pergunta\":\"Meu avô tem 90 anos. O médico pode deixar de tratar a pressão dele só por causa da idade?\",\"resposta_referencia\":\"A condição funcional do indivíduo é muito mais importante que a idade cronológica per se e, assim, nenhuma intervenção terapêutica deve ser negada ou retirada apenas com base na idade.\",\"resposta_leiga\":\"Não. O que mais importa é como a pessoa está e o que consegue fazer no dia a dia, não a idade em si. Nenhum tratamento deve ser negado ou tirado só por causa da idade.\",\"secao\":\"9.1.1. Introdução\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":78,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"A condição funcional do indivíduo é muito mais importante que a idade cronológica per se e, assim, nenhuma\"},{\"pagina\":78,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"intervenção terapêutica deve ser negada ou retirada apenas com base na idade.\"}]},{\"pergunta\":\"A partir de que idade meu filho deve começar a medir a pressão todo ano?\",\"resposta_referencia\":\"Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.\",\"resposta_leiga\":\"A pressão da criança deve ser medida uma vez por ano a partir dos 3 anos de idade.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":90,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se que a PA da criança seja medida anualmente a partir de 3 anos de idade.\"}]},{\"pergunta\":\"Como o médico confirma que meu filho de 10 anos ou minha filha de 15 têm pressão alta?\",\"resposta_referencia\":\"Recomenda-se que o diagnóstico de HA na criança ou adolescente até 13 anos seja baseado na confirmação de valores de PA ≥ percentil 95 de acordo com o percentil de altura e quando ≥ 13 anos deve ser baseado na confirmação de valores de PA ≥ 130/80 mmHg em três atendimentos diferentes utilizando metodologia auscultatória.\",\"resposta_leiga\":\"Até 13 anos, a pressão alta é confirmada quando fica no percentil 95 ou acima para a altura da criança. A partir de 13 anos, quando a pressão fica em 13 por 8 (130/80 mmHg) ou mais, confirmada em três consultas diferentes, medida com estetoscópio.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":90,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"Recomenda-se que o diagnóstico de HA na criança ou adolescente até 13 anos seja baseado na confirmação de valores de PA ≥ percentil 95 de acordo com o percentil de altura e quando ≥ 13 anos deve ser baseado na confirmação de valores de PA ≥ 130/80 mmHg em três atendimentos diferentes utilizando metodologia auscultatória.\"}]},{\"pergunta\":\"Meu filho adolescente tem pressão alta. Até quanto a pressão dele precisa baixar com o tratamento?\",\"resposta_referencia\":\"Recomenda-se alvo terapêutico de redução da PAS e PAD para < percentil 90 em crianças e < 130/80 mmHg em adolescentes ≥ 13 anos.\",\"resposta_leiga\":\"Em crianças, o objetivo é deixar a pressão abaixo do percentil 90. Em adolescentes de 13 anos ou mais, abaixo de 13 por 8 (130/80 mmHg).\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":90,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"Recomenda-se alvo terapêutico de redução da PAS e PAD para < percentil 90 em crianças e < 130/80 mmHg em adolescentes ≥ 13 anos.\"}]},{\"pergunta\":\"Minha filha vai começar remédio para pressão. Como o médico costuma começar e ajustar a dose em criança?\",\"resposta_referencia\":\"Inicia-se o tratamento medicamentoso com agente anti-hipertensivo único, em dose baixa, com aumento a cada 2 a 4 semanas até o alvo terapêutico.\",\"resposta_leiga\":\"Na criança, o tratamento começa com um único remédio em dose baixa, e a dose vai sendo aumentada a cada 2 a 4 semanas até a pressão chegar ao objetivo.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":89,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"Inicia-se o tratamento medicamentoso com agente anti-hipertensivo único, em dose baixa, com aumento a cada 2 a 4\"},{\"pagina\":90,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"semanas até o alvo terapêutico.\"}]},{\"pergunta\":\"Estou grávida. A partir de que pressão se considera que tenho pressão alta na gravidez?\",\"resposta_referencia\":\"Hipertensão na gestação PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, medida em duas ocasiões com pelo menos 4 horas de intervalo.\",\"resposta_leiga\":\"Na gravidez, é pressão alta quando a de cima fica em 140 ou mais e/ou a de baixo em 90 ou mais (14 por 9), medida em duas vezes com pelo menos 4 horas de diferença.\",\"secao\":\"10.2.1. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":94,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"Hipertensão na gestação PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, medida em duas ocasiões com pelo menos 4 horas de intervalo.\"}]},{\"pergunta\":\"Tomo enalapril para pressão e descobri que estou grávida. Posso continuar com esse remédio?\",\"resposta_referencia\":\"Não se recomenda fazer uso de IECA ou BRA na gestação pelo risco de malformação fetal.\",\"resposta_leiga\":\"Não. Remédios da família do enalapril/captopril e da losartana não devem ser usados na gravidez, porque podem causar malformação no bebê.\",\"secao\":\"10.2.3. Abordagem Terapêutica da Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":97,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":8,\"linha_final\":8,\"trecho_literal\":\"Não se recomenda fazer uso de IECA ou BRA na gestação pelo risco de malformação fetal.\"}]},{\"pergunta\":\"Quais remédios costumam ser usados para começar a tratar a pressão alta na gravidez?\",\"resposta_referencia\":\"Recomenda-se iniciar o tratamento anti-hipertensivo em gestantes com HA com metildopa ou BCCs di-hidropiridínicos (nifedipina de longa duração ou amlodipina).\",\"resposta_leiga\":\"Na grávida com pressão alta, o tratamento deve começar com metildopa ou com nifedipina de longa duração ou anlodipino (amlodipina).\",\"secao\":\"10.2.3. Abordagem Terapêutica da Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":97,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":7,\"linha_final\":7,\"trecho_literal\":\"Recomenda-se iniciar o tratamento anti-hipertensivo em gestantes com HA com metildopa ou BCCs di-hidropiridínicos (nifedipina de longa duração ou amlodipina).\"}]},{\"pergunta\":\"Estou grávida e tenho risco alto de pré-eclâmpsia. Tomar aspirina ajuda? Quando começar?\",\"resposta_referencia\":\"Recomenda-se o uso de AAS iniciado antes de 16 semanas nas gestantes de alto risco para reduzir a PE abaixo de 34 semanas.\",\"resposta_leiga\":\"Sim. Nas grávidas de alto risco, a aspirina iniciada antes de 16 semanas de gestação ajuda a reduzir a pré-eclâmpsia que aparece antes de 34 semanas.\",\"secao\":\"10.2.2. Predição e Profilaxia de Pré-Eclâmpsia\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":97,\"tipo\":\"tabela\",\"numero\":2,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se o uso de AAS iniciado antes de 16 semanas nas gestantes de alto risco para reduzir a PE abaixo de 34 semanas.\"}]},{\"pergunta\":\"Tive bebê há pouco e continuo com pressão alta. Posso tomar remédio enquanto amamento?\",\"resposta_referencia\":\"As puérperas podem receber qualquer medicação anti-hipertensiva, incluindo os IECAs, sendo a escolha limitada pelo aleitamento, devendo-se priorizar as medicações anti-hipertensivas que passem em quantidade menor pelo leite materno.\",\"resposta_leiga\":\"Sim. Depois do parto, qualquer remédio de pressão pode ser usado, inclusive os da família do enalapril/captopril. Por causa da amamentação, devem ser preferidos os que passam menos para o leite.\",\"secao\":\"10.2.4. Hipertensão Arterial no Puerpério\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":95,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"As puérperas podem receber qualquer medicação anti-hipertensiva, incluindo os IECAs, sendo a escolha limitada pelo aleitamento, devendo-se priorizar as medicações anti-hipertensivas que passem em quantidade menor pelo leite materno.\"}]},{\"pergunta\":\"Uso pílula anticoncepcional e minha pressão está ficando em 16 por 10. Devo trocar de método?\",\"resposta_referencia\":\"Recomenda-se considerar outros métodos contraceptivos ou a descontinuação dos AHCOS para mulheres quando houver elevação persistente da PAS ≥ 160 mmHg e/ou PAD ≥ 100 mmHg com o uso de AHCO.\",\"resposta_leiga\":\"Se a pressão ficar alta de forma persistente, com a de cima em 160 ou mais e/ou a de baixo em 100 ou mais (16 por 10) usando a pílula combinada, deve-se pensar em outro método para evitar gravidez ou parar a pílula.\",\"secao\":\"10.1.2.1. Mulheres Jovens e Anticoncepcionais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":97,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"Recomenda-se considerar outros métodos contraceptivos ou a descontinuação dos AHCOS para mulheres quando houver elevação persistente da PAS ≥ 160 mmHg e/ou PAD ≥ 100 mmHg com o uso de AHCO.\"}]},{\"pergunta\":\"Tive pressão alta na gravidez, mas já passou depois do parto. Preciso continuar indo ao médico?\",\"resposta_referencia\":\"Recomenda-se o acompanhamento de longo prazo de toda a mulher que teve HA na gestação para a prevenção efetiva de DCV.\",\"resposta_leiga\":\"Sim. Toda mulher que teve pressão alta na gravidez deve ser acompanhada por muito tempo, para prevenir doenças do coração e dos vasos.\",\"secao\":\"10.2.5. Risco Cardiovascular Futuro\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":98,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Recomenda-se o acompanhamento de longo prazo de toda a mulher que teve HA na gestação para a prevenção efetiva de DCV.\"}]},{\"pergunta\":\"Tenho diabetes e pressão alta. Qual pressão eu devo ter como objetivo?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com HA e DM.\",\"resposta_leiga\":\"Quem tem pressão alta e diabetes deve manter a pressão abaixo de 13 por 8 (130/80 mmHg).\",\"secao\":\"8.3.1. Metas na Hipertensão Arterial no Paciente com Diabetes Mellitus\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":73,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com HA e DM.\"}]},{\"pergunta\":\"Sou diabético e acabei de descobrir que tenho pressão alta. Vou começar com um remédio só?\",\"resposta_referencia\":\"Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.\",\"resposta_leiga\":\"Não. No diabético, o remédio deve começar logo no diagnóstico e com dois remédios: um da família do enalapril (ou da losartana, se não tolerar o primeiro) junto com um bloqueador de cálcio, como o anlodipino, ou um diurético do tipo tiazídico.\",\"secao\":\"8.3.2. Tratamento da Hipertensão Arterial no Paciente com Diabetes Mellitus\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":73,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"Recomenda-se que o início do tratamento medicamentoso deva ser imediato (ao diagnóstico), com dois medicamentos, IECA ou BRA, quando houver intolerância ao IECA, associado a BCC ou diurético tiazídico similar.\"}]},{\"pergunta\":\"Tenho diabetes e um exame de urina deu proteína (albumina) alta. Isso já quer dizer que meu rim está lesado?\",\"resposta_referencia\":\"Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.\",\"resposta_leiga\":\"Não necessariamente. A albumina na urina precisa ser confirmada em duas ou três amostras, porque exercício, febre e refeições com muita proteína podem alterar o resultado sem que haja lesão no rim.\",\"secao\":\"8.3. Hipertensão Arterial e Diabetes Mellitus\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":72,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Ressalta-se que a presença de albuminúria deve ser comprovada em duas ou três amostras de urina, visto que exercícios, febre e refeições ricas em proteínas podem interferir no resultado e não necessariamente significar dano renal.\"}]},{\"pergunta\":\"Tenho doença nos rins e pressão alta, mas não faço diálise. Qual deve ser minha pressão?\",\"resposta_referencia\":\"Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.\",\"resposta_leiga\":\"Adultos com pressão alta e doença crônica nos rins devem manter a pressão abaixo de 13 por 8 (130/80 mmHg), para reduzir problemas do coração e a perda total dos rins.\",\"secao\":\"8.2.1. Meta de Pressão Arterial para Doença Renal Crônica em Tratamento Conservador\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":71,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se, em adultos com HA e DRC, a meta de PA < 130/80 mmHg para a redução de eventos CV e falência renal.\"}]},{\"pergunta\":\"Faço hemodiálise. Qual pressão devo ter antes e depois da sessão, e quando ela deve ser medida depois?\",\"resposta_referencia\":\"Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg. A medida da PA pós-diálise deve ser realizada após a selagem do cateter ou hemostasia da fístula arteriovenosa.\",\"resposta_leiga\":\"Em hemodiálise ou hemofiltração, a pressão antes da sessão deve ficar abaixo de 14 por 9 (140/90 mmHg) e depois abaixo de 13 por 8 (130/80 mmHg). A medida depois da diálise deve ser feita só depois de fechar o cateter ou parar o sangramento da fístula.\",\"secao\":\"8.2.2. Meta de Pressão Arterial para Doença Renal Crônica em Diálise\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":70,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":7,\"linha_final\":11,\"trecho_literal\":\"Para pacientes em HD ou hemofiltração, recomenda-se uma meta de PA pré-diálise < 140/90 mmHg e PA pós-diálise < 130/80 mmHg. A medida da PA pós-diálise deve ser realizada após a selagem do cateter ou hemostasia da fístula arteriovenosa.\"}]},{\"pergunta\":\"Tenho problema nos rins e trato a pressão. Que exames precisam ser acompanhados durante o tratamento?\",\"resposta_referencia\":\"Recomenda-se a monitorização do potássio e da redução da função renal durante o tratamento da HA na DRC em tratamento conservador.\",\"resposta_leiga\":\"Quem tem doença nos rins (sem diálise) e trata a pressão deve acompanhar o potássio no sangue e se o funcionamento dos rins está caindo.\",\"secao\":\"8.2.3. Tratamento da Hipertensão Arterial na Doença Renal Crônica em Tratamento Conservador\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":71,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":1,\"linha_final\":6,\"trecho_literal\":\"Recomenda-se a monitorização do potássio e da redução da função renal durante o tratamento da HA na DRC em tratamento conservador.\"}]},{\"pergunta\":\"Já tive um derrame. Em quanto preciso manter minha pressão para evitar outro?\",\"resposta_referencia\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).\",\"resposta_leiga\":\"Quem já teve derrame ou um ataque isquêmico passageiro deve manter a pressão abaixo de 13 por 8 (130/80 mmHg), para reduzir infarto, novo derrame e morte.\",\"secao\":\"8.6.1. Meta de Pressão Arterial na Hipertensão Arterial do Acidente Vascular Cerebral na Fase Crônica\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":76,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se a meta de PA < 130/80 mmHg para pacientes com AVC ou AIT prévios para redução de eventos CV maiores (IAM, recorrência AVC, morte).\"}]},{\"pergunta\":\"Minha pressão subiu muito, mas não estou sentindo nada grave e não há dano em órgão. Preciso ir para o pronto-socorro?\",\"resposta_referencia\":\"Não há evidências de que o paciente com elevação importante da PA sem LOA aguda deva ser tratado em unidade de emergência, portanto recomenda-se a condução ambulatorial, tal qual um paciente com HA não controlada e assintomática.\",\"resposta_leiga\":\"Não necessariamente. Quando a pressão sobe muito, mas sem lesão aguda em órgãos, não há prova de que precise tratar na emergência; o cuidado pode ser feito no consultório, como em quem tem pressão alta não controlada e sem sintomas.\",\"secao\":\"11.5. Tratamento Geral da Crise Hipertensiva\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":98,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":7,\"linha_final\":11,\"trecho_literal\":\"Não há evidências de que o paciente com elevação importante da PA sem LOA aguda deva ser tratado em unidade de emergência, portanto recomenda-se a condução ambulatorial, tal qual um paciente com HA não controlada e assintomática.\"}]},{\"pergunta\":\"Cheguei ao atendimento com a pressão muito alta e uns sintomas leves. Qual é a primeira coisa que fazem?\",\"resposta_referencia\":\"A primeira medida a ser tomada em um paciente com elevação importante da PA com sintomas sem relação com LOA aguda é a observação clínica por 30 minutos em ambiente calmo, avaliando a resolução dos sintomas e a redução da PA.\",\"resposta_leiga\":\"Se os sintomas não vêm de lesão aguda em órgãos, o primeiro passo é ficar em observação por 30 minutos num lugar calmo, vendo se os sintomas passam e se a pressão baixa.\",\"secao\":\"11.5. Tratamento Geral da Crise Hipertensiva\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":98,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":11,\"linha_final\":15,\"trecho_literal\":\"A primeira medida a ser tomada em um paciente com elevação importante da PA com sintomas sem relação com LOA aguda é a observação clínica por 30 minutos em ambiente calmo, avaliando a resolução dos sintomas e a redução da PA.\"}]},{\"pergunta\":\"Quando a pressão sobe de repente, posso colocar um comprimido de nifedipina embaixo da língua?\",\"resposta_referencia\":\"Há advertência para não usar nifedipina sublingual em nenhuma situação de elevação aguda da PA.\",\"resposta_leiga\":\"Não. A nifedipina embaixo da língua não deve ser usada em nenhuma situação de subida repentina da pressão.\",\"secao\":\"10.2.3. Abordagem Terapêutica da Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":95,\"tipo\":\"paragrafo\",\"numero\":9,\"linha_inicial\":3,\"linha_final\":5,\"trecho_literal\":\"Há advertência para não usar nifedipina sublingual em nenhuma situação de elevação aguda da PA.\"}]},{\"pergunta\":\"Fui atendido com a pressão muito alta, sem lesão em órgão, e me mandaram para casa. Em quanto tempo devo voltar ao médico e até quanto a pressão deve baixar?\",\"resposta_referencia\":\"Recomenda-se, em pacientes com elevação importante da PA sem LOA aguda (antes denominada urgência hipertensiva), reavaliação ambulatorial em 1 a 7 dias com alvo de PAS < 160 e PAD < 100 mmHg.\",\"resposta_leiga\":\"Quando a pressão sobe muito sem lesão aguda em órgãos (o que antes se chamava urgência hipertensiva), você deve ser reavaliado no consultório em 1 a 7 dias. O objetivo é a de cima abaixo de 160 e a de baixo abaixo de 100 (16 por 10).\",\"secao\":\"1.1. Principais Destaques (Capítulo 11 – Crise hipertensiva)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":29,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se, em pacientes com elevação importante da PA sem LOA aguda (antes denominada urgência hipertensiva), reavaliação ambulatorial em 1 a 7 dias com alvo de PAS < 160 e PAD < 100 mmHg.\"}]},{\"pergunta\":\"O que é uma emergência hipertensiva de verdade e como ela é tratada?\",\"resposta_referencia\":\"EH: elevação da PA (≥ 180/110 mmHg) com LOA aguda e risco imediato de morte. Requer redução rápida e gradual da PA em minutos a horas, dependendo da LOA presente. Geralmente, são usados medicamentos endovenosos.\",\"resposta_leiga\":\"É quando a pressão está em 18 por 11 (180/110 mmHg) ou mais, com lesão aguda em algum órgão e risco imediato de morte. A pressão precisa baixar rápido, mas aos poucos, em minutos a horas, conforme o órgão afetado, geralmente com remédio na veia.\",\"secao\":\"11. Crise Hipertensiva – Mensagens principais\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":103,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"EH: elevação da PA (≥ 180/110 mmHg) com LOA aguda e risco imediato de morte. Requer redução rápida e gradual da PA em minutos a horas, dependendo da LOA presente. Geralmente, são usados medicamentos endovenosos.\"}]}]}",
+            "type": "text"
+          }
+        ],
+        "diagnostics": null,
+        "model": "claude-opus-5-5",
+        "role": "assistant",
+        "stop_details": null,
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 350733,
+          "inference_geo": "global",
+          "input_tokens": 145,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 0,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 350733,
+              "input_tokens": 145,
+              "model": null,
+              "output_tokens": 18663,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 18663,
+          "output_tokens_details": {
+            "thinking_tokens": 6829
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    }
+  ]
+}

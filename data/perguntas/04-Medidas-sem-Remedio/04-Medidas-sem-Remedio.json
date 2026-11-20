@@ -1,0 +1,983 @@
+{
+  "tema": "nao_medicamentoso",
+  "descricao": "Medidas sem remédio (sal, alimentação, peso, atividade física, álcool, tabagismo, sono, estresse)",
+  "chamadas": [
+    {
+      "modelo_que_respondeu": "claude-opus-5-5",
+      "message_id": "msg_011Ch7k5fYxE9rR1gyzBLT1U",
+      "request_id": "req_011Ch7k5eMGn7TSnGiC62GLe",
+      "stop_reason": "end_turn",
+      "qtde_pedida": 30,
+      "tokens_entrada": 134,
+      "tokens_saida": 24480,
+      "tokens_escrita_cache_5m": 0,
+      "tokens_escrita_cache_1h": 0,
+      "tokens_leitura_cache": 350733,
+      "custo_usd": 0.5603
+    }
+  ],
+  "itens": [
+    {
+      "id": "04-01",
+      "pergunta": "Quanto sal eu posso comer por dia para cuidar da pressão?",
+      "resposta_referencia": "Assim, a restrição da ingestão de sódio para no máximo 2 g/dia é recomendada, o que corresponde a 5 g de sal de cozinha ou 1 colher de chá/dia.",
+      "resposta_leiga": "O recomendado é consumir no máximo 2 g de sódio por dia. Isso equivale a 5 g de sal de cozinha, ou 1 colher de chá por dia.",
+      "secao": "6.3.1. Restrição na Ingestão de Sódio",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 8,
+          "linha_final": 10,
+          "trecho_literal": "Assim, a restrição da ingestão de sódio para no máximo 2 g/dia é recomendada, o que corresponde a 5 g de sal de cozinha ou 1 colher de chá/dia.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 8,
+            "linha_final": 10,
+            "secao": "6.3.1. Restrição na Ingestão de Sódio"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-02",
+      "pergunta": "Fazer alguma coisa para controlar o estresse ajuda a baixar a pressão? Qual técnica funciona de verdade?",
+      "resposta_referencia": "De modo geral, as terapias comportamentais de abordagem do estresse não apresentam evidências robustas de eficácia na diminuição da PA, exceto a meditação.",
+      "resposta_leiga": "Em geral, as técnicas para lidar com o estresse não têm provas fortes de que baixam a pressão. A exceção é a meditação, que mostrou efeito.",
+      "secao": "6.5.1. Técnicas de Abordagem do Estresse",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 55,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 6,
+          "linha_final": 9,
+          "trecho_literal": "De modo geral, as terapias comportamentais de abordagem do estresse não apresentam evidências robustas de eficácia na diminuição da PA, exceto a meditação.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 55,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 6,
+            "linha_final": 9,
+            "secao": "6.5.1. Técnicas de Abordagem do Estresse"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-03",
+      "pergunta": "Posso trocar o sal comum pelo sal light?",
+      "resposta_referencia": "O sal hipossódico ou light pode ser considerado um substituto do sal, pois possui teor de sódio pelo menos 50% menor que o sal de cozinha.",
+      "resposta_leiga": "Sim, o sal light pode substituir o sal comum. Ele tem pelo menos 50% menos sódio que o sal de cozinha.",
+      "secao": "6.3.1. Restrição na Ingestão de Sódio",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 8,
+          "linha_inicial": 11,
+          "linha_final": 13,
+          "trecho_literal": "O sal hipossódico ou light pode ser considerado um substituto do sal, pois possui teor de sódio pelo menos 50% menor que o sal de cozinha.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 8,
+            "linha_inicial": 11,
+            "linha_final": 13,
+            "secao": "6.3.1. Restrição na Ingestão de Sódio"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-04",
+      "pergunta": "O sal rosa do Himalaia ou o sal marinho são melhores para a pressão do que o sal comum?",
+      "resposta_referencia": "Porém, outros tipos de sal, como o sal rosa do Himalaia e o sal marinho, apresentam o mesmo teor de sódio que o sal de cozinha.",
+      "resposta_leiga": "Não. O sal rosa do Himalaia e o sal marinho têm a mesma quantidade de sódio que o sal de cozinha comum.",
+      "secao": "6.3.1. Restrição na Ingestão de Sódio",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 8,
+          "linha_inicial": 16,
+          "linha_final": 18,
+          "trecho_literal": "Porém, outros tipos de sal, como o sal rosa do Himalaia e o sal marinho, apresentam o mesmo teor de sódio que o sal de cozinha.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 8,
+            "linha_inicial": 16,
+            "linha_final": 18,
+            "secao": "6.3.1. Restrição na Ingestão de Sódio"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-05",
+      "pergunta": "Tenho problema nos rins. Posso usar aqueles sais que trocam parte do sódio por potássio?",
+      "resposta_referencia": "Entretanto, os substitutos do sal contendo potássio podem elevar esse íon sérico em indivíduos com risco de hipercalemia, como pacientes com DRC.",
+      "resposta_leiga": "É preciso cuidado. Em quem tem risco de potássio alto no sangue, como pessoas com doença crônica nos rins, esses substitutos do sal com potássio podem aumentar o potássio no sangue.",
+      "secao": "6.3.1. Restrição na Ingestão de Sódio",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 8,
+          "linha_inicial": 9,
+          "linha_final": 11,
+          "trecho_literal": "Entretanto, os substitutos do sal contendo potássio podem elevar esse íon sérico em indivíduos com risco de hipercalemia, como pacientes com DRC.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 8,
+            "linha_inicial": 9,
+            "linha_final": 11,
+            "secao": "6.3.1. Restrição na Ingestão de Sódio"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-06",
+      "pergunta": "Quais alimentos têm bastante potássio para eu comer mais?",
+      "resposta_referencia": "Boas fontes de potássio incluem frutas, verduras, hortaliças, oleaginosas, leguminosas e laticínios pobres em gordura.",
+      "resposta_leiga": "Boas fontes de potássio são frutas, verduras, legumes e hortaliças, castanhas, feijões e similares, e leite e derivados com pouca gordura.",
+      "secao": "6.3.2. Aumento no Consumo de Potássio Dietético",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 10,
+          "linha_inicial": 4,
+          "linha_final": 6,
+          "trecho_literal": "Boas fontes de potássio incluem frutas, verduras, hortaliças, oleaginosas, leguminosas e laticínios pobres em gordura.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 10,
+            "linha_inicial": 4,
+            "linha_final": 6,
+            "secao": "6.3.2. Aumento no Consumo de Potássio Dietético"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-07",
+      "pergunta": "Qual é o peso ideal para quem tem pressão alta? Muda para quem é idoso?",
+      "resposta_referencia": "Em adultos, o ideal é alcançar e manter um peso saudável, representado pelo IMC < 25 kg/m2. Em idosos, o IMC entre 22 e < 27 kg/m2.",
+      "resposta_leiga": "Em adultos, o ideal é manter o índice de massa corporal (a conta do peso em relação à altura) abaixo de 25 kg/m2. Em idosos, o ideal é ficar entre 22 e menos de 27 kg/m2.",
+      "secao": "6.2. Perda de Peso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Em adultos, o ideal é alcançar e manter um peso saudável, representado pelo IMC < 25 kg/m2. Em idosos, o IMC entre 22 e < 27 kg/m2.",
+          "status": "nao_encontrada",
+          "localizacao_verificada": null
+        }
+      ],
+      "resposta_e_literal": false,
+      "status_verificacao": "revisar"
+    },
+    {
+      "id": "04-08",
+      "pergunta": "Além do peso, a medida da barriga importa? Qual deve ser o tamanho da cintura?",
+      "resposta_referencia": "A avaliação não deve se limitar à análise do IMC, devendo-se incluir parâmetros de adiposidade central, como a circunferência abdominal (CA), que deve ser mantida < 102 cm em homens e < 88 cm em mulheres.",
+      "resposta_leiga": "Sim, não basta olhar só o peso, a gordura da barriga também conta. A medida da cintura deve ficar abaixo de 102 cm nos homens e abaixo de 88 cm nas mulheres.",
+      "secao": "6.2. Perda de Peso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "A avaliação não deve se limitar à análise do IMC, devendo-se incluir parâmetros de adiposidade central, como a circunferência abdominal (CA), que deve ser mantida < 102 cm em homens e < 88 cm em mulheres.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "6.2. Perda de Peso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-09",
+      "pergunta": "Cada quilo que eu perder baixa quanto a minha pressão?",
+      "resposta_referencia": "Em uma metanálise, a redução de 1 kg de peso corporal promoveu redução de 1,05 mmHg na PAS e de 0,92 mmHg na PAD.",
+      "resposta_leiga": "Cada 1 kg perdido baixou em média 1,05 mmHg a pressão de cima e 0,92 mmHg a pressão de baixo.",
+      "secao": "6.2. Perda de Peso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 52,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 3,
+          "linha_final": 4,
+          "trecho_literal": "Em uma metanálise, a redução de 1 kg de peso corporal promoveu",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 52,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 3,
+            "linha_final": 4,
+            "secao": "6.2. Perda de Peso"
+          }
+        },
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "redução de 1,05 mmHg na PAS e de 0,92 mmHg na PAD.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 53,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "6.2. Perda de Peso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-10",
+      "pergunta": "Se eu não conseguir chegar ao peso ideal, perder só um pouco já adianta para a pressão?",
+      "resposta_referencia": "Mesmo sem alcançar o peso corporal desejável, a perda ponderal reduz a PA e o risco CV proporcionalmente à magnitude e duração da perda de peso.",
+      "resposta_leiga": "Sim. Mesmo sem chegar ao peso ideal, emagrecer já baixa a pressão e o risco de problemas do coração e da circulação. Quanto mais peso você perder e por mais tempo mantiver, maior o benefício.",
+      "secao": "6.2. Perda de Peso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 52,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Mesmo sem alcançar o peso corporal desejável, a perda ponderal reduz a PA e o risco CV proporcionalmente à magnitude e duração da perda de peso.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 52,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "6.2. Perda de Peso"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-11",
+      "pergunta": "Quem tem pressão alta pode beber? Qual é o limite para homem e para mulher?",
+      "resposta_referencia": "Limitar o consumo de álcool a uma dose para mulheres e duas doses para homens.",
+      "resposta_leiga": "O consumo de bebida alcoólica deve ser limitado a no máximo uma dose para mulheres e duas doses para homens.",
+      "secao": "14.9. Bases do Tratamento da Pessoa com Hipertensão Arterial (Quadro 14.6)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 126,
+          "tipo": "tabela",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "Limitar o consumo de álcool a uma dose para mulheres e duas doses para homens.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 126,
+            "tipo": "tabela",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "15.1. Expossoma e Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-12",
+      "pergunta": "Quanto é uma dose de bebida? Quanto dá de cerveja, vinho ou cachaça?",
+      "resposta_referencia": "Recomendações recentes para a hipertensão arterial consideram que uma dose contém 10 a 12 g de álcool, correspondendo a aproximadamente 200 mL de cerveja (5% de álcool), 100 mL de vinho (12% de álcool) e 25 mL de bebida destilada, como uísque, vodca e aguardente (40% de álcool).",
+      "resposta_leiga": "Uma dose tem de 10 a 12 g de álcool. Isso é mais ou menos 200 mL de cerveja, 100 mL de vinho ou 25 mL de bebida destilada, como uísque, vodca ou cachaça.",
+      "secao": "6.3. Modificações na Ingestão Alimentar (Tabela 6.1)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 53,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 2,
+          "linha_final": 4,
+          "trecho_literal": "Recomendações recentes para a hipertensão arterial consideram que uma dose contém 10 a 12 g de álcool, correspondendo a aproximadamente 200 mL de cerveja (5% de álcool), 100 mL de vinho (12% de álcool) e 25 mL de bebida destilada, como uísque, vodca e aguardente (40% de álcool).",
+          "status": "nao_encontrada",
+          "localizacao_verificada": null
+        }
+      ],
+      "resposta_e_literal": false,
+      "status_verificacao": "revisar"
+    },
+    {
+      "id": "04-13",
+      "pergunta": "Dizem que uma tacinha de vinho por dia faz bem para o coração. É verdade?",
+      "resposta_referencia": "Apesar de o consumo de álcool em quantidades pequenas a moderadas já ter sido associado a efeito cardioprotetor, evidências recentes indicam que essa associação pode ser atribuída a fatores de confusão e que, de fato, a ingestão de álcool tem relação com maior risco de DCV, havendo aumento exponencial com níveis mais elevados de ingestão. Portanto, mesmo em baixas doses, o consumo de álcool pode trazer prejuízos à saúde, e o maior risco está associado com o consumo elevado, sendo ele contínuo ou episódico.",
+      "resposta_leiga": "Essa ideia de proteção não se confirmou: o álcool aumenta o risco de doenças do coração e da circulação, e esse risco cresce muito quanto mais se bebe. Mesmo em pouca quantidade o álcool pode prejudicar a saúde, e o maior risco é beber muito, seja todo dia ou de vez em quando.",
+      "secao": "6.3.3. Redução no Consumo de Álcool",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 9,
+          "trecho_literal": "Apesar de o consumo de álcool em quantidades pequenas a moderadas já ter sido associado a efeito cardioprotetor, evidências recentes indicam que essa associação pode ser atribuída a fatores de confusão e que, de fato, a ingestão de álcool tem relação com maior risco de DCV, havendo aumento exponencial com níveis mais elevados de ingestão. Portanto, mesmo em baixas doses, o consumo de álcool pode trazer prejuízos à saúde, e o maior risco está associado com o consumo elevado, sendo ele contínuo ou episódico.",
+          "status": "nao_encontrada",
+          "localizacao_verificada": null
+        }
+      ],
+      "resposta_e_literal": false,
+      "status_verificacao": "revisar"
+    },
+    {
+      "id": "04-14",
+      "pergunta": "Meus pais têm pressão alta. O que eu posso fazer no dia a dia para não ter também?",
+      "resposta_referencia": "Em linhas gerais, devem fazer parte do plano de prevenção da HA: controle do peso corporal, alimentação saudável, AF regular, sono de qualidade e com duração adequada, gerenciamento do estresse, controle do consumo de álcool e o fortalecimento de conexões sociais positivas.",
+      "resposta_leiga": "Para prevenir a pressão alta, controle o peso, coma de forma saudável e faça atividade física regularmente. Também ajudam dormir bem e o suficiente, controlar o estresse, moderar o álcool e manter boas relações com as pessoas.",
+      "secao": "2.4. Prevenção Primária",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 32,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Em linhas gerais, devem fazer parte do plano de prevenção da HA: controle do peso corporal, alimentação saudável, AF regular, sono de qualidade e com duração adequada, gerenciamento do estresse, controle do consumo",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 32,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "2.4. Prevenção Primária"
+          }
+        },
+        {
+          "pagina": 34,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "de álcool e o fortalecimento de conexões sociais positivas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 34,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "2.4. Prevenção Primária"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-15",
+      "pergunta": "Quem tem pressão alta pode tomar café? Quantas xícaras por dia?",
+      "resposta_referencia": "Assim, recomenda-se que o consumo de café seja moderado, chegando até três a quatro xícaras/dia.",
+      "resposta_leiga": "Pode, com moderação. O recomendado é tomar até três a quatro xícaras de café por dia.",
+      "secao": "6.3.5. Outras Intervenções na Dieta",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 7,
+          "linha_inicial": 3,
+          "linha_final": 5,
+          "trecho_literal": "Assim, recomenda-se que o consumo de café seja moderado, chegando até três a quatro xícaras/dia.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 54,
+            "tipo": "paragrafo",
+            "numero": 7,
+            "linha_inicial": 3,
+            "linha_final": 5,
+            "secao": "6.3.5. Outras Intervenções na Dieta"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-16",
+      "pergunta": "Minha pressão deu 12 por 8. Mesmo sem ser pressão alta, eu já preciso mudar meus hábitos?",
+      "resposta_referencia": "Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.",
+      "resposta_leiga": "Sim. Todas as pessoas com pressão a partir de 12 por 8 (120/80 mmHg) devem começar e manter mudanças nos hábitos de vida. Essas mudanças continuam mesmo se depois for preciso tomar remédio.",
+      "secao": "5.6. Considerações na Hipertensão Sistólica Isolada (Mensagens principais sobre o início do tratamento)",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 51,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 2,
+          "linha_final": 4,
+          "trecho_literal": "Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 51,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 2,
+            "linha_final": 4,
+            "secao": "5.6. Considerações na Hipertensão Sistólica Isolada"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-17",
+      "pergunta": "Que tipo de alimentação é boa para a pressão? O que devo comer e o que devo evitar?",
+      "resposta_referencia": "Entre esses padrões, a dieta DASH (Dietary Approaches to Stop Hypertension) enfatiza o consumo de frutas, hortaliças, laticínios com baixo teor de gordura, cereais integrais, carnes magras e frutas oleaginosas, enquanto restringe o consumo de gorduras saturadas, carnes gordurosas, grãos refinados e açúcar de adição.",
+      "resposta_leiga": "Uma boa opção é a dieta chamada DASH, que valoriza frutas, verduras e legumes, leite e derivados com pouca gordura, cereais integrais, carnes magras e castanhas. Ela limita gorduras saturadas, carnes gordurosas, grãos refinados e açúcar adicionado.",
+      "secao": "6.3.4. Adoção de um Padrão Alimentar Saudável",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 4,
+          "linha_final": 10,
+          "trecho_literal": "Entre esses padrões, a dieta DASH (Dietary Approaches to Stop Hypertension) enfatiza o consumo de frutas, hortaliças, laticínios com baixo teor de gordura, cereais integrais, carnes magras e frutas oleaginosas, enquanto restringe o consumo de gorduras saturadas, carnes gordurosas, grãos refinados e açúcar de adição.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 54,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 4,
+            "linha_final": 10,
+            "secao": "6.3.4. Adoção de um Padrão Alimentar Saudável"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-18",
+      "pergunta": "Quanto a pressão pode baixar com aquela dieta própria para pressão alta, cheia de frutas e verduras e com pouca gordura?",
+      "resposta_referencia": "A dieta DASH reduz a PAS/PAD em 8,7/4,5 mmHg em pacientes com HA, e sua combinação com a restrição adicional de sódio produz maior redução.",
+      "resposta_leiga": "Em quem tem pressão alta, essa dieta (chamada DASH) baixa em média 8,7 mmHg a pressão de cima e 4,5 mmHg a de baixo. Se além disso você reduzir o sal, a queda é ainda maior.",
+      "secao": "6.3.4. Adoção de um Padrão Alimentar Saudável",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 13,
+          "linha_final": 15,
+          "trecho_literal": "A dieta DASH reduz a PAS/PAD em 8,7/4,5 mmHg em pacientes com HA, e sua combinação com a restrição adicional de sódio produz maior redução.",
+          "status": "nao_encontrada",
+          "localizacao_verificada": null
+        }
+      ],
+      "resposta_e_literal": false,
+      "status_verificacao": "revisar"
+    },
+    {
+      "id": "04-19",
+      "pergunta": "A dieta mediterrânea serve para quem tem pressão alta?",
+      "resposta_referencia": "Assim, a adoção de um padrão alimentar saudável, como a dieta DASH ou Mediterrânea, é recomendada na HA.",
+      "resposta_leiga": "Sim. Para quem tem pressão alta, é recomendado seguir uma alimentação saudável, como a dieta DASH ou a dieta mediterrânea.",
+      "secao": "6.3.4. Adoção de um Padrão Alimentar Saudável",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 7,
+          "linha_final": 8,
+          "trecho_literal": "Assim, a adoção de um padrão alimentar saudável, como a dieta DASH ou Mediterrânea, é recomendada na HA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 54,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 7,
+            "linha_final": 8,
+            "secao": "6.3.4. Adoção de um Padrão Alimentar Saudável"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-20",
+      "pergunta": "Trabalho sentado o dia inteiro. De quanto em quanto tempo eu deveria levantar?",
+      "resposta_referencia": "– Levantar e se movimentar por 5 min a cada 30 min sentado.",
+      "resposta_leiga": "A cada 30 minutos sentado, levante e se movimente por 5 minutos.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 56,
+          "tipo": "paragrafo",
+          "numero": 6,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "– Levantar e se movimentar por 5 min a cada 30 min sentado.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 56,
+            "tipo": "paragrafo",
+            "numero": 6,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-21",
+      "pergunta": "Quanto tempo de exercício por semana eu preciso fazer?",
+      "resposta_referencia": "– Realizar, pelo menos, 150 min/semana de AF aeróbica moderada ou 75 min/semana de AF aeróbica vigorosa, ou ainda, uma combinação equivalente de AF moderada e vigorosa.",
+      "resposta_leiga": "Faça pelo menos 150 minutos por semana de atividade como caminhada em ritmo moderado, ou 75 minutos por semana de atividade mais puxada. Também vale misturar as duas em quantidade equivalente.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 56,
+          "tipo": "paragrafo",
+          "numero": 8,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "– Realizar, pelo menos, 150 min/semana de AF aeróbica moderada ou 75 min/semana de AF aeróbica vigorosa, ou ainda, uma combinação equivalente de AF moderada e vigorosa.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 56,
+            "tipo": "paragrafo",
+            "numero": 8,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-22",
+      "pergunta": "Como eu sei se estou fazendo o exercício na intensidade certa, nem fraco nem forte demais?",
+      "resposta_referencia": "– Intensidade moderada definida por: 1) Maior intensidade conseguindo conversar (sem ficar ofegante); 2) Sentir-se “ligeiramente cansado” (12 a 13 na escala de Borg 20);",
+      "resposta_leiga": "A intensidade moderada é o maior esforço em que você ainda consegue conversar sem ficar ofegante. Você deve se sentir \"ligeiramente cansado\", o que corresponde a 12 a 13 numa escala de esforço (escala de Borg) que vai até 20.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 56,
+          "tipo": "paragrafo",
+          "numero": 14,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "– Intensidade moderada definida por:",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 56,
+            "tipo": "paragrafo",
+            "numero": 14,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas"
+          }
+        },
+        {
+          "pagina": 56,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "1) Maior intensidade conseguindo conversar (sem ficar ofegante);",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 56,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas"
+          }
+        },
+        {
+          "pagina": 56,
+          "tipo": "paragrafo",
+          "numero": 16,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "2) Sentir-se “ligeiramente cansado” (12 a 13 na escala de Borg 20);",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 56,
+            "tipo": "paragrafo",
+            "numero": 16,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "6.6. Equipe Multiprofissional na Adoção das Medidas Não Medicamentosas"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-23",
+      "pergunta": "Se eu medir a pressão antes do treino e ela estiver alta, posso treinar mesmo assim?",
+      "resposta_referencia": "A sessão de treinamento não deve ser realizada se a PA estiver acima de 160/105 mmHg, e a intensidade deve ser reduzida se, durante o exercício aeróbico, a PA estiver acima de 180/105 mmHg.",
+      "resposta_leiga": "Não treine se a pressão estiver acima de 16 por 10,5 (160/105 mmHg). Durante o exercício aeróbico, se a pressão passar de 18 por 10,5 (180/105 mmHg), diminua a intensidade.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 55,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 16,
+          "linha_final": 19,
+          "trecho_literal": "A sessão de treinamento não deve ser realizada se a PA estiver acima de 160/105 mmHg, e a intensidade deve ser reduzida se, durante o exercício aeróbico, a PA estiver acima de 180/105 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 55,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 16,
+            "linha_final": 19,
+            "secao": "6.4. Prática de Atividade Física e Exercício Físico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-24",
+      "pergunta": "Preciso passar no médico antes de começar a fazer caminhada?",
+      "resposta_referencia": "Para a prescrição de prática de AFs leves a moderadas em indivíduos sem doença cardíaca, renal ou cerebrovascular, a avaliação médica prévia não é obrigatória. Caso surjam sintomas durante a prática, deve-se interromper a atividade e procurar o médico.",
+      "resposta_leiga": "Para atividades leves a moderadas, quem não tem doença do coração, dos rins ou que afete a circulação do cérebro não é obrigado a passar no médico antes. Mas se aparecer algum sintoma durante a atividade, pare e procure o médico.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 55,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 3,
+          "linha_final": 7,
+          "trecho_literal": "Para a prescrição de prática de AFs leves a moderadas em indivíduos sem doença cardíaca, renal ou cerebrovascular, a avaliação médica prévia não é obrigatória. Caso surjam sintomas durante a prática, deve-se interromper a atividade e procurar o médico.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 55,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 3,
+            "linha_final": 7,
+            "secao": "6.4. Prática de Atividade Física e Exercício Físico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-25",
+      "pergunta": "Para baixar a pressão, é melhor fazer caminhada ou musculação?",
+      "resposta_referencia": "Assim, na HA, recomenda-se o treinamento aeróbico, que pode ser associado ao resistido dinâmico para se obterem benefícios complementares à saúde.",
+      "resposta_leiga": "Para quem tem pressão alta, o principal é o exercício aeróbico, como caminhar, correr, nadar ou dançar. Ele pode ser combinado com exercícios de força, como musculação, para ganhar outros benefícios à saúde.",
+      "secao": "6.4. Prática de Atividade Física e Exercício Físico",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 54,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 6,
+          "linha_final": 9,
+          "trecho_literal": "Assim, na HA, recomenda-se o treinamento aeróbico, que pode ser associado ao resistido dinâmico para se obterem benefícios complementares à saúde.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 54,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 6,
+            "linha_final": 9,
+            "secao": "6.4. Prática de Atividade Física e Exercício Físico"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-26",
+      "pergunta": "Eu fumo e tenho pressão alta. Vale a pena parar de fumar? Posso ter ajuda para isso?",
+      "resposta_referencia": "Considerando a redução do risco CV global, parar de fumar deve ser recomendado por todos os profissionais da saúde para todos os pacientes, e as diversas estratégias e medicamentos disponíveis para auxiliar na adoção dessa conduta devem ser usadas a partir de orientação especializada.",
+      "resposta_leiga": "Sim, parar de fumar é recomendado para todas as pessoas, porque diminui o risco de problemas do coração e da circulação. Existem várias estratégias e remédios para ajudar, que devem ser usados com orientação de um profissional especializado.",
+      "secao": "6.1. Cessação do Tabagismo",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 52,
+          "tipo": "paragrafo",
+          "numero": 15,
+          "linha_inicial": 9,
+          "linha_final": 14,
+          "trecho_literal": "Considerando a redução do risco CV global, parar de fumar deve ser recomendado por todos os profissionais da saúde para todos os pacientes, e as diversas estratégias e medicamentos disponíveis para auxiliar na adoção dessa conduta devem ser usadas a partir de orientação especializada.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 52,
+            "tipo": "paragrafo",
+            "numero": 15,
+            "linha_inicial": 9,
+            "linha_final": 14,
+            "secao": "6.1. Cessação do Tabagismo"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-27",
+      "pergunta": "Se eu só diminuir o cigarro, ou trocar pelo cigarro eletrônico ou pelo narguilé, já resolve?",
+      "resposta_referencia": "Recomendada universalmente. Não usar derivados do tabaco, narguilê e cigarros eletrônicos. Reduzir o tabaco não é suficiente.",
+      "resposta_leiga": "Não. Parar de fumar é recomendado para todos, e isso inclui não usar nenhum derivado do tabaco, narguilé ou cigarro eletrônico. Só diminuir o cigarro não é suficiente.",
+      "secao": "14.9. Bases do Tratamento da Pessoa com Hipertensão Arterial (Quadro 14.6)",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 125,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomendada universalmente. Não usar derivados do tabaco, narguilê e cigarros eletrônicos. Reduzir o tabaco não é suficiente.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 125,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "15.1. Expossoma e Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-28",
+      "pergunta": "Ouvi falar que respirar devagar ajuda a baixar a pressão. Como se faz e quanto baixa?",
+      "resposta_referencia": "A respiração lenta ou guiada se refere à redução da frequência respiratória para 6 a 10 respirações/min durante 15 a 20 min/dia. Em comparação com a respiração natural, a respiração lenta promove redução de 6,4 mmHg na PAS e na PAD.",
+      "resposta_leiga": "A respiração lenta é diminuir o ritmo para 6 a 10 respirações por minuto, durante 15 a 20 minutos por dia. Comparada à respiração normal, ela baixa em 6,4 mmHg tanto a pressão de cima quanto a de baixo.",
+      "secao": "6.5.2. Respiração Lenta",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 55,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "A respiração lenta ou guiada se refere à redução da frequência respiratória para 6 a 10 respirações/min durante 15 a 20 min/dia. Em comparação com a respiração natural, a respiração lenta promove redução de 6,4 mmHg na PAS e na PAD.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 55,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "6.5.2. Respiração Lenta"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-29",
+      "pergunta": "Dormir mal ou dormir pouco pode aumentar a chance de ter pressão alta?",
+      "resposta_referencia": "Risco aumentado para HA tem sido demonstrado com relação à privação, duração e qualidade do sono.",
+      "resposta_leiga": "Sim. Dormir pouco, ficar sem dormir e ter um sono de má qualidade estão ligados a um risco maior de pressão alta.",
+      "secao": "2.3.10. Distúrbios do Sono",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 32,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 2,
+          "trecho_literal": "Risco aumentado para HA tem sido demonstrado com relação à privação, duração e qualidade do sono.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 32,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 2,
+            "secao": "2.3.10. Distúrbios do Sono"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "04-30",
+      "pergunta": "Minha mãe é idosa e tem pressão alta. Cortar o sal funciona para ela? Tem algum cuidado?",
+      "resposta_referencia": "Os idosos são mais sal-sensíveis, sendo a restrição salina mais eficaz nessa faixa etária. A diminuição excessiva da ingestão de sal pode induzir hiponatremia e perda de apetite, levando a desnutrição.",
+      "resposta_leiga": "Os idosos são mais sensíveis ao sal, então reduzir o sal funciona ainda melhor nessa idade. Mas cortar sal demais pode baixar muito o sódio no sangue e tirar o apetite, levando à desnutrição.",
+      "secao": "9.1.4.2. Tratamento Não Medicamentoso",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 80,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Os idosos são mais sal-sensíveis, sendo a restrição salina mais eficaz nessa faixa etária. A diminuição excessiva da ingestão de sal pode induzir hiponatremia e perda de apetite, levando a desnutrição.",
+          "status": "nao_encontrada",
+          "localizacao_verificada": null
+        }
+      ],
+      "resposta_e_literal": false,
+      "status_verificacao": "revisar"
+    }
+  ],
+  "respostas_api": [
+    {
+      "pedido": "Gere exatamente 30 itens sobre o tema: Medidas sem remédio (sal, alimentação, peso, atividade física, álcool, tabagismo, sono, estresse).\nDistribua as perguntas por diferentes partes da diretriz que tratam desse tema.\nMarque sobre_nova_classificacao = true só se o item tratar dessa mudança de classificação.",
+      "qtde_pedida": 30,
+      "request_id": "req_011Ch7k5eMGn7TSnGiC62GLe",
+      "resposta": {
+        "id": "msg_011Ch7k5fYxE9rR1gyzBLT1U",
+        "container": null,
+        "content": [
+          {
+            "signature": "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",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "text": "{\"itens\":[{\"pergunta\":\"Quanto sal eu posso comer por dia para cuidar da pressão?\",\"resposta_referencia\":\"Assim, a restrição da ingestão de sódio para no máximo 2 g/dia é recomendada, o que corresponde a 5 g de sal de cozinha ou 1 colher de chá/dia.\",\"resposta_leiga\":\"O recomendado é consumir no máximo 2 g de sódio por dia. Isso equivale a 5 g de sal de cozinha, ou 1 colher de chá por dia.\",\"secao\":\"6.3.1. Restrição na Ingestão de Sódio\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":8,\"linha_final\":10,\"trecho_literal\":\"Assim, a restrição da ingestão de sódio para no máximo 2 g/dia é recomendada, o que corresponde a 5 g de sal de cozinha ou 1 colher de chá/dia.\"}]},{\"pergunta\":\"Fazer alguma coisa para controlar o estresse ajuda a baixar a pressão? Qual técnica funciona de verdade?\",\"resposta_referencia\":\"De modo geral, as terapias comportamentais de abordagem do estresse não apresentam evidências robustas de eficácia na diminuição da PA, exceto a meditação.\",\"resposta_leiga\":\"Em geral, as técnicas para lidar com o estresse não têm provas fortes de que baixam a pressão. A exceção é a meditação, que mostrou efeito.\",\"secao\":\"6.5.1. Técnicas de Abordagem do Estresse\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":55,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":6,\"linha_final\":9,\"trecho_literal\":\"De modo geral, as terapias comportamentais de abordagem do estresse não apresentam evidências robustas de eficácia na diminuição da PA, exceto a meditação.\"}]},{\"pergunta\":\"Posso trocar o sal comum pelo sal light?\",\"resposta_referencia\":\"O sal hipossódico ou light pode ser considerado um substituto do sal, pois possui teor de sódio pelo menos 50% menor que o sal de cozinha.\",\"resposta_leiga\":\"Sim, o sal light pode substituir o sal comum. Ele tem pelo menos 50% menos sódio que o sal de cozinha.\",\"secao\":\"6.3.1. Restrição na Ingestão de Sódio\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":8,\"linha_inicial\":11,\"linha_final\":13,\"trecho_literal\":\"O sal hipossódico ou light pode ser considerado um substituto do sal, pois possui teor de sódio pelo menos 50% menor que o sal de cozinha.\"}]},{\"pergunta\":\"O sal rosa do Himalaia ou o sal marinho são melhores para a pressão do que o sal comum?\",\"resposta_referencia\":\"Porém, outros tipos de sal, como o sal rosa do Himalaia e o sal marinho, apresentam o mesmo teor de sódio que o sal de cozinha.\",\"resposta_leiga\":\"Não. O sal rosa do Himalaia e o sal marinho têm a mesma quantidade de sódio que o sal de cozinha comum.\",\"secao\":\"6.3.1. Restrição na Ingestão de Sódio\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":8,\"linha_inicial\":16,\"linha_final\":18,\"trecho_literal\":\"Porém, outros tipos de sal, como o sal rosa do Himalaia e o sal marinho, apresentam o mesmo teor de sódio que o sal de cozinha.\"}]},{\"pergunta\":\"Tenho problema nos rins. Posso usar aqueles sais que trocam parte do sódio por potássio?\",\"resposta_referencia\":\"Entretanto, os substitutos do sal contendo potássio podem elevar esse íon sérico em indivíduos com risco de hipercalemia, como pacientes com DRC.\",\"resposta_leiga\":\"É preciso cuidado. Em quem tem risco de potássio alto no sangue, como pessoas com doença crônica nos rins, esses substitutos do sal com potássio podem aumentar o potássio no sangue.\",\"secao\":\"6.3.1. Restrição na Ingestão de Sódio\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":8,\"linha_inicial\":9,\"linha_final\":11,\"trecho_literal\":\"Entretanto, os substitutos do sal contendo potássio podem elevar esse íon sérico em indivíduos com risco de hipercalemia, como pacientes com DRC.\"}]},{\"pergunta\":\"Quais alimentos têm bastante potássio para eu comer mais?\",\"resposta_referencia\":\"Boas fontes de potássio incluem frutas, verduras, hortaliças, oleaginosas, leguminosas e laticínios pobres em gordura.\",\"resposta_leiga\":\"Boas fontes de potássio são frutas, verduras, legumes e hortaliças, castanhas, feijões e similares, e leite e derivados com pouca gordura.\",\"secao\":\"6.3.2. Aumento no Consumo de Potássio Dietético\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":10,\"linha_inicial\":4,\"linha_final\":6,\"trecho_literal\":\"Boas fontes de potássio incluem frutas, verduras, hortaliças, oleaginosas, leguminosas e laticínios pobres em gordura.\"}]},{\"pergunta\":\"Qual é o peso ideal para quem tem pressão alta? Muda para quem é idoso?\",\"resposta_referencia\":\"Em adultos, o ideal é alcançar e manter um peso saudável, representado pelo IMC < 25 kg/m2. Em idosos, o IMC entre 22 e < 27 kg/m2.\",\"resposta_leiga\":\"Em adultos, o ideal é manter o índice de massa corporal (a conta do peso em relação à altura) abaixo de 25 kg/m2. Em idosos, o ideal é ficar entre 22 e menos de 27 kg/m2.\",\"secao\":\"6.2. Perda de Peso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Em adultos, o ideal é alcançar e manter um peso saudável, representado pelo IMC < 25 kg/m2. Em idosos, o IMC entre 22 e < 27 kg/m2.\"}]},{\"pergunta\":\"Além do peso, a medida da barriga importa? Qual deve ser o tamanho da cintura?\",\"resposta_referencia\":\"A avaliação não deve se limitar à análise do IMC, devendo-se incluir parâmetros de adiposidade central, como a circunferência abdominal (CA), que deve ser mantida < 102 cm em homens e < 88 cm em mulheres.\",\"resposta_leiga\":\"Sim, não basta olhar só o peso, a gordura da barriga também conta. A medida da cintura deve ficar abaixo de 102 cm nos homens e abaixo de 88 cm nas mulheres.\",\"secao\":\"6.2. Perda de Peso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"A avaliação não deve se limitar à análise do IMC, devendo-se incluir parâmetros de adiposidade central, como a circunferência abdominal (CA), que deve ser mantida < 102 cm em homens e < 88 cm em mulheres.\"}]},{\"pergunta\":\"Cada quilo que eu perder baixa quanto a minha pressão?\",\"resposta_referencia\":\"Em uma metanálise, a redução de 1 kg de peso corporal promoveu redução de 1,05 mmHg na PAS e de 0,92 mmHg na PAD.\",\"resposta_leiga\":\"Cada 1 kg perdido baixou em média 1,05 mmHg a pressão de cima e 0,92 mmHg a pressão de baixo.\",\"secao\":\"6.2. Perda de Peso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":52,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":3,\"linha_final\":4,\"trecho_literal\":\"Em uma metanálise, a redução de 1 kg de peso corporal promoveu\"},{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"redução de 1,05 mmHg na PAS e de 0,92 mmHg na PAD.\"}]},{\"pergunta\":\"Se eu não conseguir chegar ao peso ideal, perder só um pouco já adianta para a pressão?\",\"resposta_referencia\":\"Mesmo sem alcançar o peso corporal desejável, a perda ponderal reduz a PA e o risco CV proporcionalmente à magnitude e duração da perda de peso.\",\"resposta_leiga\":\"Sim. Mesmo sem chegar ao peso ideal, emagrecer já baixa a pressão e o risco de problemas do coração e da circulação. Quanto mais peso você perder e por mais tempo mantiver, maior o benefício.\",\"secao\":\"6.2. Perda de Peso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":52,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Mesmo sem alcançar o peso corporal desejável, a perda ponderal reduz a PA e o risco CV proporcionalmente à magnitude e duração da perda de peso.\"}]},{\"pergunta\":\"Quem tem pressão alta pode beber? Qual é o limite para homem e para mulher?\",\"resposta_referencia\":\"Limitar o consumo de álcool a uma dose para mulheres e duas doses para homens.\",\"resposta_leiga\":\"O consumo de bebida alcoólica deve ser limitado a no máximo uma dose para mulheres e duas doses para homens.\",\"secao\":\"14.9. Bases do Tratamento da Pessoa com Hipertensão Arterial (Quadro 14.6)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":126,\"tipo\":\"tabela\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"Limitar o consumo de álcool a uma dose para mulheres e duas doses para homens.\"}]},{\"pergunta\":\"Quanto é uma dose de bebida? Quanto dá de cerveja, vinho ou cachaça?\",\"resposta_referencia\":\"Recomendações recentes para a hipertensão arterial consideram que uma dose contém 10 a 12 g de álcool, correspondendo a aproximadamente 200 mL de cerveja (5% de álcool), 100 mL de vinho (12% de álcool) e 25 mL de bebida destilada, como uísque, vodca e aguardente (40% de álcool).\",\"resposta_leiga\":\"Uma dose tem de 10 a 12 g de álcool. Isso é mais ou menos 200 mL de cerveja, 100 mL de vinho ou 25 mL de bebida destilada, como uísque, vodca ou cachaça.\",\"secao\":\"6.3. Modificações na Ingestão Alimentar (Tabela 6.1)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":53,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":2,\"linha_final\":4,\"trecho_literal\":\"Recomendações recentes para a hipertensão arterial consideram que uma dose contém 10 a 12 g de álcool, correspondendo a aproximadamente 200 mL de cerveja (5% de álcool), 100 mL de vinho (12% de álcool) e 25 mL de bebida destilada, como uísque, vodca e aguardente (40% de álcool).\"}]},{\"pergunta\":\"Dizem que uma tacinha de vinho por dia faz bem para o coração. É verdade?\",\"resposta_referencia\":\"Apesar de o consumo de álcool em quantidades pequenas a moderadas já ter sido associado a efeito cardioprotetor, evidências recentes indicam que essa associação pode ser atribuída a fatores de confusão e que, de fato, a ingestão de álcool tem relação com maior risco de DCV, havendo aumento exponencial com níveis mais elevados de ingestão. Portanto, mesmo em baixas doses, o consumo de álcool pode trazer prejuízos à saúde, e o maior risco está associado com o consumo elevado, sendo ele contínuo ou episódico.\",\"resposta_leiga\":\"Essa ideia de proteção não se confirmou: o álcool aumenta o risco de doenças do coração e da circulação, e esse risco cresce muito quanto mais se bebe. Mesmo em pouca quantidade o álcool pode prejudicar a saúde, e o maior risco é beber muito, seja todo dia ou de vez em quando.\",\"secao\":\"6.3.3. Redução no Consumo de Álcool\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":9,\"trecho_literal\":\"Apesar de o consumo de álcool em quantidades pequenas a moderadas já ter sido associado a efeito cardioprotetor, evidências recentes indicam que essa associação pode ser atribuída a fatores de confusão e que, de fato, a ingestão de álcool tem relação com maior risco de DCV, havendo aumento exponencial com níveis mais elevados de ingestão. Portanto, mesmo em baixas doses, o consumo de álcool pode trazer prejuízos à saúde, e o maior risco está associado com o consumo elevado, sendo ele contínuo ou episódico.\"}]},{\"pergunta\":\"Meus pais têm pressão alta. O que eu posso fazer no dia a dia para não ter também?\",\"resposta_referencia\":\"Em linhas gerais, devem fazer parte do plano de prevenção da HA: controle do peso corporal, alimentação saudável, AF regular, sono de qualidade e com duração adequada, gerenciamento do estresse, controle do consumo de álcool e o fortalecimento de conexões sociais positivas.\",\"resposta_leiga\":\"Para prevenir a pressão alta, controle o peso, coma de forma saudável e faça atividade física regularmente. Também ajudam dormir bem e o suficiente, controlar o estresse, moderar o álcool e manter boas relações com as pessoas.\",\"secao\":\"2.4. Prevenção Primária\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":32,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Em linhas gerais, devem fazer parte do plano de prevenção da HA: controle do peso corporal, alimentação saudável, AF regular, sono de qualidade e com duração adequada, gerenciamento do estresse, controle do consumo\"},{\"pagina\":34,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"de álcool e o fortalecimento de conexões sociais positivas.\"}]},{\"pergunta\":\"Quem tem pressão alta pode tomar café? Quantas xícaras por dia?\",\"resposta_referencia\":\"Assim, recomenda-se que o consumo de café seja moderado, chegando até três a quatro xícaras/dia.\",\"resposta_leiga\":\"Pode, com moderação. O recomendado é tomar até três a quatro xícaras de café por dia.\",\"secao\":\"6.3.5. Outras Intervenções na Dieta\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":7,\"linha_inicial\":3,\"linha_final\":5,\"trecho_literal\":\"Assim, recomenda-se que o consumo de café seja moderado, chegando até três a quatro xícaras/dia.\"}]},{\"pergunta\":\"Minha pressão deu 12 por 8. Mesmo sem ser pressão alta, eu já preciso mudar meus hábitos?\",\"resposta_referencia\":\"Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.\",\"resposta_leiga\":\"Sim. Todas as pessoas com pressão a partir de 12 por 8 (120/80 mmHg) devem começar e manter mudanças nos hábitos de vida. Essas mudanças continuam mesmo se depois for preciso tomar remédio.\",\"secao\":\"5.6. Considerações na Hipertensão Sistólica Isolada (Mensagens principais sobre o início do tratamento)\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":51,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":2,\"linha_final\":4,\"trecho_literal\":\"Todos os indivíduos com PA ≥ 120/80 mmHg devem iniciar e manter MNM, mesmo após o início do tratamento medicamentoso, quando indicado.\"}]},{\"pergunta\":\"Que tipo de alimentação é boa para a pressão? O que devo comer e o que devo evitar?\",\"resposta_referencia\":\"Entre esses padrões, a dieta DASH (Dietary Approaches to Stop Hypertension) enfatiza o consumo de frutas, hortaliças, laticínios com baixo teor de gordura, cereais integrais, carnes magras e frutas oleaginosas, enquanto restringe o consumo de gorduras saturadas, carnes gordurosas, grãos refinados e açúcar de adição.\",\"resposta_leiga\":\"Uma boa opção é a dieta chamada DASH, que valoriza frutas, verduras e legumes, leite e derivados com pouca gordura, cereais integrais, carnes magras e castanhas. Ela limita gorduras saturadas, carnes gordurosas, grãos refinados e açúcar adicionado.\",\"secao\":\"6.3.4. Adoção de um Padrão Alimentar Saudável\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":4,\"linha_final\":10,\"trecho_literal\":\"Entre esses padrões, a dieta DASH (Dietary Approaches to Stop Hypertension) enfatiza o consumo de frutas, hortaliças, laticínios com baixo teor de gordura, cereais integrais, carnes magras e frutas oleaginosas, enquanto restringe o consumo de gorduras saturadas, carnes gordurosas, grãos refinados e açúcar de adição.\"}]},{\"pergunta\":\"Quanto a pressão pode baixar com aquela dieta própria para pressão alta, cheia de frutas e verduras e com pouca gordura?\",\"resposta_referencia\":\"A dieta DASH reduz a PAS/PAD em 8,7/4,5 mmHg em pacientes com HA, e sua combinação com a restrição adicional de sódio produz maior redução.\",\"resposta_leiga\":\"Em quem tem pressão alta, essa dieta (chamada DASH) baixa em média 8,7 mmHg a pressão de cima e 4,5 mmHg a de baixo. Se além disso você reduzir o sal, a queda é ainda maior.\",\"secao\":\"6.3.4. Adoção de um Padrão Alimentar Saudável\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":13,\"linha_final\":15,\"trecho_literal\":\"A dieta DASH reduz a PAS/PAD em 8,7/4,5 mmHg em pacientes com HA, e sua combinação com a restrição adicional de sódio produz maior redução.\"}]},{\"pergunta\":\"A dieta mediterrânea serve para quem tem pressão alta?\",\"resposta_referencia\":\"Assim, a adoção de um padrão alimentar saudável, como a dieta DASH ou Mediterrânea, é recomendada na HA.\",\"resposta_leiga\":\"Sim. Para quem tem pressão alta, é recomendado seguir uma alimentação saudável, como a dieta DASH ou a dieta mediterrânea.\",\"secao\":\"6.3.4. Adoção de um Padrão Alimentar Saudável\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":7,\"linha_final\":8,\"trecho_literal\":\"Assim, a adoção de um padrão alimentar saudável, como a dieta DASH ou Mediterrânea, é recomendada na HA.\"}]},{\"pergunta\":\"Trabalho sentado o dia inteiro. De quanto em quanto tempo eu deveria levantar?\",\"resposta_referencia\":\"– Levantar e se movimentar por 5 min a cada 30 min sentado.\",\"resposta_leiga\":\"A cada 30 minutos sentado, levante e se movimente por 5 minutos.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":56,\"tipo\":\"paragrafo\",\"numero\":6,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"– Levantar e se movimentar por 5 min a cada 30 min sentado.\"}]},{\"pergunta\":\"Quanto tempo de exercício por semana eu preciso fazer?\",\"resposta_referencia\":\"– Realizar, pelo menos, 150 min/semana de AF aeróbica moderada ou 75 min/semana de AF aeróbica vigorosa, ou ainda, uma combinação equivalente de AF moderada e vigorosa.\",\"resposta_leiga\":\"Faça pelo menos 150 minutos por semana de atividade como caminhada em ritmo moderado, ou 75 minutos por semana de atividade mais puxada. Também vale misturar as duas em quantidade equivalente.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":56,\"tipo\":\"paragrafo\",\"numero\":8,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"– Realizar, pelo menos, 150 min/semana de AF aeróbica moderada ou 75 min/semana de AF aeróbica vigorosa, ou ainda, uma combinação equivalente de AF moderada e vigorosa.\"}]},{\"pergunta\":\"Como eu sei se estou fazendo o exercício na intensidade certa, nem fraco nem forte demais?\",\"resposta_referencia\":\"– Intensidade moderada definida por: 1) Maior intensidade conseguindo conversar (sem ficar ofegante); 2) Sentir-se “ligeiramente cansado” (12 a 13 na escala de Borg 20);\",\"resposta_leiga\":\"A intensidade moderada é o maior esforço em que você ainda consegue conversar sem ficar ofegante. Você deve se sentir \\\"ligeiramente cansado\\\", o que corresponde a 12 a 13 numa escala de esforço (escala de Borg) que vai até 20.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico (Tabela 6.3)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":56,\"tipo\":\"paragrafo\",\"numero\":14,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"– Intensidade moderada definida por:\"},{\"pagina\":56,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"1) Maior intensidade conseguindo conversar (sem ficar ofegante);\"},{\"pagina\":56,\"tipo\":\"paragrafo\",\"numero\":16,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"2) Sentir-se “ligeiramente cansado” (12 a 13 na escala de Borg 20);\"}]},{\"pergunta\":\"Se eu medir a pressão antes do treino e ela estiver alta, posso treinar mesmo assim?\",\"resposta_referencia\":\"A sessão de treinamento não deve ser realizada se a PA estiver acima de 160/105 mmHg, e a intensidade deve ser reduzida se, durante o exercício aeróbico, a PA estiver acima de 180/105 mmHg.\",\"resposta_leiga\":\"Não treine se a pressão estiver acima de 16 por 10,5 (160/105 mmHg). Durante o exercício aeróbico, se a pressão passar de 18 por 10,5 (180/105 mmHg), diminua a intensidade.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":55,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":16,\"linha_final\":19,\"trecho_literal\":\"A sessão de treinamento não deve ser realizada se a PA estiver acima de 160/105 mmHg, e a intensidade deve ser reduzida se, durante o exercício aeróbico, a PA estiver acima de 180/105 mmHg.\"}]},{\"pergunta\":\"Preciso passar no médico antes de começar a fazer caminhada?\",\"resposta_referencia\":\"Para a prescrição de prática de AFs leves a moderadas em indivíduos sem doença cardíaca, renal ou cerebrovascular, a avaliação médica prévia não é obrigatória. Caso surjam sintomas durante a prática, deve-se interromper a atividade e procurar o médico.\",\"resposta_leiga\":\"Para atividades leves a moderadas, quem não tem doença do coração, dos rins ou que afete a circulação do cérebro não é obrigado a passar no médico antes. Mas se aparecer algum sintoma durante a atividade, pare e procure o médico.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":55,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":3,\"linha_final\":7,\"trecho_literal\":\"Para a prescrição de prática de AFs leves a moderadas em indivíduos sem doença cardíaca, renal ou cerebrovascular, a avaliação médica prévia não é obrigatória. Caso surjam sintomas durante a prática, deve-se interromper a atividade e procurar o médico.\"}]},{\"pergunta\":\"Para baixar a pressão, é melhor fazer caminhada ou musculação?\",\"resposta_referencia\":\"Assim, na HA, recomenda-se o treinamento aeróbico, que pode ser associado ao resistido dinâmico para se obterem benefícios complementares à saúde.\",\"resposta_leiga\":\"Para quem tem pressão alta, o principal é o exercício aeróbico, como caminhar, correr, nadar ou dançar. Ele pode ser combinado com exercícios de força, como musculação, para ganhar outros benefícios à saúde.\",\"secao\":\"6.4. Prática de Atividade Física e Exercício Físico\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":54,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":6,\"linha_final\":9,\"trecho_literal\":\"Assim, na HA, recomenda-se o treinamento aeróbico, que pode ser associado ao resistido dinâmico para se obterem benefícios complementares à saúde.\"}]},{\"pergunta\":\"Eu fumo e tenho pressão alta. Vale a pena parar de fumar? Posso ter ajuda para isso?\",\"resposta_referencia\":\"Considerando a redução do risco CV global, parar de fumar deve ser recomendado por todos os profissionais da saúde para todos os pacientes, e as diversas estratégias e medicamentos disponíveis para auxiliar na adoção dessa conduta devem ser usadas a partir de orientação especializada.\",\"resposta_leiga\":\"Sim, parar de fumar é recomendado para todas as pessoas, porque diminui o risco de problemas do coração e da circulação. Existem várias estratégias e remédios para ajudar, que devem ser usados com orientação de um profissional especializado.\",\"secao\":\"6.1. Cessação do Tabagismo\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":52,\"tipo\":\"paragrafo\",\"numero\":15,\"linha_inicial\":9,\"linha_final\":14,\"trecho_literal\":\"Considerando a redução do risco CV global, parar de fumar deve ser recomendado por todos os profissionais da saúde para todos os pacientes, e as diversas estratégias e medicamentos disponíveis para auxiliar na adoção dessa conduta devem ser usadas a partir de orientação especializada.\"}]},{\"pergunta\":\"Se eu só diminuir o cigarro, ou trocar pelo cigarro eletrônico ou pelo narguilé, já resolve?\",\"resposta_referencia\":\"Recomendada universalmente. Não usar derivados do tabaco, narguilê e cigarros eletrônicos. Reduzir o tabaco não é suficiente.\",\"resposta_leiga\":\"Não. Parar de fumar é recomendado para todos, e isso inclui não usar nenhum derivado do tabaco, narguilé ou cigarro eletrônico. Só diminuir o cigarro não é suficiente.\",\"secao\":\"14.9. Bases do Tratamento da Pessoa com Hipertensão Arterial (Quadro 14.6)\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":125,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomendada universalmente. Não usar derivados do tabaco, narguilê e cigarros eletrônicos. Reduzir o tabaco não é suficiente.\"}]},{\"pergunta\":\"Ouvi falar que respirar devagar ajuda a baixar a pressão. Como se faz e quanto baixa?\",\"resposta_referencia\":\"A respiração lenta ou guiada se refere à redução da frequência respiratória para 6 a 10 respirações/min durante 15 a 20 min/dia. Em comparação com a respiração natural, a respiração lenta promove redução de 6,4 mmHg na PAS e na PAD.\",\"resposta_leiga\":\"A respiração lenta é diminuir o ritmo para 6 a 10 respirações por minuto, durante 15 a 20 minutos por dia. Comparada à respiração normal, ela baixa em 6,4 mmHg tanto a pressão de cima quanto a de baixo.\",\"secao\":\"6.5.2. Respiração Lenta\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":55,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"A respiração lenta ou guiada se refere à redução da frequência respiratória para 6 a 10 respirações/min durante 15 a 20 min/dia. Em comparação com a respiração natural, a respiração lenta promove redução de 6,4 mmHg na PAS e na PAD.\"}]},{\"pergunta\":\"Dormir mal ou dormir pouco pode aumentar a chance de ter pressão alta?\",\"resposta_referencia\":\"Risco aumentado para HA tem sido demonstrado com relação à privação, duração e qualidade do sono.\",\"resposta_leiga\":\"Sim. Dormir pouco, ficar sem dormir e ter um sono de má qualidade estão ligados a um risco maior de pressão alta.\",\"secao\":\"2.3.10. Distúrbios do Sono\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":32,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":2,\"trecho_literal\":\"Risco aumentado para HA tem sido demonstrado com relação à privação, duração e qualidade do sono.\"}]},{\"pergunta\":\"Minha mãe é idosa e tem pressão alta. Cortar o sal funciona para ela? Tem algum cuidado?\",\"resposta_referencia\":\"Os idosos são mais sal-sensíveis, sendo a restrição salina mais eficaz nessa faixa etária. A diminuição excessiva da ingestão de sal pode induzir hiponatremia e perda de apetite, levando a desnutrição.\",\"resposta_leiga\":\"Os idosos são mais sensíveis ao sal, então reduzir o sal funciona ainda melhor nessa idade. Mas cortar sal demais pode baixar muito o sódio no sangue e tirar o apetite, levando à desnutrição.\",\"secao\":\"9.1.4.2. Tratamento Não Medicamentoso\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":80,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Os idosos são mais sal-sensíveis, sendo a restrição salina mais eficaz nessa faixa etária. A diminuição excessiva da ingestão de sal pode induzir hiponatremia e perda de apetite, levando a desnutrição.\"}]}]}",
+            "type": "text"
+          }
+        ],
+        "diagnostics": null,
+        "model": "claude-opus-5-5",
+        "role": "assistant",
+        "stop_details": null,
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 350733,
+          "inference_geo": "global",
+          "input_tokens": 134,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 0,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 350733,
+              "input_tokens": 134,
+              "model": null,
+              "output_tokens": 24480,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 24480,
+          "output_tokens_details": {
+            "thinking_tokens": 12599
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    }
+  ]
+}

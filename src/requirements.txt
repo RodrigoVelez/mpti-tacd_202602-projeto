@@ -1,0 +1,4 @@
+# Versões exatas usadas na pesquisa (garantem a reprodutibilidade)
+anthropic==2.8.0
+pymupdf==2.1
+python-dotenv==1.2.4

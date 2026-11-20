@@ -1,0 +1,984 @@
+{
+  "tema": "classificacao",
+  "descricao": "Classificação da pressão arterial (normal, pré-hipertensão, estágios 1, 2 e 3, hipertensão sistólica e diastólica isolada) e o que mudou em relação à diretriz de 2020",
+  "chamadas": [
+    {
+      "modelo_que_respondeu": "claude-opus-5-5",
+      "message_id": "msg_011Ch7jPu7eokhfYz151B16v",
+      "request_id": "req_011Ch7jPrLyAEFrM49AWRQJm",
+      "stop_reason": "end_turn",
+      "qtde_pedida": 30,
+      "tokens_entrada": 274,
+      "tokens_saida": 22837,
+      "tokens_escrita_cache_5m": 0,
+      "tokens_escrita_cache_1h": 350733,
+      "tokens_leitura_cache": 0,
+      "custo_usd": 3.2637
+    }
+  ],
+  "itens": [
+    {
+      "id": "01-01",
+      "pergunta": "Antes existia uma categoria chamada 'pressão ótima'. Ela ainda existe?",
+      "resposta_referencia": "PA ótima: a classificação “PA ótima” foi removida.",
+      "resposta_leiga": "Não. A categoria 'pressão ótima' deixou de existir.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "PA ótima: a classificação “PA ótima” foi removida.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-02",
+      "pergunta": "Minha pressão sempre ficou abaixo de 12 por 8, que antes chamavam de ótima. Como ela é chamada agora?",
+      "resposta_referencia": "Esse intervalo de PA, antes considerado ideal, agora está incluído dentro do novo termo “PA normal” para valores de PAS abaixo de 120 mmHg e PAD abaixo de 80 mmHg;",
+      "resposta_leiga": "Essa faixa, que antes era considerada ideal, agora se chama simplesmente 'pressão normal'. Vale quando a pressão de cima fica abaixo de 120 mmHg e a de baixo abaixo de 80 mmHg.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Esse intervalo de PA, antes considerado ideal, agora está incluído dentro do novo termo “PA normal” para valores de PAS abaixo de 120 mmHg e PAD abaixo de 80 mmHg;",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-03",
+      "pergunta": "A faixa de pressão que antes chamavam de 'normal' continua com esse nome ou foi juntada com outra?",
+      "resposta_referencia": "Pré-hipertensão: a nova categoria de “Pré-hipertensão” agora abrange os valores anteriormente classificados como “PA normal” e “Pré-hipertensão” nas DBHA 2020.",
+      "resposta_leiga": "Foi juntada. A nova categoria de pré-hipertensão agora inclui os valores que em 2020 eram chamados de 'pressão normal' e também os que já eram 'pré-hipertensão'.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Pré-hipertensão: a nova categoria de “Pré-hipertensão” agora abrange os valores anteriormente classificados como “PA normal” e “Pré-hipertensão” nas DBHA 2020.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-04",
+      "pergunta": "Minha pressão costuma dar 12,5 por 8,2 e sempre me disseram que era normal. Isso mudou?",
+      "resposta_referencia": "Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.",
+      "resposta_leiga": "Mudou. Pressão de cima entre 120 e 129 mmHg e/ou de baixo entre 80 e 84 mmHg, que antes era considerada normal, agora é classificada como pré-hipertensão.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 3,
+          "linha_final": 6,
+          "trecho_literal": "Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 3,
+            "linha_final": 6,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-05",
+      "pergunta": "Com essa mudança, a pré-hipertensão agora vai de quanto até quanto?",
+      "resposta_referencia": "Assim, essa faixa inclui PAS entre 120 e 139 mmHg e/ou PAD entre 80 e 89 mmHg.",
+      "resposta_leiga": "A pré-hipertensão agora vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na pressão de baixo.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 6,
+          "linha_final": 8,
+          "trecho_literal": "Assim, essa faixa inclui PAS entre 120 e 139 mmHg e/ou PAD entre 80 e 89 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 6,
+            "linha_final": 8,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-06",
+      "pergunta": "Por que resolveram chamar de pré-hipertensão uma pressão que antes era considerada normal?",
+      "resposta_referencia": "Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.",
+      "resposta_leiga": "A ideia é descobrir mais cedo quem está em risco e incentivar cuidados antecipados para evitar que a pessoa chegue a ter pressão alta.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 8,
+          "linha_final": 10,
+          "trecho_literal": "Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 8,
+            "linha_final": 10,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-07",
+      "pergunta": "A forma de classificar a pressão hoje é a mesma que se usava em 2020?",
+      "resposta_referencia": "A nova classificação da PA proposta por esta diretriz apresenta algumas alterações importantes em relação às DBHA de 2020.",
+      "resposta_leiga": "Não é a mesma. A nova forma de classificar a pressão tem algumas mudanças importantes em relação à usada em 2020.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "A nova classificação da PA proposta por esta diretriz apresenta algumas alterações importantes em relação às DBHA de 2020.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-08",
+      "pergunta": "Ser chamado de pré-hipertenso quer dizer que vou ter que começar a tomar remédio?",
+      "resposta_referencia": "Recomenda-se classificar a pré-hipertensão abrangendo valores de PAS entre 120-139 mmHg ou PAD entre 80-89 mmHg no consultório com o objetivo de identificar precocemente indivíduos em risco e incentivar intervenções mais proativas e não medicamentosas para prevenir a progressão para HA.",
+      "resposta_leiga": "A pré-hipertensão vai de 120 a 139 mmHg na pressão de cima ou de 80 a 89 mmHg na de baixo, medida no consultório. Essa classificação serve para achar cedo quem está em risco e estimular cuidados sem remédio, para evitar que a pressão alta apareça.",
+      "secao": "1.1. Principais Destaques",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 25,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Recomenda-se classificar a pré-hipertensão abrangendo valores de PAS entre 120-139 mmHg ou PAD entre 80-89 mmHg no consultório com o objetivo de identificar precocemente indivíduos em risco e incentivar intervenções mais proativas e não medicamentosas para prevenir a progressão para HA.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 25,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "1.1. Principais Destaques"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-09",
+      "pergunta": "Minha pressão dá 12 por 8. Já preciso mudar meus hábitos, como alimentação e exercício?",
+      "resposta_referencia": "Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).",
+      "resposta_leiga": "Sim. Quem tem pressão a partir de 12 por 8 deve adotar mudanças no estilo de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.",
+      "secao": "5.1. Início de Tratamento",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 49,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 49,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "5.1. Início de Tratamento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-10",
+      "pergunta": "No posto de saúde disseram que estou com pré-hipertensão, com 12,6 por 8,3. O que devem fazer por mim?",
+      "resposta_referencia": "Como veremos adiante, as pessoas com pré-hipertensão devem receber as orientações necessárias para a prevenção primária da HA (Capítulos 3 e 6).",
+      "resposta_leiga": "Quem tem pré-hipertensão deve receber as orientações necessárias para evitar que a pressão alta apareça.",
+      "secao": "14.4. Diagnóstico de Hipertensão Arterial",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 18,
+          "linha_inicial": 2,
+          "linha_final": 5,
+          "trecho_literal": "Como veremos adiante, as pessoas com pré-hipertensão devem receber as orientações necessárias para a prevenção primária da HA (Capítulos 3 e 6).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 18,
+            "linha_inicial": 2,
+            "linha_final": 5,
+            "secao": "14.4. Diagnóstico de Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-11",
+      "pergunta": "Agora que estou na faixa de pré-hipertensão, o médico vai calcular meu risco de ter problemas no coração?",
+      "resposta_referencia": "Por fim, é importante destacar que a estratificação de risco CV em indivíduos com pré-hipertensão é fundamental para a orientação do início do tratamento anti-hipertensivo e para o controle mais adequado dos fatores de risco CV.",
+      "resposta_leiga": "Sim. Calcular o risco de problemas no coração e nos vasos em quem tem pré-hipertensão é fundamental para decidir quando começar o tratamento da pressão e para controlar melhor os outros fatores de risco.",
+      "secao": "4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 47,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Por fim, é importante destacar que a estratificação de risco CV em indivíduos com pré-hipertensão é fundamental para a orientação do início do tratamento anti-hipertensivo e para",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 47,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial"
+          }
+        },
+        {
+          "pagina": 48,
+          "tipo": "paragrafo",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "o controle mais adequado dos fatores de risco CV.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 48,
+            "tipo": "paragrafo",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-12",
+      "pergunta": "Meu filho tem 14 anos e a pressão dele deu 12,5 por 7. Isso é normal para a idade dele?",
+      "resposta_referencia": "Crianças com idade ≥ 13 anos Pré-hipertensão: PAS 120 a 129/< 80 mmHg",
+      "resposta_leiga": "Não é considerado normal. A partir dos 13 anos, pressão de cima entre 120 e 129 mmHg com a de baixo abaixo de 80 mmHg é classificada como pré-hipertensão.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 83,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 2,
+          "linha_final": 2,
+          "trecho_literal": "Crianças com idade ≥ 13 anos",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 83,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 2,
+            "linha_final": 2,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        },
+        {
+          "pagina": 83,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 1,
+          "linha_final": 1,
+          "trecho_literal": "Pré-hipertensão: PAS 120 a 129/< 80 mmHg",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 83,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 1,
+            "linha_final": 1,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-13",
+      "pergunta": "Em crianças, o que antes chamavam de 'pressão elevada' continua com esse nome?",
+      "resposta_referencia": "Dados de metanálise recente, incluindo 47 estudos em indivíduos ≤ 19 anos, mostram prevalência agrupada para HA de 4,0%, para HA Estágio 1 de 4,0%, para HA Estágio 2 de 0,95% e 9,67% para o grupo previamente atribuído como PA elevada, que, por corresponder à categoria de pré-hipertensão utilizada para adultos, receberá, doravante, a denominação de pré-hipertensão também em crianças e adolescentes.",
+      "resposta_leiga": "Não. O grupo antes chamado de 'pressão elevada', que aparece em cerca de 9,67% dos jovens até 19 anos, passa a se chamar pré-hipertensão também em crianças e adolescentes, igual aos adultos. Entre esses jovens, cerca de 4,0% têm pressão alta, 4,0% estão no estágio 1 e 0,95% no estágio 2.",
+      "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 82,
+          "tipo": "paragrafo",
+          "numero": 2,
+          "linha_inicial": 1,
+          "linha_final": 7,
+          "trecho_literal": "Dados de metanálise recente, incluindo 47 estudos em indivíduos ≤ 19 anos, mostram prevalência agrupada para HA de 4,0%, para HA Estágio 1 de 4,0%, para HA Estágio 2 de 0,95% e 9,67% para o grupo previamente atribuído como PA elevada, que, por corresponder à categoria de pré-hipertensão utilizada para adultos, receberá, doravante, a denominação de pré-hipertensão também em crianças e adolescentes.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 82,
+            "tipo": "paragrafo",
+            "numero": 2,
+            "linha_inicial": 1,
+            "linha_final": 7,
+            "secao": "9.2. Hipertensão Arterial na Criança e no Adolescente"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-14",
+      "pergunta": "Hoje em dia, até quanto a pressão é considerada normal?",
+      "resposta_referencia": "Por outro lado, a PA é normal quando < 120/80 mmHg.",
+      "resposta_leiga": "A pressão é considerada normal quando está abaixo de 12 por 8 (120/80 mmHg).",
+      "secao": "14.4. Diagnóstico de Hipertensão Arterial",
+      "sobre_nova_classificacao": true,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 9,
+          "linha_final": 10,
+          "trecho_literal": "Por outro lado, a PA é normal quando < 120/80 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 9,
+            "linha_final": 10,
+            "secao": "14.4. Diagnóstico de Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-15",
+      "pergunta": "A partir de quanto a pressão medida no consultório é considerada pressão alta?",
+      "resposta_referencia": "A partir de medidas obtidas no consultório, são considerados pacientes com HA os indivíduos com PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg.",
+      "resposta_leiga": "Pelas medidas no consultório, tem pressão alta quem tem a pressão de cima igual ou maior que 140 mmHg e/ou a de baixo igual ou maior que 90 mmHg, ou seja, 14 por 9 ou mais.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 35,
+          "tipo": "paragrafo",
+          "numero": 34,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "A partir de medidas obtidas no consultório, são considerados pacientes com HA os indivíduos com PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 35,
+            "tipo": "paragrafo",
+            "numero": 34,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-16",
+      "pergunta": "Deu 14 por 9 numa consulta. Como o médico confirma se eu tenho mesmo pressão alta?",
+      "resposta_referencia": "Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas.",
+      "resposta_leiga": "Para confirmar a pressão alta, é preciso repetir as medidas em duas ou mais consultas, com intervalo de dias ou semanas entre elas.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 1,
+          "linha_final": 3,
+          "trecho_literal": "Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 1,
+            "linha_final": 3,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-17",
+      "pergunta": "Minha pressão de cima cai numa faixa e a de baixo em outra mais alta. Qual delas vale para dizer o grau da minha pressão alta?",
+      "resposta_referencia": "A classificação de HA baseia-se no valor mais elevado de PA, seja sistólica ou diastólica, aferida no consultório.",
+      "resposta_leiga": "Vale o valor que estiver na faixa mais alta, seja a pressão de cima ou a de baixo, medida no consultório.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 8,
+          "linha_final": 10,
+          "trecho_literal": "A classificação de HA baseia-se no valor mais elevado de PA, seja sistólica ou diastólica, aferida no consultório.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 8,
+            "linha_final": 10,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-18",
+      "pergunta": "O que quer dizer ter só a pressão de cima alta, ou só a pressão de baixo alta?",
+      "resposta_referencia": "Indivíduos com PAS ≥ 140 mmHg e/ou PAD < 90 mmHg são definidos como pacientes com HA sistólica isolada, enquanto aqueles com PAS < 140 mmHg e PAD ≥ 90 mmHg são classificados como com HA diastólica isolada.",
+      "resposta_leiga": "Quando a pressão de cima está em 140 mmHg ou mais e a de baixo abaixo de 90 mmHg, é pressão alta só da de cima (sistólica isolada). Quando a de cima está abaixo de 140 mmHg e a de baixo em 90 mmHg ou mais, é pressão alta só da de baixo (diastólica isolada).",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Indivíduos com PAS ≥ 140 mmHg e/ou PAD < 90 mmHg são definidos como pacientes com HA sistólica isolada, enquanto aqueles com PAS < 140 mmHg e PAD ≥ 90 mmHg são classificados como com HA diastólica isolada.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-19",
+      "pergunta": "No consultório minha pressão deu 15 por 9,5. Em que estágio de pressão alta eu fico?",
+      "resposta_referencia": "HA Estágio 1 140-159 e/ou 90-99",
+      "resposta_leiga": "Você fica no estágio 1, que vai de 140 a 159 mmHg na pressão de cima e/ou de 90 a 99 mmHg na de baixo.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 4,
+          "linha_final": 4,
+          "trecho_literal": "HA Estágio 1 140-159 e/ou 90-99",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 4,
+            "linha_final": 4,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-20",
+      "pergunta": "Minha pressão no consultório deu 16,5 por 10. Que estágio é esse?",
+      "resposta_referencia": "HA Estágio 2 160-179 e/ou 100-109",
+      "resposta_leiga": "É o estágio 2, que vai de 160 a 179 mmHg na pressão de cima e/ou de 100 a 109 mmHg na de baixo.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 5,
+          "linha_final": 5,
+          "trecho_literal": "HA Estágio 2 160-179 e/ou 100-109",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 5,
+            "linha_final": 5,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-21",
+      "pergunta": "Quando a pressão chega a 18 por 11, em que estágio a pessoa está?",
+      "resposta_referencia": "HA Estágio 3 ≥ 180 e/ou 110",
+      "resposta_leiga": "Está no estágio 3, o mais alto: pressão de cima de 180 mmHg ou mais e/ou de baixo de 110 mmHg ou mais.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 6,
+          "linha_final": 6,
+          "trecho_literal": "HA Estágio 3 ≥ 180 e/ou 110",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 6,
+            "linha_final": 6,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-22",
+      "pergunta": "No consultório minha pressão deu 13,5 por 8,5. Já é pressão alta?",
+      "resposta_referencia": "Pré-hipertensão 120-139 e/ou 80-89",
+      "resposta_leiga": "Ainda não é pressão alta: é pré-hipertensão, que vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na de baixo.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "tabela",
+          "numero": 1,
+          "linha_inicial": 3,
+          "linha_final": 3,
+          "trecho_literal": "Pré-hipertensão 120-139 e/ou 80-89",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "tabela",
+            "numero": 1,
+            "linha_inicial": 3,
+            "linha_final": 3,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-23",
+      "pergunta": "Só minha pressão de cima é alta, 17 por 8. Como sabem em que estágio eu estou?",
+      "resposta_referencia": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+      "resposta_leiga": "Quando só a pressão de cima está alta (140 mmHg ou mais, com a de baixo abaixo de 90), o estágio 1, 2 ou 3 é definido pelo valor da pressão de cima.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 3,
+          "linha_final": 4,
+          "trecho_literal": "**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 3,
+            "linha_final": 4,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-24",
+      "pergunta": "E se só a pressão de baixo estiver alta, tipo 13 por 10,5, como fica o estágio?",
+      "resposta_referencia": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados.",
+      "resposta_leiga": "Quando só a pressão de baixo está alta (90 mmHg ou mais, com a de cima abaixo de 140), o estágio 1, 2 ou 3 é definido pelo valor da pressão de baixo.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 13,
+          "linha_inicial": 4,
+          "linha_final": 5,
+          "trecho_literal": "***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 13,
+            "linha_inicial": 4,
+            "linha_final": 5,
+            "secao": "3.4. Efeito do Avental Branco e Efeito de Mascaramento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-25",
+      "pergunta": "Existe algum caso em que uma única medida no consultório já basta para dizer que tenho pressão alta?",
+      "resposta_referencia": "Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.",
+      "resposta_leiga": "Como a pressão varia muito, uma só medida normalmente não basta. A exceção é quando a pressão está muito alta (estágio 3) ou quando já existe lesão em órgãos causada pela pressão ou doença do coração e dos vasos confirmada.",
+      "secao": "3.7. Recomendações para Diagnóstico e Seguimento",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 38,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 1,
+          "linha_final": 5,
+          "trecho_literal": "Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 38,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 1,
+            "linha_final": 5,
+            "secao": "3.7. Recomendações para Diagnóstico e Seguimento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-26",
+      "pergunta": "O tempo entre as consultas para confirmar a pressão alta depende do estágio?",
+      "resposta_referencia": "Pacientes em Estágio 2 ou 3 requerem mais visitas, com intervalos curtos entre elas, enquanto aqueles em Estágio 1 podem ter intervalos mais longos, se houver ausência de LOA e risco CV baixo.",
+      "resposta_leiga": "Sim. Quem está no estágio 2 ou 3 precisa de mais consultas, com pouco tempo entre elas. Quem está no estágio 1 pode ter intervalos maiores, se não tiver lesão em órgãos e tiver baixo risco para o coração.",
+      "secao": "3.7. Recomendações para Diagnóstico e Seguimento",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 38,
+          "tipo": "paragrafo",
+          "numero": 5,
+          "linha_inicial": 7,
+          "linha_final": 10,
+          "trecho_literal": "Pacientes em Estágio 2 ou 3 requerem mais visitas, com intervalos curtos entre elas, enquanto aqueles em Estágio 1 podem ter intervalos mais longos, se houver ausência de LOA e risco CV baixo.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 38,
+            "tipo": "paragrafo",
+            "numero": 5,
+            "linha_inicial": 7,
+            "linha_final": 10,
+            "secao": "3.7. Recomendações para Diagnóstico e Seguimento"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-27",
+      "pergunta": "Já tive infarto e minha pressão deu alta no consultório. Ainda preciso medir a pressão fora do consultório para confirmar?",
+      "resposta_referencia": "No entanto, em pacientes com LOA ou DCV estabelecida, a presença desses achados é suficiente para confirmar o diagnóstico de HA, dispensando a necessidade de medidas de PA fora do consultório.",
+      "resposta_leiga": "Não necessariamente. Em quem já tem doença do coração e dos vasos ou lesão em órgãos causada pela pressão, isso já basta para confirmar a pressão alta, sem precisar de medidas fora do consultório.",
+      "secao": "3.2.3. Classificação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 36,
+          "tipo": "paragrafo",
+          "numero": 4,
+          "linha_inicial": 5,
+          "linha_final": 8,
+          "trecho_literal": "No entanto, em pacientes com LOA ou DCV estabelecida, a presença desses achados é suficiente para confirmar o diagnóstico de HA, dispensando a necessidade de medidas de PA fora do consultório.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 36,
+            "tipo": "paragrafo",
+            "numero": 4,
+            "linha_inicial": 5,
+            "linha_final": 8,
+            "secao": "3.2.3. Classificação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-28",
+      "pergunta": "Eu tomo remédio para pressão e ela está 12 por 8. Ainda sou considerado hipertenso?",
+      "resposta_referencia": "Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.",
+      "resposta_leiga": "Sim. Quem já usa remédio para controlar a pressão, ou tem lesão em órgãos causada por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 14 por 9.",
+      "secao": "14.4. Diagnóstico de Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 17,
+          "linha_inicial": 5,
+          "linha_final": 7,
+          "trecho_literal": "Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 17,
+            "linha_inicial": 5,
+            "linha_final": 7,
+            "secao": "14.4. Diagnóstico de Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-29",
+      "pergunta": "Quando medem minha pressão no posto, só me falam '13 por 7'. Isso está certo?",
+      "resposta_referencia": "Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).",
+      "resposta_leiga": "O ideal é receber o valor completo da pressão, de preferência por escrito, como 134/76 mmHg, e não apenas '13 por 7'.",
+      "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 116,
+          "tipo": "paragrafo",
+          "numero": 12,
+          "linha_inicial": 1,
+          "linha_final": 4,
+          "trecho_literal": "Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 116,
+            "tipo": "paragrafo",
+            "numero": 12,
+            "linha_inicial": 1,
+            "linha_final": 4,
+            "secao": "14.2. Busca Ativa por Pessoas com Hipertensão Arterial"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    },
+    {
+      "id": "01-30",
+      "pergunta": "Estou grávida. A partir de quanto minha pressão é considerada alta na gestação?",
+      "resposta_referencia": "Considera-se HA na gestação quando a gestante apresenta PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com base em uma média de pelo menos duas medidas com intervalo de 4 horas ou em duas visitas ambulatoriais diferentes.",
+      "resposta_leiga": "Na gravidez, a pressão é considerada alta quando a de cima é 140 mmHg ou mais e/ou a de baixo é 90 mmHg ou mais. Isso vale pela média de pelo menos duas medidas com 4 horas de intervalo ou em duas consultas diferentes.",
+      "secao": "10.2. Hipertensão na Gestação",
+      "sobre_nova_classificacao": false,
+      "evidencias": [
+        {
+          "pagina": 93,
+          "tipo": "paragrafo",
+          "numero": 3,
+          "linha_inicial": 4,
+          "linha_final": 8,
+          "trecho_literal": "Considera-se HA na gestação quando a gestante apresenta PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com base em uma média de pelo menos duas medidas com intervalo de 4 horas ou em duas visitas ambulatoriais diferentes.",
+          "status": "confere",
+          "localizacao_verificada": {
+            "pagina": 93,
+            "tipo": "paragrafo",
+            "numero": 3,
+            "linha_inicial": 4,
+            "linha_final": 8,
+            "secao": "10.2. Hipertensão na Gestação"
+          }
+        }
+      ],
+      "resposta_e_literal": true,
+      "status_verificacao": "confere"
+    }
+  ],
+  "respostas_api": [
+    {
+      "pedido": "Gere exatamente 30 itens sobre o tema: Classificação da pressão arterial (normal, pré-hipertensão, estágios 1, 2 e 3, hipertensão sistólica e diastólica isolada) e o que mudou em relação à diretriz de 2020.\nDistribua as perguntas por diferentes partes da diretriz que tratam desse tema.\nPelo menos 12 itens devem tratar da mudança de 2025: valores de PAS 120-129 mmHg e/ou PAD 80-84 mmHg, que eram 'PA normal' em 2020 e passaram a ser 'pré-hipertensão', e o fim da categoria 'PA ótima'.\nMarque com sobre_nova_classificacao = true os itens que tratam dessa mudança de classificação.",
+      "qtde_pedida": 30,
+      "request_id": "req_011Ch7jPrLyAEFrM49AWRQJm",
+      "resposta": {
+        "id": "msg_011Ch7jPu7eokhfYz151B16v",
+        "container": null,
+        "content": [
+          {
+            "signature": "CAQSvc4BChAIExgCOAFCCHRoaW5raW5nEgx7UL5fKzQS9Yn+kPQaDPLTttBbSlNLTyiWiyIwWvxLC6g/KgTWFFIGY8XjYSkChkJptbvblLdT8CS9+ATcS45zr61G3XBl/1iMl/NQKtnNAYD84MRXEpZiXtDDTMC/HNXniIwAgac4+cd+YyptScfbNe46+F8YpG63dcGzwJL1C06eOSNpfGpgbNLRs9DXaU6T1ApgUlqwxLcf85ppcAEPQFMhNPhlvNIkVs9hDL7zUbC3KdVvAxx3v9OpD1MEykYpQ9ay1RsWN8V/80xtGGcfydGFPWvY4GNOx6adXliGspbR8Yq9LqjaotSeGTNl4PRZALlJ3GiPOOIIUnNm7SYrqgDU7P7ShzwwR88q2yq+E81mE85ikUGjX+3WTugHN4nAZJePTqdq7ZKX6+LV1gREEGzjmyLCg9wxGPxWWqWWNzhKmcEwA2jIxmExw0vH4obTDGh9UPkj1yneIMjV76t0mLqGEnaHpA1fZkru//sM4D78HezMvF3wojpjdpnl3kNngEPsPsJLpLg8CP0ea5wUjn8y6crP/tNv5ddYSZmLlXAq+WxtookDVGI4+UWI5N6UBu7XJlNPp4D0oHxFS7WZol0Qc6ZjXY6dMrMwShC+8/EU33jOwGTXmG5J0cDQnoDI1fTQYJtK4Y4WdMOz6987qV+DFHJBgTIqjfj1JCJxyqJ4Sszegi6Q0t67VyTwBUPaO4zhZcL61W8JQAL3OKdRdJNvkbH3uC/wimM8SPXqplFiSjspOPMipQ2zuZFY5iQViVLn15RxW+2+Rev7mhOz68jhABssLkDzUFWZcoxA5omWb2lYowT8Z1Cebxfn+5aZ8sZheGC7cn6dsucjTpQTMAGw164QT0Ebgjv0gIyi8F2ljrbED25GTgmWzZFWzcNROEitzYbo0mH7MKBT/YuANjn4tdZuISuY9Wb70+2ZhlhuHsr00yHuXFTDbL91mp2zt+86mh6hFQRhaA/guEK4Lrk4wXsLxot9kVs26aqGBTHoHqSOifWd8+zlSktcJfMI65a+7ziFlz6vj4tTV5+QOcWnR6VkpW2jMzQKSi5reQIa1FGnrtTO9l96iezw3kevakxgMUFDNMk3Z6lSiaNqpUcge7+zBh9PH/9jFMTp4AmQB00eIty8niwMXB2YhY+WuMR6MfNqQO8802OqYcLuhorGZt2XUUIc2e2xATJHmg9Q26qktadwRxoOLD//nfBpV6mX722BlTGnrrz3NWv46ywOLHVFfjV6icEZsq2/8OPnLsix+nqxrOa2He1O54lDx+AbJ18IjAqSXPQvpVpdmq/7jJTKPzO13yto2WdjX91+snIdGpC+qzFYlBsKmJ3A030Rbzhf50UZbVmAfNnRi+XTV4z4euVCBMiTREAsv92KLGY+pkwRr5uokQk53/Ly6+0Uk6SBD9pvMaKJT/dBH3D86wtq/lMV4z5jzo/hzoHnWBzxJ0VK7p/B95axXtquHdQ0aFoy+zPJC9ihKdLt7xf04rP1TD17AuVgknjnqXaJ92Q88qsrBFxviz4sHsmsj86eUw37iWITLkZSu8WRL0kjXWEYahnTgRxMvb4XuLQZP16x9bwB8PaKcbvnCoPeaPe0EvDvKFTi4jUQDyNzkxGbP01BdETlv0qacAWdSERuN1LH7OOxmD6umXG68ZMrMNOwlukMIkrJOXHAl8aB3eyQacJR3ED+Oi256qdEXeqzmf5yWupcwZx+9sK1wtoTfnH8C+CF5HYM0tXVrvt3iY9C05IGuCHF3opJxD2Q8s+nhAZu8ADc/6vVkR86Ok7tOrRYczsO5oadlg1sgdNfBRGkABgYG+YxjLnqiRdo4rqw9AvMGexUDUYqmcrSPfpzf6GsuHcQm1PkNHlTAAE63lllNdiF/cHD6IxOYvxAxumskkvYNeOc3yF1LuIGf3hWjGHYW35ZJLi4ZFeUBq2qzzRQW5FNjXFSJPrf0Y3DamR47R4GMX6YGqgFIGh06InUHPJG0IZnLi840c66NlTeIOdf8GxXU1K+VDPeBcvovCXI9f8SCOwsKU/8QlUYujcL067y7S19rhfa2p3QRV9WyPp0YIMFEPiUozQDzIY63Rp676FB2F7jLnKAytQGDhtLP6zzvrRe5zFFRk0vaqvdwVFQ40M2qGwK23s+a8SMcsV/hmlnMPQh4RKCaq+KopkoIk7ERVbDVsfhJpq7UCu1C1s7+QmcWFov4yDQGb1O7IdzDQ/lmxokwTCrNHT/IhZT5T7rdnlsAixiCjVV5m+yvtT/ENTz3oaKHLDz1Sc/IK9fv1cdOmIEkQzejeCRi66N1ZwT7BUy5Nsh4rX88OG4NR6KW2lOeayOUhQQhKiO9l90ZAvjO4wW3/THVtKMOrWuKOjPCk1eZ2teLespGLq33DvGwiWNKbeMXng75bl1bmw7FUPuA/LmCSM1W1lot++9sYgVIS6VC6wEI9z+PeQFpMhYTqXSnd1N+Emw5Uy8UxvPAMGZaFVewYEJjQSz9eJAPfEvwcRaZnTo5Y+Jg9+5pTs53tpg+rz0AC3iywHqG5o9MzoFevl7qU6cJ3fe5m+yNFAdJFmC6fu1nz1UfIhzUXFTvypMBzYt9zvlgVdIx5dendoXRqfWRvKv611WlTzZzWxX2UkbZ0zhytR17BxCqApO60RSwyY6AI95HrfHvHjFe7u/sillIHeCjpIMFo4LC9t1vTHf0rOLizQgQjlYEneNELs4xFn37p/dxieevnk//4Vm3Tc19kb5v3zvctU9gpcKBLpIkRgmgDoBZpd0qBZ85v+xantdRM5eE50Jpk3HYhl4HZaIGVT/MWGL3zOo4oZO64lmxJw/3kimFxxNjB2xUBUNiB3MEdVc3We0yWCJ/enwp1WFpJJy5cDHJyZyeSJ+9mzxT0HDMfdAF+E1YwLKHx1c3gI4R81U3ka31N4K1H3qIOXenLa55xPe+2ASWcZEwg1Xe7X7DtIa1ySdHN1HEqLKLgSI4KCbMqa7HWuDkHJsv0XL2u2jnYW5+/G/6iUJMfGvggpu36ORyWRGq1U757w6vPXOTkYsbDJGmv9WvytZ0Fx9/o63RMf+pRa9cI+ZxZBzN5W9cKISF7tZHB5f/RzB0GpkXlySH5m4Fs7xlki+SvX4YgYxrXvka3gg+aU6xAI7Kr09ebNqshzoMuhilhtj7/5D416os3lRShCLPFhrqOOIHTR1VMXC5vqyeyiGpd4LQNcDgJxBGTC9CCsN/xWsp5ZD47jT3SLcaHiDn2vYjfeUrq/S9dEW4k3SSw5kE3RqP/7Ts64QH3+NmM/tOljXom4fgnXVyHCihK5qLZQpuOqFs1BILRc3QA2YVVEgR0QEoKYIqjAixaPxXtIFYJRvzX5cTZu8KUiSc2rzM4mcu4KWio8FdWe3KbjTQCNGMRgmMsxF1CGmCm1LIfe3Z4sMk29mWBsZ9/s6TDDHHu6ZWfnVh1nu9mocXHd3WXv3Tii/5VNNo/ktZjcd6lYmBfBNvCD1hCd6kinpWirEUMxuCiJLABFUTReu+NEriq3ARPOUPUdZinVQroB9MRjKmp0/fRrSwyi0oWoXVaZ1734bqNQ/aRR3YDO5Ph+/D273lDUOqjeujrgG3Z6RVWHRjylPTa6JQEjgxZcO8BrqS3DENnbfWxdz+ZcdxqCo1W/yKX1AdfmMz1ld4DwZttSyzqZ7DAAzrix0B9nYrIyl3CeGb1x0ytXxQFhydChOgaWwKeOahWCXAC2HYNo2hxHc8uOakK6OnVnByB39uYGOmF+/yEcMLQXx4fH0YH18pxZRHtwasGhRXS9NDC0U9nhBQBEnOjFyPyyUfbE4j0Ob/jmiwP69fDlDiPFjHNOb3na+8y/Z7OXLzZfyUt1hxcWIH0jk7z5NRS5fRc6O6B+TEgCRsNlKQ4K0bhdz+Rr6p+PH5dfFwbeINMkVy++AqWk5xtHThamRvdbn6F0aeT5huIygu0xfRt+bVVyxvIA2greBzhRigZWGanoGy49d4JbpxFdVgQ934KYlHOmKU+eOZ8mYYHyyMPSKrboiFg/xE3aZyPn0IVl+J9RfkKVnaTyWXq1IwD73H/cx+7PMkUHsLOOm0y6eCeHeN4q35JHAqkmRMZqOcEmz4o8JOarE7BnMi8NlJX1Ag7s4Tr9UoDoRjvqUjktX9OUJuIZr5OL0YsO8E4f8XJAOOYvUf7jXCtx/rVwV7WKZBLtWeErxVVDOUwH17vuMRbqgd4us3eF+e+xZpIMsWv2SlfIROHz0wc+TZ2RlxPg8GWOFRR++H7UrRDcG3OBkvgvgVDJtXfx1BmedchQ95pa8SXOqoLEmOb3liVNpl8DLQJ0cZdYfyrLVzUzK1Sevs1QTIjKV04gHKLcQjrxgUGZ3252QbilYXUje8OWwpbVJNxhNAgexjzwRw7/5ErBVFqu7STdvFz6jFAnP43zDryt8FxxnzxkgIcgmGd726Jo0HeLbOOG7Cq1aPbBH0parHcZv9WfUIxkiA9NkgbZoH7sDqyay2ov4DT2ZxKWct0WhXCZsq98HN5dvMAxnIAEAqf9JWJ4zSCRKVIKxDBMvSVUl5kmaHlK8UamP+jJxZ3Lw25OABMctT7OCPb68ffzcvrbgePqofHmYXMZf6TyMCv40xFcJV5JE8c/LVOig3WAopxsnPVIMcpkldvKAbFFdeWxwm12ZVMORoc1+PUUiKjbVEZai2aLnVwngpCfaVuWTuTM8DaFWaH8/8NihjFiB/XEDMVGOx2eoHe0VUok8cKijzOXXLWhJV5lEI0QFK5YYYmQPYncAbAmNeJap1a6M8ZzZ0kbaD1YXUhlTqPKSwu2BdYpWGFm1pNLcOAr8y55mMCMEDrTF8upsh6dzOqR3krtIGBPzGm7HtBQLNAElvDvgezdhkHPreHpj6U8bqgPF3xm2Tnf+QWpgOq7ncDWzE9yTxd0hGrabFudExKxeBR1vVJ9SZTFXvBYrzzZWrBSaYveE9MzbMdoaX0CSrLU1uqbO30D8cH3FYnhX2RHK4PzkSOwzFhxYa8wn0IQHm0GUYgH5/EMeWfdqxMkdbi94J4HdCd+ikASZWb70cOGBfFjNG6AwypyYfN76gKcQ5onG0UdhotOEhPg1zdj2XdF1cn0OShGSsZ4tV2D7WRY2sfG7zTh7iIv5yHzqcyYndPhcGlri1/xo+7vDsEqpKd2BqqtNnXledJWOKAJUyyIIK6N/ACDWNU534TyH7xLiv1RALmG+wqGPvoVXuZ5vMFo2ghloshwnGfcL9AzZZeZCqG5xrdNkFBVfOIjcAGs4f9afA7/1lV5WZuEmV4CmA5WV7+0qLMFm3TY2Rhl/1sr0jwE3rCy3QmoYBmCyVzOeXAu/gp0i/r68BW+JRcrOMkjoZQGbPYc7BsaE9NsT2137cstv1RmvV+hfit2wZ0qf5JAkPoV40TMTMYdv8gL2wbz/Vd6rSS5wZuk2YR64x12PmyMzobuzzPrTAB+C4Nwsyo//5nN7K0gAua49GAM1QGXil594eZ04FnvCXaFKG453mpstxR/LOihDpY6uXBlpR78z84+gLf2rE34kH0U1wHFGmjRaxabX83s7eS0VGNDSa6ghgPWEOdgwCyNXpc4Klfz9DmkFH901Gs5bQbovO9Hj9dtSWKmFBWn/PFD7h3wIyUnCivlbDa6SsK7L96jFAmYpVlH60duF1+eqmU2KMWpyYYdbDVzvIM5aktYlWM0Oqs7TcMnbnEuxuoQuOE2ThTfNkdh4Jn0boZWFSBZVxKbU85lDftBBub+HvZJgLFH3n6nvBdIj6oFlXXrtsRzDN6ZWjo6N4GHfsqmosdrLHmJV1vK1OWHFsmA2dl0WsHVX/BcOAikcmnR8vApys2Et38Ter5l9/vy4GPCSVID2JAVKNcQPwpZhDOXpInjHrwFpd2Uz6AD0ugqqGR7EqKIIp0i/U6HOQc9VNXPE6uD6OlGe1HlyQ4eQsl2DKpm4+ouQZ+VPEsdl3fZYKErq3Ssl8If6B5SmRf6190B12ylYnA2MvKrBPbuEa6HtJ7XI31TWRnGRyeV12Wp/GxCT8/EKn5Xu8rS1OwroSLleWDfquV1S305Jx7Pxo/zm1SoKs9qN0ktublj6PlHzxMtRiyeyOXpkpfGNlAy4jTW8TxAhr3YPo9bAqAi81a5IGDwiosR+56nWEmMcJXQaoBT2AiuOY78ts8hDg7wnPXHX2N7QzNszC/JvbvnxIALho+8r6ZMB/15tCbA4ZMYCuPVlz0729EjGmvo8cG2Kcg8yOvH5XGv03YGVTFp8XfQzLYjW3Ti5ZUNvaX/LS0VAwLkTZ7YQlgJmjNWBl+rIeeicAgeWIu4Kpj3BkKiSOLgmTrBQ1NdAmULR98KJ1kKjAWV5mAHcHVyJVzcpMclnJwEJm4pt6rzg0cVBSBAEdxDjOkI5akFvKadCWbPa1Jb8ocfsX68gc4rOxb8BZmC/+XJDtkjwZHya7cunCyu/DLODJ77x5AgeiiGkwlAw6V46KelHuhOEwNOJS4Y4er8abE02LlWBvkoJSh0bggf3XoO3dE3JGjM+vjIi6Cdnluvc47ITJzmDeNwY/A3i+ft8Y+ege/1kltdZxykpRL4pBmtXubBbDGc3h3ZNBGDhcUAqvVd0nWddPgU5gO2VfDdzxskHtYpWDqk0OWe8mcygGsno6oI+48mYL381YhK5AAhbEibRuonCFmmXBL26sxE+BFQKwOLZwyoAJxjuzF5bYG0TbblWGUhRNIUElYrmXkOPBjV+Be0DBPmdsMHaWoOjqnw5NIiIdVjaDFELZTb577zxQ8hbi/0aG5nAq8g58YQuiuK4rhRIQ/rmvELDqCC1sAAExb2FzIwM3ispMEcan21CtuupsvqWxNjD1GrsYmmA0ROk7S7tOELgMgsdmm1RZdzPPENVBWEB/dSc2DIv1Ng8zUIU8rWHtZj4dw/6HY1O21ZVM8xXQMqYRLNOneYovTCm5Yb04WOuJTf3T55WmbOcNyOYsxaiXlF16QIMdcsfoW2SKXUM2OyXYr91DJGUdueoPH6ugVsC9fI/1Omm4Po7w060183uoyG4bikjI/e3GR/nk0Qw2zzcw5OKBOpvFcETWN+eTCxRl9YTNe/T+EbYHlZWag6i+lhXaOiKOzVJP6jPvpOvB91/a/pOt/pBmyxjueHkBDXguF+DVWFEq5uW95CpjK4Por9AyoxARAp9ne3kSa9ZrP75AVgdGdGvCaGb2lkdgxrwoSLi99saGA9zvVY1NT4lbQPxcbyNQEPReqeiGSqq/LoA2TnZjH1DuFAb6pfqxCn83uRs7SjxKPoy9ufaLARvCmdn+3ZfMcKe5M8co8eO795HmfVDLkYliV4uzEqAIYXP+XiE9Beqv+0U3VuHeQq0RzJWP6cLQMnSKmgjNWiGWMlOU6GpXJVuueAzie+v21b5roS3D7bdTG0ioM+D3lBMmr07ZbjVPC/ExZDTcSQc2/aGmQwDwDxZAafREUpuyrkk+PxEsnzqHYXqs6ZO9X03iOn4o6V62OGKkIwEh3fg3dA4ZWZ68+RNGRgrrMRZ6b+dJpe9byxtOt5SVtRSfyGIB1QhBi8Z4gbwFXEhatin3YAko+9ULitCjFHpxND6C/nq6KA2+81P1ofbHg+ZV3SkoeSGo6UIurU/mRTUYpyzz8tOGC5Pp7GMSBVvoYcjdtJzQXGecoOCb6e/PGmoUTSu/+eYWbNt/xOyGStkeNGlvQKcPqJWPhnqSthpIkIR76VvvTFpgBdLNYSHxap5J6KkeSTzI8aEzzHMFXm40Tp8yr8YFdk44KJtsUn2AwpFvJqxioGmHS4LFH2SPzmltPIUl7NDwnbzmEnGVGcdjqbjob4MsXSWXv8Q5q7pQNVKv/Y/CsMOuVktP/wOh84eIBk+W9ADix1/+wOUfLO3FC1JLbeorn+f9B5Q7wLdsxQbmW9oFQ+kZNFv+qKco/uRpCid5Oc0V5+2c6TuOZJZwgLtQo2cDxHvJ7/o5qOZrEHhvBmmPbjpGToCKMMJ4R5wZ6kMUh2sA9fxSgilSFcEtv8r3/fD9D86e9CMO9Fw8+FEnSImwc2H0TYsqdJrZ/pbBzmxp9uSi9YFMIoEpknrZ34Tc7FKoajCnThOYzkggNQlWprK2N7QxOX7Oocsvy6dO1ZdwIqiOSIIRaDOrl2knGoHgPaamxkXo+KC2KN0rB07WFVNdiNMac6IuVZ8/4G4fyTjmnqfVirMWH07oWIolEfJNgPC/wA7DA4xWik2tJ2f6ASvpGmnWC/amzICJFskVJQDYUUDQkdcIajbDJmYSSSWu8JYAdR9fpXyQzDlNcUcKX2WC/wFzTHxiLz+fMap/lC93gwbwDKV23Oi2hGFOABPSaA0TLxUAO1pToSDgOOY0lV2QuZUiRcN2rUI3kDxN3oOhZwNQ2MVC+8wVVQjWkh8GqYjovbt/WvmvXtIfD/36joAqKfcqLeiNlrCYMF7s2n/VMNj+gDpfadp9oHrUYIcJ3nuriZ8SwgNvvT9YkeJpNN/jLp2oafyfoHETVDUcDe0pdB8GQ/SIgVv5uqPp/2Qbap9z+1g5BTbhg4Szae9tcg6VWDNwCWdoJ6aeOIAwQwHy/CKDHnktdIUtjQAibPzRPOrJfpuODXpMxfLOOyYyPH7TV/YUolKcweyXxrnCNjF1Wx1rF0gWf3Di1pMNbMyexvUxixTjew2lSEjisu2TszQGaaCHSmyq0luvmhlblhMoc2qokNhlBHl3+0nU3yHNexY4vb+xIA6E4skiyyh/ZaX4t+fnF1r5UfSSXKm9EnBO6orNOcJRjx4hFK26WIUmnCw4Jb/oabLg+PPLsmPlQmA+pADnh7ESt/6u9GTqwyObcSrBBectWbnDtiJ3CAIMrHe0BCAhxjIUvujgFS7tHeoNjVCTxlZQseMMPSEYaiXeKqjZrLrH5BcmfcKcXsVesOWgg7WTJYgkVLIw0rI6H5c7da5g3j3eqyK8jZhSPSWKG1Av6n3E09aUDYJRXGtrcI04I8923GXOqPEChyxCCX2lgYwvG95wQ50jpTS7jHFhJ784KJAym1Ny6ZrIA03OaBQIgey5BzunXoxgdSliEeTDqzv9k+N4XgkEOEP6s6IjWEJKv6jJwzRnuARkG9MsYG8reh8cXjGZuv6C+k/0nLwVLppD/uLFM1sNucr9gjl4Ca8j8kw/805XJTb9Smuvq5Y67A2dD2u09j5sV2aj4MO/x6t3TXJ4mjmJyMsvPT59Zwm1FhMNMgsCL+AEQzpUgN5B3PmAB2I6WZYB1nNboiTw6u8jZmawtOnR9nL5/h6WiBXTD7yi7E7f2oetHaDk+gfi2fwPmWIwrV9no0b513VWizVb/AnNicNqrqA1OF5a0QZqV3WDMZQOdOFmzCyzg3DeN+B6plFg1vIUEB/eQM8XjkoHmJMAVV++Px9amvOfwOFWJn2fv9aSQZGhP/A9Ma15x8q6cHk/AZvb69et6Kh/0Ipm683sWoP4NuSrF1SCpaSlcnBBZKKpQSZizsMRgpESt2vCy4B6P4EDLaFQGjQodGVHLaGNYK2UQX4y793AMwWGEIG+lcMbtCJAjWiW7jP7yycWEtiTDsny4hwJEJiAEPVPC3YKN0ih+UM0upgfjOa259r84Nrj6OiFeRM93t8zUbQXNUlcZlILHILhvGoqy9otA6/MtjQp1ypv5DO55RB+RCPxarA4BL46cKOSzL0n8J23M2cFA9jbiQOtiimSXLXgY/D+xtEA4vz4zKvJyx07Rkq9B8z6sxek2RbWpjdE5YuHCIuZ6DKYYe/pFMwJui7lOOLe8Z0dyo16h7v5hC/vX5HiGhI0TsS+STt+MCuvilCfeqo41tIZu3VrDj/O+UXvdqTe+8hGxJ783QX4IHeKSYQul+U+XR0ieBGM2p7BgFH90gCwujdOd3Qp9TFgRRETqsYWag7pJWA74G/i803AIi6pb7FjAe3OayLdlsWVtVrTnwsOWKosPIFNOOXoH+DHMgMZudcr2gmPBPRBRYMn7r+zeaRVJ6gMN+Lmj1Vm5b5UVSvyGVX6B3hHoPwKGwFyUB4OW/VAE1CGxCwjpAFP6dLFKCEIp2RpOI/FxZAkWv9+whVyiZf/sN8zz1izt2/oeC/LekZhJK8sfkRDWk+q+B1CR0J7YzuX1rEgzRhu5hhbFQahSCWWOU4xcxI8MbjjROWrcyx1zQ6OEyzXZ29SAUN8wZLr+vhSrNDCsDzZbSKW8PGi9dqR1ZxdgPMY5AgeorZBET4lm1B1sQVSeu0wAoZsOzjzKB1lWKNuMha3sKlZ9ouSMIwdSsVe6rxvmJADJdruBs8ITinR1FRBnzLK8xjnKMJf+g7dTCawgyMcPgklcmjwfarlMl9Bk5ticAcGK5AB8KTypKGC1RTkZLG3kylM7QvBJbSgOBojPliudh8iSTiXHLNXJlTy2uXVXKdLRHY/MTEkPOuy+3uWCUhEjdAopRebGNl0iKLM8jt2ypT9A13CJ9Geo2Imds9cUq3ztzfa8e4jtidfchmG2EpN4ceDTC8tCxqkLkYoED4HjsM9gmolxoIWK7MesOz7kDaPI/tMbTN4W4LwYzxv/CVPfnCg2GH1q+m9n91/ZUJ1Qoe+OE59/+D04rCG2GEzCd5xrE7uLQhYzDJ4UjvwgBwFJe0dOQ5m5M5Jeh8NHSkzwoIgt9iGOU8CMBUdoUW7FAJa8wwXJo1RRC2bvNykMeg4FIj6KDJHjMbjkD2PuLIBuHB6CUwBjVjtbg4Xg+FenNwQJgI/Bc72qJpbRDPkswS7bHfqTL2kYjMouAMkEw5vXoWilrZ98xxiIHAo6uh4m6TAQdNnvQqc2jWTqSzK613ufpKuBmL2+iolYyrYmKekojiGqc02fV8nOJ4snCtPq+YOFRWYSxWuwDbNsiRJfSjt6Q/G8m8mQoecrq5Dzo09r1f04HiUtiT/8UJfaFf6xOZrbmAUFLhgHsJZNOa36dYxzq9YNcu9BgqLt9Z30nE31CWPLbZ1dyzHDFUMVG6/elCJQB08EboisdZd1RTTcL7SCDoHln4QYxRQJws3up/GMWQrCs//YVAbgaTJ0T32hpwHqSjMi0aN5LDI3iCUhtzwpEOWOHtyNdP94zBRi/TW8J9JFcxx1ApbEfI5DypsRpzcEz0jfQHQkusSSCoWGn/trA8MMCdjFQi2D72HrmO0/kofXSb2yOAc7S9bXgmN9xVwHxXeOw8BlECN4PZpQznQxiKuZS7RjxwyJEddJAppHU70A3uOvxs8jGHGal1QERksE30CyUUFHgdelqgMEcX8tbaj9uifl7C5FSsnaN5Pm3akHgeqo/N1NI6abx3IJ4WyPYOwkbZk5++F+YCqOJmFhPrOVrFr876TiZa81/gGBaEMO0MWAm8JiUDL5251iBj222NNWfq56fn7dQdN+pizww7mCyoO064N2T2wUnr7u41kNI4jO2AhKTZ52AofcpFXm5nj9VvLvhaWudO8wj4fJ4sLRdPe7jM06h2JmW5TGkYFWXNkvchzUTKg9VlN1QaBz2bk0wWpCdXlJewN1NcyfAjRyYPt4FEoa7/tr8Ss2VVaP0aUuFkb10shldz6DVspbtWFKRi2N/iCWrj/OE0lZBSb3VOI9YshbXtxJW6x5t0fI1Xf7Ow95OYhAI2+LGd1+rcbAg3yXp7oYtuUQbeF5N7l9+rLNb3rvh+Te3FiFGthujBogvoEaoR303mNVsx63rau3MtjPPD9j+g9UqH83XXyZoM4uQx9svVdc/lWlRHfV+uyF/OXaBoRkrNL7gn2JNnyF05DbX3P68bGsvtV8ocEkcyIggnLa7e2Km1MZWVaJQ80IvdfDyFEGFMs6CRWGl5iRM5ZOotAVm4M4ymbrLyLsDHD/5h6OplkrGLbCJevuGLbSn/bTL94u3n8kNfAxOKTnHXFRboUHDi9PS12peGegy0ULYKRwGNH+s7AeF3x/JuWoRnr714bd/Td/cXsmK6Ar7+U0B2zFFIvjsGQndbFVehkPEzt0Ar32JusM19+iSrEg+lqivTK85ot9WLAK2GRhmeAAl64Oq9NkWknPYxS+qb33Q8w5ffDkhtiaI6uaSSj7yS/4WJg0QNScmrzfrpAGBldDVi82PooQMkHEOpWtKAZDLBaTfmMc1AcNXhbc6a+o/U3JlSd75d3PTEvtf7kxJFoVbjpMLioLz1uuWalbWiLt5hOqJ7Tz4jb36fnHk/gSmM3Fnt3C9MkCBr5ZGSK+me09bk0SChNAt6RzdvwT1GcBHX/bSbiLHNB4G3JZOqQ4RK6jkmWeSs0XcXC3wjgDNS16jq0L45xa8DxyFiYahb+ra/65R07VaFXDJsfRyk7NLjzoCru4boF1qFfJ5qTuVJ3Q2s9FJzn8LRxo/KcTPPj0tVKI1XbvOpaDzQGS622STjmiP+AYuNblR0nmtzi8LKT8YjCZrrihBp0wMJ5aRez/vnqnI2LrPHPMAcSawxDU/s8kOIwK/WHokefXkUUZMxt+25D+dpwCxdnh/4p6YEfvU4BsQKfvsVAjBokLiGel0egfiu/Vf0h3uS7ZVvqjtSBsKG7fr0VO9NMIoHbPiUOtd1kF/TKOKNHMtXuFtLqvPXKXNoAo0jivwQ/BfdInvnvCRtDwG+AbzaPKa5qco/cDH7AdG0ueja4NxTTq8S213SD0AwA2HGU267VXXGG8TKKamO5UjI+gmvWVb8qVjQo77f3zVSDeGyNc7ykA3gh92BgiHbKVK5V70igHPAylXTK32DOSv+DRyECKN+NrX5nwIzYxdNbRY8Vn0DHCP5cxmbJ3elQndb4JQ5frxDxqcZ+JJVcXPuBwJ5NiW/Azftwl4zV2r3mrws1pgRTUegcbZ+RNJ5w/s+8N/3e/bwkGc7N20J5LkHgsTbP6eOVRfVRjPft0/j7NIp6qHbshTmKLxgNExVJqdoitFgmlsBAceQ8NYL/bG4eQ7hfjSps8opBVIRdvgW/Ii3OikiYQn4EIWtvNTOKtIX5IJ63L6NKs0XKVwRSlKN0qMW9ShrnqCc1xg42Mc3VZAoSvrx0O0Dv3pLt2hRj+B/vrrvp6Ij7vTVFdQeT9MzyAl20VTruQo5cYl4jr5F7lQLaoV8be7COkuV6UlDIfuTX5IkQgm2662jVPjmUfnBI8Y1PLEO+qUlvI0LYCFljwMBJ/yHR9Du/HuyOoNVjzt4O1TzYspZYnxHlVw5LpiPsd7ioSzZe3Qp4i4YQN3hDf3ZqlodmqRNm8hxDN4sUFbd4sH6b/HuiRzU+9D8BFymicTt6Ih5MWtxUuH0dk3DnZ2teEAjB46svnGg5zI+0/C4dPD7PKrXGq7J2evcmtuBpXK4ju1GEXKNxiuFtOGpbygK+FVPMhrOFFRIH2AUZCqgP0ZOCqmHQlS+s6xI42Z9pCgIRIBV0DsyhFGK+Aqg1gmk4Pj5mukTa8CSmD2AjBJuBpSJ2O+tYIXPU0aAXda9IUvf3bB3XHou/NeaYImD3RH/pCXG6u8jezuUlVV+JIyRXDWPODKgbM00vl+DRyAg6n8X/U3wyCH8NZLPRc2S99aqjMEd+/MXsFru86U/6yQCIc60lP2hD8GLBJ6obqee6R/CfrsYuZ8m/JhinPKtPP2V0z/iFd7UTFD7KMJBCQPmEzonfoOZTT4gxUVhMOjoJhZIpNHaXyEHeb+jQEzeYyT84inIdg+WOvS6RyKX/Q3325bV5n87Onnn6HxkKwG51wU8yegag4Ssnu14GK8XIpS7QgnsaFQ035CKHMbhP4icq3hwTG1LSBActgKZWwXwHO+jUJQDXvJYp9XRqYIcUsOc4yWJYbL6LhOZSn0C+/wL1qnRPCtJI5rqqvWHTzHXK3AM92G9NuF/JIkd+zL9kx5H3WzAi015qt5VKtnFxRz8dd4oaG6Jo/+3VfQLm5RsVIKL64SXekYakIR+aOyqFs6q41r/jIFqAFXD0UHwLs4Kcnlw6AdBm67LADmaBXwBcTiwGEsxlgPmyIz8N0J6AG3BunMzSsWwiukCWuJ6CO409ySIr49tBMQ82OEk1qC0OHbVC8RyOwh2TATp00Y9rC5/EuCUidH0IlBP15AsorCC3VItG3TZrGce1q05RWACQO4EMiv2jDrJAotIA/ibdKdVM8XOdcc0nJjxkVhgFwocgtE5XuvHwdZ38voyfI4ap5ERrLfEaoLP7I0UY3rKT0CZi0tESof4o8m9He7Xab5w78xSYriCThTS/aN+w16GS4u3BftrLbzKnargdgP8IFPFm1mMw9qpf+QHC7v7ewVEqWXp8yeHtc8Kql1AwqjD5yGTv9gcS/I9TNabDnKrdDBaC0utuQNIZG/3ODWOdCAF+ZX+TFRiwUnF2TeZpduIzPvZMlo1BslFuCqobmKLKhsY9La4FJsvMe9AVj0bbKdyGpgzRUaRrfqGKw9woyw1rKL3LSie+zPtZ9JBSs4kGzH2BftDPRkP4cHfgdOhJYN4262GhCaf6n4/3x2K7i64BUdMvuRzngtXaLvFNrXj3SE4yHkoT5iB7T/DRjKQ7BKmrOXQTEuWYKT/z6EaCf/Xey89Lxlxk0zsMGpw7nYgvfap7bsXPpU90cie6/OtaWqVkAqHmlnXiyabA8Cn7ohNrrvwJgy3nh46zODvH5MmGOsyaRfBqXbom+O/Ac0AUKaVEeXvHSHbelq59ibk9wI2XLSO6BTJRrSH9mJVnV4dgp+nB+FJaILXCwNLHgHJJDkAcJ9aY9I2+30sWYY4Uu9ca9+VgeubEWQwHLZUcZo1ZxyoXLYZdvxgHYw0VcAmzbpYfam/EG/mZgMdTf8A3gKeAbbVJBWXcsg3hglMmKWpS2vP1a1TRMiaUmsJust37OPbkS992/qp18zewXzAN8lJPNfGAq9MMXHiBmlGHj/IY+uwT7L0GKddtzCv9pqH6XV7EYmXCWLnTCfnL2jNmOo1+mlCYKghGeOqUqh51fdfA0VjyOC8lrIV8TaALS6JjXmb9aKBiL0dOb4YUr9fVi5i9G3/xwt+z8/8jyJk05VuQVeuc9A1yl9jbY2KyHC3ljA+pawsd8Aaad6VPUMJmE6j6e3bjRqo/4yeqoxsw/jIbbj15RWq9F2aCHybde0rWYfvWMGrQm80tWev75QF5W6QjZinh70aFuRkfX2xbzHU4PM3Jt1wVceYN6ESl+aj+gY7/ZGk86Wat2pubZyUnp7Hq37fv5sO/KzcLi6PiuXQy0/RNv/nfBoALLW0VqX9FGzcYjCBUK6yzrrm1wqcjBfvNbTb/pqQV+6lBlSO7wxULnyzaPr4eKbs/Tni58wy0TTiW6t7PVbzeHvaXiQaUClsKGF1ZAE11sotL7mV0/i66wsFoEV5Ek6uscOlDGy/bzhN8NsVYdUc3mKvqoRm7OexWpcnuf4nNJbeRBE2/rtnghZLo/czOviAsNX51hKuRJpvcFc3W/aOKGe8dFly31z2xm1t0aUFt/TcodxOoaQdnQxWlgEYomRuaijw7/3NUtc6d91KAh9O1vGp8uQRaMwCLvh0mNr8hoU0u5XRQdiDfBLuIGNE3Ok8hApFSdoyRPtZkEbM6XPRRfIgx2bzcFv/v8soDUmG+72husAD1Iibt9bQIuv7fMRNoIKi1p2tuK9ZrqV4+VSJKtfz31bnoeJZGmNt5yt0W0MA9Q8XMPInnx7tOSV4UnA19RB/rPEqhdjr14+2YAmVd8Smzr3NBxMvOZTAvQdhP2+Ts4AXXOI/on42T/YX5psr7g9rF5Vnpth9mDq8wIhp/TJJgBqeKLC1u0f1gALrW56IrDFF7p4pyy+DwOgpgfPZlOsLh+YP3I1Ys38J1NVQCPn7e+SImrVPXD0qTIAdUb0EIeyS4DP8fahAf8VjVHrxbIy+V/QRbvWTD32K5fEzmtG1ie3/bTg6m7RK5vrhqKbBr62p/Z88a3dSYBhTf6HiqbZFDzCvNEb5/UbeGxg6CBv6nyY9BVB21CFUMiZJnes1+AcM+68d21poRR1qRzwkPgup6zDlpGhU0ljb/1PIYc01gCz+9vGOq0gl9Z7PwVDlbLeKrBCJVoELANNJ9qj/DFFqP0M7PdUTomxEuU3ITLZlLbhFVl7lrMDOB0BgymKyURS1u7Amodd217j1QHZqSklkLoms4jQ9+5IBfTZC0qzmNvajX2WjriR/iVcVtvYD4LphFxCXbU3+UDMuEG19dGUN/fjrUfazFMr+aXp4b60ReILYy3lbn5l6srzlqxTu3kebUCHbnCJVhjGGL1r7k5J1Mk8LsKQirQvLinczWqK9y1YTwxYu8tWKcx+afCbfeTtnc3/zIXxLV3jVhsUlmhh5wUR79zpnu/SJRNqY+9fyvlNGkNVjm/NNzzXmM6dX/VHprzyDBcq+bA/h+WYcn13Tmqp2ISQ2NReg1CJGhuxrk9gyE/8VZta0uaJZJo5OYFtmR5eIZmv7CA/qNX5hvKOXZOZfAaSNKE3+hUIeHP8lggEwZ9Qpm6xz0zubZSjicB02UISNWLddUhNmodrwtLXQ8+C/BYyeFvLwDrgSTFQP40v0woko9GVyLDkGdUm7LoOZ7c4NFbOP8rdS2mLwyBTc00q7/1JYH9IdQkwLoOLIvFEOTYOEwzhJQOqQLZoJQQ3aiGj+ZlSaeOA+CQ4IaNQybWQD5U0Cl/0EcAIkLmlG8YbX7j0W3uroVgbUwfiAX96Jglp2+Ow59T0EKzEa5og7vogpPX3cQ7FQscM2iYn4iMZaIH06vlVZTYq0irdJXgvzNlYWlVpMPTmCzRvDd+quDp6LKoPiF0ypohaG0c8mVlDqjaseWZXxNdyDLQA3J7lhyOQW7hNJArjYSB79M+5d869ORTxuDwwW/ReUK9sDgSog3GGAVjvY6TjT5yl7nuMaNPXVeJ/J1mlzFkM39j0rKaou63heIooMH986Ts2e+LsZFRmxOAFr40K5xGC90lp7uxoP3RsGjbfTVDvch+yjYBxGsz3703YhDuymW6JoXt2ebzAWqfU6TQF6alRl69fiaJXnqWY8u+pH/kp6pzen7NTxGWxuCjs1U/aTcSRumvAXK8FEcCM9d/slOyA6lmnE7rMJoh7RaakYYS973J+oS99BiwFR6tKbA3gf6krxJ6jzvrMicrKKTSlN4YeQXJ5JqgApsK729NaKbuRI7IuzGwAM9vqx+LONCvbdbIgmgS0VdVslhGn4zlq8DXbw2jayhvMcDSetLFY6lZ47Xl1DUGW2lP5NNxEDZmj3qSsxjcpsLtiSIKhJ7yZx9EgirhcPh2LZQ11fGkb1gf+ABU/dZNnhb+I6aWtmK29JcvEn9GEyfbPLDWZJkKhDtbHQqTcfVQEyO9qiKB/siQz6Y8e023iNc+TWqlZ5QLfauwHWMvXurU57D8xMl390sk0eT4ZSLX08zZTQqEZxp+urIIrdv2LCw2J/fONrArMMEZdK0QhvP9vttmdTNA70YKodX4e88C9RXdSkFRodM/78npxIaIE+ZL2GV5508Fe593Ldj2o9p4bPVsMCU9URDcblc2t4ddH21keaOeO3B0JUQeUWDkuoNzpN194KEeDnGlZQWRvU3eIHqZAHK/fSXew8opCLMHGgX7xfO0YvFE5TCXFJh4l1Fn9VIN7afDwh403Li9QGVogAom5JC622pBPwCDffrBPAEyh1141Ea6pDtFf7bac5XGNlhNOyon4C5vJpHyN4bySWqwMLsJGykjsKo4hKLYcEkWiC8WVTXQnlGGiWl+saGh97ggS44hwX6GXMKd83u/msMk5dH/Q8tx4T4Ijlu9G2WZihiLG6d44y6FMQn7N//PtJhXViKPq1SONOj45IQ5jZ5xX334fauUtNqvWyecXiQNfHvzZSL+Zp2YpbkE0Yvfnli/1aOMGnVOiKbOUBkMfGLYhiDVTZQLHaP+8VeDAdG6Ga2BX7rzni++3qXJBBYJZDpi/S8pgGPPTX3Y3utPfTKC5bi2ZsDL1pZYkyYYridElkG4tI1ZSwqlySWX0r/dMUhpqhIr5pTjHUZVkY0S2xm4DKho670a5KYk54Ua/AAdbri36yjqOwIwk4mZ9Ca9CNdxxFvcGhfyepzlsze265rXBJZ042GXlD2mvOu2bYOLsU/sUlbMhXlbM4MnbsuVh94cppznKKrMMy0ZVdoJ+exGb0pHPb0c5HX1k6VHllYH8E0IHCedjtLKRG5ZpF0LDW9mF8ZdjMRNJGR2Y6VsoIhjjYw6XcSRADOnbyAuRU07EWLHJClpUbWzL+T5ASz6y5N9zk/INGgAFrfW/bfLw5tg/Z1I2SouhxqFQxWsxnwdpT1GexZjJKKFtTfIwJPL34kDgNpCSSeMeyintN7G4Zt3xt++85i+SZBb60kR6MgZi7SNbGO9A6CB1LfMs561D046QGyQIsPJDGlpnCPCCUiH+79af/WjmMYzcMVUGgFT0QW3tX0nOzMjN3Vh84Uy72ZECGeWw1y9nfjjtyoNOdzRQD6ZCHENube6Lwb2Pi0fN4o9rHLmu1FOQU3g9RVS8MgWPfs3YSHLqhTdQxu+Lwb6F/elbs31mobaWzywThM6R4sqqPLU4QZ0vYtRRaod/K/QXSKFmS+YvIU/y04HGzuuJg6KNHYJ47gfuMZ6/UWpA56kd2JS/wBbDUJ8mquqMiLXEntf5uM3pwNiU0ai6aLlo2UNsSlk3p80G497VenFCp6UXrHzUFJCy+PEbiTArohubxdNCgXFRKH/F40qRjfn/X7UaHHKR3G2RqrKx9qpFVjFpY3Xjb0ovYUxzcpzKmaadNxUmS4lxHNFVIIuw46fap3pznFH+6QxqaIjrqjW+yfnl1Q2Rx8PMEpaQ0iyl1JiWqPVQ8WVpI83DL4kyPuGGqt3vbS0tGpNXYCYiTPLCqJrkrqjC31VjJrphPKv2XfF0rMugoIQjVmgHbSVEumT+USiSYx7d40GEIVTRknpxCjdj7zx+rnc+tpTKaGQBxL1FV8DG8OJBlDHN2nvTqa8lsTnyyqrrLVGtn6vEB65MC/vVl5GoGct33PXwfthIOTzzOx3Na7cxlDPq+X1XEA1o5llTa/Rk1TLWNGvIO1RMwyqqrbMc4QOiKYgmdpTyh7JveQZ0PreEZL90QcCxhUtCFb+ZyZTHmrLclzkdrcw5FJm0ZcDzBTofG6+wuysXDxuX2MaDN+UMI5hNsL5eqbie4D1gYC4isRF/vEbx83g93sNVL4wvvegAMofakqe+3MCMehDjhknm15FMB/CXbVaduVUH5HJstMkK7oDCOlA8gb3POAO6ObAnyUcVYSf4ZgEcgsQC74k0YglbS34BBFcYNS0Cr1Q5bob3uG0dj4U5/psJYnCnt2laaen9VnjvczULstRG+3Zqa0gy6CPJpSiyHz+F5iyu1kT5UpBXBY4jyKnb2tyFgi9lR8qFNBkeHJ+sWxKiceGrhraVQGko2nr5siEshhPh/7Pxl9GGQ45nlNOoCUE7sZqpMRR1D910LDE+/s1ylmJLaZITJT9lE3UbY2ta+B5myhlZU/4wpnJyjN0v66/ErxoprIZEogiyUSXzs4EmSu31SxnjDx5DmCmaTegNQPGDknhp39JSMnM+I3B/J7VdDcrlCln0QnrQFQ3lynzJErL7RqkasI5keK8+a4MISeD435qP2QStIRVXTuOoxpdKwv3icnWWvgKdGEoB36N+C+ZBlgq5nuTsVzz0e73Xgl9couPbYx7crPoKTIiB5w5socyVHCex3Kdmw147fljWeF2jA4lMkQfxIqj6/EzZZCG32/gvWfBj9du61aH84M/lBIT6eqIu9RZ8t6KyevPMEJN12Y/kT7wOuGTCymT5+J0x4/RRgcfv4s28ETrVne7NlIfaY5BMcNpopkhkT+iLlSNCK1qsqpKh32qyZW2lh0fclMQDo3Rklv6cZNK40aSwYu35ta49wL/FibmBIHgGLu2+1FgFcg1O8RDKEV5E+rQVv5BgRvPwwharZI6RaLa2QqgkcRprf+eXUyeevuAuQRhBKSPDpLqbfCEKhCh20jvrEgR5GWY4KiyWiLVJexjpW8p4VniaL5SBqP4JbSomPH2w4YB0mYSF+xSlPLnlS58cgeuvVgIJ9ciY8o3TnWjcBdcRhn0gdUNFFZ62ru5fnPOksTiR39zLrOUGuY+EcijxJWqIVUAD+/MrrjpZMnEzZ+SJjoy8J2oabIpPHFyo6SOuZ/MDmKtK4vd90XQI5nhhMrdsB1OQZyqGO15mxCaKsZz882wdYRx5OiZmw5xW3x84spOcGpy/KR8OJW0IysKfDE3N5wadZcZQxgJ8lF6xWxhp6y/fegz108MwyeNTLoOZlddtCFqWR2t3lUVQETBpSEK0QwyypbbzNEYT0oKPuwU4XcKBX6wJk1DfyWPNbMtmhl6k7LDUdgElXA3jSRlAfZdBk5WGzoXs0Goew7iSt94tqAKyY7O5WOZzjW/wSpTb5li8K6+hpxcCiz/1DYuzrrNLM/Ywlddf7JRVHxPd4+NVk8rmo0ZMGaQ1e9Jc2o/WPbkLLIjc3hm4aYmz4QeMh8h8obYfpLvG9eNyu5M10vIDXvqn0phpWsq0EaNXuGc3e32GrIN+PF9vH4tGsx+/wGLN7Im/LKWIEJlzMWgs6911Zs0u+5Tx4mxmf/wasssKRgT7k/TZn0oARBFlXMDAYuo1CA1UMZy1TvdqXBBbWpXE+hkhXuIyUbLHFFaejhCwsbv/kGwxIR2Qv07cQPCKyfwlnI5b3kn3tNLp02kI4u76mzWzp+LiRLkcgeFED78jGcronLi1RSA2MSBkpffvLNbrncI7UrFJtcijiozHGphDrfNU6hIIcO1+jM+fIz8ETs5qzw4AjgVd3THSwpXfMbMF18mYAm1VCFKC8utu4nwbR6bDJAGJOpFYidgzCtZsW7HHWey+PolrHu2oMpMsw+6M/iw56vjU6Rq1fjvFBRDVhhipCuDUhI26cA4RNv9/ryONHRlid5ruXKGrOXRkJDSShS5/aNPGltG+PuCEZuugkI57FNb/DW+jvYy3Dj2s/E65rPrRtVCNtEQNu9xZBoFfweNVBes/8FypYExrYZdlFv6Do2MUhp/q8eYJcs7+JKSeqNo4r2E1hdJVfmrgwH625DZkaoVSlc/sGtowqGaSNmcS6YFDRiOu4/bBesBD05T8xe0YL6h0en93zLBtYiFaFTQnYv9UXatKa2rnJiAMPtjO9SX9t+d5Zl9eJcMWMiOnzsTq/9oTlWJHC7cOKpyoBjbjfsuhjObZw9sdiKzos3qVedaUHowMPy+kBF+BO0a7LalsbozBdKzFguPbVnIveiQvw+iYMrOgk1Hg4cxY3y07gNUgSnJyOwMZybeKQEgpc4SnnQH3xfurWbipNo52yJ7ykSZ7ueV6BrTFV/3Y/CqyRY1RTpfIEdHKPVu/HFKiwGJdNkS5pxbJLxtvzUhmACCtmG+q/JFDQuxxr4n006ic6hvlGeHqbEhcL90q0lPuGiXzgPu37UMFVKBuSaxeMugP+KxXMSQmrYyQFpkooDpD4XOIp9KQvQckzmymZoonm9xNO4+viex6WmYPTYdLedyYJM116Zln+aSSdLunucKP/jQ6idd8ujyvGb97MEkAyCosI5FKkJ65+uW9TEVbiR6JaGKhfuDEa3n1820eG/2PyRecZjr1AvcEgoi8bU14jR1n6ffdLWUXwP2uQ9BsxdYWlExWRHFCyzwT4CoEyYEkP39wdAyKWBfB4y8ivEqY9JCjneueKs/yfFjw57GMs/fdjrnw8U7yQrNcL9wPtyqHB6VRmYw98MCISB1gg7NknCqfI3t47PiVjAEb4trNtsHI7qL/t7pGjdGN6at7Q+20zA0bmEG1r99+xcdTwdkDaLMqxEcsjtv5lnvodueTeAnWdrnorxDLTE8b3GCOIZALLYd1rztt8s0zdJiuVBCOvPvMdtmyHdAf8cTnRST/a2qZXTtxje8XBEJp2EsVXtlyQtlR6sASnFcCV31c48FMQnOKjdi2JG95xtdZs7ypPoX4wR2ZbUnxVntBKUz45KvZLaO+vxo4ak4lCsZIeUaoUYj9kEQqHUS9zGldprl3kkJUCGfxNZStziiaDeVpSAYXZV65fvkOB9X2uSFWQ7fVGskmlstbiypYq1hTXWrf5CJKya1tHrJAyTYQlu+oiiwILUyI0bZaPiBqRAYmVBoe9Hy1T37YFkiU1qPIftHgFPMSI1M6kQvUgKxUMZ1EEmiU7GvKIMTIwF6kS5n6OjGJPcdb79x/VSGGL0IomZ6cYw8Z0YuYzA9MDtuWh28njD7NffAw4t0Cq+6X/hFybfXYMoa9Jf8k/HuhHa7GBg5v89tdeMn3DisiWa1lf8QQ2LfpQ7TCkYfHCaH2XJ6FUNjuDNRyL+CIypA5RsWHXWoA+jB13DSddS6DuASkf8gadqvyPqvRYqw5Y47x0Uc7jhWHQzu+v+02DkBY0tCwf2mSkPuOvq+8HkI4ZywAkT2j4oN5PDLrncYHU4bPeIkq8O3nKL4fiY2Ie0hXn8q4TlrM3yd7EbfmEqQ6EZ7Xbe9Uz8IelTc2CxA3EYTpXdjygy4X5UL9ZiOADC9dyjj9bmQ8qCnNXRjsRSASzbk0WasCCUXTJD1jmmLwOjVfwk2U5bV6/9/m4BPKw668Qc0mvwOsIS7gEju/nc5vLitIBmjW71NmsemGXOSd4k56bUPF837lcMPlVFB1T8i6bxbm43BaRJSBmrKnhPu/0yNOO0+p3Si38qT+e+9r0H3daePhYCBGeskX7TnIr6c2Zhqxtc4sZH8cVcgj/WNVAquN/mHAalvNWCdhIui1i2WM92A21gjlt9rh/XVvhQI3FzDuQpVWUMrJCks47Rtz4j4sjXT2IDSbC+t/9AdypGRsJzYLxkUChlscECLeU9QfuGHoj2IvzfFunSF3/khblS1l7t0ym2U4To0FK2YRAaqLxcgdCc7GphY/tbQyvdulqga53vQixu9xOFxbP+sENBfwnemhPwpStbOTNVRXfJCpuxCTy8gVeU0gS5S5lvWBA1KQPMlRsSiRbKRc4AGXwlqJtYbplLH+nwllLRxti40SIHQAUkI6ZR3Bjp2zPVOQlhHJVWI8FrWzHQ5gVYBO4x9G0AZakiBOUBpwVA0H46Zg7mmqrQ6hTlSbSAPKFVj6qMPY2SNRIjjsJTuQM1Wv2u4MWyMKVaiM/xwTvVuAnW6UUU3smqcjUKVc8LxKUEiz8RibenH5hfIGyiFPMFH+gQ1gAMzfP+IOCGuK4o5qKn25Ho0m12tr37zDjJGUNnxo0Chnpz7EB/JSpmyrR5FYMmXcbSN37xfCoYBQqjrewPJjPpkJyF6JT86UWfOnjTmuNRXveSNqVGPbbXr6mKOShXnPCTcZ2CCAYXJlg1MZopKaGBTquVjHbTUrH/+OAfUnnsPmsKiw1+AEicQA77cbh2sSxq5HyDDyVm4vCIB91lZFknKFCznxE6NsWmhz0ccw3dhmkrdbjhfTuWEkXwdlItsLgekmn9OvxBwLX2DyNd1mfEuJyqKv2pc9graVdeg7RCcWd+rqQZUBXaQuOojyTEzol2SxBjEMGsivVM0u6lp0/Qpp2LfbIqdFgmJNkHVTFizccGkr4d+P60s8UNhgH430RNYq1JjB4CC1lt0zg15AqAXUSnSIlEfQ/QRtCJk4O7hpZTlRNf7UB3+jXqtb8aK3srHk9Z5CkkAYeVZGa7sELYcOVnos9ie3+hxVkOd4TTwnY1/Llge5byES7f2/dtFBsTmSYQkXonaO6tNKIM/TO2noFSzrG+ipibJ5zdx3UtbNmuyeqc0fpvBs+yBF5DbOhi4oV9CgY60HF91eV8iwY9p3QSXTM0WzpPUy41bIzxXuNVg2t0+A+63yr/KFSaLveQw/AI20PbEiD2fJnFJDL/3f7U83oi3x7skWWAQjUqH+IcWRk1XMtph6ieGdUiSrbBefhYSgrRcj1hMVa+FWT2UZTBJvFDYGMUchEN51TgG6pgJAyWg/yfIlAaMgsmGjFK5VntVpYeRHLTUnemW9n3ro0tRnME8g1ta6XEP9ktzY3twZ5rNSD3u4X0jYMA+1pJhinJWz8peKyJxcq4EJFMTkXCb2OKKPGqdug+Qzmn+Xqmk/JuVy0BY17fpe0Brd3dSxe5t4yi8WLAjg4H+aLOdmj7WWsCAFb2zvBNxi3HaCw94Ul2To/GfsLQEqHweBfY8j9F3YfpStUnqHsfwWqf1wRxptqrPNIzrAUXkwKk2gYpJA99KtxebvT4ERi9f2vL7WHOY6Kg6HlXfu3GVs4f5kg8xgs1R7sMjDTx15+OF82yu90yG0Q5VJzZcC4v5QIXHzfJj9BQw85eF/d9C+hVAJdNtv70FPPm2/4KdcB9b7Hx4A5iTZjqMxU6oHpXRpI9xSN14zF3Lj9xOL9gxUOBxwUcNuR7xriGSWzoaB0XhUYFGW7jfxbPdwU6xHKVaAsBiVHdHZHG06gYif0HCjaKZznfYLr/+vv5P3kqaz8k1WhOtSn9S4iiNppfYWz6tjmIvWPr/DeZ7eT+ll/GwfqEMb0zvoJQ6j5xW1JXExU+VhlTs2gTPiB+IDm/26nkSPdMMVhqwaYDUO7FH45rJwWXpqr8qT6IaRaguc3Jbx0DwqVozEADHqgZRQayfKY2a3SQXKxmuGsDVjigzy7RKu8lztqUat7x0bgYauy1fp61At/KXnDMYuW0GeslC5jdxOMRl2lTERvQYmjSo6/Yb4jdIvBa3uFf+pwu9qzNCuAzSdRJ4/roL7RzerZoG5LMZgbJNBhuOG5Ve9tA6A0eStqJWCilnXHjO241JmJfAV7AsWXx7sAg+DWM+iZZ8H8h/vvEgQQRhgYfSt8eWjAiKMoXCm0bkZO0fsoDtdtpyDJLR6BriBQUVo6Zh1440ZEBVumzRfY0mE7E7ZWkYZygN62ron+8Z4iUNsISX/XLMZmyV1XOwPHELvYDQyRG00MNzTqJoJJiCOUXrSMIlslTqSENUPSG1T0zfwuJ3OvydzV1lrRFq/lxc64B9gUzzENFix7wEz8ZhTm3SEAnGWbWiRN2FvYfplu1gtxB96fH8BK/VfWad/B+EXmBhAzm0lbKBDHyx7n18dtq5u12umqJ/Ko5/1h8VI205fvjDhVPDFKQUnwnxq9q0gSdhOljcJNDFiQnROGKDjCcUda4Iy77nkNAGbeh3RC59YFKfVTUYWaeQ6dagdx+YRMeSk+u/QGqLXgC9sKVKsUIcFqLKqOtHo4VT793bzjNtk9GJxIpU8BM0RjXaF9jKpXJSCw2qaUfB0f08Ez0ieYsjX4dtRWmE0hMHk/vrIeN/s4sQdJ9v2Ip8Y/WwCdG8kysK+ruVCwm9tkzD2x/YGkSpQxZy86X4j74J7SSQN4ukrekaMvPcTwsnNYIBZc9sYVZvXz0yV5lP/Xq3EBO3W6HI9fgq7XMIG8+S7fWsVeC6mO3wVRXzjppOyG05lDdSPx/+aQ0lGIWo7kLpaOqOLg/W01W8lByvQ3KPPLkspS1NaBDa9tJyHviSSRleRnauZYL10FPPk7ohWytdwKN3DOhLMgXMQK2hy3pkdiJMcRl4StXA/RrpugyF16lrigeMFjBmeBuzcYTZQCpJU/im4IAia7m1AsK/jiEseFtHEHC2PG8LrzytjMnim6t+e6R/v/qk0v+M3y/RGUTAM5+WLJIW5gktN8UH4Kk28CRid2deMxZdvXBGZ3CXoqqn6EriiYToHhtKdrQb+qPHlBqFntikd3eMY45yEyVenOxtNIkO819D2II9VIqOCW5ue3eenYEhTp6xiuKdwXxfO9M4LuJ22AwiL8ZOYMMC3msilgAwikTNHE2A4U3q+Peyr/THYMPQSpFs9x9SyBWFZDWGKKQeGV0HqdLL4yhLDfMvyzNo5mDqRIaeU7CGio/FVR7HC8vKyKfkAWBE8z7ifnqPFFMa+oAOqFN+YnCR6jPa44gkoluJy5C/HO6MByUzLPBN/fuxar0Y/bI/Z9BGp0BhjHfeWC6rdvYD8s0QiR7jgfMQb5xFQb/2Md7qCv7y5JMnLCy2GqMOtTmQ2QHfTvyXh9osSve585vQe9y7IU88FKKasvOY+/wuFtAGY/FFGcvWb4cA7wsN/JqH/xiheGbSCKHqDKrSLUKtDAm2ARxtNfq6oOPUx981FOtMW9sow4o55YFi7H4Kz0EEqINBZsE15hCtap+grULaFzwHPeasRITaxQTUs53af91u7E+JJBPcgA0f8EGCMD92R5EVY7y8sDeNDmxK9Qqm7MfSXHsHHzyEbF26L2gnz19rqOTmke9UvjhQgWK4+W6CH0nMH/8Px9zH2STMV7ZzE2W8OIz3CNazntHP6Xm3MQgBmFabWbY0MnkF2zanRJ5vEJxfnbFfKLMN+97P9oCuj1fRQaUl8Ba5UInaHxE3Im+el3N1azNrf4FUDzn70cmqCGvjefOJGu2kUWs5RXxWqUvxM4veFBJXj7ZuQtkXqul0J1VKoPUpEYIPeEV6+tNTaoO+BdVavbS7x92PqCO9DMPE6Xs44MEtelecekbUZkw8WTPxqMOUGTmzxU9F0hKagOiq6s9LSSN7PXy3aI6znW9rpyPCQk7EKa0l4lXc2hGzH7Aq3ONEtTdctyagiPB40H5ebdhRd6Y7gP9g03C81k8y3S2g9ja1VeUt9N6h2+YqEfP3AQYFRRET5Ou/ukfZz/Q9o0XvJdnWrDL5PhB90hMYaVP4OaDipdmHJLSiPrldlcK04TplBSpyus9mlQShwqOeW9yn0Gr3LnqJFeODYx+pS3pj2GBcZ0qm1GFnm1NEhjvydQQKG2mraVLDaPWE1cCiZiVxfJc93gFnn5zMiD2UHeJ4CqqXryXVqmjE4/gNbb3A6SDWD7fivc//Y5KMIOvnKY2VDFAtqpzlNB+7czWlUyU/Y5dDr/kYuWqzbGxBA0uJ8aBS7qCBTW8wQB7Zx5L0E+uxRgJDdwXDivZ8ebNGfpfq1F+T0+GdZ2/FozFJyc//BK22rYDpFgvpCyVUgOcP1jqfZWp7mdsZ10rK4awrEjbSylG4xPRoda31f9PMqL1MZorLfHUZVXc9fMMIzVZNwzRM9FOl8JCCF/0O1nSPhs/2QA/9y6UQsD07cPkrk8daCmvwNnE1ZSQnSB3+HdP2w8mfBQtrsZdEKOTXTEJ0A6FC/gDKv8WTInTTJ6EvR+ZCE9cu+V6aUEVBx+Rmld+oRAhX1qpg9UlNLC/uYeCFpLjIAeJ5uylCoD3BMYXRMRcbGbBUlWGpSPk8kjypf55vE3GcZ8Lg5BhYSR11KyLD5ToPRgdBHm9Nb4I8pNUE0K91iCVL6uzAFluN9CEqtOAcC6O1/B8zg7xXPDClsFnh2gb2gWzSNcqeUTLiIijcA3osuA1n18UjoP6cPx6gCr04twSz1OaEbuZFEzU0cdCz6AXQ717PCXGDyFcc2cHP4RsorcWKKIioFgdY+bytELpV9+RkqQFMjQnh9Tvwif0nW6yyKF/6PB5nu7mUDXGu6vsQ3sPcKFmNh5ljTE5EXv3yCeNC0TtIoAX03oX0MBnxXTMcTLA1N3BI2BEwtCEs/8VnmL14JCyBTBQalY74XXaub4lmpVGtO1Nh959oOYqXUeOC/UD5TLPFIs20XyQ446S49DQxSMw2MDD1iYjXjcellhY0yXWe872OwzLp9DGuUfAEpeN5vqz5AbNSrykv1xqYRbg7T3LuikFcougsZ8klovKzm1qVYiO4dcJ2bucqetwrBoYcWGbhEDjMqRvy/jQosuenka48h4IskHhbiklTFsISxR5z/2L7nzBwlHagcDkJPmCIcMZjNY7ItR7fqnfzcgH+9sEt3QxFUbGCdJGlCgsy9LTZ0AHPX91AwFeOvzM2Mu689bHPWcE3ucKIPSo0tqkM+IXcOmQXZ/pJyVQU0NbADXRSDJC05HU5f/nzujKAEAVUju1phN+Ljarj7xbEyAmd4yONndkDPGDNIJGNKdBf0XbxDDXALEbA/r47WONvlH6e/iS2hMT6nIiIXbzZgzXQryn65GYjPpUWNLP7RLniIOEMa0T+ZAUjRZOTJSOJk1y40TZ2xcAUOlKrMLqN5pwaAy4CpphIRIMXYhhTUf8UJkmHEtCCmVqxpOyotUi1DAOPxvYOJ3dMJzdKTS5Oel2MX5oYvZNcXdLrvBr4AYOqtW2q8lyZQZaHU3u5z/TWZyZ8wRve1wtneMjVWCnBJBXZdfF7tj1sNJsVRCP2VygKyQErkIgAeMbT7B2bd3DrHCO06eZ3DsLGqqjWOkNXufjhE4iX3TvECkS2/yF+zgr4Pg+muQOIXgSlsisl+BI3DbICoQS/uMTfYwR+sEeIUBWZwaqDmCGP7mf/vk2EdZp23QTIAoyJ20FheUpeJHEj+7SswqDCa5KYPyrTiemdzuLu/tH8ZHur4QawaJ2hZTZwgut2wHPWFWep9tbI6M/1m1KiHCvRUFXdBaru/thLLYOctD2Kokqc99kND7sGp//UaRGPVOy7bU7UFgMXpkPegLLq7ePIg24MQU8Y1imhXNfjwb6pNp0bRAuOxP2IBxAXWrGB/we5p5+5itXwsWzOUen1LZL1NFEgYfnqf8aEhDuLIfkbl6rQtEhkljUcCF9k90jPJxTWTqTNs+fZ6M1D02waQz+RuBl0TOHJqhKsffRGyzAeMYdFwHwqeOMWE+cJIRjOzeL2BOQ1lnlBNBc/TJyCW7uIAN8Gf78cP2gbUgF4ulR+9gekJpU9YTXXOvnp9xYkmHvnBwcd+7abCuosHRiimzcm402dReOLPy2XQ52QuC9cekVGIvGxSxBeM5wn4EGI8J0apkgvNEydfpklSUkz8yPekC42h/Fad5K2IEK1+vg1OVgtMDrsAXnRueXq6Nd/OfIRSwAj65DqKyB3kgvHvC4Yvly+dLSoZGFZWBioV3zwpxn7sQ82a5R68XAMCzyh2u//pnWlNhesX97im0inVE9FON6ZpwLJrVsOHgDe0+1JOK3OquattJfq7U0/YQO90T11x0tkaxRNjoyKqunuScf5p+lUOTSCmXKvftUmtXQp0OeOlaU2Quc95QvQ2R0Ek9oSMxVKkcYZ3dW29XFJRn0OCmSbYIYs7v5UuyWBicuY+UwKekvzP+8IK/yXjKtKiUILt8bAbD8oUg3AvpMCQCBy3AEzVF1ZdgNnwef7Ppfh9xWz5gs3CPXndg1XIK11YWEntIBHAdrPpsXVLr3X9HQozsSxeGKpj1GbKiIOpL44yD+G/tsYoxLui6L53B3NnbEdZxSvnFcQIue4asVTvIsRec1WnJa+x72cJ6uLgNxSHaz82aj4caaU/F8znirMsBmJAk2tlR8TPPWaJ9slqAaTH5m6BT4lmIfZbp5TN7u1UDDs8rNNdwHdvPyPbHrMumZR/8BtHCjFo1kkzUD8Lq+tLuCWFcjtXqINnPEWB1LKgFxr1NMS9X1btE9u8bV+sT4zt+jWboEungdOwUwQ0V4TEfJgVVtVq9ARXmLUDxEImS9qjOVtwPMj2F551ZvbM9L6xMSrDqlb2fbaPI8A45i2uuIVwVbBsnCPEth4963AJred7mHmeJjlg4RpLpO2wgfFDv5kogUiWBtnFg3Zupq4ubDMd2igDPnfZbx/h+8QvsfP0stqKuZwIEOHPJoQRWMAlC2Ez3jxT50iYs0X81lg/ZzacSMqKpFopkPXOm9n2Vdu2lleT7rO7ACYVJ1HgHKaalyaga7/QCOCnrKAVl63rovhdBF6QzH3v21cLIk//MNpKCNMe/ASFhlpgsq1Xx9s7Vq9ZTBGNC8I6R2wDiIOyvBGnpGK1RWOcpgnXFfglHPmmMa4Tp4OGtVRGdVDaIH1MwkviyXTI6jBJnMgrzUmnoWhzqdMuyMIosLnhY62Yehz+plBXn87qUQxJ9sLDJnaH/qx7PR+r3h4KXVfOf82GWV+jt55b7BZ/gSIBOceDx7iTw9ledbue0Rsr3P1BYinuSKDnY5PraAwlaeYSGe5CR3Ph/YdUcfQRrSL4mkOnJK1PPS7Py7UyDJIn43TKyfzRpOLcnsBfb4NFm7dh2iWYs5h1YugTyz7uv0SCcF63ZLsJ/eVOkUPRQYh1kTIWjD0pI2epy/15EQpAcyTDTGTYzSNPMcgMG/VlWsjesjHdp0h3FmPySWXp6wF6ERBFGymv8zhNLPiHGM06MBDa2AR/uDSHLPgnk+2QgRm2b/Py++13bWVKgwG3fs3+M5oioQuv99iyLT8nZEIN6qjz25EzFxySa4v/BPSMs6KcZKs5xM8I8sS9DMMpts9AyWzVknfQPg4Gh/vwsbGbZUkS6ncEs9OUEW1I1qucSREXFTR18zARy1Bs0zezXZHfKLU1xsEZSDTVEqV4RZo63wF/6c1WufuDxUF69/0JkRGd7fGNChfAPDaxLiOinzm+vwBM6vvOrxRbitVICCzRy0rk0BY6RDTU/FFZqTc4FImFORoiI6AqUDuMCVKCwMfKwgfdSHftMBapZbIYljFj4fO9NKc5nT5yOh5fz8Kmhfk6NYbu/eP0e966nrEVZsIiYDcb7jOET+KQMAEqm0fSAiHVSvkr0E2KfbX7LQgBuYSmFefApblNHXfxVWx47VmPa5MMxV3RphhuGS5o6BWBYhvhLEDInXM6UWu5v41yFXNJv6pfXXbwJHCRDSqsburO/unlSaHWQTbIUfCZAjG33su4C73gz5OJ+/HnDYbxXJw/yvCSlqnR+80RKvPKGB9agD+iQKSz741FtXCUlFqRrycjvJbBqJz0U4uVWCrox/QeeqKmatgWNffMn5kVchMHcpdpYY11knRl6QfFLtBPN6djkJXcIzkMcBkd1Qn6xeyNlNZv/4RDTwb2KrUFImQ4heZiUZ8sdSlfj3KLcwNfdqPtm04rAXhLCoBBlvmg+5Z689HfgT7aYGFJvY4BW4TDBjcNCHkNVcCMIHayD0nkb6v8xO101iirPaL6YpBR6todVCyO16POfy+tC6REVgJ4wwatIM8hfeDJ7I3/r5ivRsk4ZPJa42apOSoeO3a02aCHO2UVtzGygvCAqYNXuod/emy48CYH+zTA9Y8t625Dqq3xZt1pu3GeMZonSS9b4A8kXEcoJ9bfUGbF16fRA2fHBMmyrgbOcDWn2FBrw3KrM5zOfpx09aSy3j02Ch9TDcJtvdeFWvd5ee7oz4UmVYctj1rxc0PtP0mDFbbpIBc01E4scDjDm9c1DTh+t4lQorA+jGBB3XxA+gEEhp5W6kP4BcrQRTgDTOY0kdSykOHFFfTAJ8jHXiVncQ/s1dEeqQ4BtMDBJRDGJBKgEbnjAWU0Ak1avP6pHgNZhrNnA7CPiUGaYcYL9rfyjDRfv6D6hjTs+4ybtMU4ubk+I4z0KEhpAgggU4PQFx2g8zWqIlAwBJjpUYkx8g8QQvum7oxfOhC7TGj9NNAnIpyZgnmttM59mHJQKZj71Ht+k4FaraKUDV40Cy84tQrFLjnKucdlmvavBhYCehlw9jjcfdwJQI/vcT0R+Nq2S76fi5JoYh5Xi6WJ8sqD9NbrB8hDUyP/MgqDzbRmdr7CuxJtPwhhD26rEbGAtHgw2tbWZ677Lh0UlDotrJB33/vUkjuxqA5eLV7duEdeBk3DJ6crTcIhZ/dlkNv+5o1TZmMFFUigb08JHPAmh7u6tCKlhYksSKssQvOzE5lEVqaSUPbZd8HUV0v6tTXUN6owFB3A9kB63to9Gkh5VwrO0xrAqCPzELjx55HPdogVrNp7VWXFqyaSsFLvBpUHQdiFD0ZE0QnqCcPsFYPiGUeiSowyCTGLUCs7vqsWc83X+6W/keBnbojSVydHUs3bte29hiz2TdasyeJKpi+D1ulNYAd5GojtElunivcNLuPDAaHY4KfPjqB12/vO6C5n4XTpCL7dI5e7NQmQ9m72fdqsDH/H532iKhJCIPwGIvTNW86pCEeLq6s+fUMdh+fVagaSK9Rff1ZyAwkI7QWa18MqE/JasXP/mOZIqt/owUwNQad2KioUQ/MFSKXGv+39adowkEPm2xgQG3AFNdb+PPcUjKs6j8Ryv+HAIKJIaJcG+BIm/AmQU+wprjgM/BtbeH2O3PM0KaqzPydfptG0lX9XvKTdevBHoGVV1Tt3CXr1+Qq9BwIAsWx1h48TtHW23kP9K0rdomNMKXOiUwf/JeHKUTdBCVG4V2G5AL6nA7dPzD4MC53nOtQXO6ZUaCDMCgSuJ/I32woYQvSBcoGHHVuaCxoLt3L0t/5GfZHsGcNdCEaFQVW+YsezWtYi7/ETX7LCA1FndLN0/HqtrESqJwRQ3qUZE5qKBYjEVmJm4evpngHE53JVU+D4GgXIA72auWXAau6mTt4jJPpVs1/tMQp5CxiwSQnCfEi/5GxdfLMZpZ7NaqZHz1YYIltKU54Y6LBG60jTf06YeWpOL6vqc+VojzyXJnzxV5y/wXr5PdYvCjjs7UrZEWUH2iZu4rOPFMpbgxW9utvucmWdHFoQbYOERCjlkn3t6/7Tvp8IhudKIwHtMVoKeB5gpPT9JcDJAsd3cFtEfqaQq+zfenzKMv9nBIkIJSgusDupnzTQ5NcMkwQc/UI/0VGmBkfUqAGEaI9ijT90TMEHmGudj/ntjCrCoQz2P10Nqb42kI6dQRKJAKTN7UaJtzttdGemI6MJOWz5vAoNCqG8wGVrOXsLiCcAWEF+tbZVLtjwpiERVRL2/+1xMLIMfTzt8QCbv2Y+2TgybKaibITVNUA3Hsu0bgD3EaHURGV4IEzsoffBNCjxNGoQalRoULVL9HCq8pFpgbcEjA1l1+r/ShOrbVbpVIlXAphXBe44sKXgq1o5cGvgVz9YsmCgf8YkGwN+azpNO3Pijh+zRZaG5jxJXoiH3K9G6ggaKO9Egby8ZSHN716cOJlIIyHD4LFl00yU4xgh3iGSaajqdWJoGtqZgmqOdWUUeELS7iLNHOHikq6FzdTVJQtWVNHHNUyZR5URT0r78utfhYlxuXwuLT2y3mFmGcvoS/L2KmCIPGCS4E4LvjF0dd7dahyL7whNR/yDrjVQt/ZU68uVNJeQE5Pn1jRo9xMYjLRJrT3R+j22vjoy2VHd8pV5ZwDqjRB1qjSQEoFM2yxXzXZDMo5tZXpwk/cuD4uuIB3qwiJphMPYePq0jV7Va0kqCJ/hiCXaaoArNdCBANf5tScOi/kKvoTQfcTGv1PlA7CczfVA04iMDHBBt2YLLX0J+vWVZm670bwlImHnmbaQLAi+vVy7KGJtM9k4ZoZDEGuaqHRzLKaxYijYTFhgyf3gSFuV+zw/gNtldAGpAbwwFmpAsRRmlSoOLx5+Bb0qmbN4J7GY0CRLeJVNOjtfnL/noavqqnu0Iqo7o9f8jKQMugOJK2IJ3czs7skQxpdwksvH7KIVJ0PYh9aM5bMWchsaBlWBg9qRQcVMs/kiohMFgxIEOpk9DaFzGWpGoHdQehrjpFWnHrZn0FuKGHVl6VqLI0uLcSsFryAWXEt9d7wR+d/FEXo4KkTTMW8p26rQkCRPjv9thZOpjvedt2u7nJIax2PJ5wVxpUTZib5+7hoEuvOLREA+CsV2p3Xy0ndPhu8zFPbfD3sLyLToaHTkfZAA3X3gH6dKlLKtenn1gGwRqWgYysfZY/CmoghsfGs0J+r8jRcpJuopXMFXm5wkbzZ3aUj6PCUHXm15TVa8mdptPyZAbsgiNmJWGX40k8/xPiDTINZw1gyGI0rj+XcToQSax7Sx6hJIShOeIA3byuUoHKDUU+RWxkvBPj5kndhnoSn4jCUBoiryEir2Z23fSozZ/eijCz5sWpR4vq8sO682j+9H8j81IkUB11YTVxcxmSn+0viiAE/ndAOyaD4yBzTcdN0rN/istpKA9REHnNWMfpCCmkPK1et4i8XvwpX8rL8FtrMgmGyGhKPlbnzIcPFOvfBBvSvn3D6Sgaz8/bOj9YEAlB/FmmQIp0VCC9elR1uidrQKFA3Yj2T++o284o/wLpYKSn4A6kNEPniFi3W9Eu7wTukXtwDmLW87GYYFgBs77TNKd0Snj7nERsmcb6oZEkd3lbdeUUChehBh2yZjA8slOr5U7UlEVfi+kHEyhOX+7tqqCcIt4I8k707PsiHmVba1fcI6DddkE58TLIEZsSigOW7Z7V27QbcoCUMXDhj7OeV8ZD2dyPdm4Gzi21U8x4KFNoSZttN9ZB7udpwW5/yFDuJh64C+DodkvWFd6046eRSHdDoHDViUVf4ZhwbFeGa6cp2TPLMnpDIIbhSpxIyh6zxk0wfK89c+dQa7nzgh9Lprb4djHMMzrpmeP3pD6RSQWwATlFD5kSRvyTAc3ze5irZSL3SbWQIzRJY4VFZiiqfucPUrcSKobuU9H2pRWzr6UYCIK7ygPz8+eN+KUaOuxegvk418B7UTdSlL4UJw6guoyEVBa4gEGE9mJI2G/UxtaGlYeQ0XskD2oFEl3842RYFSZ2TBJzwjG8dPYkb1O2ZUimNkrIxWeeUdgD7xcE6JgFh3MfJSTs1whWbQsZ2890yPyoXc4HtU8HmpSuA6/5tKCGc0SWmJTA/uQZCbpH6PjBKrjLZlgZtyHaSnsv0KUcuO3JCDrzlJo5ZzEr2vGsyj5urPJ9JhaQNZ79kSbRLsYXGxSL2JMRFbNWRpsDF5EzLSJBn/DgBeTi0+y2+GvSImdcBAG35kj3kGZ64LyhoeLQM+U7irinWTtDfulJjEdJQw2QfMcRKZonFV4ZUmnpRUCwbXh1kZll7sDaDo1HSa02YX1wkNzyjZqeXeywbIdzahxHIAaoY5D8e8qChF5sT2UwAT82ptIubYukIoHslLHreLa0s/m0zhtLHxh36KMdcMIvESOVtvTk2kV4kX9K71RH31DZGNeXCvFDmobpT1EirN84uCqXoG4LPtNCNBO7Rr+XdbbLUR81XX3xAs3UJCHJ2qIehNHnWDvPnOidZ23YuDu5TMKsgF73v7wz+37wWxDs9p4sNQOXuiHgrxJAb0UUTJkRydFkf+x4CdjsPv+ybKBJJngJ9dA9SRF2Xkaf+Z/OTfbIVu1tj/gHO/YFg4qlqzt502fST04+Dgpu9C/UC1ZidnK84Ko/KCfDcXF6GMa8rNTid5mkYB7LxZx49W0OS/OLFJPyV9YeB1h4f28zQbJKkVgmRq9ocqnFIzG8tbQrXaFmy8xHP5yZInm3/OgORkGy3Iiur9kh2QKk0+orin0fe6sUUNlAvpBmOC/76cMnNNyxtBDSaYYAQ==",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "text": "{\"itens\":[{\"pergunta\":\"Antes existia uma categoria chamada 'pressão ótima'. Ela ainda existe?\",\"resposta_referencia\":\"PA ótima: a classificação “PA ótima” foi removida.\",\"resposta_leiga\":\"Não. A categoria 'pressão ótima' deixou de existir.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"PA ótima: a classificação “PA ótima” foi removida.\"}]},{\"pergunta\":\"Minha pressão sempre ficou abaixo de 12 por 8, que antes chamavam de ótima. Como ela é chamada agora?\",\"resposta_referencia\":\"Esse intervalo de PA, antes considerado ideal, agora está incluído dentro do novo termo “PA normal” para valores de PAS abaixo de 120 mmHg e PAD abaixo de 80 mmHg;\",\"resposta_leiga\":\"Essa faixa, que antes era considerada ideal, agora se chama simplesmente 'pressão normal'. Vale quando a pressão de cima fica abaixo de 120 mmHg e a de baixo abaixo de 80 mmHg.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Esse intervalo de PA, antes considerado ideal, agora está incluído dentro do novo termo “PA normal” para valores de PAS abaixo de 120 mmHg e PAD abaixo de 80 mmHg;\"}]},{\"pergunta\":\"A faixa de pressão que antes chamavam de 'normal' continua com esse nome ou foi juntada com outra?\",\"resposta_referencia\":\"Pré-hipertensão: a nova categoria de “Pré-hipertensão” agora abrange os valores anteriormente classificados como “PA normal” e “Pré-hipertensão” nas DBHA 2020.\",\"resposta_leiga\":\"Foi juntada. A nova categoria de pré-hipertensão agora inclui os valores que em 2020 eram chamados de 'pressão normal' e também os que já eram 'pré-hipertensão'.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Pré-hipertensão: a nova categoria de “Pré-hipertensão” agora abrange os valores anteriormente classificados como “PA normal” e “Pré-hipertensão” nas DBHA 2020.\"}]},{\"pergunta\":\"Minha pressão costuma dar 12,5 por 8,2 e sempre me disseram que era normal. Isso mudou?\",\"resposta_referencia\":\"Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.\",\"resposta_leiga\":\"Mudou. Pressão de cima entre 120 e 129 mmHg e/ou de baixo entre 80 e 84 mmHg, que antes era considerada normal, agora é classificada como pré-hipertensão.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":3,\"linha_final\":6,\"trecho_literal\":\"Isso significa que valores de PAS entre 120 e 129 mmHg e/ou PAD entre 80 e 84 mmHg, antes considerados normais, passam a ser classificados como “Pré-hipertensão”.\"}]},{\"pergunta\":\"Com essa mudança, a pré-hipertensão agora vai de quanto até quanto?\",\"resposta_referencia\":\"Assim, essa faixa inclui PAS entre 120 e 139 mmHg e/ou PAD entre 80 e 89 mmHg.\",\"resposta_leiga\":\"A pré-hipertensão agora vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na pressão de baixo.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":6,\"linha_final\":8,\"trecho_literal\":\"Assim, essa faixa inclui PAS entre 120 e 139 mmHg e/ou PAD entre 80 e 89 mmHg.\"}]},{\"pergunta\":\"Por que resolveram chamar de pré-hipertensão uma pressão que antes era considerada normal?\",\"resposta_referencia\":\"Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.\",\"resposta_leiga\":\"A ideia é descobrir mais cedo quem está em risco e incentivar cuidados antecipados para evitar que a pessoa chegue a ter pressão alta.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":8,\"linha_final\":10,\"trecho_literal\":\"Essas alterações buscam identificar precocemente indivíduos em risco e incentivar intervenções mais proativas para prevenir a progressão para HA.\"}]},{\"pergunta\":\"A forma de classificar a pressão hoje é a mesma que se usava em 2020?\",\"resposta_referencia\":\"A nova classificação da PA proposta por esta diretriz apresenta algumas alterações importantes em relação às DBHA de 2020.\",\"resposta_leiga\":\"Não é a mesma. A nova forma de classificar a pressão tem algumas mudanças importantes em relação à usada em 2020.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"A nova classificação da PA proposta por esta diretriz apresenta algumas alterações importantes em relação às DBHA de 2020.\"}]},{\"pergunta\":\"Ser chamado de pré-hipertenso quer dizer que vou ter que começar a tomar remédio?\",\"resposta_referencia\":\"Recomenda-se classificar a pré-hipertensão abrangendo valores de PAS entre 120-139 mmHg ou PAD entre 80-89 mmHg no consultório com o objetivo de identificar precocemente indivíduos em risco e incentivar intervenções mais proativas e não medicamentosas para prevenir a progressão para HA.\",\"resposta_leiga\":\"A pré-hipertensão vai de 120 a 139 mmHg na pressão de cima ou de 80 a 89 mmHg na de baixo, medida no consultório. Essa classificação serve para achar cedo quem está em risco e estimular cuidados sem remédio, para evitar que a pressão alta apareça.\",\"secao\":\"1.1. Principais Destaques\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":25,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Recomenda-se classificar a pré-hipertensão abrangendo valores de PAS entre 120-139 mmHg ou PAD entre 80-89 mmHg no consultório com o objetivo de identificar precocemente indivíduos em risco e incentivar intervenções mais proativas e não medicamentosas para prevenir a progressão para HA.\"}]},{\"pergunta\":\"Minha pressão dá 12 por 8. Já preciso mudar meus hábitos, como alimentação e exercício?\",\"resposta_referencia\":\"Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).\",\"resposta_leiga\":\"Sim. Quem tem pressão a partir de 12 por 8 deve adotar mudanças no estilo de vida, sem remédio, para manter a pressão abaixo de 13 por 8 e diminuir o risco de problemas no coração e nos vasos.\",\"secao\":\"5.1. Início de Tratamento\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":49,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Indivíduos com PA ≥ 120/80 mmHg devem adotar MNM com o objetivo de manter a PA < 130/80 mmHg e reduzir o risco CV (ver Capítulo 6).\"}]},{\"pergunta\":\"No posto de saúde disseram que estou com pré-hipertensão, com 12,6 por 8,3. O que devem fazer por mim?\",\"resposta_referencia\":\"Como veremos adiante, as pessoas com pré-hipertensão devem receber as orientações necessárias para a prevenção primária da HA (Capítulos 3 e 6).\",\"resposta_leiga\":\"Quem tem pré-hipertensão deve receber as orientações necessárias para evitar que a pressão alta apareça.\",\"secao\":\"14.4. Diagnóstico de Hipertensão Arterial\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":18,\"linha_inicial\":2,\"linha_final\":5,\"trecho_literal\":\"Como veremos adiante, as pessoas com pré-hipertensão devem receber as orientações necessárias para a prevenção primária da HA (Capítulos 3 e 6).\"}]},{\"pergunta\":\"Agora que estou na faixa de pré-hipertensão, o médico vai calcular meu risco de ter problemas no coração?\",\"resposta_referencia\":\"Por fim, é importante destacar que a estratificação de risco CV em indivíduos com pré-hipertensão é fundamental para a orientação do início do tratamento anti-hipertensivo e para o controle mais adequado dos fatores de risco CV.\",\"resposta_leiga\":\"Sim. Calcular o risco de problemas no coração e nos vasos em quem tem pré-hipertensão é fundamental para decidir quando começar o tratamento da pressão e para controlar melhor os outros fatores de risco.\",\"secao\":\"4.8. Aspectos Adicionais e Desafios na Avaliação do Risco Cardiovascular na Hipertensão Arterial\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":47,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Por fim, é importante destacar que a estratificação de risco CV em indivíduos com pré-hipertensão é fundamental para a orientação do início do tratamento anti-hipertensivo e para\"},{\"pagina\":48,\"tipo\":\"paragrafo\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"o controle mais adequado dos fatores de risco CV.\"}]},{\"pergunta\":\"Meu filho tem 14 anos e a pressão dele deu 12,5 por 7. Isso é normal para a idade dele?\",\"resposta_referencia\":\"Crianças com idade ≥ 13 anos Pré-hipertensão: PAS 120 a 129/< 80 mmHg\",\"resposta_leiga\":\"Não é considerado normal. A partir dos 13 anos, pressão de cima entre 120 e 129 mmHg com a de baixo abaixo de 80 mmHg é classificada como pré-hipertensão.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":83,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":2,\"linha_final\":2,\"trecho_literal\":\"Crianças com idade ≥ 13 anos\"},{\"pagina\":83,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":1,\"linha_final\":1,\"trecho_literal\":\"Pré-hipertensão: PAS 120 a 129/< 80 mmHg\"}]},{\"pergunta\":\"Em crianças, o que antes chamavam de 'pressão elevada' continua com esse nome?\",\"resposta_referencia\":\"Dados de metanálise recente, incluindo 47 estudos em indivíduos ≤ 19 anos, mostram prevalência agrupada para HA de 4,0%, para HA Estágio 1 de 4,0%, para HA Estágio 2 de 0,95% e 9,67% para o grupo previamente atribuído como PA elevada, que, por corresponder à categoria de pré-hipertensão utilizada para adultos, receberá, doravante, a denominação de pré-hipertensão também em crianças e adolescentes.\",\"resposta_leiga\":\"Não. O grupo antes chamado de 'pressão elevada', que aparece em cerca de 9,67% dos jovens até 19 anos, passa a se chamar pré-hipertensão também em crianças e adolescentes, igual aos adultos. Entre esses jovens, cerca de 4,0% têm pressão alta, 4,0% estão no estágio 1 e 0,95% no estágio 2.\",\"secao\":\"9.2. Hipertensão Arterial na Criança e no Adolescente\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":82,\"tipo\":\"paragrafo\",\"numero\":2,\"linha_inicial\":1,\"linha_final\":7,\"trecho_literal\":\"Dados de metanálise recente, incluindo 47 estudos em indivíduos ≤ 19 anos, mostram prevalência agrupada para HA de 4,0%, para HA Estágio 1 de 4,0%, para HA Estágio 2 de 0,95% e 9,67% para o grupo previamente atribuído como PA elevada, que, por corresponder à categoria de pré-hipertensão utilizada para adultos, receberá, doravante, a denominação de pré-hipertensão também em crianças e adolescentes.\"}]},{\"pergunta\":\"Hoje em dia, até quanto a pressão é considerada normal?\",\"resposta_referencia\":\"Por outro lado, a PA é normal quando < 120/80 mmHg.\",\"resposta_leiga\":\"A pressão é considerada normal quando está abaixo de 12 por 8 (120/80 mmHg).\",\"secao\":\"14.4. Diagnóstico de Hipertensão Arterial\",\"sobre_nova_classificacao\":true,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":9,\"linha_final\":10,\"trecho_literal\":\"Por outro lado, a PA é normal quando < 120/80 mmHg.\"}]},{\"pergunta\":\"A partir de quanto a pressão medida no consultório é considerada pressão alta?\",\"resposta_referencia\":\"A partir de medidas obtidas no consultório, são considerados pacientes com HA os indivíduos com PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg.\",\"resposta_leiga\":\"Pelas medidas no consultório, tem pressão alta quem tem a pressão de cima igual ou maior que 140 mmHg e/ou a de baixo igual ou maior que 90 mmHg, ou seja, 14 por 9 ou mais.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":35,\"tipo\":\"paragrafo\",\"numero\":34,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"A partir de medidas obtidas no consultório, são considerados pacientes com HA os indivíduos com PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg.\"}]},{\"pergunta\":\"Deu 14 por 9 numa consulta. Como o médico confirma se eu tenho mesmo pressão alta?\",\"resposta_referencia\":\"Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas.\",\"resposta_leiga\":\"Para confirmar a pressão alta, é preciso repetir as medidas em duas ou mais consultas, com intervalo de dias ou semanas entre elas.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":1,\"linha_final\":3,\"trecho_literal\":\"Para validar o diagnóstico de HA, é necessário realizar medidas repetidas, em duas ou mais visitas médicas, com intervalos de dias ou semanas.\"}]},{\"pergunta\":\"Minha pressão de cima cai numa faixa e a de baixo em outra mais alta. Qual delas vale para dizer o grau da minha pressão alta?\",\"resposta_referencia\":\"A classificação de HA baseia-se no valor mais elevado de PA, seja sistólica ou diastólica, aferida no consultório.\",\"resposta_leiga\":\"Vale o valor que estiver na faixa mais alta, seja a pressão de cima ou a de baixo, medida no consultório.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":8,\"linha_final\":10,\"trecho_literal\":\"A classificação de HA baseia-se no valor mais elevado de PA, seja sistólica ou diastólica, aferida no consultório.\"}]},{\"pergunta\":\"O que quer dizer ter só a pressão de cima alta, ou só a pressão de baixo alta?\",\"resposta_referencia\":\"Indivíduos com PAS ≥ 140 mmHg e/ou PAD < 90 mmHg são definidos como pacientes com HA sistólica isolada, enquanto aqueles com PAS < 140 mmHg e PAD ≥ 90 mmHg são classificados como com HA diastólica isolada.\",\"resposta_leiga\":\"Quando a pressão de cima está em 140 mmHg ou mais e a de baixo abaixo de 90 mmHg, é pressão alta só da de cima (sistólica isolada). Quando a de cima está abaixo de 140 mmHg e a de baixo em 90 mmHg ou mais, é pressão alta só da de baixo (diastólica isolada).\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Indivíduos com PAS ≥ 140 mmHg e/ou PAD < 90 mmHg são definidos como pacientes com HA sistólica isolada, enquanto aqueles com PAS < 140 mmHg e PAD ≥ 90 mmHg são classificados como com HA diastólica isolada.\"}]},{\"pergunta\":\"No consultório minha pressão deu 15 por 9,5. Em que estágio de pressão alta eu fico?\",\"resposta_referencia\":\"HA Estágio 1 140-159 e/ou 90-99\",\"resposta_leiga\":\"Você fica no estágio 1, que vai de 140 a 159 mmHg na pressão de cima e/ou de 90 a 99 mmHg na de baixo.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":4,\"linha_final\":4,\"trecho_literal\":\"HA Estágio 1 140-159 e/ou 90-99\"}]},{\"pergunta\":\"Minha pressão no consultório deu 16,5 por 10. Que estágio é esse?\",\"resposta_referencia\":\"HA Estágio 2 160-179 e/ou 100-109\",\"resposta_leiga\":\"É o estágio 2, que vai de 160 a 179 mmHg na pressão de cima e/ou de 100 a 109 mmHg na de baixo.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":5,\"linha_final\":5,\"trecho_literal\":\"HA Estágio 2 160-179 e/ou 100-109\"}]},{\"pergunta\":\"Quando a pressão chega a 18 por 11, em que estágio a pessoa está?\",\"resposta_referencia\":\"HA Estágio 3 ≥ 180 e/ou 110\",\"resposta_leiga\":\"Está no estágio 3, o mais alto: pressão de cima de 180 mmHg ou mais e/ou de baixo de 110 mmHg ou mais.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":6,\"linha_final\":6,\"trecho_literal\":\"HA Estágio 3 ≥ 180 e/ou 110\"}]},{\"pergunta\":\"No consultório minha pressão deu 13,5 por 8,5. Já é pressão alta?\",\"resposta_referencia\":\"Pré-hipertensão 120-139 e/ou 80-89\",\"resposta_leiga\":\"Ainda não é pressão alta: é pré-hipertensão, que vai de 120 a 139 mmHg na pressão de cima e/ou de 80 a 89 mmHg na de baixo.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"tabela\",\"numero\":1,\"linha_inicial\":3,\"linha_final\":3,\"trecho_literal\":\"Pré-hipertensão 120-139 e/ou 80-89\"}]},{\"pergunta\":\"Só minha pressão de cima é alta, 17 por 8. Como sabem em que estágio eu estou?\",\"resposta_referencia\":\"**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.\",\"resposta_leiga\":\"Quando só a pressão de cima está alta (140 mmHg ou mais, com a de baixo abaixo de 90), o estágio 1, 2 ou 3 é definido pelo valor da pressão de cima.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":3,\"linha_final\":4,\"trecho_literal\":\"**A HA sistólica isolada, caracterizada pela PAS ≥ 140 mmHg e PAD < 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAS nos intervalos indicados.\"}]},{\"pergunta\":\"E se só a pressão de baixo estiver alta, tipo 13 por 10,5, como fica o estágio?\",\"resposta_referencia\":\"***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados.\",\"resposta_leiga\":\"Quando só a pressão de baixo está alta (90 mmHg ou mais, com a de cima abaixo de 140), o estágio 1, 2 ou 3 é definido pelo valor da pressão de baixo.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":13,\"linha_inicial\":4,\"linha_final\":5,\"trecho_literal\":\"***A HA diastólica isolada, caracterizada pela PAS < 140 mmHg e PAD ≥ 90 mmHg, é classificada em Estágio 1, 2 ou 3, de acordo com os valores da PAD nos intervalos indicados.\"}]},{\"pergunta\":\"Existe algum caso em que uma única medida no consultório já basta para dizer que tenho pressão alta?\",\"resposta_referencia\":\"Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.\",\"resposta_leiga\":\"Como a pressão varia muito, uma só medida normalmente não basta. A exceção é quando a pressão está muito alta (estágio 3) ou quando já existe lesão em órgãos causada pela pressão ou doença do coração e dos vasos confirmada.\",\"secao\":\"3.7. Recomendações para Diagnóstico e Seguimento\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":38,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":1,\"linha_final\":5,\"trecho_literal\":\"Devido à alta variabilidade da PA, o diagnóstico de HA não deve se basear em uma única medida no consultório, a menos que a PA esteja substancialmente elevada (HA Estágio 3) ou haja diagnóstico estabelecido de LOA ou DCV.\"}]},{\"pergunta\":\"O tempo entre as consultas para confirmar a pressão alta depende do estágio?\",\"resposta_referencia\":\"Pacientes em Estágio 2 ou 3 requerem mais visitas, com intervalos curtos entre elas, enquanto aqueles em Estágio 1 podem ter intervalos mais longos, se houver ausência de LOA e risco CV baixo.\",\"resposta_leiga\":\"Sim. Quem está no estágio 2 ou 3 precisa de mais consultas, com pouco tempo entre elas. Quem está no estágio 1 pode ter intervalos maiores, se não tiver lesão em órgãos e tiver baixo risco para o coração.\",\"secao\":\"3.7. Recomendações para Diagnóstico e Seguimento\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":38,\"tipo\":\"paragrafo\",\"numero\":5,\"linha_inicial\":7,\"linha_final\":10,\"trecho_literal\":\"Pacientes em Estágio 2 ou 3 requerem mais visitas, com intervalos curtos entre elas, enquanto aqueles em Estágio 1 podem ter intervalos mais longos, se houver ausência de LOA e risco CV baixo.\"}]},{\"pergunta\":\"Já tive infarto e minha pressão deu alta no consultório. Ainda preciso medir a pressão fora do consultório para confirmar?\",\"resposta_referencia\":\"No entanto, em pacientes com LOA ou DCV estabelecida, a presença desses achados é suficiente para confirmar o diagnóstico de HA, dispensando a necessidade de medidas de PA fora do consultório.\",\"resposta_leiga\":\"Não necessariamente. Em quem já tem doença do coração e dos vasos ou lesão em órgãos causada pela pressão, isso já basta para confirmar a pressão alta, sem precisar de medidas fora do consultório.\",\"secao\":\"3.2.3. Classificação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":36,\"tipo\":\"paragrafo\",\"numero\":4,\"linha_inicial\":5,\"linha_final\":8,\"trecho_literal\":\"No entanto, em pacientes com LOA ou DCV estabelecida, a presença desses achados é suficiente para confirmar o diagnóstico de HA, dispensando a necessidade de medidas de PA fora do consultório.\"}]},{\"pergunta\":\"Eu tomo remédio para pressão e ela está 12 por 8. Ainda sou considerado hipertenso?\",\"resposta_referencia\":\"Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.\",\"resposta_leiga\":\"Sim. Quem já usa remédio para controlar a pressão, ou tem lesão em órgãos causada por ela, continua sendo considerado com pressão alta, mesmo com valores abaixo de 14 por 9.\",\"secao\":\"14.4. Diagnóstico de Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":17,\"linha_inicial\":5,\"linha_final\":7,\"trecho_literal\":\"Caso a pessoa já use medicamentos para controlar a PA ou tenha LOA, ela deve ser considerada com HA, mesmo com valores pressóricos < 140/90 mmHg.\"}]},{\"pergunta\":\"Quando medem minha pressão no posto, só me falam '13 por 7'. Isso está certo?\",\"resposta_referencia\":\"Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).\",\"resposta_leiga\":\"O ideal é receber o valor completo da pressão, de preferência por escrito, como 134/76 mmHg, e não apenas '13 por 7'.\",\"secao\":\"14.2. Busca Ativa por Pessoas com Hipertensão Arterial\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":116,\"tipo\":\"paragrafo\",\"numero\":12,\"linha_inicial\":1,\"linha_final\":4,\"trecho_literal\":\"Os valores da PA devem ser informados à pessoa, de preferência por escrito e de forma correta (por exemplo, 134/76 mmHg e não apenas “13 por 7”).\"}]},{\"pergunta\":\"Estou grávida. A partir de quanto minha pressão é considerada alta na gestação?\",\"resposta_referencia\":\"Considera-se HA na gestação quando a gestante apresenta PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com base em uma média de pelo menos duas medidas com intervalo de 4 horas ou em duas visitas ambulatoriais diferentes.\",\"resposta_leiga\":\"Na gravidez, a pressão é considerada alta quando a de cima é 140 mmHg ou mais e/ou a de baixo é 90 mmHg ou mais. Isso vale pela média de pelo menos duas medidas com 4 horas de intervalo ou em duas consultas diferentes.\",\"secao\":\"10.2. Hipertensão na Gestação\",\"sobre_nova_classificacao\":false,\"evidencias\":[{\"pagina\":93,\"tipo\":\"paragrafo\",\"numero\":3,\"linha_inicial\":4,\"linha_final\":8,\"trecho_literal\":\"Considera-se HA na gestação quando a gestante apresenta PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com base em uma média de pelo menos duas medidas com intervalo de 4 horas ou em duas visitas ambulatoriais diferentes.\"}]}]}",
+            "type": "text"
+          }
+        ],
+        "diagnostics": null,
+        "model": "claude-opus-5-5",
+        "role": "assistant",
+        "stop_details": null,
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "type": "message",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 350733,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 350733,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "global",
+          "input_tokens": 274,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 350733,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 350733,
+              "cache_read_input_tokens": 0,
+              "input_tokens": 274,
+              "model": null,
+              "output_tokens": 22837,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 22837,
+          "output_tokens_details": {
+            "thinking_tokens": 11775
+          },
+          "service_tier": "standard",
+          "speed": "standard"
+        }
+      }
+    }
+  ]
+}

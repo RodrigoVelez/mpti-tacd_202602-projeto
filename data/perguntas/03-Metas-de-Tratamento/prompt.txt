@@ -1,0 +1,160 @@
+Log gerado em: 2026-11-16T23:43:33
+Tema: 03-Metas-de-Tratamento (Metas de tratamento (valores de pressão a alcançar, quando iniciar remédio, acompanhamento))
+Modelo: claude-opus-5-5
+Esforço: medium
+MAX_TOKENS: 64000
+CACHE_TTL: 1h
+Quantidade pedida: 30
+SHA-256 do PDF (Diretrizes Brasileiras de Hipertensão Arterial – 2025.pdf): 8c76e153b7a4d1204d85950f140716e3f4797a65ea57ce8a4cb3e55f52723215
+SHA-256 do texto numerado: 0b3b304b2b748e8885bcf05ed736f6a2e6da55385308402244b0e65f987d8fc4
+
+=== MENSAGEM DE SISTEMA ===
+Você ajuda a montar um conjunto de teste científico para avaliar sistemas de perguntas e respostas sobre a Diretriz Brasileira de Hipertensão Arterial 2025.
+
+O documento vem logo abaixo, com página, parágrafo, tabela e linha numerados:
+- "=== PÁGINA N ===" marca o início da página N.
+- "# ..." é um título de seção (não é parágrafo).
+- "§N" marca o parágrafo N daquela página.
+- "[TABELA N]" marca a tabela N daquela página. Cada linha da tabela é uma linha numerada, com as células separadas por " | ".
+- "K| texto" é a linha K daquele parágrafo ou daquela tabela.
+
+Regras para cada item:
+1. Pergunta:
+   a) em português, escrita como um paciente ou familiar sem formação em saúde falaria, em primeira pessoa quando couber, com palavras do dia a dia;
+   b) sem siglas e sem jargão (não use PAS, PAD, PA, HA, CV, MAPA, MRPA, LOA, IMC, DCV, "estratificação", "normotensão" etc.). Quando a ideia for necessária, explique com palavras simples (ex.: "pressão de cima", "aparelho que mede a pressão durante 24 horas");
+   c) não cite nem pressuponha a diretriz: nada de "diretriz", "documento", "tabela", "quadro", "capítulo", "recomendação forte/fraca", "nível de evidência", "segundo o texto". A pessoa não sabe que esse documento existe;
+   d) escreva valores de pressão no jeito popular quando fizer sentido ("13 por 8", "135 por 85").
+2. A resposta_referencia deve ser copiada LITERALMENTE da diretriz (uma ou poucas frases completas), sem resumir, sem parafrasear e sem os números de linha. Quando uma palavra estiver partida com hífen no fim da linha, junte as partes. Dê preferência a trechos que não mencionem o próprio documento ("esta diretriz", "DBHA", "ver Capítulo", "Quadro"). Se o trecho certo mencionar, mantenha a cópia literal mesmo assim.
+3. Cada evidência indica a página, o tipo (paragrafo ou tabela), o número do parágrafo ou da tabela, a linha inicial e a linha final de onde o trecho foi copiado, e o trecho_literal copiado dessas linhas. Em tabelas, copie o texto das células sem o separador " | ". Se a resposta ocupar duas unidades (ou duas páginas), use uma evidência para cada uma.
+4. Use só o corpo da diretriz. Não use capa, lista de autores, declarações de conflito de interesse, lista de abreviaturas nem referências bibliográficas.
+5. A pergunta deve ter resposta clara e única no trecho citado. Não repita perguntas nem use o mesmo trecho em duas perguntas.
+6. Prefira recomendações práticas e valores numéricos que um paciente queira saber.
+7. A resposta_leiga é a resposta_referencia reescrita para a mesma pessoa leiga:
+   a) use só a informação da resposta_referencia, sem acrescentar conselho, dado ou opinião;
+   b) mantenha todos os números e unidades e não omita nenhuma condição importante da resposta literal;
+   c) troque siglas e termos técnicos por palavras simples;
+   d) não cite a diretriz, tabelas, quadros, capítulos, estudos nem força de recomendação;
+   e) escreva de 1 a 3 frases curtas, falando diretamente com a pessoa.
+
+=== DOCUMENTO ===
+[DOCUMENTO NUMERADO: conteúdo idêntico a data/processado/diretriz_2025_numerado.txt, 712.764 caracteres, SHA-256 0b3b304b2b748e8885bcf05ed736f6a2e6da55385308402244b0e65f987d8fc4]
+
+=== FORMATO DE SAÍDA (JSON SCHEMA) ===
+{
+  "$defs": {
+    "Evidencia": {
+      "properties": {
+        "pagina": {
+          "description": "Número da página (marcador '=== PÁGINA N ===').",
+          "title": "Pagina",
+          "type": "integer"
+        },
+        "tipo": {
+          "description": "'paragrafo' para o marcador '§N' ou 'tabela' para o marcador '[TABELA N]'.",
+          "enum": [
+            "paragrafo",
+            "tabela"
+          ],
+          "title": "Tipo",
+          "type": "string"
+        },
+        "numero": {
+          "description": "Número do parágrafo (§N) ou da tabela ([TABELA N]) na página.",
+          "title": "Numero",
+          "type": "integer"
+        },
+        "linha_inicial": {
+          "description": "Primeira linha do trecho dentro do parágrafo ou da tabela.",
+          "title": "Linha Inicial",
+          "type": "integer"
+        },
+        "linha_final": {
+          "description": "Última linha do trecho dentro do parágrafo ou da tabela.",
+          "title": "Linha Final",
+          "type": "integer"
+        },
+        "trecho_literal": {
+          "description": "Texto copiado literalmente dessas linhas, sem os números de linha.",
+          "title": "Trecho Literal",
+          "type": "string"
+        }
+      },
+      "required": [
+        "pagina",
+        "tipo",
+        "numero",
+        "linha_inicial",
+        "linha_final",
+        "trecho_literal"
+      ],
+      "title": "Evidencia",
+      "type": "object"
+    },
+    "ParPerguntaResposta": {
+      "properties": {
+        "pergunta": {
+          "description": "Pergunta em linguagem leiga, como um paciente perguntaria.",
+          "title": "Pergunta",
+          "type": "string"
+        },
+        "resposta_referencia": {
+          "description": "Frase(s) copiada(s) literalmente da diretriz que respondem à pergunta.",
+          "title": "Resposta Referencia",
+          "type": "string"
+        },
+        "resposta_leiga": {
+          "default": "",
+          "description": "A mesma informação da resposta_referencia, reescrita em linguagem simples para um paciente, em 1 a 3 frases curtas, sem citar a diretriz.",
+          "title": "Resposta Leiga",
+          "type": "string"
+        },
+        "secao": {
+          "description": "Seção da diretriz de onde veio a resposta (ex.: '3.3. Medida da Pressão Arterial fora do Consultório').",
+          "title": "Secao",
+          "type": "string"
+        },
+        "sobre_nova_classificacao": {
+          "description": "True se a pergunta trata da mudança de classificação de 2025 (120-129 e/ou 80-84 mmHg).",
+          "title": "Sobre Nova Classificacao",
+          "type": "boolean"
+        },
+        "evidencias": {
+          "description": "Localização exata de cada parte da resposta de referência.",
+          "items": {
+            "$ref": "#/$defs/Evidencia"
+          },
+          "title": "Evidencias",
+          "type": "array"
+        }
+      },
+      "required": [
+        "pergunta",
+        "resposta_referencia",
+        "secao",
+        "sobre_nova_classificacao",
+        "evidencias"
+      ],
+      "title": "ParPerguntaResposta",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "itens": {
+      "items": {
+        "$ref": "#/$defs/ParPerguntaResposta"
+      },
+      "title": "Itens",
+      "type": "array"
+    }
+  },
+  "required": [
+    "itens"
+  ],
+  "title": "LotePerguntas",
+  "type": "object"
+}
+
+=== MENSAGEM DO USUÁRIO ===
+Gere exatamente 30 itens sobre o tema: Metas de tratamento (valores de pressão a alcançar, quando iniciar remédio, acompanhamento).
+Distribua as perguntas por diferentes partes da diretriz que tratam desse tema.
+Marque sobre_nova_classificacao = true só se o item tratar dessa mudança de classificação.
