@@ -7,7 +7,7 @@ Projeto final da disciplina Tópicos Avançados em Ciência de Dados (PLN), Mest
 
 ## Objetivo
 
-Medir quanto o RAG (Retrieval-Augmented Generation) melhora as respostas de dois LLMs abertos e pequenos, executados localmente, a perguntas em português sobre hipertensão. A base de conhecimento é a Diretriz Brasileira de Hipertensão Arterial 2025, publicada depois do treinamento desses modelos.
+Medir quanto o RAG (Retrieval-Augmented Generation) melhora as respostas de três LLMs abertos e pequenos, executados localmente, a perguntas em português sobre hipertensão. A base de conhecimento é a Diretriz Brasileira de Hipertensão Arterial 2025, publicada depois do treinamento desses modelos.
 
 Perguntas de pesquisa:
 
@@ -34,7 +34,7 @@ flowchart LR
         direction TB
         R1["Pré-processamento<br/>e trechos"]
         R2["Embeddings<br/>(bge-m3, pgvector)"]
-        R3["Qwen 2.5 7B e Gemma 3 4B<br/>com e sem RAG"]
+        R3["Qwen 2.5 7B, Llama 3.1 8B e Gemma 3 4B<br/>com e sem RAG"]
         R1 --> R2 --> R3
     end
 
@@ -234,6 +234,69 @@ data/perguntas/
 - As versões das bibliotecas estão fixadas em [src/requirements.txt](src/requirements.txt)
 - Os metadados de cada execução registram o hash SHA-256 do PDF, o prompt completo, o modelo que respondeu, os identificadores das requisições, o consumo de tokens e o custo
 - A geração por LLM não é determinística (o Claude Opus 5.5 não aceita o parâmetro temperature). Por isso o conjunto gerado e validado é publicado como artefato da pesquisa, e qualquer pessoa pode conferi-lo no PDF com a opção `--verificar`
+
+## Ollama (modelos locais)
+
+O Ollama é um programa que baixa modelos de linguagem e os deixa rodando como um serviço local. O script em Python não carrega o modelo: ele envia o texto ao Ollama e recebe a resposta, como uma API, mas tudo roda no computador, sem internet e sem custo. Os modelos do Ollama são versões comprimidas (quantizadas), o que permite rodar um modelo de 7 bilhões de parâmetros num notebook. O artigo deve informar o nome exato e a quantização de cada modelo.
+
+Máquina usada na pesquisa: MacBook Air 13" (Apple M5, 16 GB de memória).
+
+Modelos usados no projeto:
+
+| Modelo | Papel | Onde roda |
+| --- | --- | --- |
+| `qwen2.5:7b` | Modelo avaliado 1: responde às perguntas sem RAG e com RAG | Local, via Ollama |
+| `llama3.1:8b` | Modelo avaliado 2: faz o mesmo, para comparação | Local, via Ollama |
+| `gemma3:4b` | Modelo avaliado 3: faz o mesmo, versão menor | Local, via Ollama |
+| `bge-m3` | Gera os vetores (embeddings) dos trechos da diretriz e das perguntas | Local, via Ollama |
+| `claude-opus-5-5` | Gerou as perguntas (etapa 0) e será o juiz das respostas | Nuvem, via API da Anthropic (com custo) |
+
+### Instalação (macOS)
+
+Pelo Homebrew, para que o serviço só rode quando for ligado manualmente:
+
+```bash
+brew install ollama
+```
+
+O aplicativo de [ollama.com](https://ollama.com) também funciona, mas fica no menu superior e, por padrão, abre junto com o sistema.
+
+### Uso
+
+| O que fazer | Comando |
+| --- | --- |
+| Ligar o serviço (deixar este terminal aberto) | `ollama serve` |
+| Baixar um modelo (uma vez só) | `ollama pull qwen2.5:7b` |
+| Ver os modelos baixados | `ollama list` |
+| Ver os modelos carregados na memória agora | `ollama ps` |
+| Conversar com um modelo no terminal (teste) | `ollama run qwen2.5:7b` |
+| Tirar um modelo da memória | `ollama stop qwen2.5:7b` |
+| Desligar o serviço | `Ctrl+C` no terminal do `ollama serve` |
+
+Modelos do projeto (baixar uma vez, cerca de 15 GB no total):
+
+```bash
+ollama pull qwen2.5:7b
+ollama pull llama3.1:8b
+ollama pull gemma3:4b
+ollama pull bge-m3
+```
+
+No Python, o modelo é escolhido pelo nome em cada chamada:
+
+```python
+import ollama
+resposta = ollama.chat(model="qwen2.5:7b", messages=[{"role": "user", "content": "..."}])
+```
+
+Um modelo só ocupa memória enquanto está em uso. Depois de cerca de 5 minutos parado, o Ollama o descarrega sozinho.
+
+### Remoção (depois do projeto)
+
+```bash
+brew uninstall ollama
+rm -rf ~/.ollama        # apaga os modelos baixados
+```
 
 ## Estrutura de pastas
 
